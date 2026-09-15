@@ -1,10 +1,8 @@
 # Development Notes
 
-This is the consolidated continuation note for the **Duel Masters: Birth of the Super Dragon** English translation project. It replaces the many internal handoff, audit, and QA documents created during development.
+These are the main notes for anyone who wants to continue work on the **Duel Masters: Birth of the Super Dragon** English patch. The older UIxx handoff files and QA notes were useful while the patch was being built, but most of that information has been condensed here.
 
-## Release baseline
-
-Public release: **English v1.0**
+## v1.0 baseline
 
 - Game: Duel Masters: Birth of the Super Dragon
 - Platform: PlayStation 2
@@ -13,60 +11,58 @@ Public release: **English v1.0**
 - Patched v1.0 ISO SHA-256: `372e2d0d6931a95ff5d5ae82e1d352c794d47a6f69da49e7d9941010e8ab6230`
 - v1.0 PPF SHA-256: `68221b10371c2783232cf5cb9f85fdcea14683d16a64afeaef9d8c8ab23b3c6b`
 
-The PPF release should be treated as the canonical v1.0 state.
+The public v1.0 PPF is the best starting point for any future work.
 
-## Scope
+## What was worked on
 
-The project targets offline/player-visible content. Story dialogue, menus, card data, card graphics, shop/deck text, character select, duel UI, startup/title assets, and story-related trading are in scope.
+The patch focuses on the playable offline game: story text, menus, card information, card graphics, shop and deck text, character select, duel UI, startup/title assets, and other Japanese text or graphics found during the audit.
 
-Deprecated online/network functionality is intentionally out of scope.
+The old online/network features were left alone because those services are no longer available.
 
-The v1.0 release received targeted runtime testing and extensive static verification, but has **not** been fully played through from start to finish.
+v1.0 has had targeted testing, but the game has **not** been played through from beginning to end.
 
 ## Card assets
 
-The game contains multiple card-display layers inside `UNPACK.IMG`:
+`UNPACK.IMG` contains several separate versions of the card graphics:
 
 - Chunks `677–1353`: 677 full-size printed cards.
 - Chunks `1360–2036`: 677 128×128 card thumbnails.
-- Chunks `2037–2713`: a second 677-card 128×128 sprite/display layer whose Japanese card-name strip was separately localized.
+- Chunks `2037–2713`: another set of 677 128×128 card sprites/displays.
 
-All three card layers are represented in the final v1.0 build. The second small-card layer was patched without unnecessarily reconverting the full cards.
+All three sets are included in the final v1.0 build. The last set was handled separately because the Japanese card name is baked into the image.
 
-## Other notable localization layers
+## Other useful notes
 
-- All 60 `DECK/*.DAT` files contain fixed-size player-visible deck/callout text fields and were localized without changing card-composition data.
-- The offline executable includes localized civilization combinations, booster descriptions, story-trade prompts, and the minimum-10-card trading warning.
-- Story dialogue for the 10-card exchange is in scope and localized.
-- The DATAPACK visual audit found Japanese-bearing graphics only in the 33 localized graphical chunks `0–6`, `13`, and `108–132`.
-- Residual fixed graphics such as title/startup text, `NO RANK`, `BLOCK C`, and the deck HOF marker were localized.
-- Japanese shown by PCSX2 as the game-list/window title is emulator metadata, not an untranslated ISO asset.
+- All 60 `DECK/*.DAT` files have player-visible text fields that were translated without changing the actual deck/card data.
+- The executable contains a number of player-visible strings that were patched directly, including civilization combinations and booster descriptions.
+- The DATAPACK visual audit found Japanese-bearing graphics in 33 chunks: `0–6`, `13`, and `108–132`. These were already covered by the final patch.
+- Fixed graphics such as title/startup text, `NO RANK`, `BLOCK C`, and the deck HOF marker were also localized.
+- If PCSX2 still shows the Japanese game title in its game list or window title, that is emulator metadata rather than text coming from the ISO.
 
-## Public source package
+## Files in this repository
 
-The repository intentionally contains only **selected original development tools and human-authored translation/source data**. It is not a turnkey redistribution of the complete build workspace because that workspace also contained extracted or modified commercial game binaries that should not be committed publicly.
+The repository only includes the development material that is useful to keep around.
 
-`tools/` contains the useful Python utilities used for card text, card graphics, archive handling, UI fixes, verification, and release-patch creation.
+`tools/` contains the Python utilities used for card text, card graphics, archive work, UI fixes, verification, ISO patching, and PPF creation.
 
-`data/` contains the verified card-name crosswalk, translated card rules/text tables, and the 677-card resource inventory.
+`data/` contains the card-name crosswalk, translated card text/rules tables, and the card resource inventory.
 
-The original ISO, patched ISO, extracted retail archives, modified game binaries, compiled `UNPACK.IMG`, card caches, and intermediate UIxx binary assets are intentionally excluded.
+The original ISO, patched ISO, extracted retail archives, modified game binaries, compiled `UNPACK.IMG`, card caches, and intermediate UIxx binaries are not included.
 
-A contributor can recreate the canonical v1.0 game state by applying the public PPF to the verified clean Japanese ISO, then extract files from that patched ISO for further investigation.
+Anyone continuing the project can apply the v1.0 PPF to the verified clean Japanese ISO and extract the patched files from there.
 
-## Continuing development
+## If you want to continue the project
 
-For future fixes:
+A few things are worth keeping in mind:
 
-1. Work from the verified v1.0 ISO/PPF baseline rather than restarting the reverse engineering.
-2. Keep offline/story trading in scope.
-3. Leave defunct online/network content alone unless the project scope is deliberately expanded.
-4. Preserve already-correct card and font pipelines; avoid broad reconversion when a targeted fix is possible.
-5. Verify graphical changes against actual retail geometry rather than estimating positions.
-6. Report new findings through GitHub Issues and, where possible, include a screenshot plus the location in the game.
+1. Start from the verified v1.0 build rather than redoing the reverse engineering from scratch.
+2. The abandoned online/network features can be ignored unless someone specifically wants to investigate them.
+3. Avoid rebuilding all of the card graphics or fonts when a smaller targeted change will do.
+4. Check graphical changes against the actual game layout instead of guessing at positions or dimensions.
+5. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
 
-## Old project documents
+## Older project files
 
-The numerous UIxx handoff files, QA logs, screenshots, and intermediate proof packages were useful during development but do not need to live in the public repository. They can remain in a private/archive backup.
+There were a lot of handoff documents, QA logs, screenshots, and intermediate builds made while this patch was being developed. They are not needed in the public repository.
 
-For public continuation, this document, the selected source tools/data, and the canonical v1.0 PPF provide the cleanest starting point.
+For most future work, this file, the `tools/` and `data/` folders, and the v1.0 PPF should be enough to get started.

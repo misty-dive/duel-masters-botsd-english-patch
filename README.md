@@ -41,6 +41,16 @@ PPF patch SHA-256:
 
 Patch format: **PPF 3.0**
 
+## Credits & sources
+
+This project would not have been possible without work already done by the Duel Masters community.
+- Latepate64 / duel-masters-json — English TCG card data used as a major reference for card names, rules text, flavor text and other card information.
+- Duel Masters Wiki contributors — invaluable reference for Japanese/English card identification, established English names and card information.
+- Melkiss / Dueparture — overseas Duel Masters card-name correspondence and promotional-card references. Thanks also to Fubuki Furimuzon, Banzan, and the Duel Masters Reborn community, who are credited by Dueparture for helping create that reference material.
+- Marc Robledo / Rom Patcher JS — PPF support/reference used when validating the release patch format and compatibility.
+- Wizards of the Coast / Takara Tomy and the original Duel Masters creators — for the original game and TCG, including the official English card terminology used wherever available.
+Thanks to everyone who has documented, preserved and translated Duel Masters material over the years. A lot of the groundwork for this patch existed because of that community work.
+
 ## Notes
 
 This repository does **not** include the original game ISO. You must supply your own legally obtained copy.

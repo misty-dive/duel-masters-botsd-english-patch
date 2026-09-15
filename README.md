@@ -4,13 +4,14 @@ English translation patch for the Japanese PlayStation 2 release of **Duel Maste
 
 ## Apply the patch
 
-1. Start with a clean, unmodified Japanese ISO of **SLPM-65882**.
-2. Verify the ISO SHA-256:
-   `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
-3. Download `Duel_Masters_Birth_of_Super_Dragon_English_v1.0.ppf` from the **Releases** page.
-4. Apply the PPF3 patch with a compatible patcher, such as **PPF-O-Matic 3** on Windows, **MultiPatch** on macOS, **ApplyPPF3** on the command line, or **RomPatcher.js** in a browser.
-5. The patched ISO should have SHA-256:
-   `372e2d0d6931a95ff5d5ae82e1d352c794d47a6f69da49e7d9941010e8ab6230`
+1. Start with a clean Japanese ISO of SLPM-65882.
+2. Verify its SHA-256:
+   f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96
+3. Download the .ppf from the Releases page.
+4. Apply it using PPF-O-Matic 3 (Windows), MultiPatch (macOS), or ApplyPPF3.
+5. The resulting ISO should have SHA-256:
+   372e2d0d6931a95ff5d5ae82e1d352c794d47a6f69da49e7d9941010e8ab6230
+RomPatcher.js also supports PPF3, but browser-based patching of a multi-gigabyte PS2 ISO does not reliably work.
 
 Do not apply the patch to an already modified ISO.
 

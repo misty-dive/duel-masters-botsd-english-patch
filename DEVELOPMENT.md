@@ -2,16 +2,17 @@
 
 These are the main notes for anyone who wants to continue work on the **Duel Masters: Birth of the Super Dragon** English patch. The older UIxx handoff files and QA notes were useful while the patch was being built, but most of that information has been condensed here.
 
-## v1.0 baseline
+## Current baseline
 
 - Game: Duel Masters: Birth of the Super Dragon
 - Platform: PlayStation 2
 - Serial: `SLPM-65882`
+- Current public release: **v1.1**
 - Clean Japanese ISO SHA-256: `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
-- Patched v1.0 ISO SHA-256: `372e2d0d6931a95ff5d5ae82e1d352c794d47a6f69da49e7d9941010e8ab6230`
-- v1.0 PPF SHA-256: `68221b10371c2783232cf5cb9f85fdcea14683d16a64afeaef9d8c8ab23b3c6b`
+- Full v1.1 PPF SHA-256: `fc3d532ebde1efee52e446e310de59407a5bd28c4a4e562f7e5cf9dead3ddebf`
+- v1.0 → v1.1 hotfix SHA-256: `7ec3adb614a251979b1dbbac7f9575f5b204ec1b8c2b9da16dcf7939653a4586`
 
-The public v1.0 PPF is the best starting point for any future work.
+The full v1.1 PPF applied to the verified clean Japanese ISO is the best starting point for future work.
 
 ## What was worked on
 
@@ -19,7 +20,7 @@ The patch focuses on the playable offline game: story text, menus, card informat
 
 The old online/network features were left alone because those services are no longer available.
 
-v1.0 has had targeted testing, but the game has **not** been played through from beginning to end.
+The patch has had targeted testing, but the game has **not** been played through from beginning to end.
 
 ## Card assets
 
@@ -29,7 +30,30 @@ v1.0 has had targeted testing, but the game has **not** been played through from
 - Chunks `1360–2036`: 677 128×128 card thumbnails.
 - Chunks `2037–2713`: another set of 677 128×128 card sprites/displays.
 
-All three sets are included in the final v1.0 build. The last set was handled separately because the Japanese card name is baked into the image.
+All three sets are included in the final build. The last set was handled separately because the Japanese card name is baked into the image.
+
+## v1.1 fixes
+
+v1.1 corrects several issues found after the original public release:
+
+- Booster shop pack prices and pack artwork were restored. The earlier shop-description patch had accidentally overwritten metadata in the executable record.
+- Records-screen unit spacing was corrected.
+- Options-screen labels were rerendered to remove the striped/broken text appearance.
+- Deck Builder and Deck Stats labels were cleaned up.
+- Civilization abbreviations and card-count displays were adjusted for the English layout.
+
+The corrected shop record layout is:
+
+- `+0x00`: 8-byte pack code
+- `+0x08`: 0x50-byte description field
+- `+0x58`: price
+- `+0x5C`: pack image ID
+- `+0x60`: pack index
+- `+0x64`: pack index
+
+The original faulty patch treated the description as 0x58 bytes and overwrote the price/image fields. `tools/bosd_shop_packdesc_fixed.py` preserves those metadata fields.
+
+`tools/bosd_ui_polish_v11.py` contains the v1.1 Records, Options, Deck Builder and Deck Stats cleanup work.
 
 ## Other useful notes
 
@@ -49,20 +73,21 @@ The repository only includes the development material that is useful to keep aro
 
 The original ISO, patched ISO, extracted retail archives, modified game binaries, compiled `UNPACK.IMG`, card caches, and intermediate UIxx binaries are not included.
 
-Anyone continuing the project can apply the v1.0 PPF to the verified clean Japanese ISO and extract the patched files from there.
+Anyone continuing the project can apply the full v1.1 PPF to the verified clean Japanese ISO and extract the patched files from there.
 
 ## If you want to continue the project
 
 A few things are worth keeping in mind:
 
-1. Start from the verified v1.0 build rather than redoing the reverse engineering from scratch.
+1. Start from the verified v1.1 build rather than redoing the reverse engineering from scratch.
 2. The abandoned online/network features can be ignored unless someone specifically wants to investigate them.
 3. Avoid rebuilding all of the card graphics or fonts when a smaller targeted change will do.
 4. Check graphical changes against the actual game layout instead of guessing at positions or dimensions.
-5. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
+5. Be careful with fixed-size executable records: text fields may be followed immediately by gameplay/UI metadata.
+6. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
 
 ## Older project files
 
 There were a lot of handoff documents, QA logs, screenshots, and intermediate builds made while this patch was being developed. They are not needed in the public repository.
 
-For most future work, this file, the `tools/` and `data/` folders, and the v1.0 PPF should be enough to get started.
+For most future work, this file, the `tools/` and `data/` folders, and the current release PPF should be enough to get started.

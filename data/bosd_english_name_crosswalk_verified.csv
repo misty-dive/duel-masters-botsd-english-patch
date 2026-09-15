@@ -1,0 +1,674 @@
+﻿internal_id,resource_key,set_label,collector_label,japanese_name,official_english_name,status,mapping_source,name_text_id,list_index_name
+0,0_1,Special/Promo,1,凶星王ダーク・ヒドラ,"Dark Hydra, Evil Planet Lord",wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,0,
+1,0_2,Special/Promo,2,ミラフォース・ドラゴン,Mirror Force Dragon,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,4,
+2,0_3,Special/Promo,3,聖清の精霊アムニス,"Amnis, Holy Elemental",printed_english_name_mapped,Dueparture overseas correspondence promo section,8,
+3,0_4,Special/Promo,4,邪獄ギリアム,"Giliam, the Tormentor",printed_english_name_mapped,Dueparture overseas correspondence promo section,12,
+4,0_5,Special/Promo,5,シェル・ブリゲードγ,Brigade Shell Q,printed_english_name_mapped,Latepate English TCG catalog: Promotional L18/20 Y1,16,
+5,0_6,Special/Promo,6,機神装甲ヴァルボーグ,Divine Machine Armor Valborg,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,20,
+6,0_7,Special/Promo,7,シータ・トゥレイト,Q-tronic Omnistrain,printed_english_name_mapped,Dueparture overseas correspondence promo section,23,
+7,0_8,Special/Promo,8,聖騎士サーベルフィーリ,"Saberfili, the Paladin",wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,26,
+8,0_9,Special/Promo,9,超竜バハム,Überdragon Baham,wiki_established_english_name_needs_extended_glyph,Duel Masters Wiki/Fandom established English page/title,30,
+9,0_10,Special/Promo,10,大昆虫ジェネラルマンティス,"Dyno Mantis, the Mightspinner",printed_english_name_mapped,Dueparture overseas correspondence promo section,34,
+10,0_12,Special/Promo,12,超竜ザシャック,Überdragon Zaschack,printed_english_name_mapped_needs_extended_glyph,Latepate English TCG catalog: Promotional L6 Y2,41,
+11,0_14,Special/Promo,14,電脳聖霊グラリス,"Glaris, Electro-Elemental",wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,49,
+12,0_15,Special/Promo,15,ネオ・ブレイン,Brain Serum,printed_english_name_mapped,Dueparture overseas correspondence promo section,53,
+13,0_16,Special/Promo,16,魔刻の騎士オルゲイト,"Olgate, Nightmare Samurai",printed_english_name_mapped,Dueparture overseas correspondence promo section,56,
+14,0_17,Special/Promo,17,バルキリー・ドラゴン,Velyrika Dragon,printed_english_name_mapped,Dueparture overseas correspondence promo section,59,
+15,0_18,Special/Promo,18,新星の精霊アルシア,"Alshia, Nova Elemental",wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,62,
+16,0_19,Special/Promo,19,黒神龍バグラザード,Necrodragon Bagrazard,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,66,
+17,0_20,Special/Promo,20,ギガジラス,Gigajiras,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,70,
+18,0_21,Special/Promo,21,緑神龍ザールベルグ,Terradragon Zalberg,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,74,
+19,0_22,Special/Promo,22,黒神龍ゼキラ,Necrodragon Zekira,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,78,
+20,0_23,Special/Promo,23,紅神龍ガルドス,Magmadragon Gardos,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,82,
+21,0_24,Special/Promo,24,キッキ・ヤコッピ,Kicky Yacoopy,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,86,
+22,0_25,Special/Promo,25,フィスト・ブレーダー,Fist Blader,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,90,
+23,0_26,Special/Promo,26,建機男,Construction Mutant,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,94,
+24,0_27,Special/Promo,27,ゲットのノコギリ,Gett's Saw,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,98,
+25,0_28,Special/Promo,28,黒神龍バズラデューダ,Necrodragon Bazradyuda,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,102,
+26,0_29,Special/Promo,29,ボルスレッド・ファイアー・ドラゴン,Bolsred Fire Dragon,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,105,
+27,0_30,Special/Promo,30,聖神龍アルティメス,"Altimeth, Holy Divine Dragon",wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,108,
+28,0_31,Special/Promo,31,蒼神龍ウォルフィース,"Wolfis, Blue Divine Dragon",wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,111,
+29,0_32,Special/Promo,32,黒神龍ガルバロス,Necrodragon Galbalos,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,114,
+30,0_33,Special/Promo,33,ボルブレイズ・ドラゴン,Bolblaze Dragon,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,117,
+31,0_34,Special/Promo,34,緑神龍ハルクーンベルガ,Terradragon Hulcoon Berga,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,120,
+32,0_35,Special/Promo,35,神滅竜騎ガルザーク,"Galzark, Divine Destruction Dragon Knight",wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,123,
+33,0_36,Special/Promo,36,勇騎恐皇フォルテ,"Forte, Brave Fear Lord",wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,127,
+34,0_37,Special/Promo,37,無双竜機ドルザーク,Super Dragon Machine Dolzark,printed_english_name_mapped,Latepate English TCG catalog: Promotional P0/Y3,131,
+35,1_100,DM-01,100,凶戦士ブレイズ・クロー,Deadly Fighter Braid Claw,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,135,
+36,1_8,DM-01,8,ボルシャック・ドラゴン,Bolshack Dragon,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,138,
+37,1_98,DM-01,98,喧嘩屋タイラー,Brawler Zyler,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,142,
+38,1_83,DM-01,83,アクア・ビークル,Aqua Vehicle,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,146,
+39,1_76,DM-01,76,蒼天の守護者ラ・ウラ・ギガ,"La Ura Giga, Sky Guardian",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,148,
+40,1_89,DM-01,89,ブラッディ・イヤリング,Bloody Squito,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,152,
+41,1_69,DM-01,69,シビレアシダケ,Poisonous Mushroom,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,156,
+42,1_84,DM-01,84,アクア・ガード,Aqua Guard,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,159,
+43,1_73,DM-01,73,雷光の使徒ミール,"Miele, Vizier of Lightning",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,163,
+44,1_90,DM-01,90,うごめく者ボーン・グール,Writhing Bone Ghoul,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,167,
+45,1_82,DM-01,82,狩猟魚,Hunter Fish,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,170,
+46,1_32,DM-01,32,銃神兵ディオライオス,"Rothus, the Traveler",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,174,
+47,1_10,DM-01,10,トゲ刺しマンドラ,Thorny Mandra,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,177,
+48,1_S7,DM-01,S7,クリムゾン・ワイバーン,Scarlet Skyterror,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,181,
+49,1_80,DM-01,80,アクア・ハルカス,Aqua Hulcus,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,184,
+50,1_3,DM-01,3,キング・ポセイドン,King Ripped-Hide,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,188,
+51,1_S1,DM-01,S1,光輪の精霊シャウナ,"Hanusa, Radiance Elemental",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,192,
+52,1_81,DM-01,81,キャンディ・ドロップ,Candy Drop,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,196,
+53,1_97,DM-01,97,不死身男爵ボーグ,"Immortal Baron, Vorg",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,199,
+54,1_71,DM-01,71,翡翠樹,Senatine Jade Tree,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,202,
+55,1_74,DM-01,74,碧玉草,Emerald Grass,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,206,
+56,1_64,DM-01,64,トルネード・フレーム,Tornado Flame,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,210,
+57,1_39,DM-01,39,ナチュラル・トラップ,Natural Snare,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,213,
+58,1_2,DM-01,2,真理の伝道師レイーラ,"Rayla, Truth Enforcer",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,216,
+59,1_106,DM-01,106,青銅の鎧,Bronze-Arm Tribe,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,220,
+60,1_109,DM-01,109,アルティメット・フォース,Ultimate Force,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,223,
+61,1_101,DM-01,101,クリムゾン・ハンマー,Crimson Hammer,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,226,
+62,1_27,DM-01,27,デーモン・ハンド,Terror Pit,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,229,
+63,1_58,DM-01,58,ダーク・リバース,Dark Reversal,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,232,
+64,1_52,DM-01,52,サイバー・ブレイン,Cyber Brain,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,235,
+65,1_94,DM-01,94,ゴースト・タッチ,Ghost Touch,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,238,
+66,1_15,DM-01,15,ホーリー・スパーク,Holy Awe,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,241,
+67,2_24,DM-02,24,クリスタル・ランサー,Crystal Lancer,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,244,
+68,2_27,DM-02,27,魔獣虫カオス・ワーム,Chaos Worm,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,247,
+69,2_33,DM-02,33,大勇者「大地の猛攻」,"Barkwhip, the Smasher",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,250,
+70,2_4,DM-02,4,ボルザード・ドラゴン,Bolzard Dragon,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,254,
+71,2_S3,DM-02,S3,魔翼虫ジェノサイド・ワーム,Ultracide Worm,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,258,
+72,2_19,DM-02,19,鳴動するギガ・ホーン,Rumbling Terahorn,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,261,
+73,2_21,DM-02,21,守護聖天ラルバ・ギア,"Larba Geer, the Immaculate",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,264,
+74,2_39,DM-02,39,ロジック・キューブ,Logic Cube,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,267,
+75,2_S2,DM-02,S2,クリスタル・パラディン,Crystal Paladin,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,269,
+76,2_26,DM-02,26,ディープ・オペレーション,Thought Probe,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,272,
+77,2_28,DM-02,28,貪欲の影グレイ・バルーン,"Gray Balloon, Shadow of Greed",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,274,
+78,2_47,DM-02,47,クリティカル・ブレード,Critical Blade,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,278,
+79,2_49,DM-02,49,小さな勇者ゲット,Mini Titan Gett,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,280,
+80,2_32,DM-02,32,バースト・ショット,Burst Shot,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,284,
+81,2_S5,DM-02,S5,大勇者「ふたつ牙」,Fighter Dual Fang,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,286,
+82,2_35,DM-02,35,マナ・クライシス,Mana Crisis,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,289,
+83,2_38,DM-02,38,晴天の守護者レゾ・パコス,"Reso Pacos, Clear Sky Guardian",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,291,
+84,2_6,DM-02,6,暁の守護者ファル・イーガ,"Phal Eega, Dawn Guardian",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,294,
+85,2_23,DM-02,23,ダイヤモンド・カッター,Diamond Cutter,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,298,
+86,2_40,DM-02,40,コーライル,Corile,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,301,
+87,2_45,DM-02,45,卵胞虫ゼリー・ワーム,Horrid Worm,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,305,
+88,2_46,DM-02,46,ねじれる者ボーン・スライム,"Marrow Ooze, the Twister",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,309,
+89,2_29,DM-02,29,ロスト・ソウル,Lost Soul,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,313,
+90,2_54,DM-02,54,ラブ・エルフィン,Essence Elf,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,316,
+91,3_3,DM-03,3,絶望の魔黒ジャックバイパー,"Jack Viper, Shadow of Doom",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,320,
+92,3_5,DM-03,5,大昆虫ギガマンティス,Gigamantis,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,323,
+93,3_11,DM-03,11,ストリーミング・シェイパー,Streaming Shaper,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,327,
+94,3_18,DM-03,18,夜明けの超人,Dawn Giant,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,330,
+95,3_34,DM-03,34,シェル・ポーチ,Pouch Shell,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,334,
+96,3_35,DM-03,35,深緑の魔方陣,Mana Nexus,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,338,
+97,3_41,DM-03,41,アングラー・クラスター,Angler Cluster,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,341,
+98,3_42,DM-03,42,エメラル,Emeral,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,344,
+99,3_49,DM-03,49,チッチ・ホッピー,Baby Zoppe,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,347,
+100,3_51,DM-03,51,ボルカニック・アロー,Volcanic Arrows,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,351,
+101,3_S4,DM-03,S4,ガルカーゴ・ドラゴン,Garkago Dragon,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,353,
+102,4_1,DM-04,1,聖霊王アルカディアス,"Alcadeias, Lord of Spirits",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,356,
+103,4_2,DM-04,2,アストラル・リーフ,Astral Reef,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,359,
+104,4_6,DM-04,6,飛翔の精霊アリエス,"Aeris, Flight Elemental",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,363,
+105,4_10,DM-04,10,アクアン,Aquan,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,367,
+106,4_11,DM-04,11,ハイドロ・ハリケーン,Hydro Hurricane,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,371,
+107,4_13,DM-04,13,荒廃の巨王ジェノサイド,"Photocide, Lord of the Wastes",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,373,
+108,4_14,DM-04,14,いけにえの鎖,Chains of Sacrifice,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,377,
+109,4_23,DM-04,23,牢黒の伝道師ミリエス,"Milieus, the Daystretcher",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,379,
+110,4_24,DM-04,24,雷鳴の守護者ミスト・リエス,"Mist Rias, Sonic Guardian",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,382,
+111,4_28,DM-04,28,屑男,Mongrel Man,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,386,
+112,4_29,DM-04,29,汽車男,Locomotiver,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,390,
+113,4_37,DM-04,37,予言者コロン,"Kolon, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,393,
+114,4_39,DM-04,39,鎮圧の使徒サリエス,"Sarius, Vizier of Suppression",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,396,
+115,4_43,DM-04,43,マリン・フラワー,Marine Flower,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,400,
+116,4_45,DM-04,45,暴食虫グレゴリア・ワーム,Gregorian Worm,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,404,
+117,4_46,DM-04,46,呪いの影シャドウ・ムーン,"Shadow Moon, Cursed Shade",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,408,
+118,4_55,DM-04,55,孤高の願,Torcon,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,412,
+119,4_S3,DM-04,S3,悪魔神バロム,"Ballom, Master of Death",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,416,
+120,4_S5,DM-04,S5,護りの角フィオナ,"Niofa, Horned Protector",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,419,
+121,5_4,DM-05,4,ブレイドラッシュ・ワイバーンδ,Bladerush Skyterror Q,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,422,
+122,5_7,DM-05,7,神魂の守護者シュノーク・ラー,"Snork La, Shrine Guardian",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,426,
+123,5_15,DM-05,15,ツインキャノン・ワイバーン,Twin-Cannon Skyterror,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,429,
+124,5_24,DM-05,24,アクア・サーファー,Aqua Surfer,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,433,
+125,5_48,DM-05,48,ストームジャベリン・ワイバーン,Storm Javelin Wyvern,wiki_established_english_name,Duel Masters Wiki/Fandom exact OCG card page,436,
+126,5_49,DM-05,49,解体屋ピーカプ,"Rikabu, the Dismantler",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,440,
+127,5_50,DM-05,50,ポッポ・チャッピー,Kip Chippotto,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,444,
+128,5_51,DM-05,51,ブレイズザウルスα,Blazosaur Q,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,448,
+129,5_54,DM-05,54,威嚇するスマッシュ・ホーンα,Smash Horn Q,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,452,
+130,5_55,DM-05,55,巨翼の爪,Crow Winger,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,456,
+131,5_S1,DM-05,S1,天海の精霊シリウス,"Syrius, Firmament Elemental",printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,460,
+132,5_S5,DM-05,S5,神拳の超人,Avalanche Giant,printed_english_name_mapped,Dueparture overseas correspondence DM-01..DM-05,463,
+133,6_1,DM-06,1,銀界の守護者ル・ギラ・レシール,"Lu Gila, Silver Rift Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,466,0
+134,6_2,DM-06,2,インビンシブル・オーラ,Invincible Aura,printed_english_name_mapped,Dueparture overseas correspondence table,469,3
+135,6_3,DM-06,3,エウロピカ,Aeropica,printed_english_name_mapped,Dueparture overseas correspondence table,472,6
+136,6_4,DM-06,4,インビンシブル・テクノロジー,Invincible Technology,printed_english_name_mapped,Dueparture overseas correspondence table,476,10
+137,6_5,DM-06,5,戦車男,Tank Mutant,printed_english_name_mapped,Dueparture overseas correspondence table,479,13
+138,6_6,DM-06,6,インビンシブル・アビス,Invincible Abyss,printed_english_name_mapped,Dueparture overseas correspondence table,483,17
+139,6_7,DM-06,7,勇神兵エグゾリウス,Valiant Warrior Exorious,printed_english_name_mapped,Dueparture overseas correspondence table,486,20
+140,6_8,DM-06,8,インビンシブル・フォートレス,Invincible Cataclysm,printed_english_name_mapped,Dueparture overseas correspondence table,490,24
+141,6_9,DM-06,9,ガイアクロウ・ワスプ,Splinterclaw Wasp,printed_english_name_mapped,Dueparture overseas correspondence table,493,27
+142,6_10,DM-06,10,インビンシブル・パワー,Invincible Unity,printed_english_name_mapped,Dueparture overseas correspondence table,496,30
+143,6_11,DM-06,11,守護聖天アーク・バイン,"Arc Bine, the Astounding",printed_english_name_mapped,Dueparture overseas correspondence table,499,33
+144,6_12,DM-06,12,聖域の守護者フォボス・エレインγ,"Forbos, Sanctum Guardian Q",printed_english_name_mapped,Dueparture overseas correspondence table,502,36
+145,6_13,DM-06,13,綺羅星の精霊ガリアル,"Gariel, Elemental of Sunbeams",printed_english_name_mapped,Dueparture overseas correspondence table,505,39
+146,6_14,DM-06,14,聖騎士コスモグールド,"Cosmogold, Spectral Knight",printed_english_name_mapped,Dueparture overseas correspondence table,509,43
+147,6_15,DM-06,15,宣凶師エルリオット,"Telitol, the Explorer",printed_english_name_mapped,Dueparture overseas correspondence table,513,47
+148,6_16,DM-06,16,ジャスティス・バインド,Bonds of Justice,printed_english_name_mapped,Dueparture overseas correspondence table,516,50
+149,6_17,DM-06,17,フォート・メガクラスター,Fort Megacluster,printed_english_name_mapped,Dueparture overseas correspondence table,519,53
+150,6_18,DM-06,18,キング・トラファルガー,King Triumphant,printed_english_name_mapped,Dueparture overseas correspondence table,522,56
+151,6_19,DM-06,19,ナイト・クロウラー,Midnight Crawler,printed_english_name_mapped,Dueparture overseas correspondence table,525,59
+152,6_20,DM-06,20,ラプター・フィッシュ,Raptor Fish,printed_english_name_mapped,Dueparture overseas correspondence table,529,63
+153,6_21,DM-06,21,キュロロ,Kyuroro,printed_english_name_mapped,Dueparture overseas correspondence table,533,67
+154,6_22,DM-06,22,ロータス・ミントγ,Ripple Lotus Q,printed_english_name_mapped,Dueparture overseas correspondence table,537,71
+155,6_23,DM-06,23,恐慌の魔黒デス・スペクター,"Frost Specter, Shadow of Age",printed_english_name_mapped,Dueparture overseas correspondence table,541,75
+156,6_24,DM-06,24,戦慄の剛将アブリン,"Gnarvash, Merchant of Blood",printed_english_name_mapped,Dueparture overseas correspondence table,544,78
+157,6_25,DM-06,25,闇侯爵ハウクス,"Schuka, Duke of Amnesia",printed_english_name_mapped,Dueparture overseas correspondence table,548,82
+158,6_26,DM-06,26,死縛虫グレイブ・ワームγ,Grave Worm Q,printed_english_name_mapped,Dueparture overseas correspondence table,552,86
+159,6_27,DM-06,27,虚空の翼ダークモルダー,"Vile Mulder, Wing of the Void",printed_english_name_mapped,Dueparture overseas correspondence table,555,89
+160,6_28,DM-06,28,邪魂転生,Intense Evil,printed_english_name_mapped,Dueparture overseas correspondence table,558,92
+161,6_29,DM-06,29,シグマ・トゥレイト,Q-tronic Gargantua,printed_english_name_mapped,Dueparture overseas correspondence table,561,95
+162,6_30,DM-06,30,機神装甲ヴァルカイザー,Armored Decimator Valkaizer,printed_english_name_mapped,Dueparture overseas correspondence table,565,99
+163,6_31,DM-06,31,バザガジール・ドラゴン,Bazagazeal Dragon,printed_english_name_mapped,Dueparture overseas correspondence table,569,103
+164,6_32,DM-06,32,ピーカプ・リザード,Badlands Lizard,printed_english_name_mapped,Dueparture overseas correspondence table,572,106
+165,6_33,DM-06,33,ピーカプのドライバー,Rikabu's Screwdriver,printed_english_name_mapped,Dueparture overseas correspondence table,576,110
+166,6_34,DM-06,34,クライシス・ボーラー,Crisis Boulder,printed_english_name_mapped,Dueparture overseas correspondence table,580,114
+167,6_35,DM-06,35,超空要塞バビロン,Living Citadel Vosh,printed_english_name_mapped,Dueparture overseas correspondence table,583,117
+168,6_36,DM-06,36,殺戮の化身,Clobber Totem,printed_english_name_mapped,Dueparture overseas correspondence table,586,120
+169,6_37,DM-06,37,シェル・ファクトリーγ,Factory Shell Q,printed_english_name_mapped,Dueparture overseas correspondence table,589,123
+170,6_38,DM-06,38,戦いの化身,Forbidding Totem,printed_english_name_mapped,Dueparture overseas correspondence table,592,126
+171,6_39,DM-06,39,魅了妖精チャミリア,"Charmilia, the Enticer",printed_english_name_mapped,Dueparture overseas correspondence table,596,130
+172,6_40,DM-06,40,神秘の宝箱,Mystic Treasure Chest,printed_english_name_mapped,Dueparture overseas correspondence table,600,134
+173,6_41,DM-06,41,飛雲の求道者ダバ・トーレ,"Dava Torey, Seeker of Clouds",printed_english_name_mapped,Dueparture overseas correspondence table,603,137
+174,6_42,DM-06,42,光柱樹,Razorpine Tree,printed_english_name_mapped,Dueparture overseas correspondence table,607,141
+175,6_43,DM-06,43,予言者アドミス,"Adomis, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence table,611,145
+176,6_44,DM-06,44,聖騎士ムーンティアー,"Moontear, Spectral Knight",printed_english_name_mapped,Dueparture overseas correspondence table,614,148
+177,6_45,DM-06,45,レイン・アロー,Rain of Arrows,printed_english_name_mapped,Dueparture overseas correspondence table,618,152
+178,6_46,DM-06,46,プロテクト・フォース,Protective Force,printed_english_name_mapped,Dueparture overseas correspondence table,621,155
+179,6_47,DM-06,47,シャインシェル・クラスター,Neon Cluster,printed_english_name_mapped,Dueparture overseas correspondence table,623,157
+180,6_48,DM-06,48,ハザード・クロウラー,Hazard Crawler,printed_english_name_mapped,Dueparture overseas correspondence table,627,161
+181,6_49,DM-06,49,デコ・クラスター,Overload Cluster,printed_english_name_mapped,Dueparture overseas correspondence table,631,165
+182,6_50,DM-06,50,ストーム・クロウラー,Thrash Crawler,printed_english_name_mapped,Dueparture overseas correspondence table,634,168
+183,6_51,DM-06,51,ショック・ハリケーン,Shock Hurricane,printed_english_name_mapped,Dueparture overseas correspondence table,637,171
+184,6_52,DM-06,52,ミスティック・クリエーション,Mystic Dreamscape,printed_english_name_mapped,Dueparture overseas correspondence table,640,174
+185,6_53,DM-06,53,ギガボアー,Gigagriff,printed_english_name_mapped,Dueparture overseas correspondence table,643,177
+186,6_54,DM-06,54,戦男,Bazooka Mutant,printed_english_name_mapped,Dueparture overseas correspondence table,646,180
+187,6_55,DM-06,55,鬼眼怪人スカルカッター,"Skullcutter, Swarm Leader",printed_english_name_mapped,Dueparture overseas correspondence table,650,184
+188,6_56,DM-06,56,刃滅人形ポール,"Lupa, Poison-Tipped Doll",printed_english_name_mapped,Dueparture overseas correspondence table,654,188
+189,6_57,DM-06,57,ヘル・スラッシュ,Hell Slash,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,657,191
+190,6_58,DM-06,58,死の宣告,Proclamation of Death,printed_english_name_mapped,Dueparture overseas correspondence table,660,194
+191,6_59,DM-06,59,スフィンティラノスβ,Rumblesaur Q,printed_english_name_mapped,Dueparture overseas correspondence table,663,197
+192,6_60,DM-06,60,エグゼズ・ワイバーン,Cutthroat Skyterror,printed_english_name_mapped,Dueparture overseas correspondence table,667,201
+193,6_61,DM-06,61,荒法師ミガサ,"Migasa, Adept of Chaos",printed_english_name_mapped,Dueparture overseas correspondence table,671,205
+194,6_62,DM-06,62,コッコ・ルピア,Cocco Lupia,printed_english_name_mapped,Dueparture overseas correspondence table,675,209
+195,6_63,DM-06,63,ピコット・ミサイル,Spastic Missile,printed_english_name_mapped,Dueparture overseas correspondence table,679,213
+196,6_64,DM-06,64,火炎流星弾,Comet Missile,printed_english_name_mapped,Dueparture overseas correspondence table,682,216
+197,6_65,DM-06,65,跳躍の超人,Cantankerous Giant,printed_english_name_mapped,Dueparture overseas correspondence table,684,218
+198,6_66,DM-06,66,恵みの化身,"Bliss Totem, Avatar of Luck",printed_english_name_mapped,Dueparture overseas correspondence table,688,222
+199,6_67,DM-06,67,激闘するフェザー・ホーン,"Feather Horn, the Tracker",printed_english_name_mapped,Dueparture overseas correspondence table,692,226
+200,6_68,DM-06,68,樹界を守るパラダイス・ホーン,Paradise Horn,printed_english_name_mapped,Dueparture overseas correspondence table,695,229
+201,6_69,DM-06,69,無垢の宝剣,"Innocent Hunter, Blade of All",printed_english_name_mapped,Dueparture overseas correspondence table,699,233
+202,6_70,DM-06,70,大自然の意志,Pangaea's Will,printed_english_name_mapped,Dueparture overseas correspondence table,703,237
+203,6_71,DM-06,71,鋭刃の使徒グーレ・チェーン,"Chen Treg, Vizier of Blades",printed_english_name_mapped,Dueparture overseas correspondence table,706,240
+204,6_72,DM-06,72,不屈の使徒チーキ・クーレ,"Chekicul, Vizier of Endurance",printed_english_name_mapped,Dueparture overseas correspondence table,710,244
+205,6_73,DM-06,73,宣凶師キンゼラ,"Kanesill, the Explorer",printed_english_name_mapped,Dueparture overseas correspondence table,714,248
+206,6_74,DM-06,74,藍電草,Lightning Grass,printed_english_name_mapped,Dueparture overseas correspondence table,718,252
+207,6_75,DM-06,75,電磁の使徒バルアス,"Ballas, Vizier of Electrons",printed_english_name_mapped,Dueparture overseas correspondence table,721,255
+208,6_76,DM-06,76,予言者ユーク,"Yuluk, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence table,724,258
+209,6_77,DM-06,77,予言者ジェス,"Vess, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence table,728,262
+210,6_78,DM-06,78,エレメンタル・シールド,Sphere of Wonder,printed_english_name_mapped,Dueparture overseas correspondence table,732,266
+211,6_79,DM-06,79,ソピアン,Sopian,printed_english_name_mapped,Dueparture overseas correspondence table,735,269
+212,6_80,DM-06,80,アクア・ライダー,Aqua Rider,printed_english_name_mapped,Dueparture overseas correspondence table,738,272
+213,6_81,DM-06,81,プロメフィウスα,Promephius Q,printed_english_name_mapped,Dueparture overseas correspondence table,741,275
+214,6_82,DM-06,82,マドリオン・フィッシュ,Madrillon Fish,printed_english_name_mapped,Dueparture overseas correspondence table,744,278
+215,6_83,DM-06,83,エレガント・ランプ,Steam Star,printed_english_name_mapped,Dueparture overseas correspondence table,748,282
+216,6_84,DM-06,84,ゼピメテウス,Zepimeteus,printed_english_name_mapped,Dueparture overseas correspondence table,751,285
+217,6_85,DM-06,85,エナジー・ライト,Energy Stream,printed_english_name_mapped,Dueparture overseas correspondence table,755,289
+218,6_86,DM-06,86,スパイラル・ゲート,Spiral Gate,printed_english_name_mapped,Dueparture overseas correspondence table,758,292
+219,6_87,DM-06,87,砕骨の刺客ゾルバス,"Zorvaz, the Bonecrusher",printed_english_name_mapped,Dueparture overseas correspondence table,761,295
+220,6_88,DM-06,88,幽鬼の影リバース・ソウル,"Grim Soul, Shadow of Reversal",printed_english_name_mapped,Dueparture overseas correspondence table,764,298
+221,6_89,DM-06,89,烈裂虫テンタクル・ワーム,Tentacle Worm,printed_english_name_mapped,Dueparture overseas correspondence table,768,302
+222,6_90,DM-06,90,カース・ペンダント,Cursed Pincher,printed_english_name_mapped,Dueparture overseas correspondence table,771,305
+223,6_91,DM-06,91,逆歯怪人トマホーク,"Grinning Axe, the Monstrosity",printed_english_name_mapped,Dueparture overseas correspondence table,774,308
+224,6_92,DM-06,92,凶犬人形ジュンカツ,"Junkatz, Rabid Doll",printed_english_name_mapped,Dueparture overseas correspondence table,778,312
+225,6_93,DM-06,93,孤独の影ロンリー・ウォーカー,"Lone Tear, Shadow of Solitude",printed_english_name_mapped,Dueparture overseas correspondence table,781,315
+226,6_94,DM-06,94,デス・スモーク,Death Smoke,printed_english_name_mapped,Dueparture overseas correspondence table,785,319
+227,6_95,DM-06,95,ムラマサ・リザード,Legionnaire Lizard,printed_english_name_mapped,Dueparture overseas correspondence table,788,322
+228,6_96,DM-06,96,捜神兵グチェラリオン,Armored Scout Gestuchar,printed_english_name_mapped,Dueparture overseas correspondence table,791,325
+229,6_97,DM-06,97,撃神兵マシンガー,Automated Weaponmaster Machai,printed_english_name_mapped,Dueparture overseas correspondence table,795,329
+230,6_98,DM-06,98,襲撃者エグゼドライブ,Pyrofighter Magnus,printed_english_name_mapped,Dueparture overseas correspondence table,799,333
+231,6_99,DM-06,99,炎獣兵マグナム・ブルース,Torchclencher,printed_english_name_mapped,Dueparture overseas correspondence table,803,337
+232,6_100,DM-06,100,ピコラのスパナ,Picora's Wrench,printed_english_name_mapped,Dueparture overseas correspondence table,807,341
+233,6_101,DM-06,101,無謀鉄人チョイヤ,"Choya, the Unheeding",printed_english_name_mapped,Dueparture overseas correspondence table,810,344
+234,6_102,DM-06,102,幻竜砲,Phantom Dragon's Flame,printed_english_name_mapped,Dueparture overseas correspondence table,813,347
+235,6_103,DM-06,103,ブルーレイザー・ビートル,Trench Scarab,printed_english_name_mapped,Dueparture overseas correspondence table,816,350
+236,6_104,DM-06,104,幻惑ベリー,Illusory Berry,printed_english_name_mapped,Dueparture overseas correspondence table,820,354
+237,6_105,DM-06,105,シェル・キャリアー,Carrier Shell,printed_english_name_mapped,Dueparture overseas correspondence table,823,357
+238,6_106,DM-06,106,盗賊の盾,"Mighty Bandit, Ace of Thieves",printed_english_name_mapped,Dueparture overseas correspondence table,827,361
+239,6_107,DM-06,107,シェル・ラック,Slumber Shell,printed_english_name_mapped,Dueparture overseas correspondence table,830,364
+240,6_108,DM-06,108,滑降妖精ガラボン,"Garabon, the Glider",printed_english_name_mapped,Dueparture overseas correspondence table,833,367
+241,6_109,DM-06,109,ディメンジョン・ゲート,Dimension Gate,printed_english_name_mapped,Dueparture overseas correspondence table,837,371
+242,6_110,DM-06,110,フェアリー・ライフ,Faerie Life,printed_english_name_mapped,Dueparture overseas correspondence table,839,373
+243,6_S1,DM-06,S1,聖天使クラウゼ・バルキューラ,"Craze Valkyrie, the Drastic",printed_english_name_mapped,Dueparture overseas correspondence table,842,376
+244,6_S2,DM-06,S2,閃光の求道者ラ・ベイル,"Laveil, Seeker of Catastrophe",printed_english_name_mapped,Dueparture overseas correspondence table,845,379
+245,6_S3,DM-06,S3,ゼータ・トゥレイト,Q-tronic Hypermind,printed_english_name_mapped,Dueparture overseas correspondence table,848,382
+246,6_S4,DM-06,S4,クリスタル・ジャベリン,Crystal Jouster,printed_english_name_mapped,Dueparture overseas correspondence table,851,385
+247,6_S5,DM-06,S5,超幻獣グラザルド,Phantasmal Horror Gigazald,printed_english_name_mapped,Dueparture overseas correspondence table,855,389
+248,6_S6,DM-06,S6,憤怒の猛将ダイダロス,"Daidalos, General of Fury",printed_english_name_mapped,Dueparture overseas correspondence table,858,392
+249,6_S7,DM-06,S7,甲冑神龍エグゼキューター,Lava Walker Executo,printed_english_name_mapped,Dueparture overseas correspondence table,862,396
+250,6_S8,DM-06,S8,ボルメテウス・ホワイト・ドラゴン,Bolmeteus Steel Dragon,printed_english_name_mapped,Dueparture overseas correspondence table,865,399
+251,6_S9,DM-06,S9,大昆虫ガイアマンティス,"Ultra Mantis, Scourge of Fate",printed_english_name_mapped,Dueparture overseas correspondence table,869,403
+252,6_S10,DM-06,S10,神秘の超人,Cliffcrush Giant,printed_english_name_mapped,Dueparture overseas correspondence table,873,407
+253,7_1,DM-07,1,爆雷の求道者ガラ・ガンダール,"Gandar, Seeker of Explosions",printed_english_name_mapped,Dueparture overseas correspondence table,877,411
+254,7_2,DM-07,2,キング・アクエリアス,King Benthos,printed_english_name_mapped,Dueparture overseas correspondence table,880,414
+255,7_3,DM-07,3,戦艦男,Battleship Mutant,printed_english_name_mapped,Dueparture overseas correspondence table,883,417
+256,7_4,DM-07,4,鎧神兵ガリアクルーズ,Armored Transport Galiacruse,printed_english_name_mapped,Dueparture overseas correspondence table,886,420
+257,7_5,DM-07,5,爆転の化身,Spinning Totem,printed_english_name_mapped,Dueparture overseas correspondence table,889,423
+258,7_6,DM-07,6,聖天使カイザル・バジキューラ,"Kizar Basiku, the Outrageous",printed_english_name_mapped,Dueparture overseas correspondence table,892,426
+259,7_7,DM-07,7,光封樹,Pulsar Tree,printed_english_name_mapped,Dueparture overseas correspondence table,895,429
+260,7_8,DM-07,8,ジャスティス・ジャミング,Justice Jamming,printed_english_name_mapped,Dueparture overseas correspondence table,899,433
+261,7_9,DM-07,9,キャバリア・シャーク,Trenchdive Shark,printed_english_name_mapped,Dueparture overseas correspondence table,902,436
+262,7_10,DM-07,10,アクア・フェンサー,Aqua Fencer,printed_english_name_mapped,Dueparture overseas correspondence table,905,439
+263,7_11,DM-07,11,ビアンカス,Biancus,printed_english_name_mapped,Dueparture overseas correspondence table,909,443
+264,7_12,DM-07,12,超幻獣ドグザバル,Phantasmal Horror Gigazabal,printed_english_name_mapped,Dueparture overseas correspondence table,912,446
+265,7_13,DM-07,13,ギガバスター,Gigabuster,printed_english_name_mapped,Dueparture overseas correspondence table,916,450
+266,7_14,DM-07,14,チェイン・スラッシュ,Hopeless Vortex,printed_english_name_mapped,Dueparture overseas correspondence table,919,453
+267,7_15,DM-07,15,超巨岩獣ヴォルクラウザー,"Valkrowzer, Ultra Rock Beast",printed_english_name_mapped,Dueparture overseas correspondence table,922,456
+268,7_16,DM-07,16,ピーポのバール,Kipo's Contraption,printed_english_name_mapped,Dueparture overseas correspondence table,926,460
+269,7_17,DM-07,17,地獄万力,Apocalypse Vise,printed_english_name_mapped,Dueparture overseas correspondence table,930,464
+270,7_18,DM-07,18,世界樹ユグドラジーガ,"World Tree, Root of Life",printed_english_name_mapped,Dueparture overseas correspondence table,933,467
+271,7_19,DM-07,19,呪紋の化身,Cryptic Totem,printed_english_name_mapped,Dueparture overseas correspondence table,936,470
+272,7_20,DM-07,20,草原の種,"Tangle Fist, the Weaver",printed_english_name_mapped,Dueparture overseas correspondence table,940,474
+273,7_21,DM-07,21,宣凶師ロンドビル,"Rondobil, the Explorer",printed_english_name_mapped,Dueparture overseas correspondence table,944,478
+274,7_22,DM-07,22,聖騎士プラネットシャイン,"Geoshine, Spectral Knight",printed_english_name_mapped,Dueparture overseas correspondence table,948,482
+275,7_23,DM-07,23,ライトニング・チャージャー,Lightning Charger,printed_english_name_mapped,Dueparture overseas correspondence table,952,486
+276,7_24,DM-07,24,スプラッシュ・ゼブラフィッシュ,Splash Zebrafish,printed_english_name_mapped,Dueparture overseas correspondence table,955,489
+277,7_25,DM-07,25,キュリアス・アイ,Curious Eye,printed_english_name_mapped,Dueparture overseas correspondence table,959,493
+278,7_26,DM-07,26,スパイラル・チャージャー,Riptide Charger,printed_english_name_mapped,Dueparture overseas correspondence table,963,497
+279,7_27,DM-07,27,三面怪人アシュラファング,Three-Faced Ashura Fang,printed_english_name_mapped,Dueparture overseas correspondence table,966,500
+280,7_28,DM-07,28,ポイズン・ティアラ,Scalpel Spider,printed_english_name_mapped,Dueparture overseas correspondence table,970,504
+281,7_29,DM-07,29,ブラッディ・チャージャー,Venom Charger,printed_english_name_mapped,Dueparture overseas correspondence table,974,508
+282,7_30,DM-07,30,怪神兵ナグール,Otherworldly Warrior Naglu,printed_english_name_mapped,Dueparture overseas correspondence table,976,510
+283,7_31,DM-07,31,クレーターザウルス,Cratersaur,printed_english_name_mapped,Dueparture overseas correspondence table,980,514
+284,7_32,DM-07,32,エナジー・チャージャー,Energy Charger,printed_english_name_mapped,Dueparture overseas correspondence table,984,518
+285,7_33,DM-07,33,シェル・ブリーダー,Brood Shell,printed_english_name_mapped,Dueparture overseas correspondence table,987,521
+286,7_34,DM-07,34,不死身の果実,Fruit of Eternity,printed_english_name_mapped,Dueparture overseas correspondence table,991,525
+287,7_35,DM-07,35,メビウス・チャージャー,Mulch Charger,printed_english_name_mapped,Dueparture overseas correspondence table,993,527
+288,7_36,DM-07,36,白夜の守護者ロディ・ゲール,"Rodi Gale, Night Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,996,530
+289,7_37,DM-07,37,捕縛の使徒ローム,"Rom, Vizier of Tendrils",printed_english_name_mapped,Dueparture overseas correspondence table,1000,534
+290,7_38,DM-07,38,予言者ベクス,"Bex, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence table,1004,538
+291,7_39,DM-07,39,ミラクル・ポータル,Miracle Portal,printed_english_name_mapped,Dueparture overseas correspondence table,1008,542
+292,7_40,DM-07,40,アクア・エージェント,Aqua Agent,printed_english_name_mapped,Dueparture overseas correspondence table,1010,544
+293,7_41,DM-07,41,ウォール・クラスター,Titanium Cluster,printed_english_name_mapped,Dueparture overseas correspondence table,1014,548
+294,7_42,DM-07,42,ガラティアヌス,Garatyano,printed_english_name_mapped,Dueparture overseas correspondence table,1018,552
+295,7_43,DM-07,43,セティボルス,Cetibols,printed_english_name_mapped,Dueparture overseas correspondence table,1022,556
+296,7_44,DM-07,44,夢幻の影ダーク・バンディット,"Dream Pirate, Shadow of Theft",printed_english_name_mapped,Dueparture overseas correspondence table,1026,560
+297,7_45,DM-07,45,隠密人形ゲザリー,"Gezary, Undercover Doll",printed_english_name_mapped,Dueparture overseas correspondence table,1030,564
+298,7_46,DM-07,46,飛行男,Propeller Mutant,printed_english_name_mapped,Dueparture overseas correspondence table,1034,568
+299,7_47,DM-07,47,バキューム・ジェル,Vacuum Gel,printed_english_name_mapped,Dueparture overseas correspondence table,1038,572
+300,7_48,DM-07,48,ガザリアス・ドラゴン,Gazarias Dragon,printed_english_name_mapped,Dueparture overseas correspondence table,1041,575
+301,7_49,DM-07,49,アストロノーツ・ワイバーン,Astronaut Skyterror,printed_english_name_mapped,Dueparture overseas correspondence table,1045,579
+302,7_50,DM-07,50,暴走番長ギャラン,Wild Racer Chief Garan,printed_english_name_mapped,Dueparture overseas correspondence table,1049,583
+303,7_51,DM-07,51,クック・ポロン,Kooc Pollon,printed_english_name_mapped,Dueparture overseas correspondence table,1053,587
+304,7_52,DM-07,52,撃墜するスティンガー・ホーン,"Stinger Horn, the Delver",printed_english_name_mapped,Dueparture overseas correspondence table,1057,591
+305,7_53,DM-07,53,春風妖精ポップル,"Popple, Flowerpetal Dancer",printed_english_name_mapped,Dueparture overseas correspondence table,1061,595
+306,7_54,DM-07,54,ランチャー・スパイダー,Launch Locust,printed_english_name_mapped,Dueparture overseas correspondence table,1065,599
+307,7_55,DM-07,55,氷結ハンマー,Freezing Icehammer,printed_english_name_mapped,Dueparture overseas correspondence table,1069,603
+308,7_S1,DM-07,S1,栄光の精霊アイリス,"Siri, Glory Elemental",printed_english_name_mapped,Dueparture overseas correspondence table,1072,606
+309,7_S2,DM-07,S2,アストラル・メデューサ,Cosmic Nebula,printed_english_name_mapped,Dueparture overseas correspondence table,1075,609
+310,7_S3,DM-07,S3,残虐覇王デスカール,"Crath Lade, Merciless King",printed_english_name_mapped,Dueparture overseas correspondence table,1079,613
+311,7_S4,DM-07,S4,激震闘士スカイ・クラッシャー,"Sky Crusher, the Agitator",printed_english_name_mapped,Dueparture overseas correspondence table,1083,617
+312,7_S5,DM-07,S5,金剛の超人,Headlong Giant,printed_english_name_mapped,Dueparture overseas correspondence table,1087,621
+313,8_1,DM-08,1,開眼者クーカイ,"Kuukai, Finder of Karma",printed_english_name_mapped,Dueparture overseas correspondence table,1090,624
+314,8_2,DM-08,2,アクア・レンジャー,Aqua Ranger,printed_english_name_mapped,Dueparture overseas correspondence table,1094,628
+315,8_3,DM-08,3,暗黒皇女メガリア,"Megaria, Empress of Dread",printed_english_name_mapped,Dueparture overseas correspondence table,1098,632
+316,8_4,DM-08,4,紅神龍ジャガルザー,Magmadragon Jagalzor,printed_english_name_mapped,Dueparture overseas correspondence table,1102,636
+317,8_5,DM-08,5,幻想妖精カチュア,"Kachua, Keeper of the Icegate",printed_english_name_mapped,Dueparture overseas correspondence table,1105,639
+318,8_6,DM-08,6,光器サーシャ,"Sasha, Channeler of Suns",printed_english_name_mapped,Dueparture overseas correspondence table,1108,642
+319,8_7,DM-08,7,疾風の守護者スール・ミース,"Thrumiss, Zephyr Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,1111,645
+320,8_8,DM-08,8,予言者マリエル,"Nariel, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence table,1115,649
+321,8_9,DM-08,9,アクア・グラップラー,Aqua Grappler,printed_english_name_mapped,Dueparture overseas correspondence table,1119,653
+322,8_10,DM-08,10,ビコラキス,Vikorakys,printed_english_name_mapped,Dueparture overseas correspondence table,1123,657
+323,8_11,DM-08,11,マリン・スクランブル,Marine Scramble,printed_english_name_mapped,Dueparture overseas correspondence table,1126,660
+324,8_12,DM-08,12,黒神龍ガルバジーク,Necrodragon Galbazeek,printed_english_name_mapped,Dueparture overseas correspondence table,1129,663
+325,8_13,DM-08,13,恐怖の影スクリーム・アサシン,"Scream Slicer, Shadow of Fear",printed_english_name_mapped,Dueparture overseas correspondence table,1133,667
+326,8_14,DM-08,14,スケルトン・バイス,Skeleton Vice,wiki_established_english_name,Duel Masters Wiki/Fandom established English page/title,1137,671
+327,8_15,DM-08,15,爆竜兵ドラグストライク,"Kyrstron, Lair Delver",printed_english_name_mapped,Dueparture overseas correspondence table,1140,674
+328,8_16,DM-08,16,重装兵ガルバック,Slaphappy Soldier Galback,printed_english_name_mapped,Dueparture overseas correspondence table,1144,678
+329,8_17,DM-08,17,レジェンド・アタッカー,Furious Onslaught,printed_english_name_mapped,Dueparture overseas correspondence table,1147,681
+330,8_18,DM-08,18,緑神龍ガミラタール,Terradragon Gamiratar,printed_english_name_mapped,Dueparture overseas correspondence table,1150,684
+331,8_19,DM-08,19,カーボナイト・ビートル,Carbonite Scarab,printed_english_name_mapped,Dueparture overseas correspondence table,1154,688
+332,8_20,DM-08,20,ライフ・チャージャー,Root Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1157,691
+333,8_21,DM-08,21,日向草,Solar Grass,printed_english_name_mapped,Duel Masters Wiki/Fandom exact Japanese identity,1160,694
+334,8_22,DM-08,22,レーザー・ウィップ,Laser Whip,printed_english_name_mapped,Dueparture overseas correspondence table,1163,697
+335,8_23,DM-08,23,ドラコ・バリアー,Dracobarrier,printed_english_name_mapped,Dueparture overseas correspondence table,1166,700
+336,8_24,DM-08,24,ラリシウス,Lalicious,printed_english_name_mapped,Dueparture overseas correspondence table,1169,703
+337,8_25,DM-08,25,テンペスト・キラーホエール,Prowling Elephish,printed_english_name_mapped,Dueparture overseas correspondence table,1173,707
+338,8_26,DM-08,26,ウェーブ・ランス,Wave Lance,printed_english_name_mapped,Dueparture overseas correspondence table,1177,711
+339,8_27,DM-08,27,単車男,Motorcycle Mutant,printed_english_name_mapped,Dueparture overseas correspondence table,1180,714
+340,8_28,DM-08,28,機怪人形ガチャック,"Gachack, Mechanical Doll",printed_english_name_mapped,Dueparture overseas correspondence table,1184,718
+341,8_29,DM-08,29,ディメンジョン・チョーカー,Dimension Splitter,printed_english_name_mapped,Dueparture overseas correspondence table,1187,721
+342,8_30,DM-08,30,ブルーザー・ドラゴン,Bruiser Dragon,printed_english_name_mapped,Dueparture overseas correspondence table,1191,725
+343,8_31,DM-08,31,ロケットダイブ・ワイバーン,Rocketdive Skyterror,printed_english_name_mapped,Dueparture overseas correspondence table,1195,729
+344,8_32,DM-08,32,クリムゾン・チャージャー,Volcano Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1199,733
+345,8_33,DM-08,33,シェル・コロシアム,Coliseum Shell,printed_english_name_mapped,Dueparture overseas correspondence table,1202,736
+346,8_34,DM-08,34,竜舞の化身,Dracodance Totem,printed_english_name_mapped,Dueparture overseas correspondence table,1206,740
+347,8_35,DM-08,35,パワー・チャージャー,Muscle Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1210,744
+348,8_36,DM-08,36,光器マーシャ,"Misha, Channeler of Suns",printed_english_name_mapped,Dueparture overseas correspondence table,1213,747
+349,8_37,DM-08,37,乱撃の使徒ミガロ,"Migalo, Vizier of Spycraft",printed_english_name_mapped,Dueparture overseas correspondence table,1217,751
+350,8_38,DM-08,38,日輪の守護者ソル・ガーラ,"Sol Galla, Halo Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,1221,755
+351,8_39,DM-08,39,ソーラー・チャージャー,Lunar Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1224,758
+352,8_40,DM-08,40,イリュージョン・フィッシュ,Illusion Fish,printed_english_name_mapped,Dueparture overseas correspondence table,1226,760
+353,8_41,DM-08,41,キャンディ・クラスター,Candy Cluster,printed_english_name_mapped,Dueparture overseas correspondence table,1230,764
+354,8_42,DM-08,42,グレープ・ジェリー,Grape Globbo,printed_english_name_mapped,Dueparture overseas correspondence table,1234,768
+355,8_43,DM-08,43,ブレイン・チャージャー,Eureka Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1238,772
+356,8_44,DM-08,44,ギガクローズ,Gigaclaws,printed_english_name_mapped,Dueparture overseas correspondence table,1241,775
+357,8_45,DM-08,45,黒神龍ギランド,Necrodragon Giland,printed_english_name_mapped,Dueparture overseas correspondence table,1244,778
+358,8_46,DM-08,46,暴虐虫タイラント・ワーム,Tyrant Worm,printed_english_name_mapped,Dueparture overseas correspondence table,1248,782
+359,8_47,DM-08,47,リバース・チャージャー,Corpse Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1252,786
+360,8_48,DM-08,48,バトルシップ・ワイバーン,Torpedo Skyterror,printed_english_name_mapped,Dueparture overseas correspondence table,1255,789
+361,8_49,DM-08,49,紅神龍メルガルス,Magmadragon Melgars,printed_english_name_mapped,Dueparture overseas correspondence table,1259,793
+362,8_50,DM-08,50,肉弾兵ウルティモ,Missile Soldier Ultimo,printed_english_name_mapped,Dueparture overseas correspondence table,1262,796
+363,8_51,DM-08,51,トット・ピピッチ,Totto Pipicchi,printed_english_name_mapped,Dueparture overseas correspondence table,1266,800
+364,8_52,DM-08,52,緑神龍グレガリゴン,Terradragon Regarion,printed_english_name_mapped,Dueparture overseas correspondence table,1270,804
+365,8_53,DM-08,53,食獣セニア,"Senia, Orchard Avenger",printed_english_name_mapped,Dueparture overseas correspondence table,1274,808
+366,8_54,DM-08,54,沈黙するバックラー・ホーン,"Bakkra Horn, the Silent",printed_english_name_mapped,Dueparture overseas correspondence table,1278,812
+367,8_55,DM-08,55,怒髪の豪腕,Quixotic Hero Swine Snout,printed_english_name_mapped,Dueparture overseas correspondence table,1282,816
+368,8_S1,DM-08,S1,光器ナスターシャ,"Nastasha, Channeler of Suns",printed_english_name_mapped,Dueparture overseas correspondence table,1286,820
+369,8_S2,DM-08,S2,エンペラー・アクア,Emperor Quazla,printed_english_name_mapped,Dueparture overseas correspondence table,1290,824
+370,8_S3,DM-08,S3,超神龍アブゾ・ドルバ,Super Necrodragon Abzo Dolba,printed_english_name_mapped,Dueparture overseas correspondence table,1294,828
+371,8_S4,DM-08,S4,超竜バジュラ,Überdragon Bajula,printed_english_name_mapped_needs_extended_glyph,Dueparture overseas correspondence table,1297,831
+372,8_S5,DM-08,S5,超神龍バイラス・ゲイル,Super Terradragon Bailas Gale,printed_english_name_mapped,Dueparture overseas correspondence table,1300,834
+373,9_1,DM-09,1,守護聖天グレナ・ビューレ,"Glena Vuele, the Hypnotic",printed_english_name_mapped,Dueparture overseas correspondence table,1303,837
+374,9_2,DM-09,2,マーチング・スプライト,Marching Motherboard,printed_english_name_mapped,Dueparture overseas correspondence table,1307,841
+375,9_3,DM-09,3,死皇帝アザガースト,"Azaghast, Tyrant of Shadows",printed_english_name_mapped,Dueparture overseas correspondence table,1311,845
+376,9_4,DM-09,4,聖剣炎獣バーレスク,"Balesk Baj, the Timeburner",printed_english_name_mapped,Dueparture overseas correspondence table,1314,848
+377,9_5,DM-09,5,鼓舞の化身,"Vreemah, Freaky Mojo Totem",printed_english_name_mapped,Dueparture overseas correspondence table,1317,851
+378,9_6,DM-09,6,天光の精霊ミハイル,"Mihail, Celestial Elemental",printed_english_name_mapped,Dueparture overseas correspondence table,1321,855
+379,9_7,DM-09,7,予言者ミキュート,"Micute, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence table,1325,859
+380,9_8,DM-09,8,セレブ・チャージャー,Nexus Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1329,863
+381,9_9,DM-09,9,エンペラー・マロル,Emperor Maroll,printed_english_name_mapped,Dueparture overseas correspondence table,1332,866
+382,9_10,DM-09,10,ストーク・クロウラー,Zeppelin Crawler,printed_english_name_mapped,Dueparture overseas correspondence table,1335,869
+383,9_11,DM-09,11,アナライズ・チャージャー,Abduction Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1338,872
+384,9_12,DM-09,12,闘将バグザグール,"Gabzagul, Warlord of Pain",printed_english_name_mapped,Dueparture overseas correspondence table,1341,875
+385,9_13,DM-09,13,崩壊の影デス・タギア,"Ice Vapor, Shadow of Anguish",printed_english_name_mapped,Dueparture overseas correspondence table,1345,879
+386,9_14,DM-09,14,ロスト・チャージャー,Slash Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1349,883
+387,9_15,DM-09,15,特攻隊長マイキー,Shock Trooper Mykee,printed_english_name_mapped,Dueparture overseas correspondence table,1352,886
+388,9_16,DM-09,16,猿神兵アッシュ,Simian Warrior Grash,printed_english_name_mapped,Dueparture overseas correspondence table,1356,890
+389,9_17,DM-09,17,サウザンド・スピア,Blizzard of Spears,printed_english_name_mapped,Dueparture overseas correspondence table,1360,894
+390,9_18,DM-09,18,大勇者「猛虎の怒り」,"Storm Wrangler, the Furious",printed_english_name_mapped,Dueparture overseas correspondence table,1363,897
+391,9_19,DM-09,19,緑神龍アンリストヴァル,Terradragon Anrist Vhal,printed_english_name_mapped,Dueparture overseas correspondence table,1366,900
+392,9_20,DM-09,20,クリスタル・フュージョン,Mana Bonanza,printed_english_name_mapped,Dueparture overseas correspondence table,1370,904
+393,9_21,DM-09,21,月虹の守護者アール・ノアール,"Tra Rion, Penumbra Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,1373,907
+394,9_22,DM-09,22,宣凶師ベトラーレ,"Betrale, the Explorer",printed_english_name_mapped,Dueparture overseas correspondence table,1377,911
+395,9_23,DM-09,23,センチネル・ガード,Unified Resistance,printed_english_name_mapped,Dueparture overseas correspondence table,1381,915
+396,9_24,DM-09,24,ティコラクス,Tekorax,printed_english_name_mapped,Dueparture overseas correspondence table,1384,918
+397,9_25,DM-09,25,ポキラ,Hokira,printed_english_name_mapped,Dueparture overseas correspondence table,1388,922
+398,9_26,DM-09,26,サブマリン・プロジェクト,Submarine Project,printed_english_name_mapped,Dueparture overseas correspondence table,1391,925
+399,9_27,DM-09,27,黒神龍イゾリストヴァル,Necrodragon Izorist Vhal,printed_english_name_mapped,Dueparture overseas correspondence table,1394,928
+400,9_28,DM-09,28,毒牙虫ベノム・ワーム,Venom Worm,printed_english_name_mapped,Dueparture overseas correspondence table,1398,932
+401,9_29,DM-09,29,生命剥奪,Grinning Hunger,printed_english_name_mapped,Dueparture overseas correspondence table,1401,935
+402,9_30,DM-09,30,ジョー・リザード,Snaptongue Lizard,printed_english_name_mapped,Dueparture overseas correspondence table,1404,938
+403,9_31,DM-09,31,ジージョのトンカチ,Gigio's Hammer,printed_english_name_mapped,Dueparture overseas correspondence table,1408,942
+404,9_32,DM-09,32,無限掌,Fists of Forever,printed_english_name_mapped,Dueparture overseas correspondence table,1412,946
+405,9_33,DM-09,33,夢蒼の剛剣,Silvermoon Trailblazer,printed_english_name_mapped,Dueparture overseas correspondence table,1415,949
+406,9_34,DM-09,34,怪力の化身,Whispering Totem,printed_english_name_mapped,Dueparture overseas correspondence table,1419,953
+407,9_35,DM-09,35,ソイル・チャージャー,Vine Charger,printed_english_name_mapped,Dueparture overseas correspondence table,1423,957
+408,9_36,DM-09,36,聖騎士メビウスリンク,"Cyclolink, Spectral Knight",printed_english_name_mapped,Dueparture overseas correspondence table,1426,960
+409,9_37,DM-09,37,時空の守護者ジル・ワーカ,"Jil Warka, Time Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,1430,964
+410,9_38,DM-09,38,双光の使徒カリュート,"Kalute, Vizier of Eternity",printed_english_name_mapped,Dueparture overseas correspondence table,1434,968
+411,9_39,DM-09,39,コズミック・ウイング,Cosmic Wing,printed_english_name_mapped,Dueparture overseas correspondence table,1438,972
+412,9_40,DM-09,40,テンタクル・クラスター,Tentacle Cluster,printed_english_name_mapped,Dueparture overseas correspondence table,1441,975
+413,9_41,DM-09,41,スカウト・クラスター,Scout Cluster,printed_english_name_mapped,Dueparture overseas correspondence table,1445,979
+414,9_42,DM-09,42,フェアリー・キャンドル,Kelp Candle,printed_english_name_mapped,Dueparture overseas correspondence table,1449,983
+415,9_43,DM-09,43,サイバー・トンネル,Impossible Tunnel,printed_english_name_mapped,Dueparture overseas correspondence table,1453,987
+416,9_44,DM-09,44,墓堀怪人アシッドフィスト,"Acid Reflux, the Fleshboiler",printed_english_name_mapped,Dueparture overseas correspondence table,1456,990
+417,9_45,DM-09,45,悪戯人形ハロ,"Trixo, Wicked Doll",printed_english_name_mapped,Dueparture overseas correspondence table,1460,994
+418,9_46,DM-09,46,暗闇に潜む者バット・ドクター,"Bat Doctor, Shadow of Undeath",printed_english_name_mapped,Dueparture overseas correspondence table,1464,998
+419,9_47,DM-09,47,ゾンビ・カーニバル,Zombie Carnival,printed_english_name_mapped,Dueparture overseas correspondence table,1468,1002
+420,9_48,DM-09,48,マウントザウルス,Quakesaur,printed_english_name_mapped,Dueparture overseas correspondence table,1471,1005
+421,9_49,DM-09,49,蒸神兵カイン,Steam Rumbler Kain,printed_english_name_mapped,Dueparture overseas correspondence table,1475,1009
+422,9_50,DM-09,50,鳥神兵クウザ,Aerodactyl Kooza,printed_english_name_mapped,Dueparture overseas correspondence table,1479,1013
+423,9_51,DM-09,51,フル・コマンド,Relentless Blitz,printed_english_name_mapped,Dueparture overseas correspondence table,1483,1017
+424,9_52,DM-09,52,警護するソリッド・ホーン,Solid Horn,printed_english_name_mapped,Dueparture overseas correspondence table,1486,1020
+425,9_53,DM-09,53,ウィップ・スコーピオン,Whip Scorpion,printed_english_name_mapped,Dueparture overseas correspondence table,1490,1024
+426,9_54,DM-09,54,誕生の祈,Cavern Raider,printed_english_name_mapped,Dueparture overseas correspondence table,1494,1028
+427,9_55,DM-09,55,強欲の開拓,Dance of the Sproutlings,printed_english_name_mapped,Dueparture overseas correspondence table,1498,1032
+428,9_S1,DM-09,S1,光器ペトローバ,"Petrova, Channeler of Suns",printed_english_name_mapped,Dueparture overseas correspondence table,1501,1035
+429,9_S2,DM-09,S2,アクア・マスター,Aqua Master,printed_english_name_mapped,Dueparture overseas correspondence table,1505,1039
+430,9_S3,DM-09,S3,呪縛の剣豪バロスト,"Stallob, the Lifequasher",printed_english_name_mapped,Dueparture overseas correspondence table,1509,1043
+431,9_S4,DM-09,S4,紅神龍オグリストヴァル,Magmadragon Ogrist Vhal,printed_english_name_mapped,Dueparture overseas correspondence table,1513,1047
+432,9_S5,DM-09,S5,驚天の超人,Stratosphere Giant,printed_english_name_mapped,Dueparture overseas correspondence table,1516,1050
+433,10_1,DM-10,1,雷珠の求道者ラ・バルザ,"Balza, Seeker of Hyperpearls",printed_english_name_mapped,Dueparture overseas correspondence table,1520,1054
+434,10_2,DM-10,2,光器リュドミーラ,"Ryudmila, Channeler of Suns",printed_english_name_mapped,Dueparture overseas correspondence table,1524,1058
+435,10_3,DM-10,3,キング・オクアノス,King Oquanos,printed_english_name_mapped,Dueparture overseas correspondence table,1527,1061
+436,10_4,DM-10,4,災厄秘宝ゲジラ,"Kejila, the Hidden Horror",printed_english_name_mapped,DM-10 OCG gallery / exact Japanese card identity,1531,1065
+437,10_5,DM-10,5,冥府の覇者ガジラビュート,"Gajirabute, Vile Centurion",printed_english_name_mapped,DM-10 OCG/Japanese official card data / exact identity,1534,1068
+438,10_6,DM-10,6,ガウレザル・ドラゴン,Gaulezal Dragon,printed_english_name_mapped,Dueparture overseas correspondence table,1538,1072
+439,10_7,DM-10,7,天動の化身,Carnival Totem,printed_english_name_mapped,Dueparture overseas correspondence table,1542,1076
+440,10_8,DM-10,8,覚醒のタンザナイト,"Tanzanyte, the Awakener",printed_english_name_mapped,Dueparture overseas correspondence table,1545,1079
+441,10_9,DM-10,9,無双竜機ボルバルザーク,"Bombazar, Dragon of Destiny",printed_english_name_mapped,Dueparture overseas correspondence table,1548,1082
+442,10_10,DM-10,10,霊光の化身,Techno Totem,printed_english_name_mapped,Dueparture overseas correspondence table,1551,1085
+443,10_11,DM-10,11,聖天使グライス・メジキューラ,"Glais Mejicula, the Extreme",printed_english_name_mapped,Dueparture overseas correspondence table,1554,1088
+444,10_12,DM-10,12,粛清者ポルタレスタ,"Poltalester, the Spydroid",printed_english_name_mapped,Dueparture overseas correspondence table,1558,1092
+445,10_13,DM-10,13,粛清者アイザク,"Ikaz, the Spydroid",printed_english_name_mapped,Dueparture overseas correspondence table,1562,1096
+446,10_14,DM-10,14,曙の守護者パラ・オーレシス,"Pala Olesis, Morning Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,1566,1100
+447,10_15,DM-10,15,緊急再誕,Rapid Reincarnation,printed_english_name_mapped,Dueparture overseas correspondence table,1570,1104
+448,10_16,DM-10,16,バトル・コロシアム,Static Warp,printed_english_name_mapped,Dueparture exact Japanese identity,1572,1106
+449,10_17,DM-10,17,クリスタル・ブレイダー,Crystal Spinslicer,printed_english_name_mapped,Dueparture/Fandom exact Japanese identity,1575,1109
+450,10_18,DM-10,18,サイレント・マジシャン,Mystic Magician,printed_english_name_mapped,Dueparture exact Japanese identity,1579,1113
+451,10_19,DM-10,19,パルタン,Zaltan,printed_english_name_mapped,Dueparture/Fandom exact Japanese identity,1583,1117
+452,10_20,DM-10,20,トリック・クラッカー,Charge Whipper,printed_english_name_mapped,Dueparture/TCG Republic exact Japanese identity,1587,1121
+453,10_21,DM-10,21,転生プログラム,Transmogrify,printed_english_name_mapped,Dueparture exact Japanese identity,1590,1124
+454,10_22,DM-10,22,邪悪の魔黒デビル・マーシャル,"Zero Nemesis, Shadow of Panic",printed_english_name_mapped,Dueparture/Fandom exact Japanese identity,1592,1126
+455,10_23,DM-10,23,妖舞皇女ユリア,"Uliya, the Entrancer",printed_english_name_mapped,Dueparture exact Japanese identity,1596,1130
+456,10_24,DM-10,24,ギガンデュラ,Gigandura,printed_english_name_mapped,Dueparture exact Japanese identity,1600,1134
+457,10_25,DM-10,25,困惑の影トラブル・アルケミスト,"Spark Chemist, Shadow of Whim",printed_english_name_mapped,Dueparture exact Japanese identity,1604,1138
+458,10_26,DM-10,26,魔天降臨,Upheaval,printed_english_name_mapped,Dueparture exact Japanese identity,1608,1142
+459,10_27,DM-10,27,機神装甲ガンダヴァル,Armored Raider Gandaval,printed_english_name_mapped,Dueparture exact Japanese identity,1610,1144
+460,10_28,DM-10,28,テンペストザウルス,Hurlosaur,printed_english_name_mapped,Dueparture/Fandom exact Japanese identity,1614,1148
+461,10_29,DM-10,29,バーンメルト・リザード,Burnwisp Lizard,printed_english_name_mapped,Dueparture exact Japanese identity,1618,1152
+462,10_30,DM-10,30,マインロード・ワイバーン,Minelord Skyterror,printed_english_name_mapped,Dueparture exact Japanese identity,1622,1156
+463,10_31,DM-10,31,砕神兵ガッツンダー,Smash Warrior Stagrandu,printed_english_name_mapped,Dueparture exact Japanese identity,1626,1160
+464,10_32,DM-10,32,大勇者「鎖風車」,"Earth Ripper, Talon of Rage",printed_english_name_mapped,Dueparture exact Japanese identity,1630,1164
+465,10_33,DM-10,33,緑神龍クスダルフ,Terradragon Cusdalf,printed_english_name_mapped,Dueparture/Fandom exact Japanese identity,1634,1168
+466,10_34,DM-10,34,エコロバルーン・ビートル,Bubble Scarab,printed_english_name_mapped,Dueparture/Fandom exact Japanese identity,1638,1172
+467,10_35,DM-10,35,シャーマン・ブロッコリー,Shaman Broccoli,printed_english_name_mapped,Dueparture exact Japanese identity,1642,1176
+468,10_36,DM-10,36,母なる大地,Soulswap,printed_english_name_mapped,Dueparture/Fandom exact Japanese identity,1646,1180
+469,10_37,DM-10,37,アクア・リバイバー,Aqua Skydiver,printed_english_name_mapped,Dueparture/Fandom exact Japanese identity,1648,1182
+470,10_38,DM-10,38,冷徹のソーダライト,"Soderlight, the Cold Blade",printed_english_name_mapped,Dueparture exact Japanese identity,1652,1186
+471,10_39,DM-10,39,腐敗勇騎ドルマークス,"Dolmarks, the Shadow Warrior",printed_english_name_mapped,Dueparture exact Japanese identity,1655,1189
+472,10_40,DM-10,40,反発のタグタップ,"Tagtapp, the Retaliator",printed_english_name_mapped,Dueparture exact Japanese identity,1658,1192
+473,10_41,DM-10,41,霊峰の守護者ルキア・レックス,"Lukia Lex, Pinnacle Guardian",printed_english_name_mapped,Dueparture exact Japanese identity,1662,1196
+474,10_42,DM-10,42,光器ベロチカ,"Berochika, Channeler of Suns",printed_english_name_mapped,Dueparture exact Japanese identity,1666,1200
+475,10_43,DM-10,43,粛清者ブルグラフ,"Bulgluf, the Spydroid",printed_english_name_mapped,Dueparture exact Japanese identity,1670,1204
+476,10_44,DM-10,44,祝福の伝道師クレアル,"Clearlo, Grace Enforcer",printed_english_name_mapped,Dueparture exact Japanese identity,1674,1208
+477,10_45,DM-10,45,ルナ・ウイング,Pinpoint Lunatron,printed_english_name_mapped,Dueparture overseas correspondence table,1678,1212
+478,10_46,DM-10,46,ハーミット・フィッシュ,Buoyant Blowfish,printed_english_name_mapped,Dueparture overseas correspondence table,1682,1216
+479,10_47,DM-10,47,ルナ・イーグル,Ardent Lunatron,printed_english_name_mapped,Dueparture overseas correspondence table,1686,1220
+480,10_48,DM-10,48,セイレーン・コンチェルト,Siren Concerto,printed_english_name_mapped,Dueparture overseas correspondence table,1689,1223
+481,10_49,DM-10,49,衰弱秘宝デッドリーン,"Dedreen, the Hidden Corrupter",printed_english_name_mapped,Dueparture overseas correspondence table,1692,1226
+482,10_50,DM-10,50,ポゼスト・マフラー,Spinal Parasite,printed_english_name_mapped,Dueparture overseas correspondence table,1696,1230
+483,10_51,DM-10,51,ギガメンテ,Gigamente,printed_english_name_mapped,Dueparture overseas correspondence table,1700,1234
+484,10_52,DM-10,52,死劇人形ピエール,"Pierr, Psycho Doll",printed_english_name_mapped,Dueparture overseas correspondence table,1704,1238
+485,10_53,DM-10,53,バトルトラップ・ワイバーン,Taunting Skyterror,printed_english_name_mapped,Dueparture overseas correspondence table,1707,1241
+486,10_54,DM-10,54,爆神兵ザルメス,Explosive Trooper Zalmez,printed_english_name_mapped,Dueparture overseas correspondence table,1711,1245
+487,10_55,DM-10,55,ボーグのリボルバー,Vorg's Engine,printed_english_name_mapped,Dueparture overseas correspondence table,1715,1249
+488,10_56,DM-10,56,スクランブル・ブースター,Supersonic Jet Pack,printed_english_name_mapped,Dueparture overseas correspondence table,1719,1253
+489,10_57,DM-10,57,襲撃するサベージ・ホーン,"Twitch Horn, the Aggressor",printed_english_name_mapped,Dueparture overseas correspondence table,1722,1256
+490,10_58,DM-10,58,賢察するエンシェント・ホーン,"Ancient Horn, the Watcher",printed_english_name_mapped,Dueparture overseas correspondence table,1726,1260
+491,10_59,DM-10,59,ハナサキエリンギ,Sporeblast Erengi,printed_english_name_mapped,Dueparture overseas correspondence table,1730,1264
+492,10_60,DM-10,60,マッスル・ポテト,Karate Potato,printed_english_name_mapped,Dueparture overseas correspondence table,1733,1267
+493,10_61,DM-10,61,電脳聖者エストール,"Estol, Vizier of Aqua",printed_english_name_mapped,Dueparture overseas correspondence table,1737,1271
+494,10_62,DM-10,62,電脳聖者タージマル,"Tajimal, Vizier of Aqua",printed_english_name_mapped,Dueparture overseas correspondence table,1741,1275
+495,10_63,DM-10,63,腐敗電脳アクアポインター,"Pointa, the Aqua Shadow",printed_english_name_mapped,Dueparture overseas correspondence table,1745,1279
+496,10_64,DM-10,64,腐敗電脳メルニア,"Melnia, the Aqua Shadow",printed_english_name_mapped,Dueparture overseas correspondence table,1749,1283
+497,10_65,DM-10,65,腐敗勇騎ガレック,"Galek, the Shadow Warrior",printed_english_name_mapped,Dueparture overseas correspondence table,1753,1287
+498,10_66,DM-10,66,不屈のウレックス,"Ulex, the Dauntless",printed_english_name_mapped,Dueparture overseas correspondence table,1756,1290
+499,10_67,DM-10,67,無頼勇騎ウインドアックス,"Wind Axe, the Warrior Savage",printed_english_name_mapped,Dueparture overseas correspondence table,1760,1294
+500,10_68,DM-10,68,無頼勇騎ゴンタ,"Gonta, the Warrior Savage",printed_english_name_mapped,Dueparture overseas correspondence table,1763,1297
+501,10_69,DM-10,69,無頼聖者スカイソード,"Skysword, the Savage Vizier",printed_english_name_mapped,Dueparture overseas correspondence table,1767,1301
+502,10_70,DM-10,70,無頼聖者サンフィスト,"Sanfist, the Savage Vizier",printed_english_name_mapped,Dueparture overseas correspondence table,1771,1305
+503,10_71,DM-10,71,滅罪の使徒レミーラ,"Lemik, Vizier of Thought",printed_english_name_mapped,Dueparture overseas correspondence table,1775,1309
+504,10_72,DM-10,72,粛清者リンダホフ,"Flohdani, the Spydroid",printed_english_name_mapped,Dueparture overseas correspondence table,1779,1313
+505,10_73,DM-10,73,予言者カエミラ,"Kaemira, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence table,1783,1317
+506,10_74,DM-10,74,雲海の守護者メッサ・バーナ,"Messa Bahna, Expanse Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,1787,1321
+507,10_75,DM-10,75,聖騎士メタルサターン,"Ferrosaturn, Spectral Knight",printed_english_name_mapped,Dueparture overseas correspondence table,1791,1325
+508,10_76,DM-10,76,予言者クルト,"Tulk, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence table,1795,1329
+509,10_77,DM-10,77,ロジック・キューブ,Logic Cube,printed_english_name_mapped,Dueparture overseas correspondence table,1798,1332
+510,10_78,DM-10,78,ソーラー・レイ,Solar Ray,printed_english_name_mapped,Dueparture overseas correspondence table,1800,1334
+511,10_79,DM-10,79,エレキチューブ・マンタ,Fluorogill Manta,printed_english_name_mapped,Dueparture overseas correspondence table,1803,1337
+512,10_80,DM-10,80,ミルポロ,Milporo,printed_english_name_mapped,Dueparture overseas correspondence table,1807,1341
+513,10_81,DM-10,81,パールチェーン・バトラー,Tide Patroller,printed_english_name_mapped,Dueparture overseas correspondence table,1811,1345
+514,10_82,DM-10,82,バッテリーヘッド・クラスター,Battery Cluster,printed_english_name_mapped,Dueparture overseas correspondence table,1815,1349
+515,10_83,DM-10,83,トーピード・クラスター,Torpedo Cluster,printed_english_name_mapped,Dueparture overseas correspondence table,1819,1353
+516,10_84,DM-10,84,アクア・アナライザー,Aqua Strummer,printed_english_name_mapped,Dueparture overseas correspondence table,1823,1357
+517,10_85,DM-10,85,スパイラル・ゲート,Spiral Gate,printed_english_name_mapped,Dueparture overseas correspondence table,1827,1361
+518,10_86,DM-10,86,マインド・サーチ,Recon Operation,printed_english_name_mapped,Dueparture overseas correspondence table,1830,1364
+519,10_87,DM-10,87,頭刃怪人グレイブクック,Nightmare Invader,printed_english_name_mapped,Dueparture overseas correspondence table,1833,1367
+520,10_88,DM-10,88,暴発秘宝ベンゾ,"Benzo, the Hidden Fury",printed_english_name_mapped,Dueparture overseas correspondence table,1836,1370
+521,10_89,DM-10,89,砂男,Hourglass Mutant,printed_english_name_mapped,Dueparture overseas correspondence table,1840,1374
+522,10_90,DM-10,90,憔悴の影ブロークン・ヘッド,"Mummy Wrap, Shadow of Fatigue",printed_english_name_mapped,Dueparture overseas correspondence table,1844,1378
+523,10_91,DM-10,91,道化人形ミケ,"Mikay, Rattling Doll",printed_english_name_mapped,Dueparture overseas correspondence table,1848,1382
+524,10_92,DM-10,92,ベノム・カプセル,Venom Capsule,printed_english_name_mapped,Dueparture overseas correspondence table,1851,1385
+525,10_93,DM-10,93,デス・スモーク,Death Smoke,printed_english_name_mapped,Dueparture overseas correspondence table,1855,1389
+526,10_94,DM-10,94,魂縛,Infernal Command,printed_english_name_mapped,Dueparture overseas correspondence table,1858,1392
+527,10_95,DM-10,95,マイキーのペンチ,Mykee's Pliers,printed_english_name_mapped,Dueparture overseas correspondence table,1861,1395
+528,10_96,DM-10,96,撃墜団長メッツアー,"Mezger, Commando Leader",printed_english_name_mapped,Dueparture overseas correspondence table,1865,1399
+529,10_97,DM-10,97,城神兵バガッシュ,Siege Roller Bagash,printed_english_name_mapped,Dueparture overseas correspondence table,1869,1403
+530,10_98,DM-10,98,クラッグザウルス,Cragsaur,printed_english_name_mapped,Dueparture overseas correspondence table,1873,1407
+531,10_99,DM-10,99,烈脚戦士ブラッド,"Brad, Super Kickin' Dynamo",printed_english_name_mapped,Dueparture overseas correspondence table,1876,1410
+532,10_100,DM-10,100,強制突撃,Forced Frenzy,printed_english_name_mapped,Dueparture overseas correspondence table,1880,1414
+533,10_101,DM-10,101,幻竜砲,Phantom Dragon's Flame,printed_english_name_mapped,Dueparture overseas correspondence table,1883,1417
+534,10_102,DM-10,102,コロッサス・ブースター,Colossus Boost,printed_english_name_mapped,Dueparture overseas correspondence table,1886,1420
+535,10_103,DM-10,103,シェル・レガシー,Legacy Shell,printed_english_name_mapped,Dueparture overseas correspondence table,1889,1423
+536,10_104,DM-10,104,セイバーマスク・ビートル,Sabermask Scarab,printed_english_name_mapped,Dueparture overseas correspondence table,1893,1427
+537,10_105,DM-10,105,喜びの化身,Jiggly Totem,printed_english_name_mapped,Dueparture overseas correspondence table,1897,1431
+538,10_106,DM-10,106,プリーチ・トマト,Scowling Tomato,printed_english_name_mapped,Dueparture overseas correspondence table,1901,1435
+539,10_107,DM-10,107,ハッスル・ベリー,Hustle Berry,printed_english_name_mapped,Dueparture overseas correspondence table,1904,1438
+540,10_108,DM-10,108,原始の棍棒,Adventure Boar,printed_english_name_mapped,Dueparture overseas correspondence table,1908,1442
+541,10_109,DM-10,109,フェアリー・ライフ,Faerie Life,printed_english_name_mapped,Dueparture overseas correspondence table,1912,1446
+542,10_110,DM-10,110,ナチュラル・ブースト,Thirst for the Hunt,printed_english_name_mapped,Dueparture overseas correspondence table,1915,1449
+543,10_S1,DM-10,S1,聖断の精霊エリクシア,"Elixia, Pureblade Elemental",printed_english_name_mapped,Dueparture overseas correspondence table,1917,1451
+544,10_S2,DM-10,S2,ルナ・ブライトホーク,Hawkeye Lunatron,printed_english_name_mapped,Dueparture overseas correspondence table,1920,1454
+545,10_S3,DM-10,S3,ハリケーン・クロウラー,Hurricane Crawler,printed_english_name_mapped,Dueparture overseas correspondence table,1924,1458
+546,10_S4,DM-10,S4,黒神龍ブライゼナーガ,Necrodragon Bryzenaga,printed_english_name_mapped,Dueparture overseas correspondence table,1928,1462
+547,10_S5,DM-10,S5,コアクラッシュ・リザード,Core-Crash Lizard,printed_english_name_mapped,Dueparture overseas correspondence table,1932,1466
+548,10_S6,DM-10,S6,アルティメット・ドラゴン,Ultimate Dragon,printed_english_name_mapped,Dueparture overseas correspondence table,1936,1470
+549,10_S7,DM-10,S7,不落の超人,Bodacious Giant,printed_english_name_mapped,Dueparture overseas correspondence table,1940,1474
+550,10_S8,DM-10,S8,緑神龍ダクマバルガロウ,Terradragon Dakma Balgarow,printed_english_name_mapped,Dueparture overseas correspondence table,1943,1477
+551,10_S9,DM-10,S9,陽炎の守護者ブルー・メルキス,"Bluum Erkis, Flare Guardian",printed_english_name_mapped,Dueparture overseas correspondence table,1946,1480
+552,10_S10,DM-10,S10,根絶のデクロワゾー,"Deklowaz, the Terminator",printed_english_name_mapped,Dueparture overseas correspondence table,1949,1483
+553,11_1,DM-11,1,鬼面超人エル・アンドレ,Evil Incarnate,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1952,1486
+554,11_2,DM-11,2,ダブルソード・レッド・ドラゴン,Heavyweight Dragon,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1956,1490
+555,11_3,DM-11,3,ダイヤモンド・ブリザード,"Diamondia, the Blizzard Rider",printed_english_name_mapped,English TCG database / Fandom printed card title,1959,1493
+556,11_4,DM-11,4,魂と記憶の盾,Miraculous Snare,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1963,1497
+557,11_5,DM-11,5,調和と繁栄の罠,Miraculous Truce,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1966,1500
+558,11_6,DM-11,6,命運の伝道師ラミエル,"Lamiel, Destiny Enforcer",printed_english_name_mapped,Dueparture overseas correspondence DM-11,1968,1502
+559,11_7,DM-11,7,光器ユリアーナ,"Yuliana, Channeler of Suns",printed_english_name_mapped,Dueparture overseas correspondence DM-11,1972,1506
+560,11_8,DM-11,8,宣凶師ベリックス,"Belix, the Explorer",printed_english_name_mapped,Dueparture overseas correspondence DM-11,1975,1509
+561,11_9,DM-11,9,ルナ・フォートレス,Warped Lunatron,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1979,1513
+562,11_10,DM-11,10,ファンタジー・フィッシュ,Fantasy Fish,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1982,1516
+563,11_11,DM-11,11,ルナ・レーザーコブラ,Squawking Lunatron,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1985,1519
+564,11_12,DM-11,12,邪凶の影ゲイザー・アイズ,"Gazer Eyes, Shadow of Secrets",printed_english_name_mapped,Dueparture overseas correspondence DM-11,1989,1523
+565,11_13,DM-11,13,薔薇公爵ハザリア,"Hazaria, Duke of Thorns",printed_english_name_mapped,Dueparture overseas correspondence DM-11,1993,1527
+566,11_14,DM-11,14,滅亡ルーレット,Roulette of Ruin,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1996,1530
+567,11_15,DM-11,15,タリスマン・リザード,Lockdown Lizard,printed_english_name_mapped,Dueparture overseas correspondence DM-11,1998,1532
+568,11_16,DM-11,16,斬神兵グランドルメス,Eviscerating Warrior Lumez,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2002,1536
+569,11_17,DM-11,17,超爆合体ダンギルバー,Jabaha's Automaton,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2005,1539
+570,11_18,DM-11,18,地龍の化身,Rollicking Totem,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2008,1542
+571,11_19,DM-11,19,ロイヤル・ドリアン,Royal Durian,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2011,1545
+572,11_20,DM-11,20,シェル・チャーチ,Skyscraper Shell,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2014,1548
+573,11_21,DM-11,21,宣凶師バレイド,"Baraid, the Explorer",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2017,1551
+574,11_22,DM-11,22,予言者ラメール,"Merlee, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2020,1554
+575,11_23,DM-11,23,フォーチュン・ボール,Lucky Ball,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2023,1557
+576,11_24,DM-11,24,アクア・トリックスター,Aqua Trickster,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2027,1561
+577,11_25,DM-11,25,略奪秘宝ジャギラ,"Jagila, the Hidden Pillager",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2030,1564
+578,11_26,DM-11,26,デビル・メディスン,Morbid Medicine,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2033,1567
+579,11_27,DM-11,27,スカイフレーム・リザード,Bonfire Lizard,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2036,1570
+580,11_28,DM-11,28,ジェット・リザード,Hysteria Lizard,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2039,1573
+581,11_29,DM-11,29,ハザード・ホッパー,Hazard Hopper,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2043,1577
+582,11_30,DM-11,30,マッチョ・メロン,Macho Melon,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2047,1581
+583,11_31,DM-11,31,守護と偶然の象徴,Rise and Shine,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2050,1584
+584,11_32,DM-11,32,陰謀と計略の手,Hide and Seek,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2052,1586
+585,11_33,DM-11,33,崩壊と灼熱の牙,Slash and Burn,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2055,1589
+586,11_34,DM-11,34,焦土と開拓の天変,Reap and Sow,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2057,1591
+587,11_35,DM-11,35,神秘と創造の石碑,Live and Breathe,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2060,1594
+588,11_36,DM-11,36,粛清者イングベルト,"Engbelt, the Spydroid",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2062,1596
+589,11_37,DM-11,37,俊速の使徒ナイアル,"Nial, Vizier of Dexterity",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2066,1600
+590,11_38,DM-11,38,堅防の使徒アースラ,"Asra, Vizier of Safety",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2070,1604
+591,11_39,DM-11,39,ソル・チューブ,Solar Trap,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2073,1607
+592,11_40,DM-11,40,オカリナ・ハンター,Melodic Hunter,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2076,1610
+593,11_41,DM-11,41,リバイバル・ソルジャー,Revival Soldier,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2080,1614
+594,11_42,DM-11,42,タイム・スカウト,Time Scout,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2083,1617
+595,11_43,DM-11,43,エマージェンシー・タイフーン,Emergency Typhoon,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2087,1621
+596,11_44,DM-11,44,貪欲秘宝ベラッチャ,"Beratcha, the Hidden Glutton",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2090,1624
+597,11_45,DM-11,45,玉砕秘宝バイラ,"Baira, the Hidden Lunatic",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2094,1628
+598,11_46,DM-11,46,邪口虫ラフレシア・ワーム,Saliva Worm,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2097,1631
+599,11_47,DM-11,47,髑髏怪人スピンホイール,"Spinning Terror, the Wretched",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2100,1634
+600,11_48,DM-11,48,支援団長ガンクローク,"Gankloak, Rogue Commando",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2104,1638
+601,11_49,DM-11,49,炎舞闘士サピエント・アーク,"Sapian Tark, Flame Dervish",printed_english_name_mapped,Dueparture overseas correspondence DM-11,2107,1641
+602,11_50,DM-11,50,ブラッドのカッター,Brad's Cutter,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2110,1644
+603,11_51,DM-11,51,グシャット・フィスト,Ten-Ton Crunch,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2114,1648
+604,11_52,DM-11,52,闘気の棘,Quillspike Rumbler,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2117,1651
+605,11_53,DM-11,53,ニンジャ・パンプキン,Ninja Pumpkin,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2121,1655
+606,11_54,DM-11,54,冒険妖精ポレゴン,Hearty Cap'n Polligon,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2124,1658
+607,11_55,DM-11,55,次元の霊峰,Rainbow Gate,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2128,1662
+608,11_S1,DM-11,S1,聖皇エール・ソニアス,Warlord Ailzonius,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2131,1665
+609,11_S2,DM-11,S2,アドラス,Klujadras,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2134,1668
+610,11_S3,DM-11,S3,英知と追撃の宝剣,Miraculous Plague,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2137,1671
+611,11_S4,DM-11,S4,憎悪と怒りの獄門,Miraculous Meltdown,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2139,1673
+612,11_S5,DM-11,S5,破壊と誕生の神殿,Miraculous Rebirth,printed_english_name_mapped,Dueparture overseas correspondence DM-11,2141,1675
+613,12_1,DM-12,1,星雲の精霊キルスティン,"Kilstine, Nebula Elemental",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2143,
+614,12_2,DM-12,2,エクストリーム・クロウラー,Extreme Crawler,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2147,
+615,12_3,DM-12,3,黒神龍ジャグラヴィーン,Necrodragon Jagraveen,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2151,
+616,12_4,DM-12,4,殴神兵ブロンクス,Punch Trooper Bronks,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2155,
+617,12_5,DM-12,5,太陽王ソウル・フェニックス,"Soul Phoenix, Avatar of Unity",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2159,
+618,12_6,DM-12,6,処罰の精霊ウラルス,"Ularus, Punishment Elemental",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2163,
+619,12_7,DM-12,7,ラッキー・ダーツ,Cosmic Darts,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2167,
+620,12_8,DM-12,8,タイフーン・クロウラー,Typhoon Crawler,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2170,
+621,12_9,DM-12,9,メロッペ,Meloppe,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2174,
+622,12_10,DM-12,10,ギガブランド,Gigavrand,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2178,
+623,12_11,DM-12,11,爆輪男,Steamroller Mutant,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2182,
+624,12_12,DM-12,12,独神兵ローンスピナー,Whirling Warrior Malian,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2186,
+625,12_13,DM-12,13,ドラゴン・シャウト,Mechadragon's Breath,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2190,
+626,12_14,DM-12,14,レベリオン・クワキリ,Pincer Scarab,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2193,
+627,12_15,DM-12,15,覚醒するブレイブ・ホーン,"Radioactive Horn, the Strange",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2197,
+628,12_16,DM-12,16,超戦攻賢者アギラ,"Agira, the Warlord Crawler",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2201,
+629,12_17,DM-12,17,超電磁妖魔ロメール,"Hydrooze, the Mutant Emperor",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2205,
+630,12_18,DM-12,18,超機動魔獣ギガランデス,"Phantomach, the Gigatrooper",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2209,
+631,12_19,DM-12,19,超神機鎧冑ゼノメノン,"Nemonex, Bajula's Robomantis",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2213,
+632,12_20,DM-12,20,超剛勇幻風ジャガスター,"Comet Eye, the Spectral Spud",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2217,
+633,12_21,DM-12,21,青嵐の精霊バルキア,"Valkyer, Starstorm Elemental",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2221,
+634,12_22,DM-12,22,クローン・ライトニング,Cloned Deflector,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2225,
+635,12_23,DM-12,23,クローン・スパイラル,Cloned Spiral,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2228,
+636,12_24,DM-12,24,エニグマ・カスケード,Enigmatic Cascade,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2231,
+637,12_25,DM-12,25,ギガバルザ,Gigabalza,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2234,
+638,12_26,DM-12,26,クローン・バイス,Cloned Nightmare,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2238,
+639,12_27,DM-12,27,ビクトリーのナイフ,Muramasa's Knife,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2241,
+640,12_28,DM-12,28,クローン・クラッシュ,Cloned Blade,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2245,
+641,12_29,DM-12,29,ウイングアイ・モス,Wingeye Moth,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2248,
+642,12_30,DM-12,30,伝承するクローン・ホーン,Cloned Spike-Horn,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2252,
+643,12_31,DM-12,31,電磁賢者シリオン,Electro Explorer Syrion,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2256,
+644,12_32,DM-12,32,電影妖魔ドルメール,Sea Mutant Dormel,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2260,
+645,12_33,DM-12,33,翔天魔獣ギガッピ,Gigappi Ponto,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2264,
+646,12_34,DM-12,34,翔天鎧冑ビトッチ,Buzz Betocchi,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2268,
+647,12_35,DM-12,35,勇猛幻風グリタリス,Spectral Horn Glitalis,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2272,
+648,12_36,DM-12,36,宣凶師ビンゴレ,"Bingole, the Explorer",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2276,
+649,12_37,DM-12,37,予言者ミズーイ,"Mizoy, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2280,
+650,12_38,DM-12,38,宣凶師ベルモーレ,"Belmol, the Explorer",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2284,
+651,12_39,DM-12,39,予言者ファルシ,"Pharzi, the Oracle",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2288,
+652,12_40,DM-12,40,バミューダ・クロウラー,Tropic Crawler,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2292,
+653,12_41,DM-12,41,ファンキー・ウィザード,Funky Wizard,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2296,
+654,12_42,DM-12,42,フェイト・カーペンター,Wily Carpenter,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2300,
+655,12_43,DM-12,43,パッション・マリアッチ,Frantic Chieftain,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2304,
+656,12_44,DM-12,44,黒神龍ザルバ,Necrodragon Zalva,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2308,
+657,12_45,DM-12,45,ギガレイズ,Gigarayze,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2312,
+658,12_46,DM-12,46,風車男,Windmill Mutant,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2316,
+659,12_47,DM-12,47,ギガスラッグ,Gigaslug,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2320,
+660,12_48,DM-12,48,炎神兵ゴリアック,Flame Trooper Goliac,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2324,
+661,12_49,DM-12,49,閃神兵ラウゼス,Hypersprint Warrior Uzesol,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2328,
+662,12_50,DM-12,50,ペッペ・ペッパー,Peppi Pepper,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2332,
+663,12_51,DM-12,51,ロンリーのホッチキス,Gandaval's Stapler,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2336,
+664,12_52,DM-12,52,シャムシャム・カブキリ,Copper Locust,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2340,
+665,12_53,DM-12,53,召集するタートル・ホーン,"Turtle Horn, the Imposing",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2344,
+666,12_54,DM-12,54,フィーバー・ナッツ,Fever Nuts,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2348,
+667,12_55,DM-12,55,アラーム・ラディッシュ,Uncanny Turnip,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2352,
+668,12_S1,DM-12,S1,緑神龍アーク・デラセルナ,Terradragon Arque Delacerna,printed_english_name_mapped,Dueparture overseas correspondence DM-12,2356,
+669,12_S2,DM-12,S2,英霊王スターマン,"Wise Starnoid, Avatar of Hope",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2360,
+670,12_S3,DM-12,S3,蛇魂王ナーガ,"Cruel Naga, Avatar of Fate",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2364,
+671,12_S4,DM-12,S4,暗黒王デス・フェニックス,"Death Phoenix, Avatar of Doom",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2368,
+672,12_S5,DM-12,S5,聖獣王ペガサス,"Aura Pegasus, Avatar of Life",printed_english_name_mapped,Dueparture overseas correspondence DM-12,2372,

@@ -1,0 +1,1276 @@
+seq,large_chunk,small_chunk,resource_key,canonical_key,internal_id,japanese_name,english_name,card_type,race,rules,flavor,mapping,large_chunk_size,inner_archive_size,outer_slack
+0,677,1360,0_1,0_1,0,凶星王ダーク・ヒドラ,"Dark Hydra, Evil Planet Lord",CREATURE,Dark Lord,"■ Double breaker (This creature breaks 2 shields.)
+■ Whenever you put a creature, you may return a creature that has the same race as that creature from your graveyard to your hand.","That universe is a gateway to the underworld, one only the dead may pass through.",crosswalk,143360,142848,512
+1,678,1361,0_2,0_2,1,ミラフォース・ドラゴン,Mirror Force Dragon,CREATURE,Volcano Dragon,"■ Each of your non-Dragon creatures gets ""power attacker +4000"".","Its power will now connect all, and its holy sword will cut through the battlefield.",crosswalk,143360,142592,768
+2,679,1362,0_3,0_3,2,聖清の精霊アムニス,"Amnis, Holy Elemental",CREATURE,Angel Command,"■ Darkness blocker (Whenever an opponent's darkness creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ When this creature loses a battle against a darkness creature, this creature isn't destroyed.",,crosswalk,126976,126208,768
+3,680,1363,0_4,0_4,3,邪獄ギリアム,"Giliam, the Tormentor",CREATURE,Demon Command,"   Light blocker (Whenever an opponent's light creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever this creature loses a battle against a light creature, this creature isn't destroyed.",,crosswalk,151552,151552,0
+4,681,1364,0_5,0_5,4,シェル・ブリゲードγ,Brigade Shell Q,CREATURE,Survivor/Colony Beetle,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+  Whenever this creature attacks, reveal the top card of your deck. If it's a Survivor, put it into your hand. Otherwise, put it into your graveyard.",,crosswalk,133120,131328,1792
+5,682,1365,0_6,0_6,5,機神装甲ヴァルボーグ,Divine Machine Armor Valborg,EVOLUTION CREATURE,Human,"■ Evolution-Put on one of your Humans.
+■ While attacking, this creature gets +1000 power for each other fire creature in the battle zone.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,135168,134400,768
+6,683,1366,0_7,0_7,6,シータ・トゥレイト,Q-tronic Omnistrain,CREATURE,Survivor,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Evolution-Put on one of your Survivors.
+■ Each of your creatures in the battle zone is a Survivor in addition to its other races.",,crosswalk,149504,149248,256
+7,684,1367,0_8,0_8,7,聖騎士サーベルフィーリ,"Saberfili, the Paladin",CREATURE,Rainbow Phantom,"■ Instead of attacking, you may tap this creature to use another creature's ability.",Never let your guard down. An unseen blade may appear from a space you never imagined.,crosswalk,110592,109824,768
+8,685,1368,0_08A,0_8,7,聖騎士サーベルフィーリ,"Saberfili, the Paladin",CREATURE,Rainbow Phantom,"■ Instead of attacking, you may tap this creature to use another creature's ability.",Never let your guard down. An unseen blade may appear from a space you never imagined.,alt-art -> 0_8,122880,121344,1536
+9,686,1369,0_9,0_9,8,超竜バハム,Überdragon Baham,EVOLUTION CREATURE,Armored Dragon,"■ Evolution-Put on one of your Armored Dragons.
+■ This creature breaks an additional shield for each of your Dragonoids in the battle zone.","Its form, its courage, its strength - all will be remembered through the ages.",crosswalk,135168,134656,512
+10,687,1370,0_09A,0_9,8,超竜バハム,Überdragon Baham,EVOLUTION CREATURE,Armored Dragon,"■ Evolution-Put on one of your Armored Dragons.
+■ This creature breaks an additional shield for each of your Dragonoids in the battle zone.","Its form, its courage, its strength - all will be remembered through the ages.",alt-art -> 0_9,139264,138240,1024
+11,688,1371,0_10,0_10,9,大昆虫ジェネラルマンティス,"Dyno Mantis, the Mightspinner",EVOLUTION CREATURE,Giant Insect,"■ Evolution-Put on one of your Giant Insects.
+■ Double breaker (This creature breaks 2 shields.)
+■ Each of your other creatures in the battle zone that has power 5000 or more breaks one more shield.",,crosswalk,139264,138240,1024
+12,689,1372,0_11,8_1,313,開眼者クーカイ,"Kuukai, Finder of Karma",CREATURE,Mecha Thunder,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Evolution-Put on one of your Mecha Thunders.
+■ Whenever this creature blocks, untap it after it battles.
+■ This creature can't attack players.",,promo-alt -> 8_1,135168,133888,1280
+13,690,1373,0_12,0_12,10,超竜ザシャック,Überdragon Zaschack,EVOLUTION CREATURE,Armored Dragon,"■ Evolution-Put on one of your Armored Dragons.
+■ Crew breaker-Armored Dragon (This creature breaks one more shield for each of your other Armored Dragons in the battle zone.)",,crosswalk,137216,135936,1280
+14,691,1374,0_13,0_35,32,神滅竜騎ガルザーク,"Galzark, Divine Destruction Dragon Knight",CREATURE,Armored Dragon/Zombie Dragon,"(This creature is put into your mana zone tapped.)
+■ Double breaker (This creature breaks 2 shields.)
+■ This creature can't be attacked.
+■ If you have at least another Dragon in the battle zone, this creature gets ""Power attacker +6000"" and ""Triple breaker"". (A creature that has ""triple breaker"" breaks 3 shields.)","When it lets out its roar of destruction, the history of the world cries out in anguish.",alt-art -> 0_35,135168,135168,0
+15,692,1375,0_14,0_14,11,電脳聖霊グラリス,"Glaris, Electro-Elemental",CREATURE,Angel Command/Gel Fish,"■ (This creature is put into your mana zone tapped.)
+■ Your creatures can't be attacked by creatures that have the same civilization.","Before the glitter of the shining stars and the overflowing wisdom of the sea, even its enemies were spellbound.",crosswalk,120832,119296,1536
+16,693,1376,0_15,0_15,12,ネオ・ブレイン,Brain Serum,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Draw up to 2 cards.",,crosswalk,118784,117504,1280
+17,694,1377,0_16,0_16,13,魔刻の騎士オルゲイト,"Olgate, Nightmare Samurai",CREATURE,Demon Command,"■ Double breaker (This creature breaks 2 shields.)
+■ Whenever one of your creatures is destroyed, you may untap this creature.",,crosswalk,149504,147712,1792
+18,695,1378,0_17,0_17,14,バルキリー・ドラゴン,Velyrika Dragon,CREATURE,Armored Dragon,"■ When you put this creature into the battle zone, search your deck. You may take an Armored Dragon from your deck, show that Armored Dragon to your opponent, and put it into your hand. Then shuffle your deck.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,145408,143616,1792
+19,696,1379,0_18,0_18,15,新星の精霊アルシア,"Alshia, Nova Elemental",CREATURE,Angel Command,"■ When you put this creature into the battle zone, you may return a spell from your graveyard to your hand.",Even darkness will someday fade. Even a sleepless night will someday see dawn. No suffering lasts forever. Such is this world.,crosswalk,133120,132096,1024
+20,697,1380,0_19,0_19,16,黒神龍バグラザード,Necrodragon Bagrazard,CREATURE,Zombie Dragon,"■ This creature can't attack players.
+■ This creature can attack untapped light creatures.","When it shook its body, the thorns that fired out left deep scars in the towers lining the skies.",crosswalk,147456,145664,1792
+21,698,1381,0_20,0_20,17,ギガジラス,Gigajiras,CREATURE,Chimera,"■ Whenever this creature attacks, you may return a creature from your graveyard to your hand.",Different brains command different thoughts. That is both the Chimera's weapon and its weakness.,crosswalk,133120,132608,512
+22,699,1382,0_21,0_21,18,緑神龍ザールベルグ,Terradragon Zalberg,CREATURE,Earth Dragon,"■ When you put this creature into the battle zone, choose up to 2 cards in your opponent's mana zone and put them into their graveyard.","Fear the dragons, and no longer fear any other beast.",crosswalk,143360,143360,0
+23,700,1383,0_22,0_22,19,黒神龍ゼキラ,Necrodragon Zekira,CREATURE,Zombie Dragon,"■ When you put this creature, destroy one of your creatures.",Victory is worth any sort of sacrifice.,crosswalk,137216,135936,1280
+24,701,1384,0_23,0_23,20,紅神龍ガルドス,Magmadragon Gardos,CREATURE,Volcano Dragon,"■ Speed attacker (This creature doesn't get summoning sickness.)
+■ This creature can't attack players.
+■ At the end of your turn, return this creature to your hand.",There is nothing emptier than victory won through sacrifice.,crosswalk,137216,136192,1024
+25,702,1385,0_24,0_24,21,キッキ・ヤコッピ,Kicky Yacoopy,CREATURE,Fire Bird,■ This creature can attack untapped creatures.,"An adventurer with cute, round eyes. And today, it cheerfully searches for its prince once again.",crosswalk,131072,129280,1792
+26,703,1386,0_25,0_25,22,フィスト・ブレーダー,Fist Blader,CREATURE,Merfolk,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.","This new blade is sharpened in the heat of battle, and it waits for the moment it will pierce the dragons themselves.",crosswalk,124928,123648,1280
+27,704,1387,0_26,0_26,23,建機男,Construction Mutant,CREATURE,Hedrian,"■ When this creature would be destroyed, you may return it to your hand instead. If you do, discard a card from your hand.","Its obsessive love of excavation made it forget everything else. It digs so mindlessly, it could unearth its own corpse without noticing.",crosswalk,147456,147200,256
+28,705,1388,0_27,0_27,24,ゲットのノコギリ,Gett's Saw,CREATURE,Xenoparts,"■ This creature attacks each turn if able.
+■ Power attacker +1000 (While attacking, this creature gets +1000 power.)",A tiny body packed with blades.,crosswalk,137216,137216,0
+29,706,1389,0_28,0_28,25,黒神龍バズラデューダ,Necrodragon Bazradyuda,CREATURE,Zombie Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ When this creature would be destroyed, you may discard a Dragon from your hand. If you do, this creature stays in the battle zone instead.",,crosswalk,151552,151552,0
+30,707,1390,0_29,0_29,26,ボルスレッド・ファイアー・ドラゴン,Bolsred Fire Dragon,CREATURE,Armored Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ Whenever this creature attacks, you may discard a Dragon from your hand. If you do, destroy one of your opponent's creatures that has power equal to or less than the discarded Dragon.",,crosswalk,151552,151552,0
+31,708,1391,0_30,0_30,27,聖神龍アルティメス,"Altimeth, Holy Divine Dragon",CREATURE,Holy Dragon,"■ Double breaker
+■ Each turn you may have all of your creatures get ""blocker"" until the end of your opponent's turn.
+■ When this creature leaves the battle zone, put the top card of your deck into your shield zone face down.
+■ When you put this creature into the battle zone, you may tap all your opponent's creatures.",,crosswalk,135168,134656,512
+32,709,1392,0_31,0_31,28,蒼神龍ウォルフィース,"Wolfis, Blue Divine Dragon",CREATURE,Cyber Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ This creature can't be blocked.
+■ While this creature is in the battle zone, whenever one of your shields is broken, there is a chance you can use that shield as a shield trigger.
+■ When this creature would be destroyed, there is a chance you may return it to your hand instead.",,crosswalk,139264,137728,1536
+33,710,1393,0_32,0_32,29,黒神龍ガルバロス,Necrodragon Galbalos,CREATURE,Zombie Dragon,"■ Double breaker
+■ Whenever this creature attacks or is put into your graveyard from the battle zone, you may choose one of the following. These effects can only be used once per turn:
+> Put one of your opponent's shields into their graveyard.
+> Your opponent discards a card from their hand.
+> Destroy one of your opponent's creatures.",,crosswalk,139264,139008,256
+34,711,1394,0_33,0_33,30,ボルブレイズ・ドラゴン,Bolblaze Dragon,CREATURE,Armored Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ Speed attacker (This creature doesn't get summoning sickness.)
+■ Whenever this creature attacks, there is a chance 2 cards are put from your opponent's mana zone into their graveyard.
+■ Whenever this creature breaks a shield, there is a chance your opponent puts that shield into their graveyard instead.
+■ There is a chance this creature can attack untapped creatures.",,crosswalk,147456,146176,1280
+35,712,1395,0_34,0_34,31,緑神龍ハルクーンベルガ,Terradragon Hulcoon Berga,CREATURE,Earth Dragon,"■ While this creature is tapped, your other creatures in the battle zone get ""power attacker +4000"" and ""double breaker"".
+■ This creature's power randomly increases at the end of each turn while it is tapped.
+■ This creature gets ""Double Breaker"" or ""Triple Breaker"" depending on its power.",,crosswalk,153600,152064,1536
+36,713,1396,0_35,0_35,32,神滅竜騎ガルザーク,"Galzark, Divine Destruction Dragon Knight",CREATURE,Armored Dragon/Zombie Dragon,"(This creature is put into your mana zone tapped.)
+■ Double breaker (This creature breaks 2 shields.)
+■ This creature can't be attacked.
+■ If you have at least another Dragon in the battle zone, this creature gets ""Power attacker +6000"" and ""Triple breaker"". (A creature that has ""triple breaker"" breaks 3 shields.)","When it lets out its roar of destruction, the history of the world cries out in anguish.",crosswalk,139264,137728,1536
+37,714,1397,0_36,0_36,33,勇騎恐皇フォルテ,"Forte, Brave Fear Lord",CREATURE,Dark Lord/Human,"(This creature is put into your mana zone tapped.)
+■ Whenever this creature is blocked, destroy all your opponent's creatures that have ""blocker"".
+■ Double breaker","Assassins from the other world are guided by darkness, stoking their hatred deeper than the fires of hell.",crosswalk,112640,112384,256
+38,715,1398,0_37,0_37,34,無双竜機ドルザーク,Super Dragon Machine Dolzark,CREATURE,Armored Dragon/Earth Dragon,"■ (This creature is put into your mana zone tapped.)
+■ Whenever one of your other creatures that has Dragon in its race attacks, you may choose one of your opponent's creatures in the battle zone that has power 5000 or less and put it into his mana zone.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,124928,124160,768
+39,716,1399,1_2,1_2,58,真理の伝道師レイーラ,"Rayla, Truth Enforcer",CREATURE,Berserker,"■ When you put this creature into the battle zone, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,126976,125440,1536
+40,717,1400,1_3,1_3,50,キング・ポセイドン,King Ripped-Hide,CREATURE,Leviathan,"■ When you put this creature into the battle zone, draw up to 2 cards.",,crosswalk,120832,120832,0
+41,718,1401,1_8,1_8,36,ボルシャック・ドラゴン,Bolshack Dragon,CREATURE,Armored Dragon,"■ While attacking, this creature gets +1000 power for each fire card in your graveyard.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,149504,148480,1024
+42,719,1402,1_10,1_10,47,トゲ刺しマンドラ,Thorny Mandra,CREATURE,Tree Folk,"■ When you put this creature into the battle zone, you may put 1 creature from your graveyard into your mana zone.",,crosswalk,137216,135936,1280
+43,720,1403,1_100,1_100,35,凶戦士ブレイズ・クロー,Deadly Fighter Braid Claw,CREATURE,Dragonoid,■ This creature attacks each turn if able.,,crosswalk,139264,137984,1280
+44,721,1404,1_101,1_101,61,クリムゾン・ハンマー,Crimson Hammer,SPELL,,■ Destroy 1 of your opponent's creatures that has power 2000 or less.,,crosswalk,116736,115712,1024
+45,722,1405,1_106,1_106,59,青銅の鎧,Bronze-Arm Tribe,CREATURE,Beast Folk,"■ When you put this creature into the battle zone, put the top card of your deck into your mana zone.",,crosswalk,129024,129024,0
+46,723,1406,1_109,1_109,60,アルティメット・フォース,Ultimate Force,SPELL,,■ Put the top 2 cards of your deck into your mana zone.,,crosswalk,145408,144896,512
+47,724,1407,1_15,1_15,66,ホーリー・スパーク,Holy Awe,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Tap all your opponent's creatures in the battle zone.",,crosswalk,100352,100096,256
+48,725,1408,1_27,1_27,62,デーモン・ハンド,Terror Pit,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy one of your opponent's creatures.",,crosswalk,129024,128256,768
+49,726,1409,1_32,1_32,46,銃神兵ディオライオス,"Rothus, the Traveler",CREATURE,Armorloid,"■ When you put this creature into the battle zone, destroy one of your creatures. Then your opponent chooses one of his creatures and destroys it.",,crosswalk,131072,130304,768
+50,727,1410,1_39,1_39,57,ナチュラル・トラップ,Natural Snare,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose one of your opponent's creatures in the battle zone and put it into his mana zone.",,crosswalk,143360,143104,256
+51,728,1411,1_52,1_52,64,サイバー・ブレイン,Cyber Brain,SPELL,,"■ Shield trigger (When this spell is put into your hand from your shield zone, you may cast it immediately for no cost.)
+■ Draw up to 3 cards.",Why don't you just give up?,crosswalk,112640,111360,1280
+52,729,1412,1_58,1_58,63,ダーク・リバース,Dark Reversal,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Return a creature from your graveyard to your hand.",,crosswalk,131072,130048,1024
+53,730,1413,1_64,1_64,56,トルネード・フレーム,Tornado Flame,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy one of your opponent's creatures that has power 4000 or less.",,crosswalk,114688,114176,512
+54,731,1414,1_69,1_69,41,シビレアシダケ,Poisonous Mushroom,CREATURE,Balloon Mushroom,"■ When you put this creature into the battle zone, you may put 1 card from your hand into your mana zone.",,crosswalk,153600,153600,0
+55,732,1415,1_71,1_71,54,翡翠樹,Senatine Jade Tree,CREATURE,Starlight Tree,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,133120,132608,512
+56,733,1416,1_73,1_73,43,雷光の使徒ミール,"Miele, Vizier of Lightning",CREATURE,Initiate,"■ When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,120832,120064,768
+57,734,1417,1_74,1_74,55,碧玉草,Emerald Grass,CREATURE,Starlight Tree,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,129024,128768,256
+58,735,1418,1_76,1_76,39,蒼天の守護者ラ・ウラ・ギガ,"La Ura Giga, Sky Guardian",CREATURE,Guardian,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,120832,120320,512
+59,736,1419,1_80,1_80,49,アクア・ハルカス,Aqua Hulcus,CREATURE,Liquid People,"■ When you put this creature into the battle zone, you may draw a card.",,crosswalk,131072,129280,1792
+60,737,1420,1_81,1_81,52,キャンディ・ドロップ,Candy Drop,CREATURE,Cyber Virus,■ This creature can't be blocked.,,crosswalk,137216,136704,512
+61,738,1421,1_82,1_82,45,狩猟魚,Hunter Fish,CREATURE,Fish,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.",,crosswalk,116736,116480,256
+62,739,1422,1_83,1_83,38,アクア・ビークル,Aqua Vehicle,CREATURE,Liquid People,,,crosswalk,116736,115456,1280
+63,740,1423,1_84,1_84,42,アクア・ガード,Aqua Guard,CREATURE,Liquid People,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.",,crosswalk,122880,121600,1280
+64,741,1424,1_89,1_89,40,ブラッディ・イヤリング,Bloody Squito,CREATURE,Brain Jacker,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.
+■ When this creature wins a battle, destroy it.",,crosswalk,139264,139008,256
+65,742,1425,1_90,1_90,44,うごめく者ボーン・グール,Writhing Bone Ghoul,CREATURE,Living Dead,,,crosswalk,145408,144896,512
+66,743,1426,1_94,1_94,65,ゴースト・タッチ,Ghost Touch,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Your opponent discards a card at random from his hand.",,crosswalk,129024,127232,1792
+67,744,1427,1_97,1_97,53,不死身男爵ボーグ,"Immortal Baron, Vorg",CREATURE,Human,,,crosswalk,133120,132608,512
+68,745,1428,1_98,1_98,37,喧嘩屋タイラー,Brawler Zyler,CREATURE,Human,"■ Power attacker +2000 (While attacking, this creature gets +2000 power.)",,crosswalk,137216,135424,1792
+69,746,1429,1_S1,1_S1,51,光輪の精霊シャウナ,"Hanusa, Radiance Elemental",CREATURE,Angel Command,■ Double breaker (This creature breaks 2 shields.),,crosswalk,133120,133120,0
+70,747,1430,1_S7,1_S7,48,クリムゾン・ワイバーン,Scarlet Skyterror,CREATURE,Armored Wyvern,"■ When you put this creature into the battle zone, destroy all creatures that have ""blocker"".",,crosswalk,149504,148224,1280
+71,748,1431,2_4,2_4,70,ボルザード・ドラゴン,Bolzard Dragon,CREATURE,Armored Dragon,"■ Whenever this creature attacks, choose a card in your opponent's mana zone and put it into his graveyard.",,crosswalk,139264,137728,1536
+72,749,1432,2_6,2_6,84,暁の守護者ファル・イーガ,"Phal Eega, Dawn Guardian",CREATURE,Guardian,"■ When you put this creature into the battle zone, you may return a spell from your graveyard to your hand.",,crosswalk,120832,120064,768
+73,750,1433,2_19,2_19,72,鳴動するギガ・ホーン,Rumbling Terahorn,CREATURE,Horned Beast,"■ When you put this creature into the battle zone, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,141312,140800,512
+74,751,1434,2_21,2_21,73,守護聖天ラルバ・ギア,"Larba Geer, the Immaculate",EVOLUTION CREATURE,Guardian,"■ Evolution-Put on one of your Guardians.
+■ When you put this creature into the battle zone, tap all your opponent's creatures in the battle zone that have ""blocker"".",,crosswalk,114688,114688,0
+75,752,1435,2_23,2_23,85,ダイヤモンド・カッター,Diamond Cutter,SPELL,,"■ This turn, ignore any effects that would prevent your creatures from attacking your opponent. (For example, ignore summoning sickness and card effects that say ""This creature can't attack"" or ""This creature can't attack players"". Your creatures can't attack creatures this way.)",,crosswalk,124928,123392,1536
+76,753,1436,2_24,2_24,67,クリスタル・ランサー,Crystal Lancer,EVOLUTION CREATURE,Liquid People,"■ Evolution-Put on one of your Liquid People.
+■ This creature can't be blocked.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,139264,139264,0
+77,754,1437,2_26,2_26,76,ディープ・オペレーション,Thought Probe,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ When you cast this spell, if your opponent has 3 or more creatures in the battle zone, draw 3 cards.",,crosswalk,126976,126720,256
+78,755,1438,2_27,2_27,68,魔獣虫カオス・ワーム,Chaos Worm,EVOLUTION CREATURE,Parasite Worm,"■ Evolution-Put on one of your Parasite Worms.
+■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures.",,crosswalk,139264,138496,768
+79,756,1439,2_28,2_28,77,貪欲の影グレイ・バルーン,"Gray Balloon, Shadow of Greed",CREATURE,Ghost,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,151552,151040,512
+80,757,1440,2_29,2_29,89,ロスト・ソウル,Lost Soul,SPELL,,■ Your opponent discards all cards from his hand.,,crosswalk,133120,131840,1280
+81,758,1441,2_32,2_32,80,バースト・ショット,Burst Shot,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy all creatures that have power 2000 or less.",,crosswalk,129024,128256,768
+82,759,1442,2_33,2_33,69,大勇者「大地の猛攻」,"Barkwhip, the Smasher",EVOLUTION CREATURE,Beast Folk,"■ Evolution-Put on one of your Beast Folk.
+■ While this creature is tapped, each of your other Beast Folk in the battle zone gets +2000 power.",,crosswalk,149504,149504,0
+83,760,1443,2_35,2_35,82,マナ・クライシス,Mana Crisis,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose a card in your opponent's mana zone and put it into his graveyard.",,crosswalk,137216,136704,512
+84,761,1444,2_38,2_38,83,晴天の守護者レゾ・パコス,"Reso Pacos, Clear Sky Guardian",CREATURE,Guardian,,,crosswalk,133120,133120,0
+85,762,1445,2_39,2_39,74,ロジック・キューブ,Logic Cube,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,112640,110848,1792
+86,763,1446,2_40,2_40,86,コーライル,Corile,CREATURE,Cyber Lord,"■ When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone and put it on top of his deck.",,crosswalk,116736,115456,1280
+87,764,1447,2_45,2_45,87,卵胞虫ゼリー・ワーム,Horrid Worm,CREATURE,Parasite Worm,"■ Whenever this creature attacks, your opponent discards a card at random from his hand.",,crosswalk,143360,142080,1280
+88,765,1448,2_46,2_46,88,ねじれる者ボーン・スライム,"Marrow Ooze, the Twister",CREATURE,Living Dead,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ When this creature attacks a player, destroy it after the attack.",,crosswalk,153600,152576,1024
+89,766,1449,2_47,2_47,78,クリティカル・ブレード,Critical Blade,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy one of your opponent's creatures that has ""blocker"".",,crosswalk,135168,134656,512
+90,767,1450,2_49,2_49,79,小さな勇者ゲット,Mini Titan Gett,CREATURE,Human,"■ This creature attacks each turn if able.
+■ Power attacker +1000 (While attacking, this creature gets +1000 power.)",,crosswalk,135168,133376,1792
+91,768,1451,2_54,2_54,90,ラブ・エルフィン,Essence Elf,CREATURE,Tree Folk,■ Your spells each cost 1 less to cast. They can't cost less than 1.,,crosswalk,141312,140288,1024
+92,769,1452,2_S2,2_S2,75,クリスタル・パラディン,Crystal Paladin,EVOLUTION CREATURE,Liquid People,"■ Evolution-Put on one of your Liquid People.
+■ When you put this creature into the battle zone, return all creatures in the battle zone that have ""blocker"" to their owners' hands.",,crosswalk,133120,132864,256
+93,770,1453,2_S3,2_S3,71,魔翼虫ジェノサイド・ワーム,Ultracide Worm,EVOLUTION CREATURE,Parasite Worm,"■ Evolution-Put on one of your Parasite Worms.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,129024,129024,0
+94,771,1454,2_S5,2_S5,81,大勇者「ふたつ牙」,Fighter Dual Fang,EVOLUTION CREATURE,Beast Folk,"■ Evolution-Put on one of your Beast Folk.
+■ When you put this creature into the battle zone, put the top 2 cards of your deck into your mana zone.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,147456,147200,256
+95,772,1455,3_3,3_3,91,絶望の魔黒ジャックバイパー,"Jack Viper, Shadow of Doom",EVOLUTION CREATURE,Ghost,"■ Evolution-Put on one of your Ghosts.
+■ Whenever another of your darkness creatures would be put into your graveyard from the battle zone, you may return it to your hand instead.",,crosswalk,145408,145152,256
+96,773,1456,3_5,3_5,92,大昆虫ギガマンティス,Gigamantis,EVOLUTION CREATURE,Giant Insect,"■ Evolution-Put on one of your Giant Insects.
+■ Whenever another of your nature creatures would be put into your graveyard from the battle zone, put it into your mana zone instead.",,crosswalk,153600,153600,0
+97,774,1457,3_11,3_11,93,ストリーミング・シェイパー,Streaming Shaper,SPELL,,■ Reveal the top 4 cards of your deck. Put all water cards from among them into your hand and the rest into your graveyard.,"""Victory is a cruel twist of fate, bound by time!""",crosswalk,133120,133120,0
+98,775,1458,3_18,3_18,94,夜明けの超人,Dawn Giant,CREATURE,Giant,"■ This creature can't attack creatures.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,126976,125184,1792
+99,776,1459,3_34,3_34,95,シェル・ポーチ,Pouch Shell,CREATURE,Colony Beetle,"■ When you put this creature into the battle zone, you may choose one of your opponent's evolution creatures in the battle zone and put the top card of that creature into your opponent's graveyard.",,crosswalk,145408,144384,1024
+100,777,1460,3_35,3_35,96,深緑の魔方陣,Mana Nexus,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Add a card from your mana zone to your shields face down.",,crosswalk,126976,126976,0
+101,778,1461,3_41,3_41,97,アングラー・クラスター,Angler Cluster,CREATURE,Cyber Cluster,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.
+■ While all the cards in your mana zone are water cards, this creature gets +3000 power.",,crosswalk,116736,115456,1280
+102,779,1462,3_42,3_42,98,エメラル,Emeral,CREATURE,Cyber Lord,"■ When you put this creature into the battle zone, you may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the ""shield trigger"" ability of that shield.",,crosswalk,129024,128256,768
+103,780,1463,3_49,3_49,99,チッチ・ホッピー,Baby Zoppe,CREATURE,Fire Bird,"■ While all the cards in your mana zone are fire cards, this creature gets +2000 power.",,crosswalk,126976,126208,768
+104,781,1464,3_51,3_51,100,ボルカニック・アロー,Volcanic Arrows,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy a creature that has power 6000 or less.
+■ Choose one of your shields and put it into your graveyard.",,crosswalk,116736,115712,1024
+105,782,1465,3_S4,3_S4,101,ガルカーゴ・ドラゴン,Garkago Dragon,CREATURE,Armored Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ This creature gets +1000 power for each other fire creature you have in the battle zone.
+■ This creature can attack untapped creatures.",,crosswalk,149504,148224,1280
+106,783,1466,4_1,4_1,102,聖霊王アルカディアス,"Alcadeias, Lord of Spirits",EVOLUTION CREATURE,Angel Command,"■ Evolution-Put on one of your Angel Commands.
+■ Double breaker (This creature breaks 2 shields.)
+■ Players can't cast spells other than light spells.",,crosswalk,120832,119808,1024
+107,784,1467,4_2,4_2,103,アストラル・リーフ,Astral Reef,EVOLUTION CREATURE,Cyber Virus,"■ Evolution-Put on one of your Cyber Virus creatures.
+■ When you put this creature, you may draw 3 cards.","Do you understand? The depths of my intellect, that is.",crosswalk,124928,124160,768
+108,785,1468,4_6,4_6,104,飛翔の精霊アリエス,"Aeris, Flight Elemental",CREATURE,Angel Command,"■ This creature can't attack players.
+■ This creature can attack untapped darkness creatures.",,crosswalk,131072,131072,0
+109,786,1469,4_10,4_10,105,アクアン,Aquan,CREATURE,Cyber Lord,"■ When you put this creature, you may reveal the top 5 cards of your deck. Put all light and darkness cards from among them into your hand, and put the rest into your graveyard.","""Nihihihi. Neutrality is the most profitable.""",crosswalk,129024,128512,512
+110,787,1470,4_11,4_11,106,ハイドロ・ハリケーン,Hydro Hurricane,SPELL,,"■ For each light creature you have in the battle zone, you may choose a card in your opponent's mana zone and return it to his hand.
+■ For each darkness creature you have in the battle zone, you may choose one of your opponent's creatures and return it to his hand.",,crosswalk,133120,131584,1536
+111,788,1471,4_13,4_13,107,荒廃の巨王ジェノサイド,"Photocide, Lord of the Wastes",CREATURE,Demon Command,"■ This creature can't attack players.
+■ This creature can attack untapped light creatures.",,crosswalk,137216,135936,1280
+112,789,1472,4_14,4_14,108,いけにえの鎖,Chains of Sacrifice,SPELL,,"■ Destroy up to 2 of your opponent's creatures.
+■ Destroy one of your creatures.",,crosswalk,143360,141824,1536
+113,790,1473,4_23,4_23,109,牢黒の伝道師ミリエス,"Milieus, the Daystretcher",CREATURE,Berserker,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Each darkness creature costs 2 more to summon, and each darkness spell costs 2 more to cast.",,crosswalk,122880,121856,1024
+114,791,1474,4_24,4_24,110,雷鳴の守護者ミスト・リエス,"Mist Rias, Sonic Guardian",CREATURE,Guardian,"■ Whenever another creature is put into the battle zone, you may draw a card.",,crosswalk,112640,111616,1024
+115,792,1475,4_28,4_28,111,屑男,Mongrel Man,CREATURE,Hedrian,"■ Whenever another creature is destroyed, you may draw a card.",,crosswalk,122880,122624,256
+116,793,1476,4_29,4_29,112,汽車男,Locomotiver,CREATURE,Hedrian,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ When you put this creature into the battle zone, your opponent discards a card at random from his hand.",,crosswalk,141312,140288,1024
+117,794,1477,4_37,4_37,113,予言者コロン,"Kolon, the Oracle",CREATURE,Light Bringer,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,131072,129536,1536
+118,795,1478,4_39,4_39,114,鎮圧の使徒サリエス,"Sarius, Vizier of Suppression",CREATURE,Initiate,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,126976,126208,768
+119,796,1479,4_43,4_43,115,マリン・フラワー,Marine Flower,CREATURE,Cyber Virus,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.",,crosswalk,108544,107776,768
+120,797,1480,4_45,4_45,116,暴食虫グレゴリア・ワーム,Gregorian Worm,CREATURE,Parasite Worm,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)",,crosswalk,139264,138496,768
+121,798,1481,4_46,4_46,117,呪いの影シャドウ・ムーン,"Shadow Moon, Cursed Shade",CREATURE,Ghost,■ Each other darkness creature in the battle zone gets +2000 power.,,crosswalk,131072,131072,0
+122,799,1482,4_55,4_55,118,孤高の願,Torcon,CREATURE,Beast Folk,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)",,crosswalk,137216,135680,1536
+123,800,1483,4_S3,4_S3,119,悪魔神バロム,"Ballom, Master of Death",EVOLUTION CREATURE,Demon Command,"■ Evolution-Put on one of your Demon Commands.
+■ When you put this creature into the battle zone, destroy all creatures except darkness creatures.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,135168,133632,1536
+124,801,1484,4_S5,4_S5,120,護りの角フィオナ,"Niofa, Horned Protector",EVOLUTION CREATURE,Horned Beast,"■ Evolution-Put on one of your Horned Beasts.
+■ When you put this creature into the battle zone, search your deck. You may take a nature creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,147456,147456,0
+125,802,1485,5_4,5_4,121,ブレイドラッシュ・ワイバーンδ,Bladerush Skyterror Q,CREATURE,Armored Wyvern,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+   Double breaker (This creature breaks 2 shields.)",,crosswalk,141312,139520,1792
+126,803,1486,5_7,5_7,122,神魂の守護者シュノーク・ラー,"Snork La, Shrine Guardian",CREATURE,Guardian,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.
+■ Whenever your opponent causes a card to be put into your graveyard from your mana zone, you may return that card to your mana zone.",,crosswalk,122880,121600,1280
+127,804,1487,5_15,5_15,123,ツインキャノン・ワイバーン,Twin-Cannon Skyterror,CREATURE,Armored Wyvern,"■ Speed attacker (This creature doesn't get summoning sickness.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,124928,124928,0
+128,805,1488,5_24,5_24,124,アクア・サーファー,Aqua Surfer,CREATURE,Liquid People,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ When you put this creature into the battle zone, you may choose a creature in the battle zone and return it to its owner's hand.",,crosswalk,110592,109312,1280
+129,806,1489,5_48,5_48,125,ストームジャベリン・ワイバーン,Storm Javelin Wyvern,CREATURE,Armored Wyvern,"■ This creature can't attack players.
+■ This creature can attack untapped light or water creatures.",Impertinent!,crosswalk,137216,136704,512
+130,807,1490,5_49,5_49,126,解体屋ピーカプ,"Rikabu, the Dismantler",CREATURE,Machine Eater,■ Speed attacker (This creature doesn't get summoning sickness.),,crosswalk,133120,132608,512
+131,808,1491,5_50,5_50,127,ポッポ・チャッピー,Kip Chippotto,CREATURE,Fire Bird,"■ When one of your Armored Dragons would be destroyed, you may destroy this creature instead.",,crosswalk,131072,130304,768
+132,809,1492,5_51,5_51,128,ブレイズザウルスα,Blazosaur Q,CREATURE,Survivor/Rock Beast,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+  Power attacker +1000 (While attacking, this creature gets +1000 power.)",,crosswalk,139264,138240,1024
+133,810,1493,5_54,5_54,129,威嚇するスマッシュ・ホーンα,Smash Horn Q,CREATURE,Survivor/Horned Beast,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+  This creature gets +1000 power.",,crosswalk,153600,152832,768
+134,811,1494,5_55,5_55,130,巨翼の爪,Crow Winger,CREATURE,Beast Folk,■ This creature gets +1000 power for each water creature and darkness creature your opponent has in the battle zone.,,crosswalk,147456,145920,1536
+135,812,1495,5_S1,5_S1,131,天海の精霊シリウス,"Syrius, Firmament Elemental",CREATURE,Angel Command,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Triple breaker (This creature breaks 3 shields.)",,crosswalk,124928,124928,0
+136,813,1496,5_S5,5_S5,132,神拳の超人,Avalanche Giant,CREATURE,Giant,"■ This creature can't attack creatures.
+■ Whenever this creature becomes blocked, it breaks one of your opponent's shields.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,145408,145152,256
+137,814,1497,6_1,6_1,133,銀界の守護者ル・ギラ・レシール,"Lu Gila, Silver Rift Guardian",CREATURE,Guardian,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Evolution creatures are put into the battle zone tapped.
+■ This creature can't attack players.",,crosswalk,116736,115968,768
+138,815,1498,6_2,6_2,134,インビンシブル・オーラ,Invincible Aura,SPELL,,■ Add up to 3 cards from the top of your deck to your shields face down.,,crosswalk,108544,108032,512
+139,816,1499,6_3,6_3,135,エウロピカ,Aeropica,CREATURE,Sea Hacker,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a creature in the battle zone and return it to its owner's hand.",,crosswalk,129024,127744,1280
+140,817,1500,6_4,6_4,136,インビンシブル・テクノロジー,Invincible Technology,SPELL,,"■ Search your deck. You may take any number of cards from your deck, show those cards to your opponent, and put them into your hand. Then shuffle your deck.",,crosswalk,124928,123904,1024
+141,818,1501,6_5,6_5,137,戦車男,Tank Mutant,CREATURE,Hedrian,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Your opponent chooses one of his creatures in the battle zone and destroys it.",,crosswalk,126976,126208,768
+142,819,1502,6_6,6_6,138,インビンシブル・アビス,Invincible Abyss,SPELL,,■ Destroy all your opponent's creatures.,,crosswalk,139264,138240,1024
+143,820,1503,6_7,6_7,139,勇神兵エグゾリウス,Valiant Warrior Exorious,CREATURE,Armorloid,"■ This creature can attack untapped creatures.
+■ Power attacker +3000 (While attacking, this creature gets +3000 power.)",,crosswalk,129024,129024,0
+144,821,1504,6_8,6_8,140,インビンシブル・フォートレス,Invincible Cataclysm,SPELL,,■ Choose up to 3 of your opponent's shields and put them into his graveyard.,,crosswalk,131072,130816,256
+145,822,1505,6_9,6_9,141,ガイアクロウ・ワスプ,Splinterclaw Wasp,CREATURE,Giant Insect,"■ Power attacker +3000 (While attacking, this creature gets +3000 power.)
+■ Double breaker (This creature breaks 2 shields.)
+■ Whenever this creature becomes blocked, it breaks one of your opponent's shields.",,crosswalk,145408,145152,256
+146,823,1506,6_10,6_10,142,インビンシブル・パワー,Invincible Unity,SPELL,,"■ Each of your creatures in the battle zone gets +8000 power and ""triple breaker"" until the end of the turn. (A creature that has ""triple breaker"" breaks 3 shields.)",,crosswalk,145408,145408,0
+147,824,1507,6_100,6_100,232,ピコラのスパナ,Picora's Wrench,CREATURE,Xenoparts,,,crosswalk,133120,131328,1792
+148,825,1508,6_101,6_101,233,無謀鉄人チョイヤ,"Choya, the Unheeding",CREATURE,Human,"■ Power attacker +1000 (While attacking, this creature gets +1000 power.)
+■ Whenever this creature becomes blocked, no battle happens. (Both creatures stay tapped.)",,crosswalk,143360,142080,1280
+149,826,1509,6_102,6_102,234,幻竜砲,Phantom Dragon's Flame,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy one of your opponent's creatures that has power 2000 or less.",,crosswalk,124928,123904,1024
+150,827,1510,6_103,6_103,235,ブルーレイザー・ビートル,Trench Scarab,CREATURE,Giant Insect,"■ This creature can't attack players.
+■ Power attacker +4000 (While attacking, this creature gets +4000 power.)",,crosswalk,143360,142592,768
+151,828,1511,6_104,6_104,236,幻惑ベリー,Illusory Berry,CREATURE,Tree Folk,,,crosswalk,141312,140544,768
+152,829,1512,6_105,6_105,237,シェル・キャリアー,Carrier Shell,CREATURE,Colony Beetle,"■ Power attacker +3000 (While attacking, this creature gets +3000 power.)",,crosswalk,137216,136192,1024
+153,830,1513,6_106,6_106,238,盗賊の盾,"Mighty Bandit, Ace of Thieves",CREATURE,Beast Folk,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ One of your creatures in the battle zone gets +5000 power until the end of the turn.",,crosswalk,143360,143104,256
+154,831,1514,6_107,6_107,239,シェル・ラック,Slumber Shell,CREATURE,Colony Beetle,,,crosswalk,126976,125184,1792
+155,832,1515,6_108,6_108,240,滑降妖精ガラボン,"Garabon, the Glider",CREATURE,Snow Faerie,"■ Power attacker +2000 (While attacking, this creature gets +2000 power.)",,crosswalk,133120,133120,0
+156,833,1516,6_109,6_109,241,ディメンジョン・ゲート,Dimension Gate,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,137216,136448,768
+157,834,1517,6_11,6_11,143,守護聖天アーク・バイン,"Arc Bine, the Astounding",EVOLUTION CREATURE,Guardian,"■ Evolution-Put on one of your Guardians.
+■ Each of your light creatures may tap instead of attacking to use this creature's tap ability.
+ Choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,122880,121600,1280
+158,835,1518,6_110,6_110,242,フェアリー・ライフ,Faerie Life,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Put the top card of your deck into your mana zone.",,crosswalk,137216,136448,768
+159,836,1519,6_12,6_12,144,聖域の守護者フォボス・エレインγ,"Forbos, Sanctum Guardian Q",CREATURE,Survivor/Guardian,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+  When you put this creature into the battle zone, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,118784,118784,0
+160,837,1520,6_13,6_13,145,綺羅星の精霊ガリアル,"Gariel, Elemental of Sunbeams",CREATURE,Angel Command,"■ You can summon this creature only if you have cast a spell this turn.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,131072,129280,1792
+161,838,1521,6_14,6_14,146,聖騎士コスモグールド,"Cosmogold, Spectral Knight",CREATURE,Rainbow Phantom,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Return a spell from your mana zone to your hand.",,crosswalk,116736,115968,768
+162,839,1522,6_15,6_15,147,宣凶師エルリオット,"Telitol, the Explorer",CREATURE,Gladiator,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ When you put this creature into the battle zone, you may look at your shields. Then put them back where they were.
+■ This creature can't attack players.",,crosswalk,133120,132096,1024
+163,840,1523,6_16,6_16,148,ジャスティス・バインド,Bonds of Justice,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Tap all creatures in the battle zone that don't have ""blocker.""",,crosswalk,110592,109056,1536
+164,841,1524,6_17,6_17,149,フォート・メガクラスター,Fort Megacluster,EVOLUTION CREATURE,Cyber Cluster,"■ Evolution-Put on one of your Cyber Clusters.
+■ Each of your water creatures may tap instead of attacking to use this creature's tap ability.
+ Draw a card.",,crosswalk,139264,138240,1024
+165,842,1525,6_18,6_18,150,キング・トラファルガー,King Triumphant,CREATURE,Leviathan,"■ Whenever your opponent summons a creature or casts a spell, this creature gets ""blocker"" until the end of the turn. (Whenever an opponent's creature attacks, you may tap a creature that has ""blocker"" to stop the attack. Then the 2 creatures battle.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,120832,119296,1536
+166,843,1526,6_19,6_19,151,ナイト・クロウラー,Midnight Crawler,CREATURE,Earth Eater,"■ When you put this creature into the battle zone, choose a card in your opponent's mana zone and return it to his hand.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,124928,123648,1280
+167,844,1527,6_20,6_20,152,ラプター・フィッシュ,Raptor Fish,CREATURE,Gel Fish,"■ When you put this creature into the battle zone, count the cards in your hand, shuffle those cards into your deck, then draw that many cards.",,crosswalk,118784,118272,512
+168,845,1528,6_21,6_21,153,キュロロ,Kyuroro,CREATURE,Cyber Lord,"■ Whenever an opponent's creature would break a shield, you choose the shield instead of your opponent.",,crosswalk,126976,126208,768
+169,846,1529,6_22,6_22,154,ロータス・ミントγ,Ripple Lotus Q,CREATURE,Survivor/Cyber Virus,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+  When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,131072,130304,768
+170,847,1530,6_23,6_23,155,恐慌の魔黒デス・スペクター,"Frost Specter, Shadow of Age",EVOLUTION CREATURE,Ghost,"■ Evolution-Put on one of your Ghosts.
+■ Each of your Ghosts in the battle zone has ""slayer."" (Whenever a creature that has ""slayer"" battles, destroy the other creature after the battle.)",,crosswalk,143360,142592,768
+171,848,1531,6_24,6_24,156,戦慄の剛将アブリン,"Gnarvash, Merchant of Blood",CREATURE,Demon Command,"■ Double breaker (This creature breaks 2 shields.)
+■ At the end of each of your turns, if this is your only creature in the battle zone, destroy it.",,crosswalk,149504,148480,1024
+172,849,1532,6_25,6_25,157,闇侯爵ハウクス,"Schuka, Duke of Amnesia",CREATURE,Dark Lord,"■ When this creature is destroyed, each player discards his hand.",,crosswalk,139264,137984,1280
+173,850,1533,6_26,6_26,158,死縛虫グレイブ・ワームγ,Grave Worm Q,CREATURE,Survivor/Parasite Worm,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+  When you put this creature into the battle zone, you may return a Survivor from your graveyard to your hand.",,crosswalk,135168,134656,512
+174,851,1534,6_27,6_27,159,虚空の翼ダークモルダー,"Vile Mulder, Wing of the Void",CREATURE,Demon Command,"■ This creature can't attack creatures.
+■ Double breaker (This creature breaks 2 shields.)
+■ When this creature battles, destroy it after the battle.",,crosswalk,137216,135680,1536
+175,852,1535,6_28,6_28,160,邪魂転生,Intense Evil,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy any number of your creatures. Then draw that many cards.",,crosswalk,137216,135424,1792
+176,853,1536,6_29,6_29,161,シグマ・トゥレイト,Q-tronic Gargantua,EVOLUTION CREATURE,Survivor,"■ Evolution-Put on one of your Survivors.
+■ Crew breaker-Survivor (This creature breaks one more shield for each of your other Survivors in the battle zone.)",,crosswalk,141312,140544,768
+177,854,1537,6_30,6_30,162,機神装甲ヴァルカイザー,Armored Decimator Valkaizer,EVOLUTION CREATURE,Human,"■ Evolution-Put on one of your Humans.
+■ When you put this creature into the battle zone, you may destroy one of your opponent's creatures that has power 4000 or less.",,crosswalk,145408,144384,1024
+178,855,1538,6_31,6_31,163,バザガジール・ドラゴン,Bazagazeal Dragon,CREATURE,Armored Dragon,"■ Speed attacker (This creature doesn't get summoning sickness.)
+■ This creature can attack untapped creatures.
+■ Double breaker
+■ At the end of your turn, return this creature to your hand.",,crosswalk,135168,135168,0
+179,856,1539,6_32,6_32,164,ピーカプ・リザード,Badlands Lizard,CREATURE,Dune Gecko,"■ Power attacker +3000 (While attacking, this creature gets +3000 power.)
+■ Whenever this creature becomes blocked, no battle happens. (Both creatures stay tapped.)",,crosswalk,149504,149248,256
+180,857,1540,6_33,6_33,165,ピーカプのドライバー,Rikabu's Screwdriver,CREATURE,Xenoparts,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Destroy one of your opponent's creatures that has ""blocker.""",,crosswalk,124928,124416,512
+181,858,1541,6_34,6_34,166,クライシス・ボーラー,Crisis Boulder,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Your opponent chooses one of his creatures in the battle zone or a card in his mana zone and puts it into his graveyard.",,crosswalk,118784,118272,512
+182,859,1542,6_35,6_35,167,超空要塞バビロン,Living Citadel Vosh,EVOLUTION CREATURE,Colony Beetle,"■ Evolution-Put on one of your Colony Beetles.
+■ Each of your nature creatures may tap instead of attacking to use this creature's tap ability.
+ Put the top card of your deck into your mana zone.",,crosswalk,147456,146432,1024
+183,860,1543,6_36,6_36,168,殺戮の化身,Clobber Totem,CREATURE,Mystery Totem,"■ Power attacker +2000 (While attacking, this creature gets +2000 power.)
+■ This creature can't be blocked by any creature that has power 5000 or less.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,143360,142336,1024
+184,861,1544,6_37,6_37,169,シェル・ファクトリーγ,Factory Shell Q,CREATURE,Survivor/Colony Beetle,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+  When you put this creature into the battle zone, search your deck. You may take a Survivor from your deck, show that Survivor to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,145408,143872,1536
+185,862,1545,6_38,6_38,170,戦いの化身,Forbidding Totem,CREATURE,Mystery Totem,■ Your opponent's attacking creatures attack Mystery Totems if able.,,crosswalk,133120,132352,768
+186,863,1546,6_39,6_39,171,魅了妖精チャミリア,"Charmilia, the Enticer",CREATURE,Snow Faerie,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,145408,145408,0
+187,864,1547,6_40,6_40,172,神秘の宝箱,Mystic Treasure Chest,SPELL,,■ Search your deck. You may take a non-nature card from your deck and put it into your mana zone. Then shuffle your deck.,,crosswalk,131072,129536,1536
+188,865,1548,6_41,6_41,173,飛雲の求道者ダバ・トーレ,"Dava Torey, Seeker of Clouds",CREATURE,Mecha Thunder,"■ During your opponent's turn, if this creature would be discarded from your hand, put it into the battle zone instead.",,crosswalk,122880,121856,1024
+189,866,1549,6_42,6_42,174,光柱樹,Razorpine Tree,CREATURE,Starlight Tree,■ This creature gets +2000 power for each shield you have.,,crosswalk,124928,123648,1280
+190,867,1550,6_43,6_43,175,予言者アドミス,"Adomis, the Oracle",CREATURE,Light Bringer,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a shield and look at it. Then put it back where it was.",,crosswalk,116736,116480,256
+191,868,1551,6_44,6_44,176,聖騎士ムーンティアー,"Moontear, Spectral Knight",CREATURE,Rainbow Phantom,■ You can summon this creature only if you have cast a spell this turn.,,crosswalk,112640,112640,0
+192,869,1552,6_45,6_45,177,レイン・アロー,Rain of Arrows,SPELL,,■ Look at your opponent's hand. He discards all darkness spells from it.,,crosswalk,112640,111872,768
+193,870,1553,6_46,6_46,178,プロテクト・フォース,Protective Force,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ One of your creatures in the battle zone that has ""blocker"" gets +4000 power until the end of the turn.",,crosswalk,108544,108544,0
+194,871,1554,6_47,6_47,179,シャインシェル・クラスター,Neon Cluster,CREATURE,Cyber Cluster,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Draw 2 cards.",,crosswalk,122880,121344,1536
+195,872,1555,6_48,6_48,180,ハザード・クロウラー,Hazard Crawler,CREATURE,Earth Eater,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.",,crosswalk,124928,124160,768
+196,873,1556,6_49,6_49,181,デコ・クラスター,Overload Cluster,CREATURE,Cyber Cluster,"■ Whenever your opponent summons a creature or casts a spell, this creature gets ""blocker"" until the end of the turn. (Whenever an opponent's creature attacks, you may tap a creature that has ""blocker"" to stop the attack. Then the 2 creatures battle.)",,crosswalk,137216,136448,768
+197,874,1557,6_50,6_50,182,ストーム・クロウラー,Thrash Crawler,CREATURE,Earth Eater,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ When you put this creature into the battle zone, return a card from your mana zone to your hand.
+■ This creature can't attack.",,crosswalk,126976,125696,1280
+198,875,1558,6_51,6_51,183,ショック・ハリケーン,Shock Hurricane,SPELL,,■ Return any number of your creatures from the battle zone to your hand. Then you may choose that many of your opponent's creatures in the battle zone and return them to your opponent's hand.,,crosswalk,112640,112128,512
+199,876,1559,6_52,6_52,184,ミスティック・クリエーション,Mystic Dreamscape,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Return up to 3 cards from your mana zone to your hand.",,crosswalk,120832,120064,768
+200,877,1560,6_53,6_53,185,ギガボアー,Gigagriff,CREATURE,Chimera,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Slayer (Whenever this creature battles, destroy the other creature after the battle.)
+■ This creature can't attack.",,crosswalk,141312,140544,768
+201,878,1561,6_54,6_54,186,戦男,Bazooka Mutant,CREATURE,Hedrian,"■ This creature can attack only creatures that have ""blocker.""
+■ This creature can't attack players.",,crosswalk,131072,129792,1280
+202,879,1562,6_55,6_55,187,鬼眼怪人スカルカッター,"Skullcutter, Swarm Leader",CREATURE,Devil Mask,"■ At the end of each of your turns, if this is your only creature in the battle zone, destroy it.",,crosswalk,147456,147456,0
+203,880,1563,6_56,6_56,188,刃滅人形ポール,"Lupa, Poison-Tipped Doll",CREATURE,Death Puppet,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ One of your creatures in the battle zone gets ""slayer"" until the end of the turn. (Whenever a creature that has ""slayer"" battles, destroy the other creature after the battle.)",,crosswalk,143360,141824,1536
+204,881,1564,6_57,6_57,189,ヘル・スラッシュ,Hell Slash,SPELL,,■ Search your opponent's deck. Take up to 3 cards from their deck and put them into their graveyard. Then your opponent shuffles their deck.,Let them cut your bones. Then break their spirit.,crosswalk,131072,129536,1536
+205,882,1565,6_58,6_58,190,死の宣告,Proclamation of Death,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Your opponent chooses one of his creatures in the battle zone and destroys it.",,crosswalk,135168,134144,1024
+206,883,1566,6_59,6_59,191,スフィンティラノスβ,Rumblesaur Q,CREATURE,Rock Beast,"■ Survivor (Each of your Survivors has this creature's Survivor ability.)
+  Speed attacker (This creature doesn't get summoning sickness.)",,crosswalk,143360,142080,1280
+207,884,1567,6_60,6_60,192,エグゼズ・ワイバーン,Cutthroat Skyterror,CREATURE,Armored Wyvern,"■ Speed attacker (This creature doesn't get summoning sickness.)
+■ This creature can't attack players.
+■ At the end of your turn, return this creature to your hand.",,crosswalk,129024,127488,1536
+208,885,1568,6_61,6_61,193,荒法師ミガサ,"Migasa, Adept of Chaos",CREATURE,Human,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ One of your fire creatures in the battle zone gets ""double breaker"" until the end of the turn. (A creature that has ""double breaker"" breaks 2 shields.)",,crosswalk,139264,138752,512
+209,886,1569,6_62,6_62,194,コッコ・ルピア,Cocco Lupia,CREATURE,Fire Bird,■ Your creatures that have Dragon in their race each cost 2 less to summon. (Dragonoids don't count.) They can't cost less than 2.,,crosswalk,133120,131328,1792
+210,887,1570,6_63,6_63,195,ピコット・ミサイル,Spastic Missile,SPELL,,■ Destroy one of your opponent's creatures that has power 3000 or less.,,crosswalk,112640,111616,1024
+211,888,1571,6_64,6_64,196,火炎流星弾,Comet Missile,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy one of your opponent's creatures that has ""blocker"" and power 6000 or less.",,crosswalk,122880,121088,1792
+212,889,1572,6_65,6_65,197,跳躍の超人,Cantankerous Giant,CREATURE,Giant,■ Double breaker (This creature breaks 2 shields.),,crosswalk,147456,146688,768
+213,890,1573,6_66,6_66,198,恵みの化身,"Bliss Totem, Avatar of Luck",CREATURE,Mystery Totem,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Put up to 3 cards from your graveyard into your mana zone.",,crosswalk,147456,145664,1792
+214,891,1574,6_67,6_67,199,激闘するフェザー・ホーン,"Feather Horn, the Tracker",CREATURE,Horned Beast,,,crosswalk,135168,134656,512
+215,892,1575,6_68,6_68,200,樹界を守るパラダイス・ホーン,Paradise Horn,CREATURE,Horned Beast,"■ Power attacker +2000 (While attacking, this creature gets +2000 power.)",,crosswalk,129024,128768,256
+216,893,1576,6_69,6_69,201,無垢の宝剣,"Innocent Hunter, Blade of All",CREATURE,Beast Folk,■ You can put an evolution creature of any race on this creature.,,crosswalk,139264,139008,256
+217,894,1577,6_70,6_70,202,大自然の意志,Pangaea's Will,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose one of your opponent's evolution creatures in the battle zone and put the top card of that creature into your opponent's mana zone.",,crosswalk,137216,136704,512
+218,895,1578,6_71,6_71,203,鋭刃の使徒グーレ・チェーン,"Chen Treg, Vizier of Blades",CREATURE,Initiate,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,120832,120064,768
+219,896,1579,6_72,6_72,204,不屈の使徒チーキ・クーレ,"Chekicul, Vizier of Endurance",CREATURE,Initiate,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever this creature blocks, no battle happens. (Both creatures stay tapped.)
+■ This creature can't attack.",,crosswalk,120832,119296,1536
+220,897,1580,6_73,6_73,205,宣凶師キンゼラ,"Kanesill, the Explorer",CREATURE,Gladiator,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,118784,116992,1792
+221,898,1581,6_74,6_74,206,藍電草,Lightning Grass,CREATURE,Starlight Tree,,,crosswalk,122880,121600,1280
+222,899,1582,6_75,6_75,207,電磁の使徒バルアス,"Ballas, Vizier of Electrons",CREATURE,Initiate,,,crosswalk,116736,115712,1024
+223,900,1583,6_76,6_76,208,予言者ユーク,"Yuluk, the Oracle",CREATURE,Light Bringer,■ You can summon this creature only if you have cast a spell this turn.,,crosswalk,118784,117760,1024
+224,901,1584,6_77,6_77,209,予言者ジェス,"Vess, the Oracle",CREATURE,Light Bringer,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,131072,130304,768
+225,902,1585,6_78,6_78,210,エレメンタル・シールド,Sphere of Wonder,SPELL,,"■ If your opponent has more shields than you do, add the top card of your deck to your shields face down.",,crosswalk,108544,108032,512
+226,903,1586,6_79,6_79,211,ソピアン,Sopian,CREATURE,Cyber Lord,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose one of your creatures in the battle zone. It can't be blocked this turn.",,crosswalk,129024,128768,256
+227,904,1587,6_80,6_80,212,アクア・ライダー,Aqua Rider,CREATURE,Liquid People,"■ Whenever your opponent summons a creature or casts a spell, this creature gets ""blocker"" until the end of the turn. (Whenever an opponent's creature attacks, you may tap a creature that has ""blocker"" to stop the attack. Then the 2 creatures battle.)",,crosswalk,118784,118528,256
+228,905,1588,6_81,6_81,213,プロメフィウスα,Promephius Q,CREATURE,Survivor/Sea Hacker,,,crosswalk,120832,120064,768
+229,906,1589,6_82,6_82,214,マドリオン・フィッシュ,Madrillon Fish,CREATURE,Gel Fish,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.",,crosswalk,129024,129024,0
+230,907,1590,6_83,6_83,215,エレガント・ランプ,Steam Star,CREATURE,Cyber Virus,,,crosswalk,110592,110336,256
+231,908,1591,6_84,6_84,216,ゼピメテウス,Zepimeteus,CREATURE,Sea Hacker,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.",,crosswalk,108544,107008,1536
+232,909,1592,6_85,6_85,217,エナジー・ライト,Energy Stream,SPELL,,■ Draw 2 cards.,,crosswalk,118784,118272,512
+233,910,1593,6_86,6_86,218,スパイラル・ゲート,Spiral Gate,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose a creature in the battle zone and return it to its owner's hand.",,crosswalk,129024,127232,1792
+234,911,1594,6_87,6_87,219,砕骨の刺客ゾルバス,"Zorvaz, the Bonecrusher",CREATURE,Demon Command,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.
+■ When this creature battles, destroy it after the battle.",,crosswalk,151552,150272,1280
+235,912,1595,6_88,6_88,220,幽鬼の影リバース・ソウル,"Grim Soul, Shadow of Reversal",CREATURE,Ghost,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Return a darkness creature from your graveyard to your hand.",,crosswalk,149504,148992,512
+236,913,1596,6_89,6_89,221,烈裂虫テンタクル・ワーム,Tentacle Worm,CREATURE,Parasite Worm,,,crosswalk,126976,125184,1792
+237,914,1597,6_90,6_90,222,カース・ペンダント,Cursed Pincher,CREATURE,Brain Jacker,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Slayer (Whenever this creature battles, destroy the other creature after the battle.)
+■ This creature can't attack.",,crosswalk,135168,133888,1280
+238,915,1598,6_91,6_91,223,逆歯怪人トマホーク,"Grinning Axe, the Monstrosity",CREATURE,Devil Mask,"■ Slayer (Whenever this creature battles, destroy the other creature after the battle.)",,crosswalk,131072,131072,0
+239,916,1599,6_92,6_92,224,凶犬人形ジュンカツ,"Junkatz, Rabid Doll",CREATURE,Death Puppet,,,crosswalk,133120,131328,1792
+240,917,1600,6_93,6_93,225,孤独の影ロンリー・ウォーカー,"Lone Tear, Shadow of Solitude",CREATURE,Ghost,"■ At the end of each of your turns, if this is your only creature in the battle zone, destroy it.",,crosswalk,145408,144896,512
+241,918,1601,6_94,6_94,226,デス・スモーク,Death Smoke,SPELL,,■ Destroy one of your opponent's untapped creatures.,,crosswalk,122880,121344,1536
+242,919,1602,6_95,6_95,227,ムラマサ・リザード,Legionnaire Lizard,CREATURE,Dune Gecko,"■ Speed attacker (This creature doesn't get summoning sickness.)
+■ Instead of having this creature attack, you may tap it to use its tap ability.
+ One of your creatures in the battle zone gets ""speed attacker"" until the end of the turn.",,crosswalk,129024,129024,0
+243,920,1603,6_96,6_96,228,捜神兵グチェラリオン,Armored Scout Gestuchar,CREATURE,Armorloid,"■ While you have no other fire creatures in the battle zone, this creature has ""power attacker +3000"" and ""double breaker."" (A creature that has ""power attacker +3000"" and ""double breaker"" gets +3000 power while attacking and breaks 2 shields.)",,crosswalk,145408,144640,768
+244,921,1604,6_97,6_97,229,撃神兵マシンガー,Automated Weaponmaster Machai,CREATURE,Armorloid,■ This creature attacks each turn if able.,,crosswalk,129024,128512,512
+245,922,1605,6_98,6_98,230,襲撃者エグゼドライブ,Pyrofighter Magnus,CREATURE,Dragonoid,"■ Speed attacker (This creature doesn't get summoning sickness.)
+■ At the end of your turn, return this creature to your hand.",,crosswalk,131072,131072,0
+246,923,1606,6_99,6_99,231,炎獣兵マグナム・ブルース,Torchclencher,CREATURE,Dragonoid,"■ While you have at least one other fire creature in the battle zone, this creature has ""Power attacker +3000 (While attacking, this creature gets +3000 power).""",,crosswalk,135168,134400,768
+247,924,1607,6_S1,6_S1,243,聖天使クラウゼ・バルキューラ,"Craze Valkyrie, the Drastic",EVOLUTION CREATURE,Initiate,"■ Evolution-Put on one of your Initiates.
+■ When you put this creature into the battle zone, choose up to 2 of your opponent's creatures in the battle zone and tap them.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,120832,119296,1536
+248,925,1608,6_S10,6_S10,252,神秘の超人,Cliffcrush Giant,CREATURE,Giant,"■ While you have any other untapped creatures in the battle zone, this creature can't attack.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,145408,143872,1536
+249,926,1609,6_S2,6_S2,244,閃光の求道者ラ・ベイル,"Laveil, Seeker of Catastrophe",CREATURE,Mecha Thunder,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ At the end of each of your turns, you may untap this creature.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,129024,129024,0
+250,927,1610,6_S3,6_S3,245,ゼータ・トゥレイト,Q-tronic Hypermind,EVOLUTION CREATURE,Survivor,"■ Evolution-Put on one of your Survivors.
+■ When you put this creature into the battle zone, you may draw a card for each Survivor in the battle zone.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,145408,143872,1536
+251,928,1611,6_S4,6_S4,246,クリスタル・ジャベリン,Crystal Jouster,EVOLUTION CREATURE,Liquid People,"■ Evolution-Put on one of your Liquid People.
+■ Double breaker (This creature breaks 2 shields.)
+■ When this creature would be destroyed, return it to your hand instead.",,crosswalk,141312,141312,0
+252,929,1612,6_S5,6_S5,247,超幻獣グラザルド,Phantasmal Horror Gigazald,EVOLUTION CREATURE,Chimera,"■ Evolution-Put on one of your Chimeras.
+■ Each of your darkness creatures may tap instead of attacking to use this creature's tap ability.
+ Your opponent discards a card at random from his hand.",,crosswalk,147456,147456,0
+253,930,1613,6_S6,6_S6,248,憤怒の猛将ダイダロス,"Daidalos, General of Fury",CREATURE,Demon Command,"■ Whenever this creature attacks, destroy one of your creatures.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,131072,130048,1024
+254,931,1614,6_S7,6_S7,249,甲冑神龍エグゼキューター,Lava Walker Executo,EVOLUTION CREATURE,Dragonoid,"■ Evolution-Put on one of your Dragonoids.
+■ Each of your fire creatures may tap instead of attacking to use this creature's tap ability.
+ One of your fire creatures in the battle zone gets +3000 power until the end of the turn.",,crosswalk,145408,143872,1536
+255,932,1615,6_S8,6_S8,250,ボルメテウス・ホワイト・ドラゴン,Bolmeteus Steel Dragon,CREATURE,Armored Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ Whenever this creature would break a shield, your opponent puts that shield into his graveyard instead.",,crosswalk,151552,150016,1536
+256,933,1616,6_S9,6_S9,251,大昆虫ガイアマンティス,"Ultra Mantis, Scourge of Fate",EVOLUTION CREATURE,Giant Insect,"■ Evolution-Put on one of your Giant Insects.
+■ This creature can't be blocked by any creature that has power 8000 or less.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,147456,145664,1792
+257,934,1617,7_1,7_1,253,爆雷の求道者ガラ・ガンダール,"Gandar, Seeker of Explosions",CREATURE,Mecha Thunder,"■ Double breaker (This creature breaks 2 shields.)
+■ Instead of having this creature attack, you may tap it to use its tap ability.
+ At the end of the turn, untap all your light creatures.",,crosswalk,135168,135168,0
+258,935,1618,7_2,7_2,254,キング・アクエリアス,King Benthos,CREATURE,Leviathan,"■ Double breaker (This creature breaks 2 shields.)
+■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Each of your water creatures gets ""This creature can't be blocked"" until the end of the turn.",,crosswalk,139264,138752,512
+259,936,1619,7_3,7_3,255,戦艦男,Battleship Mutant,CREATURE,Hedrian,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Until the end of the turn, each of your darkness creatures in the battle zone gets +4000 power and ""double breaker."" Whenever any of those creatures battles this turn, destroy it after the battle.",,crosswalk,153600,153088,512
+260,937,1620,7_4,7_4,256,鎧神兵ガリアクルーズ,Armored Transport Galiacruse,CREATURE,Armorloid,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Each of your fire creatures gets ""This creature can attack untapped creatures"" until the end of the turn.",,crosswalk,135168,133632,1536
+261,938,1621,7_5,7_5,257,爆転の化身,Spinning Totem,CREATURE,Mystery Totem,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ This turn, whenever any of your nature creatures is attacking your opponent and becomes blocked, it breaks one of his shields. (If a creature has ""double breaker"" or ""triple breaker,"" it still breaks only one shield.)",,crosswalk,151552,150272,1280
+262,939,1622,7_6,7_6,258,聖天使カイザル・バジキューラ,"Kizar Basiku, the Outrageous",CREATURE,Initiate,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Evolution-Put on one of your Initiates.
+■ Fire stealth (This creature can't be blocked while your opponent has any fire cards in his mana zone.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,126976,125952,1024
+263,940,1623,7_7,7_7,259,光封樹,Pulsar Tree,CREATURE,Starlight Tree,"■ When one of your shields would be broken, you may destroy this creature instead.",,crosswalk,120832,119040,1792
+264,941,1624,7_8,7_8,260,ジャスティス・ジャミング,Justice Jamming,SPELL,,"■ Tap all darkness creatures in the battle zone, or tap all fire creatures in the battle zone.",,crosswalk,108544,108544,0
+265,942,1625,7_9,7_9,261,キャバリア・シャーク,Trenchdive Shark,CREATURE,Gel Fish,"■ When you put this creature into the battle zone, you may add up to 2 cards from your hand to your shields face down. If you do, choose the same number of your shields and put them into your hand. You can't use the ""shield trigger"" ability of those shields.",,crosswalk,129024,127232,1792
+266,943,1626,7_10,7_10,262,アクア・フェンサー,Aqua Fencer,CREATURE,Liquid People,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a card in your opponent's mana zone and return it to his hand.",,crosswalk,120832,119808,1024
+267,944,1627,7_11,7_11,263,ビアンカス,Biancus,CREATURE,Sea Hacker,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose one of your creatures in the battle zone. It can't be blocked this turn.",,crosswalk,112640,111104,1536
+268,945,1628,7_12,7_12,264,超幻獣ドグザバル,Phantasmal Horror Gigazabal,EVOLUTION CREATURE,Chimera,"■ Evolution-Put on one of your Chimeras.
+■ Light stealth (This creature can't be blocked while your opponent has any light cards in his mana zone.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,147456,146176,1280
+269,946,1629,7_13,7_13,265,ギガバスター,Gigabuster,CREATURE,Chimera,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ When you put this creature into the battle zone, choose one of your shields and put it into your hand. You can't use the ""shield trigger"" ability of that shield.
+■ This creature can't attack.",,crosswalk,141312,140288,1024
+270,947,1630,7_14,7_14,266,チェイン・スラッシュ,Hopeless Vortex,SPELL,,■ Destroy one of your opponent's creatures.,,crosswalk,137216,135424,1792
+271,948,1631,7_15,7_15,267,超巨岩獣ヴォルクラウザー,"Valkrowzer, Ultra Rock Beast",EVOLUTION CREATURE,Rock Beast,"■ Evolution-Put on one of your Rock Beasts.
+■ Water stealth (This creature can't be blocked while your opponent has any water cards in his mana zone.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,141312,140032,1280
+272,949,1632,7_16,7_16,268,ピーポのバール,Kipo's Contraption,CREATURE,Xenoparts,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Destroy one of your opponent's creatures that has power 2000 or less.",,crosswalk,137216,136704,512
+273,950,1633,7_17,7_17,269,地獄万力,Apocalypse Vise,SPELL,,■ Destroy any number of your opponent's creatures that have total power 8000 or less.,,crosswalk,126976,126720,256
+274,951,1634,7_18,7_18,270,世界樹ユグドラジーガ,"World Tree, Root of Life",EVOLUTION CREATURE,Tree Folk,"■ Evolution-Put on one of your Tree Folk.
+■ Power attacker +2000 (While attacking, this creature gets +2000 power.)
+■ Darkness stealth (This creature can't be blocked while your opponent has any darkness cards in his mana zone.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,149504,148480,1024
+275,952,1635,7_19,7_19,271,呪紋の化身,Cryptic Totem,CREATURE,Mystery Totem,"■ Double breaker (This creature breaks 2 shields.)
+■ While this creature is tapped, your opponent can't use the ""shield trigger"" ability of his shields.",,crosswalk,157696,157696,0
+276,953,1636,7_20,7_20,272,草原の種,"Tangle Fist, the Weaver",CREATURE,Beast Folk,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Put up to 3 cards from your hand into your mana zone.",,crosswalk,149504,148736,768
+277,954,1637,7_21,7_21,273,宣凶師ロンドビル,"Rondobil, the Explorer",CREATURE,Gladiator,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Add one of your creatures from the battle zone to your shields face down.",,crosswalk,126976,125440,1536
+278,955,1638,7_22,7_22,274,聖騎士プラネットシャイン,"Geoshine, Spectral Knight",CREATURE,Rainbow Phantom,"■ Whenever this creature attacks, you may choose a darkness or fire creature in the battle zone and tap it. (First choose what this creature is attacking. Then choose a creature to tap.)",,crosswalk,116736,116224,512
+279,956,1639,7_23,7_23,275,ライトニング・チャージャー,Lightning Charger,SPELL,,"■ Choose one of your opponent's creatures in the battle zone and tap it.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,110592,109568,1024
+280,957,1640,7_24,7_24,276,スプラッシュ・ゼブラフィッシュ,Splash Zebrafish,CREATURE,Gel Fish,"■ When you put this creature into the battle zone, return a card from your mana zone to your hand.
+■ This creature can't be blocked.",,crosswalk,143360,142848,512
+281,958,1641,7_25,7_25,277,キュリアス・アイ,Curious Eye,CREATURE,Cyber Virus,"■ Whenever this creature attacks, you may look at one of your opponent's shields. Then put it back where it was.",,crosswalk,131072,131072,0
+282,959,1642,7_26,7_26,278,スパイラル・チャージャー,Riptide Charger,SPELL,,"■ Choose a creature in the battle zone and return it to its owner's hand.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,124928,123392,1536
+283,960,1643,7_27,7_27,279,三面怪人アシュラファング,Three-Faced Ashura Fang,CREATURE,Devil Mask,"■ When you put this creature into the battle zone, choose one of your shields and put it into your hand. You can't use the ""shield trigger"" ability of that shield.",,crosswalk,139264,137728,1536
+284,961,1644,7_28,7_28,280,ポイズン・ティアラ,Scalpel Spider,CREATURE,Brain Jacker,"■ Whenever this creature is attacked, it gets ""slayer"" until the end of the turn. (Whenever a creature that has ""slayer"" battles, destroy the other creature after the battle.)",,crosswalk,155648,154112,1536
+285,962,1645,7_29,7_29,281,ブラッディ・チャージャー,Venom Charger,SPELL,,"■ One of your creatures in the battle zone gets ""slayer"" until the end of the turn. (Whenever a creature that has ""slayer"" battles, destroy the other creature after the battle.)
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,141312,139776,1536
+286,963,1646,7_30,7_30,282,怪神兵ナグール,Otherworldly Warrior Naglu,CREATURE,Armorloid,"■ This creature can't be attacked.
+■ Power attacker +3000 (While attacking, this creature gets +3000 power.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,143360,143104,256
+287,964,1647,7_31,7_31,283,クレーターザウルス,Cratersaur,CREATURE,Rock Beast,"■ While you have no shields, this creature can attack untapped creatures and has ""Power attacker +3000 (While attacking, this creature gets +3000 power).""",,crosswalk,149504,147712,1792
+288,965,1648,7_32,7_32,284,エナジー・チャージャー,Energy Charger,SPELL,,"■ One of your creatures gets +2000 power until the end of the turn.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,135168,134656,512
+289,966,1649,7_33,7_33,285,シェル・ブリーダー,Brood Shell,CREATURE,Colony Beetle,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Return a creature from your mana zone to your hand.",,crosswalk,147456,146944,512
+290,967,1650,7_34,7_34,286,不死身の果実,Fruit of Eternity,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Whenever any of your creatures would be destroyed this turn, put it into your mana zone instead.",,crosswalk,133120,132352,768
+291,968,1651,7_35,7_35,287,メビウス・チャージャー,Mulch Charger,SPELL,,"■ Put one of your creatures from the battle zone into your mana zone.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,141312,140032,1280
+292,969,1652,7_36,7_36,288,白夜の守護者ロディ・ゲール,"Rodi Gale, Night Guardian",CREATURE,Guardian,■ Darkness stealth (This creature can't be blocked while your opponent has any darkness cards in his mana zone.),,crosswalk,135168,134656,512
+293,970,1653,7_37,7_37,289,捕縛の使徒ローム,"Rom, Vizier of Tendrils",CREATURE,Initiate,"■ When you put this creature into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,124928,124672,256
+294,971,1654,7_38,7_38,290,予言者ベクス,"Bex, the Oracle",CREATURE,Light Bringer,"■ While you have no shields, this creature has ""blocker"". (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)",,crosswalk,129024,128256,768
+295,972,1655,7_39,7_39,291,ミラクル・ポータル,Miracle Portal,SPELL,,"■ Choose one of your creatures in the battle zone. This turn, it can't be blocked and you ignore any effects that would prevent that creature from attacking your opponent. (For example, ignore summoning sickness and card effects that say ""This creature can't attack"" or ""This creature can't attack players."" Your creatures can't attack creatures this way.)",,crosswalk,129024,127232,1792
+296,973,1656,7_40,7_40,292,アクア・エージェント,Aqua Agent,CREATURE,Liquid People,"■ Water stealth (This creature can't be blocked while your opponent has any water cards in his mana zone.)
+■ When this creature would be destroyed, you may return it to your hand instead.",,crosswalk,137216,135936,1280
+297,974,1657,7_41,7_41,293,ウォール・クラスター,Titanium Cluster,CREATURE,Cyber Cluster,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't be attacked.
+■ This creature can't attack.",,crosswalk,129024,127744,1280
+298,975,1658,7_42,7_42,294,ガラティアヌス,Garatyano,CREATURE,Sea Hacker,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Look at the top 3 cards of your deck. Then put them back in any order.",,crosswalk,112640,112640,0
+299,976,1659,7_43,7_43,295,セティボルス,Cetibols,CREATURE,Sea Hacker,"■ When this creature is destroyed, you may draw a card.",,crosswalk,126976,125184,1792
+300,977,1660,7_44,7_44,296,夢幻の影ダーク・バンディット,"Dream Pirate, Shadow of Theft",CREATURE,Ghost,"■ When this creature would be destroyed, you may return it to your hand instead. If you do, put a card from your hand into your graveyard.",,crosswalk,143360,142848,512
+301,978,1661,7_45,7_45,297,隠密人形ゲザリー,"Gezary, Undercover Doll",CREATURE,Death Puppet,■ Nature stealth (This creature can't be blocked while your opponent has any nature cards in his mana zone.),,crosswalk,141312,140288,1024
+302,979,1662,7_46,7_46,298,飛行男,Propeller Mutant,CREATURE,Hedrian,"■ When this creature is destroyed, your opponent discards a card at random from his hand.",,crosswalk,126976,126976,0
+303,980,1663,7_47,7_47,299,バキューム・ジェル,Vacuum Gel,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy one of your opponent's untapped light or untapped nature creatures.",,crosswalk,141312,140544,768
+304,981,1664,7_48,7_48,300,ガザリアス・ドラゴン,Gazarias Dragon,CREATURE,Armored Dragon,"■ While you have no shields, this creature gets +4000 power and has ""double breaker (This creature breaks 2 shields).""",,crosswalk,126976,125440,1536
+305,982,1665,7_49,7_49,301,アストロノーツ・ワイバーン,Astronaut Skyterror,CREATURE,Armored Wyvern,"■ While you have no other creatures in the battle zone, this creature has ""Power attacker +4000 (While attacking, this creature gets +4000 power)"" and ""Double breaker (This creature breaks 2 shields).""",,crosswalk,145408,144640,768
+306,983,1666,7_50,7_50,302,暴走番長ギャラン,Wild Racer Chief Garan,CREATURE,Human,"■ Power attacker +1000 (While attacking, this creature gets +1000 power.)
+■ Light stealth (This creature can't be blocked while your opponent has any light cards in his mana zone.)",,crosswalk,145408,144384,1024
+307,984,1667,7_51,7_51,303,クック・ポロン,Kooc Pollon,CREATURE,Fire Bird,■ This creature can't be attacked.,,crosswalk,131072,130560,512
+308,985,1668,7_52,7_52,304,撃墜するスティンガー・ホーン,"Stinger Horn, the Delver",CREATURE,Horned Beast,"■ Power attacker +1000 (While attacking, this creature gets +1000 power.)
+■ Water stealth (This creature can't be blocked while your opponent has any water cards in his mana zone.)",,crosswalk,157696,157696,0
+309,986,1669,7_53,7_53,305,春風妖精ポップル,"Popple, Flowerpetal Dancer",CREATURE,Snow Faerie,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Put the top card of your deck into your mana zone.",,crosswalk,145408,143616,1792
+310,987,1670,7_54,7_54,306,ランチャー・スパイダー,Launch Locust,CREATURE,Giant Insect,"■ While attacking, this creature gets +1000 power for each other creature you have in the battle zone.",,crosswalk,135168,135168,0
+311,988,1671,7_55,7_55,307,氷結ハンマー,Freezing Icehammer,SPELL,,■ Choose one of your opponent's water or darkness creatures in the battle zone. Your opponent puts that creature into his mana zone.,,crosswalk,131072,130816,256
+312,989,1672,7_S1,7_S1,308,栄光の精霊アイリス,"Siri, Glory Elemental",CREATURE,Angel Command,"■ Double breaker (This creature breaks 2 shields.)
+■ While you have no shields, this creature has ""blocker"" and ""At the end of each of your turns, you may untap this creature.""",,crosswalk,131072,130560,512
+313,990,1673,7_S2,7_S2,309,アストラル・メデューサ,Cosmic Nebula,EVOLUTION CREATURE,Cyber Virus,"■ Evolution-Put on one of your Cyber Viruses.
+■ Whenever you draw the card at the start of your turn, you may draw an extra card.",,crosswalk,135168,134912,256
+314,991,1674,7_S3,7_S3,310,残虐覇王デスカール,"Crath Lade, Merciless King",CREATURE,Dark Lord,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Your opponent discards 2 cards at random from his hand.",,crosswalk,139264,137984,1280
+315,992,1675,7_S4,7_S4,311,激震闘士スカイ・クラッシャー,"Sky Crusher, the Agitator",CREATURE,Dragonoid,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Each player puts a card from his mana zone into his graveyard.",,crosswalk,143360,142336,1024
+316,993,1676,7_S5,7_S5,312,金剛の超人,Headlong Giant,CREATURE,Giant,"■ This creature can't attack if you have no cards in your hand.
+■ Whenever this creature attacks, discard a card from your hand.
+■ This creature can't be blocked by any creature that has power 4000 or less.
+■ Triple breaker (This creature breaks 3 shields.)",,crosswalk,151552,150272,1280
+317,994,1677,8_1,8_1,313,開眼者クーカイ,"Kuukai, Finder of Karma",CREATURE,Mecha Thunder,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Evolution-Put on one of your Mecha Thunders.
+■ Whenever this creature blocks, untap it after it battles.
+■ This creature can't attack players.",,crosswalk,135168,133888,1280
+318,995,1678,8_2,8_2,314,アクア・レンジャー,Aqua Ranger,CREATURE,Liquid People,"■ This creature can't be blocked.
+■ When this creature would be destroyed, put it into your hand instead.",,crosswalk,129024,128000,1024
+319,996,1679,8_3,8_3,315,暗黒皇女メガリア,"Megaria, Empress of Dread",CREATURE,Dark Lord,"■ Each creature in the battle zone has ""slayer."" (Whenever a creature that has ""slayer"" battles, destroy the other creature after the battle.)",,crosswalk,149504,149248,256
+320,997,1680,8_4,8_4,316,紅神龍ジャガルザー,Magmadragon Jagalzor,CREATURE,Volcano Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  Each of your creatures in the battle zone has ""speed attacker."" (A creature that has ""speed attacker"" doesn't get summoning sickness.)",,crosswalk,137216,135680,1536
+321,998,1681,8_5,8_5,317,幻想妖精カチュア,"Kachua, Keeper of the Icegate",CREATURE,Snow Faerie,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Search your deck. You may take a creature that has Dragon in its race from your deck and put it into the battle zone. Then shuffle your deck. That creature has ""speed attacker."" At the end of the turn, destroy it.",,crosswalk,143360,142336,1024
+322,999,1682,8_6,8_6,318,光器サーシャ,"Sasha, Channeler of Suns",CREATURE,Mecha Del Sol,"■ Dragon blocker (Whenever an opponent's creature that has Dragon in its race attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ While battling a creature that has Dragon in its race, this creature gets +6000 power.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,129024,127488,1536
+323,1000,1683,8_7,8_7,319,疾風の守護者スール・ミース,"Thrumiss, Zephyr Guardian",CREATURE,Guardian,"■ Whenever any of your creatures attacks, you may choose one of your opponent's creatures in the battle zone and tap it. (First choose what your creature is attacking. Then choose a creature to tap.)",,crosswalk,135168,133632,1536
+324,1001,1684,8_8,8_8,320,予言者マリエル,"Nariel, the Oracle",CREATURE,Light Bringer,■ Creatures that have power 3000 or more can't attack. (Creatures that have power less than 3000 and get extra power while attacking can still attack.),,crosswalk,124928,123904,1024
+325,1002,1685,8_9,8_9,321,アクア・グラップラー,Aqua Grappler,CREATURE,Liquid People,"■ Whenever this creature attacks, you may draw a card for each other tapped creature you have in the battle zone.",,crosswalk,135168,134144,1024
+326,1003,1686,8_10,8_10,322,ビコラキス,Vikorakys,CREATURE,Sea Hacker,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  When this creature attacks, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck.",,crosswalk,126976,125696,1280
+327,1004,1687,8_11,8_11,323,マリン・スクランブル,Marine Scramble,SPELL,,■ Your creatures in the battle zone can't be blocked this turn.,,crosswalk,116736,116736,0
+328,1005,1688,8_12,8_12,324,黒神龍ガルバジーク,Necrodragon Galbazeek,CREATURE,Zombie Dragon,"■ Whenever this creature attacks, choose one of your shields and put it into your graveyard.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,151552,151040,512
+329,1006,1689,8_13,8_13,325,恐怖の影スクリーム・アサシン,"Scream Slicer, Shadow of Fear",CREATURE,Ghost,"■ Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, destroy the creature that has the least power in the battle zone. If there's a tie, you choose from among the tied creatures.",,crosswalk,141312,139520,1792
+330,1007,1690,8_14,8_14,326,スケルトン・バイス,Skeleton Vice,SPELL,,■ Your opponent discards 2 cards at random from their hand.,"Neither blood, nor flesh, nor soul can quell the hunger of the dead.",crosswalk,131072,130304,768
+331,1008,1691,8_15,8_15,327,爆竜兵ドラグストライク,"Kyrstron, Lair Delver",CREATURE,Dragonoid,"■ When this creature is destroyed, you may put a creature that has Dragon in its race from your hand into the battle zone.",,crosswalk,133120,132864,256
+332,1009,1692,8_16,8_16,328,重装兵ガルバック,Slaphappy Soldier Galback,CREATURE,Dragonoid,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  Whenever this creature attacks, you may destroy one of your opponent's creatures that has power 4000 or less.",,crosswalk,141312,141312,0
+333,1010,1693,8_17,8_17,329,レジェンド・アタッカー,Furious Onslaught,SPELL,,"■ Until the end of the turn, each of your Dragonoids in the battle zone is an Armored Dragon in addition to its other races, gets +4000 power, and has ""Double breaker (This creature breaks 2 shields).""",,crosswalk,122880,121344,1536
+334,1011,1694,8_18,8_18,330,緑神龍ガミラタール,Terradragon Gamiratar,CREATURE,Earth Dragon,"■ When you put this creature into the battle zone, your opponent may choose a creature in his hand and put it into the battle zone.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,153600,153344,256
+335,1012,1695,8_19,8_19,331,カーボナイト・ビートル,Carbonite Scarab,CREATURE,Giant Insect,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  Whenever this creature is attacking your opponent and becomes blocked, it breaks one of your opponent's shields.",,crosswalk,139264,138240,1024
+336,1013,1696,8_20,8_20,332,ライフ・チャージャー,Root Charger,SPELL,,"■ Whenever any of your creatures would be destroyed this turn, put it into your mana zone instead.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,137216,135680,1536
+337,1014,1697,8_21,8_21,333,日向草,Solar Grass,CREATURE,Starlight Tree,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  Whenever this creature is attacking your opponent and isn't blocked, untap all your creatures in the battle zone except Solar Grasses.",,crosswalk,124928,124160,768
+338,1015,1698,8_22,8_22,334,レーザー・ウィップ,Laser Whip,SPELL,,"■ Choose one of your opponent's creatures in the battle zone and tap it. Then you may choose one of your creatures in the battle zone. If you do, it can't be blocked this turn.",,crosswalk,114688,113152,1536
+339,1016,1699,8_23,8_23,335,ドラコ・バリアー,Dracobarrier,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose one of your opponent's creatures in the battle zone and tap it. If it has Dragon in its race, add the top card of your deck to your shields face down.",,crosswalk,112640,112384,256
+340,1017,1700,8_24,8_24,336,ラリシウス,Lalicious,CREATURE,Sea Hacker,"■ Whenever this creature attacks, you may look at your opponent's hand and at the top card of his deck.",,crosswalk,124928,124928,0
+341,1018,1701,8_25,8_25,337,テンペスト・キラーホエール,Prowling Elephish,CREATURE,Gel Fish,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)",,crosswalk,116736,116736,0
+342,1019,1702,8_26,8_26,338,ウェーブ・ランス,Wave Lance,SPELL,,"■ Choose a creature in the battle zone and return it to its owner's hand. If it has Dragon in its race, you may draw a card.",,crosswalk,122880,121088,1792
+343,1020,1703,8_27,8_27,339,単車男,Motorcycle Mutant,CREATURE,Hedrian,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.
+■ When you put another creature into the battle zone, destroy this creature.",,crosswalk,126976,125184,1792
+344,1021,1704,8_28,8_28,340,機怪人形ガチャック,"Gachack, Mechanical Doll",CREATURE,Death Puppet,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  Whenever this creature is attacking your opponent and isn't blocked, you may destroy a creature.",,crosswalk,143360,142336,1024
+345,1022,1705,8_29,8_29,341,ディメンジョン・チョーカー,Dimension Splitter,CREATURE,Brain Jacker,"■ When you put this creature into the battle zone, you may return all creatures that have Dragon in their race from your graveyard to your hand.",,crosswalk,129024,128768,256
+346,1023,1706,8_30,8_30,342,ブルーザー・ドラゴン,Bruiser Dragon,CREATURE,Armored Dragon,"■ When this creature is destroyed, choose one of your shields and put it into your graveyard.",,crosswalk,149504,147712,1792
+347,1024,1707,8_31,8_31,343,ロケットダイブ・ワイバーン,Rocketdive Skyterror,CREATURE,Armored Wyvern,"■ This creature can't be attacked.
+■ This creature can't attack players.
+■ Power attacker +1000 (While attacking, this creature gets +1000 power.)",,crosswalk,139264,139008,256
+348,1025,1708,8_32,8_32,344,クリムゾン・チャージャー,Volcano Charger,SPELL,,"■ Destroy one of your opponent's creatures that has power 2000 or less.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,120832,120320,512
+349,1026,1709,8_33,8_33,345,シェル・コロシアム,Coliseum Shell,CREATURE,Colony Beetle,"■ Whenever this creature becomes blocked, you may put the top card of your deck into your mana zone.",,crosswalk,137216,136960,256
+350,1027,1710,8_34,8_34,346,竜舞の化身,Dracodance Totem,CREATURE,Mystery Totem,"■ When this creature would be destroyed, if you have a creature that has Dragon in its race in your mana zone, put this creature into your mana zone instead of destroying it. Then return a creature that has Dragon in its race from your mana zone to your hand.",,crosswalk,147456,146944,512
+351,1028,1711,8_35,8_35,347,パワー・チャージャー,Muscle Charger,SPELL,,"■ Each of your creatures in the battle zone gets +3000 power until the end of the turn.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,143360,141824,1536
+352,1029,1712,8_36,8_36,348,光器マーシャ,"Misha, Channeler of Suns",CREATURE,Mecha Del Sol,■ This creature can't be attacked by any creature that has Dragon in its race.,,crosswalk,131072,129536,1536
+353,1030,1713,8_37,8_37,349,乱撃の使徒ミガロ,"Migalo, Vizier of Spycraft",CREATURE,Initiate,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  Whenever this creature attacks, you may look at 2 of your opponent's shields. Then put them back where they were.",,crosswalk,126976,125952,1024
+354,1031,1714,8_38,8_38,350,日輪の守護者ソル・ガーラ,"Sol Galla, Halo Guardian",CREATURE,Guardian,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever a player casts a spell, this creature gets +3000 power until the end of the turn. (Do what the spell says before this creature gets the extra power.)",,crosswalk,122880,122880,0
+355,1032,1715,8_39,8_39,351,ソーラー・チャージャー,Lunar Charger,SPELL,,"■ Choose up to 2 of your creatures in the battle zone. At the end of the turn, you may untap them.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,108544,108032,512
+356,1033,1716,8_40,8_40,352,イリュージョン・フィッシュ,Illusion Fish,CREATURE,Gel Fish,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  This creature can't be blocked.",,crosswalk,122880,122368,512
+357,1034,1717,8_41,8_41,353,キャンディ・クラスター,Candy Cluster,CREATURE,Cyber Cluster,■ This creature can't be blocked.,,crosswalk,120832,120832,0
+358,1035,1718,8_42,8_42,354,グレープ・ジェリー,Grape Globbo,CREATURE,Cyber Virus,"■ When you put this creature into the battle zone, look at your opponent's hand.",,crosswalk,124928,123904,1024
+359,1036,1719,8_43,8_43,355,ブレイン・チャージャー,Eureka Charger,SPELL,,"■ Draw a card.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,110592,109056,1536
+360,1037,1720,8_44,8_44,356,ギガクローズ,Gigaclaws,CREATURE,Chimera,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  Whenever this creature attacks, your opponent discards his hand.",,crosswalk,143360,141824,1536
+361,1038,1721,8_45,8_45,357,黒神龍ギランド,Necrodragon Giland,CREATURE,Zombie Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ When this creature battles, destroy it after the battle.",,crosswalk,149504,148480,1024
+362,1039,1722,8_46,8_46,358,暴虐虫タイラント・ワーム,Tyrant Worm,CREATURE,Parasite Worm,"■ When you put another creature into the battle zone, destroy this creature.",,crosswalk,133120,132864,256
+363,1040,1723,8_47,8_47,359,リバース・チャージャー,Corpse Charger,SPELL,,"■ Put a creature from your graveyard into your hand.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,131072,129792,1280
+364,1041,1724,8_48,8_48,360,バトルシップ・ワイバーン,Torpedo Skyterror,CREATURE,Armored Wyvern,"■ While attacking, this creature gets +2000 power for each other tapped creature you have in the battle zone.",,crosswalk,122880,122368,512
+365,1042,1725,8_49,8_49,361,紅神龍メルガルス,Magmadragon Melgars,CREATURE,Volcano Dragon,,,crosswalk,135168,133888,1280
+366,1043,1726,8_50,8_50,362,肉弾兵ウルティモ,Missile Soldier Ultimo,CREATURE,Dragonoid,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  This creature can attack untapped creatures and has ""Power attacker +4000 (While attacking, this creature gets +4000 power).""",,crosswalk,145408,144384,1024
+367,1044,1727,8_51,8_51,363,トット・ピピッチ,Totto Pipicchi,CREATURE,Fire Bird,"■ Each creature in the battle zone that has Dragon in its race has ""speed attacker."" (A creature that has ""speed attacker"" doesn't get summoning sickness.)",,crosswalk,135168,134656,512
+368,1045,1728,8_52,8_52,364,緑神龍グレガリゴン,Terradragon Regarion,CREATURE,Earth Dragon,"■ Power attacker +3000 (While attacking, this creature gets +3000 power.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,151552,150272,1280
+369,1046,1729,8_53,8_53,365,食獣セニア,"Senia, Orchard Avenger",CREATURE,Tree Folk,"■ Turbo rush (If any of your other creatures broke any shields this turn, this creature gets its turbo rush ability until the end of the turn.)
+  This creature gets +5000 power and has ""double breaker (This creature breaks 2 shields).""",,crosswalk,147456,147456,0
+370,1047,1730,8_54,8_54,366,沈黙するバックラー・ホーン,"Bakkra Horn, the Silent",CREATURE,Horned Beast,"■ Whenever you put a Dragonoid or a creature that has Dragon in its race into the battle zone, put the top card of your deck into your mana zone.",,crosswalk,137216,137216,0
+371,1048,1731,8_55,8_55,367,怒髪の豪腕,Quixotic Hero Swine Snout,CREATURE,Beast Folk,"■ Whenever another creature is put into the battle zone, this creature gets +3000 power until the end of the turn.",,crosswalk,145408,145152,256
+372,1049,1732,8_S1,8_S1,368,光器ナスターシャ,"Nastasha, Channeler of Suns",CREATURE,Mecha Del Sol,"■ Double breaker (This creature breaks 2 shields.)
+■ When one of your shields would be broken, you may destroy this creature instead.",,crosswalk,133120,131584,1536
+373,1050,1733,8_S2,8_S2,369,エンペラー・アクア,Emperor Quazla,CREATURE,Cyber Lord,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Evolution-Put on one of your Cyber Lords.
+■ Whenever your opponent uses the ""shield trigger"" ability of one of his shields, draw up to 2 cards.",,crosswalk,135168,135168,0
+374,1051,1734,8_S3,8_S3,370,超神龍アブゾ・ドルバ,Super Necrodragon Abzo Dolba,EVOLUTION CREATURE,Zombie Dragon,"■ Evolution-Put on one of your creatures that has Dragon in its race.
+■ This creature gets +2000 power for each creature in your graveyard.
+■ Triple breaker (This creature breaks 3 shields.)",,crosswalk,153600,152832,768
+375,1052,1735,8_S4,8_S4,371,超竜バジュラ,Überdragon Bajula,EVOLUTION CREATURE,Armored Dragon,"■ Evolution-Put on one of your creatures that has Dragon in its race.
+■ Whenever this creature attacks, choose up to 2 cards in your opponent's mana zone. Your opponent puts those cards into his graveyard.
+■ Triple breaker (This creature breaks 3 shields.)",,crosswalk,147456,145664,1792
+376,1053,1736,8_S5,8_S5,372,超神龍バイラス・ゲイル,Super Terradragon Bailas Gale,EVOLUTION CREATURE,Earth Dragon,"■ Evolution-Put on one of your creatures that has Dragon in its race.
+■ After you cast a spell by using its ""shield trigger"" ability, put it into your hand instead of your graveyard.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,161792,161024,768
+377,1054,1737,9_1,9_1,373,守護聖天グレナ・ビューレ,"Glena Vuele, the Hypnotic",EVOLUTION CREATURE,Guardian,"■ Evolution-Put on one of your Guardians.
+■ Double breaker (This creature breaks 2 shields.)
+■ Whenever your opponent uses the ""shield trigger"" ability of one of his shields, you may add the top card of your deck to your shields face down.",,crosswalk,122880,121856,1024
+378,1055,1738,9_2,9_2,374,マーチング・スプライト,Marching Motherboard,CREATURE,Cyber Virus,"■ Whenever you put another creature that has Cyber in its race into the battle zone, you may draw a card.",,crosswalk,112640,112128,512
+379,1056,1739,9_3,9_3,375,死皇帝アザガースト,"Azaghast, Tyrant of Shadows",EVOLUTION CREATURE,Dark Lord,"■ Evolution-Put on one of your Dark Lords.
+■ Whenever you put a Ghost into the battle zone, you may destroy one of your opponent's untapped creatures.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,145408,145408,0
+380,1057,1740,9_4,9_4,376,聖剣炎獣バーレスク,"Balesk Baj, the Timeburner",EVOLUTION CREATURE,Armored Wyvern,"■ Evolution-Put on one of your Armored Wyverns.
+■ Whenever this creature is attacking your opponent and isn't blocked, take an extra turn after this one.
+■ Double breaker (This creature breaks 2 shields.)
+■ At the end of your turn, return this creature to your hand.",,crosswalk,139264,137472,1792
+381,1058,1741,9_5,9_5,377,鼓舞の化身,"Vreemah, Freaky Mojo Totem",CREATURE,Mystery Totem,"■ Whenever you put another creature into the battle zone, each Beast Folk in the battle zone gets +2000 power and ""double breaker"" until the end of the turn. (A creature that has ""double breaker"" breaks 2 shields.)",,crosswalk,143360,142592,768
+382,1059,1742,9_6,9_6,378,天光の精霊ミハイル,"Mihail, Celestial Elemental",CREATURE,Angel Command,"■ Whenever another creature would be destroyed, it stays in the battle zone instead.",,crosswalk,133120,131328,1792
+383,1060,1743,9_7,9_7,379,予言者ミキュート,"Micute, the Oracle",CREATURE,Light Bringer,"■ Whenever you put a Guardian into the battle zone, you may choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,116736,116736,0
+384,1061,1744,9_8,9_8,380,セレブ・チャージャー,Nexus Charger,SPELL,,"■ Add a card from your hand to your shields face down.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,114688,114176,512
+385,1062,1745,9_9,9_9,381,エンペラー・マロル,Emperor Maroll,EVOLUTION CREATURE,Cyber Lord,"■ Evolution-Put on one of your Cyber Lords.
+■ Whenever you put another creature into the battle zone, return this creature to your hand.
+■ Whenever this creature becomes blocked, return the blocking creature to its owner's hand. (This creature stays tapped.)",,crosswalk,135168,135168,0
+386,1063,1746,9_10,9_10,382,ストーク・クロウラー,Zeppelin Crawler,CREATURE,Earth Eater,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.
+■ Whenever this creature blocks, look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order.",,crosswalk,122880,121856,1024
+387,1064,1747,9_11,9_11,383,アナライズ・チャージャー,Abduction Charger,SPELL,,"■ Choose up to 2 creatures in the battle zone and return them to their owners' hands.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,114688,114688,0
+388,1065,1748,9_12,9_12,384,闘将バグザグール,"Gabzagul, Warlord of Pain",CREATURE,Dark Lord,■ Each creature attacks each turn if able.,,crosswalk,139264,138240,1024
+389,1066,1749,9_13,9_13,385,崩壊の影デス・タギア,"Ice Vapor, Shadow of Anguish",CREATURE,Ghost,"■ Whenever your opponent casts a spell, he chooses and discards a card from his hand, then chooses a card in his mana zone and puts it into his graveyard.",,crosswalk,135168,134400,768
+390,1067,1750,9_14,9_14,386,ロスト・チャージャー,Slash Charger,SPELL,,"■ Search a player's deck. You may take a card from that deck and put it into that player's graveyard. Then the player shuffles his deck.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,139264,139008,256
+391,1068,1751,9_15,9_15,387,特攻隊長マイキー,Shock Trooper Mykee,CREATURE,Human,"■ Speed attacker (This creature doesn't get summoning sickness.)
+■ Whenever this creature is attacking your opponent and isn't blocked, you may destroy one of your opponent's creatures that has power 3000 or less.",,crosswalk,141312,141312,0
+392,1069,1752,9_16,9_16,388,猿神兵アッシュ,Simian Warrior Grash,CREATURE,Armorloid,"■ Whenever one of your Armorloids is destroyed, your opponent chooses a card in his mana zone and puts it into his graveyard.",,crosswalk,137216,136960,256
+393,1070,1753,9_17,9_17,389,サウザンド・スピア,Blizzard of Spears,SPELL,,■ Destroy all creatures that have power 4000 or less.,,crosswalk,118784,118528,256
+394,1071,1754,9_18,9_18,390,大勇者「猛虎の怒り」,"Storm Wrangler, the Furious",EVOLUTION CREATURE,Beast Folk,"■ Evolution-Put on one of your Beast Folk.
+■ Whenever this creature attacks, you may choose one of your opponent's untapped creatures that has ""blocker."" This turn, that creature blocks this creature if able and this creature can't be blocked by other creatures.
+■ Whenever this creature becomes blocked, it gets +3000 power until the end of the turn.",,crosswalk,145408,144384,1024
+395,1072,1755,9_19,9_19,391,緑神龍アンリストヴァル,Terradragon Anrist Vhal,CREATURE,Earth Dragon,"■ This creature gets +2000 power for each of your other nature creatures in the battle zone. (A creature that has power 0 or less is destroyed.)
+■ While this creature has power 6000 or more, it has ""double breaker (This creature breaks 2 shields).""",,crosswalk,145408,145408,0
+396,1073,1756,9_20,9_20,392,クリスタル・フュージョン,Mana Bonanza,SPELL,,"■ For each card in your mana zone, put a card from the top of your deck into your mana zone tapped.",,crosswalk,126976,125440,1536
+397,1074,1757,9_21,9_21,393,月虹の守護者アール・ノアール,"Tra Rion, Penumbra Guardian",CREATURE,Guardian,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a race. At the end of this turn, untap all creatures of that race in the battle zone.",,crosswalk,116736,115200,1536
+398,1075,1758,9_22,9_22,394,宣凶師ベトラーレ,"Betrale, the Explorer",CREATURE,Gladiator,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.
+■ At the end of each of your turns, you may untap this creature.",,crosswalk,112640,111360,1280
+399,1076,1759,9_23,9_23,395,センチネル・ガード,Unified Resistance,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose a race. Until the start of your next turn, each of your creatures in the battle zone of that race gets ""blocker"".",,crosswalk,100352,99584,768
+400,1077,1760,9_24,9_24,396,ティコラクス,Tekorax,CREATURE,Sea Hacker,"■ When you put this creature into the battle zone, look at your opponent's shields. Then put them back where they were.",,crosswalk,124928,123904,1024
+401,1078,1761,9_25,9_25,397,ポキラ,Hokira,CREATURE,Cyber Lord,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a race. Whenever one of your creatures of that race would be destroyed this turn, return it to your hand instead.",,crosswalk,131072,130304,768
+402,1079,1762,9_26,9_26,398,サブマリン・プロジェクト,Submarine Project,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order.",,crosswalk,129024,128256,768
+403,1080,1763,9_27,9_27,399,黒神龍イゾリストヴァル,Necrodragon Izorist Vhal,CREATURE,Zombie Dragon,"■ This creature gets +2000 power for each darkness creature in your graveyard. (A creature that has power 0 or less is destroyed.)
+■ While this creature has power 6000 or more, it has ""Double breaker (This creature breaks 2 shields).""",,crosswalk,147456,146688,768
+404,1081,1764,9_28,9_28,400,毒牙虫ベノム・ワーム,Venom Worm,CREATURE,Parasite Worm,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a race. Each creature of that race gets ""slayer"" until the end of the turn. (Whenever a creature that has ""slayer"" battles, destroy the other creature after the battle.)",,crosswalk,145408,144384,1024
+405,1082,1765,9_29,9_29,401,生命剥奪,Grinning Hunger,SPELL,,■ Your opponent chooses one of his creatures in the battle zone or one of his shields and puts it into his graveyard.,,crosswalk,141312,141056,256
+406,1083,1766,9_30,9_30,402,ジョー・リザード,Snaptongue Lizard,CREATURE,Dune Gecko,"■ While attacking a creature, this creature can't be blocked.
+■ Power attacker +3000 (While attacking, this creature gets +3000 power.)",,crosswalk,135168,133376,1792
+407,1084,1767,9_31,9_31,403,ジージョのトンカチ,Gigio's Hammer,CREATURE,Xenoparts,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a race. Each creature of that race attacks this turn if able and gets ""power attacker +4000"" until the end of the turn. (While attacking, a creature that has ""power attacker +4000"" gets +4000 power.)",,crosswalk,135168,134656,512
+408,1085,1768,9_32,9_32,404,無限掌,Fists of Forever,SPELL,,"■ Choose one of your creatures in the battle zone. Whenever that creature wins a battle this turn, untap it.",,crosswalk,118784,116992,1792
+409,1086,1769,9_33,9_33,405,夢蒼の剛剣,Silvermoon Trailblazer,CREATURE,Beast Folk,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a race. Creatures of that race can't be blocked by creatures that have power 3000 or less this turn.",,crosswalk,129024,127744,1280
+410,1087,1770,9_34,9_34,406,怪力の化身,Whispering Totem,CREATURE,Mystery Totem,"■ When you put this creature into the battle zone, search your deck. You may take a Whispering Totem from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,139264,139008,256
+411,1088,1771,9_35,9_35,407,ソイル・チャージャー,Vine Charger,SPELL,,"■ Your opponent chooses one of his creatures in the battle zone and puts it into his mana zone.
+■ Charger (After you cast this spell, put it into your mana zone instead of your graveyard.)",,crosswalk,135168,135168,0
+412,1089,1772,9_36,9_36,408,聖騎士メビウスリンク,"Cyclolink, Spectral Knight",CREATURE,Rainbow Phantom,"■ Whenever this creature is attacking your opponent and isn't blocked, search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,122880,122880,0
+413,1090,1773,9_37,9_37,409,時空の守護者ジル・ワーカ,"Jil Warka, Time Guardian",CREATURE,Guardian,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.
+■ When this creature is destroyed, choose up to 2 of your opponent's creatures in the battle zone and tap them.",,crosswalk,133120,131584,1536
+414,1091,1774,9_38,9_38,410,双光の使徒カリュート,"Kalute, Vizier of Eternity",CREATURE,Initiate,"■ When this creature would be destroyed, if another Kalute, Vizier of Eternity is in the battle zone, return this creature to your hand instead.",,crosswalk,120832,119552,1280
+415,1092,1775,9_39,9_39,411,コズミック・ウイング,Cosmic Wing,SPELL,,■ Choose one of your creatures in the battle zone. It can't be blocked this turn.,,crosswalk,104448,102656,1792
+416,1093,1776,9_40,9_40,412,テンタクル・クラスター,Tentacle Cluster,CREATURE,Cyber Cluster,"■ Whenever this creature is attacking your opponent and isn't blocked, you may choose a creature in the battle zone and return it to its owner's hand.",,crosswalk,133120,131840,1280
+417,1094,1777,9_41,9_41,413,スカウト・クラスター,Scout Cluster,CREATURE,Cyber Cluster,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever you put another creature into the battle zone, return this creature from the battle zone to your hand.",,crosswalk,124928,123392,1536
+418,1095,1778,9_42,9_42,414,フェアリー・キャンドル,Kelp Candle,CREATURE,Cyber Virus,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.
+■ Whenever this creature blocks, look at the top 4 cards of your deck. Put one of them into your hand, and put the rest on the bottom of your deck in any order.",,crosswalk,126976,125440,1536
+419,1096,1779,9_43,9_43,415,サイバー・トンネル,Impossible Tunnel,SPELL,,■ Choose a race. Creatures of that race can't be blocked this turn.,,crosswalk,122880,121088,1792
+420,1097,1780,9_44,9_44,416,墓堀怪人アシッドフィスト,"Acid Reflux, the Fleshboiler",CREATURE,Devil Mask,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.
+■ Slayer (Whenever this creature battles, destroy the other creature after the battle.)",,crosswalk,133120,131584,1536
+421,1098,1781,9_45,9_45,417,悪戯人形ハロ,"Trixo, Wicked Doll",CREATURE,Death Puppet,"■ Whenever this creature is attacking your opponent and isn't blocked, your opponent chooses one of his creatures and destroys it.",,crosswalk,120832,120064,768
+422,1099,1782,9_46,9_46,418,暗闇に潜む者バット・ドクター,"Bat Doctor, Shadow of Undeath",CREATURE,Ghost,"■ When this creature is destroyed, you may return another creature from your graveyard to your hand.",,crosswalk,157696,156416,1280
+423,1100,1783,9_47,9_47,419,ゾンビ・カーニバル,Zombie Carnival,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose a race. Return up to 3 creatures of that race from your graveyard to your hand.",,crosswalk,137216,135680,1536
+424,1101,1784,9_48,9_48,420,マウントザウルス,Quakesaur,CREATURE,Rock Beast,"■ Whenever this creature is attacking your opponent and isn't blocked, your opponent chooses a card in his mana zone and puts it into his graveyard.",,crosswalk,129024,129024,0
+425,1102,1785,9_49,9_49,421,蒸神兵カイン,Steam Rumbler Kain,CREATURE,Armorloid,"■ Whenever this creature attacks, choose one of your shields and put it into your graveyard.",,crosswalk,124928,123648,1280
+426,1103,1786,9_50,9_50,422,鳥神兵クウザ,Aerodactyl Kooza,CREATURE,Armorloid,"■ While attacking a creature, this creature can't be blocked.
+■ Power attacker +3000 (While attacking, this creature gets +3000 power.)",,crosswalk,129024,128256,768
+427,1104,1787,9_51,9_51,423,フル・コマンド,Relentless Blitz,SPELL,,"■ Choose a race. This turn, each creature of that race can attack untapped creatures and can't be blocked while attacking a creature.",,crosswalk,124928,124160,768
+428,1105,1788,9_52,9_52,424,警護するソリッド・ホーン,Solid Horn,CREATURE,Horned Beast,"■ When this creature would be destroyed, put it into your mana zone instead.",,crosswalk,139264,137728,1536
+429,1106,1789,9_53,9_53,425,ウィップ・スコーピオン,Whip Scorpion,CREATURE,Giant Insect,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Power attacker +3000 (While attacking, this creature gets +3000 power.)",,crosswalk,147456,146432,1024
+430,1107,1790,9_54,9_54,426,誕生の祈,Cavern Raider,CREATURE,Beast Folk,"■ Whenever this creature is attacking your opponent and isn't blocked, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,135168,134912,256
+431,1108,1791,9_55,9_55,427,強欲の開拓,Dance of the Sproutlings,SPELL,,■ Choose a race. You may put any number of creatures of that race from your hand into your mana zone.,,crosswalk,120832,119552,1280
+432,1109,1792,9_S1,9_S1,428,光器ペトローバ,"Petrova, Channeler of Suns",CREATURE,Mecha Del Sol,"■ When you put this creature into the battle zone, choose a race other than Mecha Del Sol. Each creature of that race gets +4000 power.
+■ Whenever your opponent would choose a creature in the battle zone, he can't choose this one. (It can still be attacked and blocked.)",,crosswalk,124928,124928,0
+433,1110,1793,9_S2,9_S2,429,アクア・マスター,Aqua Master,CREATURE,Liquid People,"■ Whenever this creature is attacking your opponent and isn't blocked, choose one of your opponent's shields and turn it face up. (It stays face up while it's in the shield zone.)",,crosswalk,135168,135168,0
+434,1111,1794,9_S3,9_S3,430,呪縛の剣豪バロスト,"Stallob, the Lifequasher",CREATURE,Demon Command,"■ Double breaker (This creature breaks 2 shields.)
+■ When this creature is destroyed, destroy all creatures.",,crosswalk,135168,134144,1024
+435,1112,1795,9_S4,9_S4,431,紅神龍オグリストヴァル,Magmadragon Ogrist Vhal,CREATURE,Volcano Dragon,"■ This creature gets +3000 power for each card in your hand. (A creature that has power 0 or less is destroyed.)
+■ While this creature has power 6000 or more, it has ""Double breaker (This creature breaks 2 shields).""
+■ While this creature has power 15000 or more, it has ""Triple breaker (This creature breaks 3 shields)"" instead of ""double breaker.""",,crosswalk,137216,135936,1280
+436,1113,1796,9_S5,9_S5,432,驚天の超人,Stratosphere Giant,CREATURE,Giant,"■ When you put this creature into the battle zone, your opponent chooses up to 2 creatures in his hand and puts them into the battle zone.
+■ Triple breaker (This creature breaks 3 shields.)",,crosswalk,139264,139008,256
+437,1114,1797,10_1,10_1,433,雷珠の求道者ラ・バルザ,"Balza, Seeker of Hyperpearls",CREATURE,Mecha Thunder,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,135168,135168,0
+438,1115,1798,10_2,10_2,434,光器リュドミーラ,"Ryudmila, Channeler of Suns",CREATURE,Mecha Del Sol,"■ This creature gets +2000 power for each of your other untapped creatures in the battle zone.
+■ When this creature would be destroyed, shuffle it into your deck instead.",,crosswalk,133120,131328,1792
+439,1116,1799,10_3,10_3,435,キング・オクアノス,King Oquanos,CREATURE,Leviathan,"■ This creature gets +2000 power for each tapped card in your opponent's mana zone.
+■ While this creature has power 6000 or more, it has ""Double breaker (This creature breaks 2 shields).""",,crosswalk,124928,123392,1536
+440,1117,1800,10_4,10_4,436,災厄秘宝ゲジラ,"Kejila, the Hidden Horror",CREATURE,Pandora's Box,"■ Double breaker (This creature breaks 2 shields.)
+■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  This creature breaks 2 of your opponent's shields.",,crosswalk,133120,132352,768
+441,1118,1801,10_5,10_5,437,冥府の覇者ガジラビュート,"Gajirabute, Vile Centurion",CREATURE,Demon Command,"■ When you put this creature into the battle zone, choose one of your opponent's shields and put it into his graveyard.",,crosswalk,141312,140288,1024
+442,1119,1802,10_6,10_6,438,ガウレザル・ドラゴン,Gaulezal Dragon,CREATURE,Armored Dragon,■ Double breaker (This creature breaks 2 shields.),,crosswalk,143360,142080,1280
+443,1120,1803,10_7,10_7,439,天動の化身,Carnival Totem,CREATURE,Mystery Totem,"■ Double breaker (This creature breaks 2 shields.)
+■ When you put this creature into the battle zone, put all the cards from your mana zone into your hand and, at the same time, put all the cards from your hand into your mana zone tapped.",,crosswalk,155648,154880,768
+444,1121,1804,10_8,10_8,440,覚醒のタンザナイト,"Tanzanyte, the Awakener",CREATURE,Spirit Quartz,"■ (This creature is put into your mana zone tapped.)
+■ Double breaker (This creature breaks 2 shields.)
+■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose a creature in your graveyard. Return all creatures that have that name from your graveyard to your hand.",,crosswalk,120832,120320,512
+445,1122,1805,10_9,10_9,441,無双竜機ボルバルザーク,"Bombazar, Dragon of Destiny",CREATURE,Armored Dragon,"■ (This creature is put into your mana zone tapped.)
+■ When you put this creature into the battle zone, destroy all other creatures that have 6000 power. Take an extra turn after this one. You lose the game at the end of that turn.
+■ Speed attacker (This creature doesn't get summoning sickness.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,126976,126208,768
+446,1123,1806,10_10,10_10,442,霊光の化身,Techno Totem,CREATURE,Mystery Totem,"■ (This creature is put into your mana zone tapped.)
+■ While this creature is tapped, each of your other creatures has ""power attacker +1500."" (While attacking, a creature that has ""power attacker +1500"" gets +1500 power.)
+■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,133120,132608,512
+447,1124,1807,10_100,10_100,532,強制突撃,Forced Frenzy,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Each of your opponent's creatures gets ""This creature attacks if able"" until the start of your next turn.",,crosswalk,118784,117504,1280
+448,1125,1808,10_101,10_101,533,幻竜砲,Phantom Dragon's Flame,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy one of your opponent's creatures that has power 2000 or less.",,crosswalk,118784,118784,0
+449,1126,1809,10_102,10_102,534,コロッサス・ブースター,Colossus Boost,SPELL,,■ One of your creatures in the battle zone gets +4000 power until the end of the turn.,,crosswalk,122880,122368,512
+450,1127,1810,10_103,10_103,535,シェル・レガシー,Legacy Shell,CREATURE,Colony Beetle,"■ Each of your light creatures and fire creatures has ""power attacker +3000."" (While attacking, a creature that has ""power attacker +3000"" gets +3000 power.)",,crosswalk,149504,148992,512
+451,1128,1811,10_104,10_104,536,セイバーマスク・ビートル,Sabermask Scarab,CREATURE,Giant Insect,"■ Whenever this creature attacks, return a card from your mana zone to your hand.",,crosswalk,147456,145920,1536
+452,1129,1812,10_105,10_105,537,喜びの化身,Jiggly Totem,CREATURE,Mystery Totem,"■ While attacking, this creature gets +1000 power for each tapped card in your mana zone.",,crosswalk,126976,125952,1024
+453,1130,1813,10_106,10_106,538,プリーチ・トマト,Scowling Tomato,CREATURE,Wild Veggies,,,crosswalk,133120,132608,512
+454,1131,1814,10_107,10_107,539,ハッスル・ベリー,Hustle Berry,CREATURE,Wild Veggies,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Put the top card of your deck into your mana zone.",,crosswalk,145408,144640,768
+455,1132,1815,10_108,10_108,540,原始の棍棒,Adventure Boar,CREATURE,Beast Folk,"■ Power attacker +2000 (While attacking, this creature gets +2000 power.)",,crosswalk,141312,140800,512
+456,1133,1816,10_109,10_109,541,フェアリー・ライフ,Faerie Life,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Put the top card of your deck into your mana zone.",,crosswalk,129024,128768,256
+457,1134,1817,10_11,10_11,443,聖天使グライス・メジキューラ,"Glais Mejicula, the Extreme",EVOLUTION CREATURE,Initiate,"■ Evolution-Put on one of your Initiates.
+■ Whenever one of your shields would be broken, you may discard 2 cards from your hand instead.",,crosswalk,131072,130816,256
+458,1135,1818,10_110,10_110,542,ナチュラル・ブースト,Thirst for the Hunt,SPELL,,"■ Each of your creatures gets ""power attacker +1000"" until the end of the turn. (While attacking, a creature that has ""power attacker +1000"" gets +1000 power.)",,crosswalk,129024,129024,0
+459,1136,1819,10_12,10_12,444,粛清者ポルタレスタ,"Poltalester, the Spydroid",CREATURE,Soltrooper,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,116736,116480,256
+460,1137,1820,10_13,10_13,445,粛清者アイザク,"Ikaz, the Spydroid",CREATURE,Soltrooper,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever this creature blocks, choose one of your creatures in the battle zone. Untap it after the battle.
+■ This creature can't attack players.",,crosswalk,141312,139520,1792
+461,1138,1821,10_14,10_14,446,曙の守護者パラ・オーレシス,"Pala Olesis, Morning Guardian",CREATURE,Guardian,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ During your opponent's turn, each of your other creatures gets +2000 power.
+■ This creature can't attack players.",,crosswalk,122880,121344,1536
+462,1139,1822,10_15,10_15,447,緊急再誕,Rapid Reincarnation,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ You may destroy one of your creatures. If you do, choose a creature in your hand that costs the same as or less than the number of cards in your mana zone and put it into the battle zone.",,crosswalk,120832,120320,512
+463,1140,1823,10_16,10_16,448,バトル・コロシアム,Static Warp,SPELL,,■ Each player chooses one of his creatures in the battle zone. Tap the rest of the creatures in the battle zone.,,crosswalk,106496,106240,256
+464,1141,1824,10_17,10_17,449,クリスタル・ブレイダー,Crystal Spinslicer,CREATURE,Liquid People,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Evolution-Put on one of your Liquid People.",,crosswalk,126976,125440,1536
+465,1142,1825,10_18,10_18,450,サイレント・マジシャン,Mystic Magician,CREATURE,Merfolk,"■ Your creatures that have ""silent skill"" are put into the battle zone tapped.
+■ Whenever one of your creatures that has ""silent skill"" would be destroyed, put it into your hand instead.",,crosswalk,124928,123648,1280
+466,1143,1826,10_19,10_19,451,パルタン,Zaltan,CREATURE,Cyber Lord,"■ Whenever you put a Cyber Virus into the battle zone, you may discard up to 2 cards from your hand. For each card you discard, choose a creature in the battle zone and return it to its owner's hand.",,crosswalk,122880,122880,0
+467,1144,1827,10_20,10_20,452,トリック・クラッカー,Charge Whipper,CREATURE,Cyber Virus,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  You may add a card from your hand to your shields face down. If you do, choose one of your shields and put it into your hand. You can't use the ""shield trigger"" ability of that shield.",,crosswalk,133120,132864,256
+468,1145,1828,10_21,10_21,453,転生プログラム,Transmogrify,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ You may destroy a creature. If you do, its owner reveals cards from the top of his deck until he reveals a non-evolution creature. He puts that creature into the battle zone and puts the rest of those cards into his graveyard.",,crosswalk,124928,123392,1536
+469,1146,1829,10_22,10_22,454,邪悪の魔黒デビル・マーシャル,"Zero Nemesis, Shadow of Panic",EVOLUTION CREATURE,Ghost,"■ Evolution-Put on one of your Ghosts.
+■ Whenever one of your creatures attacks, your opponent discards a card at random from their hand.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,135168,134400,768
+470,1147,1830,10_23,10_23,455,妖舞皇女ユリア,"Uliya, the Entrancer",CREATURE,Dark Lord,"■ When you put this creature into the battle zone, choose one of your shields and put it into your hand. (You can use the ""shield trigger"" ability of that shield.)",,crosswalk,135168,134656,512
+471,1148,1831,10_24,10_24,456,ギガンデュラ,Gigandura,CREATURE,Chimera,"■ When you put this creature into the battle zone, look at your opponent's hand. You may choose a card in it and put it into his mana zone. If you do, choose a card in his mana zone and put it into his hand.",,crosswalk,143360,141568,1792
+472,1149,1832,10_25,10_25,457,困惑の影トラブル・アルケミスト,"Spark Chemist, Shadow of Whim",CREATURE,Ghost,"■ When you put this creature into the battle zone, return all the cards from your mana zone to your hand.",,crosswalk,126976,126976,0
+473,1150,1833,10_26,10_26,458,魔天降臨,Upheaval,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Each player puts all the cards from his mana zone into his hand and, at the same time, puts all the cards from his hand into his mana zone tapped.",,crosswalk,129024,129024,0
+474,1151,1834,10_27,10_27,459,機神装甲ガンダヴァル,Armored Raider Gandaval,EVOLUTION CREATURE,Human,"■ Evolution-Put on one of your Humans.
+■ While attacking, this creature gets +2000 power for each of your other tapped creatures in the battle zone.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,141312,140032,1280
+475,1152,1835,10_28,10_28,460,テンペストザウルス,Hurlosaur,CREATURE,Rock Beast,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has power 1000 or less.",,crosswalk,137216,136704,512
+476,1153,1836,10_29,10_29,461,バーンメルト・リザード,Burnwisp Lizard,CREATURE,Melt Warrior,"■ Each of your creatures in the battle zone that has ""silent skill"" has ""speed attacker."" (A creature that has ""speed attacker"" doesn't get summoning sickness.)",,crosswalk,147456,147456,0
+477,1154,1837,10_30,10_30,462,マインロード・ワイバーン,Minelord Skyterror,CREATURE,Armored Wyvern,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Destroy all creatures that have power 3000 or less.",,crosswalk,133120,131328,1792
+478,1155,1838,10_31,10_31,463,砕神兵ガッツンダー,Smash Warrior Stagrandu,CREATURE,Armorloid,"■ This creature can attack untapped creatures.
+■ Whenever this creature attacks a creature that has power 6000 or more, this creature gets +9000 power until the end of the turn.",,crosswalk,143360,143360,0
+479,1156,1839,10_32,10_32,464,大勇者「鎖風車」,"Earth Ripper, Talon of Rage",EVOLUTION CREATURE,Beast Folk,"■ Evolution-Put on one of your Beast Folk.
+■ When you put this creature into the battle zone, return all tapped cards from your mana zone to your hand.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,129024,128512,512
+480,1157,1840,10_33,10_33,465,緑神龍クスダルフ,Terradragon Cusdalf,CREATURE,Earth Dragon,"■ Power attacker +4000 (While attacking, this creature gets +4000 power.)
+■ Double breaker (This creature breaks 2 shields.)
+■ You can't untap the cards in your mana zone at the start of each of your turns.",,crosswalk,137216,137216,0
+481,1158,1841,10_34,10_34,466,エコロバルーン・ビートル,Bubble Scarab,CREATURE,Giant Insect,"■ Whenever one of your creatures is attacked, you may discard a card from your hand. If you do, that creature gets +3000 power until the end of the turn.",,crosswalk,137216,136448,768
+482,1159,1842,10_35,10_35,467,シャーマン・ブロッコリー,Shaman Broccoli,CREATURE,Wild Veggies,"■ When this creature would be destroyed, put it into your mana zone instead.",,crosswalk,143360,141824,1536
+483,1160,1843,10_36,10_36,468,母なる大地,Soulswap,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ You may choose a creature in the battle zone and put it into its owner's mana zone. If you do, choose a non-evolution creature in that player's mana zone that costs the same as or less than the number of cards in that mana zone. That player puts that creature into the battle zone.",,crosswalk,131072,130048,1024
+484,1161,1844,10_37,10_37,469,アクア・リバイバー,Aqua Skydiver,CREATURE,Liquid People,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ (This creature is put into your mana zone tapped.)
+■ When this creature would be destroyed, return it to your hand instead.",,crosswalk,112640,111360,1280
+485,1162,1845,10_38,10_38,470,冷徹のソーダライト,"Soderlight, the Cold Blade",CREATURE,Spirit Quartz,"■ (This creature is put into your mana zone tapped.)
+■ This creature can't be blocked.
+■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Your opponent chooses one of his creatures and destroys it.",,crosswalk,122880,121856,1024
+486,1163,1846,10_39,10_39,471,腐敗勇騎ドルマークス,"Dolmarks, the Shadow Warrior",CREATURE,Ghost/Human,"■ (This creature is put into your mana zone tapped.)
+■ When you put this creature into the battle zone, destroy one of your creatures and put a card from your mana zone into your graveyard. Then your opponent chooses and destroys one of his creatures and chooses a card in his mana zone and puts it into his graveyard.",,crosswalk,129024,127232,1792
+487,1164,1847,10_40,10_40,472,反発のタグタップ,"Tagtapp, the Retaliator",CREATURE,Spirit Quartz,"■ (This creature is put into your mana zone tapped.)
+■ This creature gets +1000 power for each water card in your opponent's mana zone.
+■ While this creature has power 6000 or more, it has ""Double breaker (This creature breaks 2 shields).""",,crosswalk,112640,112384,256
+488,1165,1848,10_41,10_41,473,霊峰の守護者ルキア・レックス,"Lukia Lex, Pinnacle Guardian",CREATURE,Guardian,"■ (This creature is put into your mana zone tapped.)
+■ Power attacker +3000 (While attacking, this creature gets +3000 power.)
+■ At the end of each of your turns, you may untap this creature.",,crosswalk,118784,118528,256
+489,1166,1849,10_42,10_42,474,光器ベロチカ,"Berochika, Channeler of Suns",CREATURE,Mecha Del Sol,"■ When you put this creature into the battle zone, if you have 5 or more shields, add the top card of your deck to your shields face down.",,crosswalk,122880,122880,0
+490,1167,1850,10_43,10_43,475,粛清者ブルグラフ,"Bulgluf, the Spydroid",CREATURE,Soltrooper,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Add the top card of your deck to your shields face down.",,crosswalk,124928,124160,768
+491,1168,1851,10_44,10_44,476,祝福の伝道師クレアル,"Clearlo, Grace Enforcer",CREATURE,Berserker,■ This creature gets +1000 power for each of your other untapped creatures in the battle zone.,,crosswalk,122880,121600,1280
+492,1169,1852,10_45,10_45,477,ルナ・ウイング,Pinpoint Lunatron,CREATURE,Cyber Moon,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Choose a creature in the battle zone or a card in either player's mana zone and return it to its owner's hand.",,crosswalk,126976,126464,512
+493,1170,1853,10_46,10_46,478,ハーミット・フィッシュ,Buoyant Blowfish,CREATURE,Gel Fish,■ This creature gets +1000 power for each tapped card in your opponent's mana zone.,,crosswalk,122880,121856,1024
+494,1171,1854,10_47,10_47,479,ルナ・イーグル,Ardent Lunatron,CREATURE,Cyber Moon,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever an opponent's creature attacks, this creature blocks if able.
+■ This creature can't attack.",,crosswalk,116736,116736,0
+495,1172,1855,10_48,10_48,480,セイレーン・コンチェルト,Siren Concerto,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Put a card from your mana zone into your hand. Then put a card from your hand into your mana zone.",,crosswalk,122880,121856,1024
+496,1173,1856,10_49,10_49,481,衰弱秘宝デッドリーン,"Dedreen, the Hidden Corrupter",CREATURE,Pandora's Box,"■ When you put this creature into the battle zone, if your opponent has 3 or fewer shields, he discards a card at random from his hand.",,crosswalk,137216,135680,1536
+497,1174,1857,10_50,10_50,482,ポゼスト・マフラー,Spinal Parasite,CREATURE,Brain Jacker,"■ At the start of each of your opponent's turns, he chooses one of his creatures in the battle zone that can attack. That creature attacks that turn if able.",,crosswalk,129024,129024,0
+498,1175,1858,10_51,10_51,483,ギガメンテ,Gigamente,CREATURE,Chimera,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Return a creature from your graveyard to your hand.",,crosswalk,131072,129280,1792
+499,1176,1859,10_52,10_52,484,死劇人形ピエール,"Pierr, Psycho Doll",CREATURE,Death Puppet,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever an opponent's creature attacks, this creature blocks if able.
+■ This creature can't attack.
+■ Slayer (Whenever this creature battles, destroy the other creature after the battle.)",,crosswalk,131072,130048,1024
+500,1177,1860,10_53,10_53,485,バトルトラップ・ワイバーン,Taunting Skyterror,CREATURE,Armored Wyvern,"■ While this creature is tapped during your opponent's turn, each of his creatures attacks if able.",,crosswalk,133120,131328,1792
+501,1178,1861,10_54,10_54,486,爆神兵ザルメス,Explosive Trooper Zalmez,CREATURE,Armorloid,"■ When you put this creature into the battle zone, if your opponent has 2 or fewer shields, you may destroy one of your opponent's creatures that has power 3000 or less.",,crosswalk,141312,140544,768
+502,1179,1862,10_55,10_55,487,ボーグのリボルバー,Vorg's Engine,CREATURE,Xenoparts,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Destroy all creatures that have power 2000 or less.",,crosswalk,133120,132608,512
+503,1180,1863,10_56,10_56,488,スクランブル・ブースター,Supersonic Jet Pack,SPELL,,"■ One of your creatures in the battle zone gets ""speed attacker"" until the end of the turn. (It doesn't get summoning sickness.)",,crosswalk,122880,121088,1792
+504,1181,1864,10_57,10_57,489,襲撃するサベージ・ホーン,"Twitch Horn, the Aggressor",CREATURE,Horned Beast,"■ While attacking, this creature gets +2000 power for each tapped card in your mana zone.",,crosswalk,145408,143872,1536
+505,1182,1865,10_58,10_58,490,賢察するエンシェント・ホーン,"Ancient Horn, the Watcher",CREATURE,Horned Beast,"■ When you put this creature into the battle zone, if you have 5 or more shields, untap all the cards in your mana zone.",,crosswalk,135168,134400,768
+506,1183,1866,10_59,10_59,491,ハナサキエリンギ,Sporeblast Erengi,CREATURE,Balloon Mushroom,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,139264,137472,1792
+507,1184,1867,10_60,10_60,492,マッスル・ポテト,Karate Potato,CREATURE,Wild Veggies,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ When you put this creature into the battle zone, you may put up to 2 cards from your hand into your mana zone.",,crosswalk,139264,138496,768
+508,1185,1868,10_61,10_61,493,電脳聖者エストール,"Estol, Vizier of Aqua",CREATURE,Initiate/Liquid People,"■ (This creature is put into your mana zone tapped.)
+■ When you put this creature into the battle zone, add the top card of your deck to your shields face down. Then look at one of your opponent's shields.",,crosswalk,112640,112128,512
+509,1186,1869,10_62,10_62,494,電脳聖者タージマル,"Tajimal, Vizier of Aqua",CREATURE,Initiate/Liquid People,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ (This creature is put into your mana zone tapped.)
+■ This creature can't attack players.
+■ While battling a fire creature, this creature gets +4000 power.",,crosswalk,116736,114944,1792
+510,1187,1870,10_63,10_63,495,腐敗電脳アクアポインター,"Pointa, the Aqua Shadow",CREATURE,Liquid People/Ghost,"■ (This creature is put into your mana zone tapped.)
+■ When you put this creature into the battle zone, look at one of your opponent's shields. Then your opponent discards a card at random from his hand.",,crosswalk,116736,115200,1536
+511,1188,1871,10_64,10_64,496,腐敗電脳メルニア,"Melnia, the Aqua Shadow",CREATURE,Liquid People/Ghost,"■ (This creature is put into your mana zone tapped.)
+■ This creature can't be blocked.
+■ Slayer (Whenever this creature battles, destroy the other creature after the battle.)",,crosswalk,108544,108032,512
+512,1189,1872,10_65,10_65,497,腐敗勇騎ガレック,"Galek, the Shadow Warrior",CREATURE,Ghost/Human,"■ (This creature is put into your mana zone tapped.)
+■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has ""blocker."" Then your opponent discards a card at random from his hand.",,crosswalk,126976,125440,1536
+513,1190,1873,10_66,10_66,498,不屈のウレックス,"Ulex, the Dauntless",CREATURE,Spirit Quartz,"■ (This creature is put into your mana zone tapped.)
+■ Your opponent can't tap this creature.",,crosswalk,118784,118016,768
+514,1191,1874,10_67,10_67,499,無頼勇騎ウインドアックス,"Wind Axe, the Warrior Savage",CREATURE,Human/Beast Folk,"■ (This creature is put into your mana zone tapped.)
+■ When you put this creature into the battle zone, destroy one of your opponent's creatures that has ""blocker."" Then put the top card of your deck into your mana zone.",,crosswalk,118784,117248,1536
+515,1192,1875,10_68,10_68,500,無頼勇騎ゴンタ,"Gonta, the Warrior Savage",CREATURE,Human/Beast Folk,■ (This creature is put into your mana zone tapped.),,crosswalk,114688,112896,1792
+516,1193,1876,10_69,10_69,501,無頼聖者スカイソード,"Skysword, the Savage Vizier",CREATURE,Beast Folk/Initiate,"■ (This creature is put into your mana zone tapped.)
+■ When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then add the top card of your deck to your shields face down.",,crosswalk,118784,118528,256
+517,1194,1877,10_70,10_70,502,無頼聖者サンフィスト,"Sanfist, the Savage Vizier",CREATURE,Beast Folk/Initiate,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ (This creature is put into your mana zone tapped.)
+■ When this creature would be discarded from your hand during your opponent's turn, you may put it into the battle zone instead.",,crosswalk,114688,113664,1024
+518,1195,1878,10_71,10_71,503,滅罪の使徒レミーラ,"Lemik, Vizier of Thought",CREATURE,Initiate,"■ Each of your water creatures and nature creatures in the battle zone has ""blocker."" (Whenever one of your opponent's creatures attacks, you may tap a creature that has ""blocker"" to stop the attack. Then the 2 creatures battle.)",,crosswalk,114688,114176,512
+519,1196,1879,10_72,10_72,504,粛清者リンダホフ,"Flohdani, the Spydroid",CREATURE,Soltrooper,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Choose up to 2 of your opponent's creatures in the battle zone and tap them.",,crosswalk,126976,126464,512
+520,1197,1880,10_73,10_73,505,予言者カエミラ,"Kaemira, the Oracle",CREATURE,Light Bringer,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Add the top card of your deck to your shields face down.",,crosswalk,126976,125952,1024
+521,1198,1881,10_74,10_74,506,雲海の守護者メッサ・バーナ,"Messa Bahna, Expanse Guardian",CREATURE,Guardian,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever an opponent's creature attacks, this creature blocks if able.
+■ This creature can't attack players.",,crosswalk,114688,113920,768
+522,1199,1882,10_75,10_75,507,聖騎士メタルサターン,"Ferrosaturn, Spectral Knight",CREATURE,Rainbow Phantom,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,126976,125952,1024
+523,1200,1883,10_76,10_76,508,予言者クルト,"Tulk, the Oracle",CREATURE,Light Bringer,,,crosswalk,118784,117248,1536
+524,1201,1884,10_77,10_77,509,ロジック・キューブ,Logic Cube,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Search your deck. You may take a spell from your deck, show that spell to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,122880,121856,1024
+525,1202,1885,10_78,10_78,510,ソーラー・レイ,Solar Ray,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose one of your opponent's creatures in the battle zone and tap it.",,crosswalk,106496,105984,512
+526,1203,1886,10_79,10_79,511,エレキチューブ・マンタ,Fluorogill Manta,CREATURE,Gel Fish,■ Your light creatures and darkness creatures can't be blocked.,,crosswalk,110592,109824,768
+527,1204,1887,10_80,10_80,512,ミルポロ,Milporo,CREATURE,Cyber Lord,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Draw a card.",,crosswalk,126976,125440,1536
+528,1205,1888,10_81,10_81,513,パールチェーン・バトラー,Tide Patroller,CREATURE,Merfolk,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)",,crosswalk,133120,133120,0
+529,1206,1889,10_82,10_82,514,バッテリーヘッド・クラスター,Battery Cluster,CREATURE,Cyber Cluster,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.",,crosswalk,135168,133632,1536
+530,1207,1890,10_83,10_83,515,トーピード・クラスター,Torpedo Cluster,CREATURE,Cyber Cluster,"■ When you put this creature into the battle zone, return a card from your mana zone to your hand.",,crosswalk,120832,120064,768
+531,1208,1891,10_84,10_84,516,アクア・アナライザー,Aqua Strummer,CREATURE,Liquid People,"■ When you put this creature into the battle zone, look at up to 5 cards from the top of your deck and put them back in any order.",,crosswalk,120832,120320,512
+532,1209,1892,10_85,10_85,517,スパイラル・ゲート,Spiral Gate,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose a creature in the battle zone and return it to its owner's hand.",,crosswalk,112640,111360,1280
+533,1210,1893,10_86,10_86,518,マインド・サーチ,Recon Operation,SPELL,,■ Look at up to 3 of your opponent's shields. Then put them back where they were.,,crosswalk,122880,122624,256
+534,1211,1894,10_87,10_87,519,頭刃怪人グレイブクック,Nightmare Invader,CREATURE,Devil Mask,,,crosswalk,135168,133376,1792
+535,1212,1895,10_88,10_88,520,暴発秘宝ベンゾ,"Benzo, the Hidden Fury",CREATURE,Pandora's Box,"■ When you put this creature into the battle zone, choose one of your shields and put it into your hand. (You can use the ""shield trigger"" ability of that shield.)",,crosswalk,145408,145152,256
+536,1213,1896,10_89,10_89,521,砂男,Hourglass Mutant,CREATURE,Hedrian,"■ Each of your water creatures and fire creatures in the battle zone has ""slayer."" (Whenever a creature that has ""slayer"" battles, destroy the other creature after the battle.)",,crosswalk,135168,133888,1280
+537,1214,1897,10_90,10_90,522,憔悴の影ブロークン・ヘッド,"Mummy Wrap, Shadow of Fatigue",CREATURE,Ghost,"■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Each player discards a card at random from his hand.",,crosswalk,131072,129536,1536
+538,1215,1898,10_91,10_91,523,道化人形ミケ,"Mikay, Rattling Doll",CREATURE,Death Puppet,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.",,crosswalk,129024,128768,256
+539,1216,1899,10_92,10_92,524,ベノム・カプセル,Venom Capsule,CREATURE,Brain Jacker,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  This creature breaks one of your opponent's shields.",,crosswalk,133120,133120,0
+540,1217,1900,10_93,10_93,525,デス・スモーク,Death Smoke,SPELL,,■ Destroy one of your opponent's untapped creatures.,,crosswalk,116736,115712,1024
+541,1218,1901,10_94,10_94,526,魂縛,Infernal Command,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose one of your opponent's creatures in the battle zone. It gets ""this creature attacks if able"" until the start of your next turn.",,crosswalk,120832,120064,768
+542,1219,1902,10_95,10_95,527,マイキーのペンチ,Mykee's Pliers,CREATURE,Xenoparts,"■ Each of your darkness creatures and nature creatures in the battle zone has ""speed attacker."" (A creature that has ""speed attacker"" doesn't get summoning sickness.)",,crosswalk,131072,130048,1024
+543,1220,1903,10_96,10_96,528,撃墜団長メッツアー,"Mezger, Commando Leader",CREATURE,Human,■ Speed attacker (This creature doesn't get summoning sickness.),,crosswalk,135168,133632,1536
+544,1221,1904,10_97,10_97,529,城神兵バガッシュ,Siege Roller Bagash,CREATURE,Armorloid,"■ While attacking, this creature gets +1000 power for each of your other tapped creatures in the battle zone.",,crosswalk,139264,138240,1024
+545,1222,1905,10_98,10_98,530,クラッグザウルス,Cragsaur,CREATURE,Rock Beast,,,crosswalk,131072,129536,1536
+546,1223,1906,10_99,10_99,531,烈脚戦士ブラッド,"Brad, Super Kickin' Dynamo",CREATURE,Human,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Destroy one of your opponent's creatures that has ""blocker.""",,crosswalk,135168,134400,768
+547,1224,1907,10_S1,10_S1,543,聖断の精霊エリクシア,"Elixia, Pureblade Elemental",CREATURE,Angel Command,"■ This creature gets +3000 power for each civilization in your mana zone.
+■ While this creature has power 6000 or more, it has ""double breaker (This creature break 2 shields).""
+■ While this creature has power 15000 or more, it has ""triple breaker"" instead of ""double breaker."" (It breaks 3 shields.)",,crosswalk,139264,138496,768
+548,1225,1908,10_S10,10_S10,552,根絶のデクロワゾー,"Deklowaz, the Terminator",CREATURE,Spirit Quartz,"■ (This creature is put into your mana zone tapped.)
+■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Destroy all creatures that have power 3000 or less. Then look at your opponent's hand. He discards all creatures from it that have power 3000 or less.",,crosswalk,124928,123648,1280
+549,1226,1909,10_S2,10_S2,544,ルナ・ブライトホーク,Hawkeye Lunatron,CREATURE,Cyber Moon,"■ Double breaker (This creature breaks 2 shields.)
+■ When you put this creature into the battle zone, search your deck. You may take a card from your deck and put it into your hand. Then shuffle your deck.",,crosswalk,129024,128512,512
+550,1227,1910,10_S3,10_S3,545,ハリケーン・クロウラー,Hurricane Crawler,CREATURE,Earth Eater,"■ When you put this creature into the battle zone, put all the cards from your hand into your mana zone. Then put that many cards from your mana zone into your hand.",,crosswalk,126976,125440,1536
+551,1228,1911,10_S4,10_S4,546,黒神龍ブライゼナーガ,Necrodragon Bryzenaga,CREATURE,Zombie Dragon,"■ When you put this creature into the battle zone, put all your shields into your hand. (You can use the ""shield trigger"" abilities of those shields.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,145408,143872,1536
+552,1229,1912,10_S5,10_S5,547,コアクラッシュ・リザード,Core-Crash Lizard,CREATURE,Melt Warrior,"■ When you put this creature into the battle zone, choose one of your opponent's shields and put it into his graveyard.",,crosswalk,141312,141312,0
+553,1230,1913,10_S6,10_S6,548,アルティメット・ドラゴン,Ultimate Dragon,CREATURE,Armored Dragon,"■ This creature gets +5000 power for each of your other creatures in the battle zone that has Dragon in its race.
+■ Crew breaker-Dragon (This creature breaks one more shield for each of your other creatures in the battle zone that has Dragon in its race.)",,crosswalk,135168,135168,0
+554,1231,1914,10_S7,10_S7,549,不落の超人,Bodacious Giant,CREATURE,Giant,"■ Double breaker (This creature breaks 2 shields.)
+■ While this creature is tapped during your opponent's turn, if it hasn't been attacked that turn, your opponent's creatures must attack it if able.",,crosswalk,137216,136704,512
+555,1232,1915,10_S8,10_S8,550,緑神龍ダクマバルガロウ,Terradragon Dakma Balgarow,CREATURE,Earth Dragon,"■ This creature gets +2000 power for each shield you and your opponent have.
+■ While this creature has power 6000 or more, it has ""double breaker (This creature breaks 2 shields).""
+■ While this creature has power 15000 or more, it has ""triple breaker"" instead of ""double breaker."" (It breaks 3 shields.)",,crosswalk,151552,149760,1792
+556,1233,1916,10_S9,10_S9,551,陽炎の守護者ブルー・メルキス,"Bluum Erkis, Flare Guardian",CREATURE,Guardian,"■ (This creature is put into your mana zone tapped.)
+■ Whenever this creature would break one of your opponent's shields, your opponent shows that shield to you instead of putting it into his hand. If it's a spell that has ""shield trigger,"" you cast it for no cost, then put it into your opponent's graveyard. If it's not, your opponent puts it into his hand.
+■ Double breaker",,crosswalk,137216,135680,1536
+557,1234,1917,11_1,11_1,553,鬼面超人エル・アンドレ,Evil Incarnate,EVOLUTION CREATURE,Devil Mask,"■ Evolution-Put on one of your Devil Masks.
+■ At the start of each player's turn, that player chooses one of his creatures and destroys it.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,133120,132608,512
+558,1235,1918,11_2,11_2,554,ダブルソード・レッド・ドラゴン,Heavyweight Dragon,CREATURE,Armored Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ Instead of having this creature attack, you may tap it to use its tap ability.
+ Choose up to 2 of your opponent's tapped creatures in the battle zone. If they have total power less than this creature's power, destroy them.",,crosswalk,143360,143104,256
+559,1236,1919,11_3,11_3,555,ダイヤモンド・ブリザード,"Diamondia, the Blizzard Rider",EVOLUTION CREATURE,Snow Faerie,"■ Evolution-Put on one of your Snow Faeries.
+■ When you put this creature into the battle zone, return all Snow Faeries from your graveyard and your mana zone to your hand.",,crosswalk,147456,147200,256
+560,1237,1920,11_4,11_4,556,魂と記憶の盾,Miraculous Snare,SPELL,,"■ (This spell is put into your mana zone tapped.)
+■ Choose a non-evolution creature in the battle zone and add it to its owner's shields face down.",,crosswalk,108544,108288,256
+561,1238,1921,11_5,11_5,557,調和と繁栄の罠,Miraculous Truce,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ (This spell is put into your mana zone tapped.)
+■ Choose a civilization. Until the start of your next turn, creatures of that civilization can't attack you even if your opponent puts them into the battle zone after you cast this spell.",,crosswalk,118784,116992,1792
+562,1239,1922,11_6,11_6,558,命運の伝道師ラミエル,"Lamiel, Destiny Enforcer",CREATURE,Berserker,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  Whenever one of your creatures is destroyed during your opponent's turn, you may draw a card.
+",,crosswalk,124928,124160,768
+563,1240,1923,11_7,11_7,559,光器ユリアーナ,"Yuliana, Channeler of Suns",CREATURE,Mecha Del Sol,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever your opponent would choose a creature in the battle zone, he can't choose this one. (It can still be attacked and blocked.)
+■ This creature can't attack players.",,crosswalk,135168,134144,1024
+564,1241,1924,11_8,11_8,560,宣凶師ベリックス,"Belix, the Explorer",CREATURE,Gladiator,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ When you put this creature into the battle zone, return a spell from your mana zone to your hand.
+■ This creature can't attack players.",,crosswalk,133120,132096,1024
+565,1242,1925,11_9,11_9,561,ルナ・フォートレス,Warped Lunatron,CREATURE,Cyber Moon,"■ Creatures in the battle zone don't untap at the start of each player's turn.
+■ When each player untaps his cards at the start of his turn, he may then tap any number of cards in his mana zone. For every 2 cards he taps this way, he untaps one of his creatures in the battle zone.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,120832,120832,0
+566,1243,1926,11_10,11_10,562,ファンタジー・フィッシュ,Fantasy Fish,CREATURE,Gel Fish,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)",,crosswalk,122880,122880,0
+567,1244,1927,11_11,11_11,563,ルナ・レーザーコブラ,Squawking Lunatron,CREATURE,Cyber Moon,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Return up to 3 cards from your mana zone to your hand.",,crosswalk,126976,125184,1792
+568,1245,1928,11_12,11_12,564,邪凶の影ゲイザー・アイズ,"Gazer Eyes, Shadow of Secrets",CREATURE,Ghost,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Look at your opponent's hand and choose a card from it. Your opponent discards that card.",,crosswalk,139264,138752,512
+569,1246,1929,11_13,11_13,565,薔薇公爵ハザリア,"Hazaria, Duke of Thorns",CREATURE,Dark Lord,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, your opponent chooses one of his creatures and destroys it.
+",,crosswalk,141312,140032,1280
+570,1247,1930,11_14,11_14,566,滅亡ルーレット,Roulette of Ruin,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose a number. Show your hand to your opponent and discard from it each card that has that cost. Then your opponent shows you his hand and discards from it each card that has that cost.",,crosswalk,126976,125440,1536
+571,1248,1931,11_15,11_15,567,タリスマン・リザード,Lockdown Lizard,CREATURE,Melt Warrior,■ Players can't use the  abilities of their creatures.,,crosswalk,139264,139008,256
+572,1249,1932,11_16,11_16,568,斬神兵グランドルメス,Eviscerating Warrior Lumez,CREATURE,Armorloid,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, destroy all creatures that have power 2000 or less.
+",,crosswalk,137216,136448,768
+573,1250,1933,11_17,11_17,569,超爆合体ダンギルバー,Jabaha's Automaton,EVOLUTION CREATURE,Xenoparts,"■ Evolution-Put on one of your XenoParts.
+■ Power attacker +4000 (While attacking, this creature gets +4000 power.)
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,137216,136960,256
+574,1251,1934,11_18,11_18,570,地龍の化身,Rollicking Totem,CREATURE,Mystery Totem,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Put a creature that has Dragon in its race from your mana zone into the battle zone.",,crosswalk,137216,135680,1536
+575,1252,1935,11_19,11_19,571,ロイヤル・ドリアン,Royal Durian,CREATURE,Wild Veggies,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ When you put this creature into the battle zone, put the top card of each evolution creature from the battle zone into its owner's mana zone.",,crosswalk,135168,133376,1792
+576,1253,1936,11_20,11_20,572,シェル・チャーチ,Skyscraper Shell,CREATURE,Colony Beetle,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, your opponent chooses one of his creatures in the battle zone and puts it into his mana zone.
+",,crosswalk,139264,138496,768
+577,1254,1937,11_21,11_21,573,宣凶師バレイド,"Baraid, the Explorer",CREATURE,Gladiator,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Your light creatures can't be blocked this turn.",,crosswalk,120832,120576,256
+578,1255,1938,11_22,11_22,574,予言者ラメール,"Merlee, the Oracle",CREATURE,Light Bringer,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  Each of your creatures in the battle zone gets +1000 power.
+",,crosswalk,120832,119040,1792
+579,1256,1939,11_23,11_23,575,フォーチュン・ボール,Lucky Ball,CREATURE,Cyber Virus,"■ When you put this creature into the battle zone, if your opponent has 3 or fewer shields, draw up to 2 cards.",,crosswalk,120832,120320,512
+580,1257,1940,11_24,11_24,576,アクア・トリックスター,Aqua Trickster,CREATURE,Liquid People,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, choose one of your opponent's creatures in the battle zone and tap it.
+",,crosswalk,122880,121344,1536
+581,1258,1941,11_25,11_25,577,略奪秘宝ジャギラ,"Jagila, the Hidden Pillager",CREATURE,Pandora's Box,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, your opponent discards 3 cards at random from his hand.
+",,crosswalk,131072,129792,1280
+582,1259,1942,11_26,11_26,578,デビル・メディスン,Morbid Medicine,SPELL,,■ Return up to 2 creatures from your graveyard to your hand.,,crosswalk,135168,133376,1792
+583,1260,1943,11_27,11_27,579,スカイフレーム・リザード,Bonfire Lizard,CREATURE,Melt Warrior,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, destroy up to 2 of your opponent's creatures that have ""blocker.""
+",,crosswalk,135168,135168,0
+584,1261,1944,11_28,11_28,580,ジェット・リザード,Hysteria Lizard,CREATURE,Melt Warrior,"■ This creature attacks each turn if able.
+■ Power attacker +3000 (While attacking, this creature gets +3000 power.)",,crosswalk,145408,145152,256
+585,1262,1945,11_29,11_29,581,ハザード・ホッパー,Hazard Hopper,CREATURE,Giant Insect,"■ At the end of each of your turns, if this creature broke any shields that turn, return it to your hand.",,crosswalk,145408,143616,1792
+586,1263,1946,11_30,11_30,582,マッチョ・メロン,Macho Melon,CREATURE,Wild Veggies,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  Power attacker +3000 (While attacking, this creature gets +3000 power.)
+",,crosswalk,133120,132096,1024
+587,1264,1947,11_31,11_31,583,守護と偶然の象徴,Rise and Shine,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ (This spell is put into your mana zone tapped.)
+■ Reveal the top 4 cards of your deck. Put one of them that has ""blocker"" into your hand, and put the rest on the bottom of your deck in any order.",,crosswalk,106496,104960,1536
+588,1265,1948,11_32,11_32,584,陰謀と計略の手,Hide and Seek,SPELL,,"■ (This spell is put into your mana zone tapped.)
+■ Choose one of your opponent's non-evolution creatures in the battle zone and return it to his hand. Then he discards a card at random from his hand.",,crosswalk,122880,122624,256
+589,1266,1949,11_33,11_33,585,崩壊と灼熱の牙,Slash and Burn,SPELL,,"■ (This spell is put into your mana zone tapped.)
+■ Whenever any of your opponent's creatures is destroyed this turn, your opponent chooses a card in his mana zone and puts it into his graveyard. Then he chooses one of his shields and puts it into his graveyard.",,crosswalk,120832,119808,1024
+590,1267,1950,11_34,11_34,586,焦土と開拓の天変,Reap and Sow,SPELL,,"■ (This spell is put into your mana zone tapped.)
+■ Choose a card in your opponent's mana zone and put it into his graveyard. Then put the top card of your deck into your mana zone.",,crosswalk,116736,115456,1280
+591,1268,1951,11_35,11_35,587,神秘と創造の石碑,Live and Breathe,SPELL,,"■ (This spell is put into your mana zone tapped.)
+■ Whenever you summon a creature this turn, search your deck. You may take a creature from your deck that has the same name as that creature and put it into the battle zone. Then shuffle your deck.",,crosswalk,116736,115200,1536
+592,1269,1952,11_36,11_36,588,粛清者イングベルト,"Engbelt, the Spydroid",CREATURE,Soltrooper,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,120832,120576,256
+593,1270,1953,11_37,11_37,589,俊速の使徒ナイアル,"Nial, Vizier of Dexterity",CREATURE,Initiate,"■ At the end of each of your turns, you may untap this creature.",,crosswalk,126976,125440,1536
+594,1271,1954,11_38,11_38,590,堅防の使徒アースラ,"Asra, Vizier of Safety",CREATURE,Initiate,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  This creature gets +4000 power and has ""blocker"". (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)",,crosswalk,116736,116480,256
+595,1272,1955,11_39,11_39,591,ソル・チューブ,Solar Trap,SPELL,,■ Choose one of your opponent's creatures in the battle zone and tap it.,,crosswalk,106496,105728,768
+596,1273,1956,11_40,11_40,592,オカリナ・ハンター,Melodic Hunter,CREATURE,Merfolk,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)",,crosswalk,133120,131328,1792
+597,1274,1957,11_41,11_41,593,リバイバル・ソルジャー,Revival Soldier,CREATURE,Merfolk,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  This creature gets +4000 power.
+  When this creature would be destroyed, return it to your hand instead.",,crosswalk,131072,129792,1280
+598,1275,1958,11_42,11_42,594,タイム・スカウト,Time Scout,CREATURE,Merfolk,"■ When you put this creature into the battle zone, look at the top card of your opponent's deck.",,crosswalk,118784,118784,0
+599,1276,1959,11_43,11_43,595,エマージェンシー・タイフーン,Emergency Typhoon,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Draw up to 2 cards. Then discard a card from your hand.",,crosswalk,120832,120576,256
+600,1277,1960,11_44,11_44,596,貪欲秘宝ベラッチャ,"Beratcha, the Hidden Glutton",CREATURE,Pandora's Box,"■ Slayer (Whenever this creature battles, destroy the other creature after the battle.)",,crosswalk,147456,145664,1792
+601,1278,1961,11_45,11_45,597,玉砕秘宝バイラ,"Baira, the Hidden Lunatic",CREATURE,Pandora's Box,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack.
+■ When this creature battles, destroy it after the battle.",,crosswalk,133120,132608,512
+602,1279,1962,11_46,11_46,598,邪口虫ラフレシア・ワーム,Saliva Worm,CREATURE,Parasite Worm,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  This creature gets +4000 power and has ""Darkness stealth (This creature can't be blocked while your opponent has any darkness cards in his mana zone).""
+",,crosswalk,133120,131328,1792
+603,1280,1963,11_47,11_47,599,髑髏怪人スピンホイール,"Spinning Terror, the Wretched",CREATURE,Devil Mask,■ This creature gets +2000 power for each tapped creature your opponent has in the battle zone.,,crosswalk,135168,135168,0
+604,1281,1964,11_48,11_48,600,支援団長ガンクローク,"Gankloak, Rogue Commando",CREATURE,Human,"■ Silent skill (At the start of each of your turns, if this creature is tapped, you may keep it tapped and use its silent skill ability.)
+  Each of your fire creatures in the battle zone gets ""double breaker"" until the end of the turn. (It breaks 2 shields.)",,crosswalk,139264,137728,1536
+605,1282,1965,11_49,11_49,601,炎舞闘士サピエント・アーク,"Sapian Tark, Flame Dervish",CREATURE,Dragonoid,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  This creature gets +4000 power and can attack untapped creatures.
+",,crosswalk,137216,136192,1024
+606,1283,1966,11_50,11_50,602,ブラッドのカッター,Brad's Cutter,CREATURE,Xenoparts,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)",,crosswalk,141312,140800,512
+607,1284,1967,11_51,11_51,603,グシャット・フィスト,Ten-Ton Crunch,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Destroy one of your opponent's creatures that has power 3000 or less.",,crosswalk,122880,122880,0
+608,1285,1968,11_52,11_52,604,闘気の棘,Quillspike Rumbler,CREATURE,Beast Folk,"■ Whenever this creature attacks a creature, this creature gets +3000 power until the end of the turn.",,crosswalk,147456,146432,1024
+609,1286,1969,11_53,11_53,605,ニンジャ・パンプキン,Ninja Pumpkin,CREATURE,Wild Veggies,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  This creature gets +4000 power and can't be blocked by any creature that has power 5000 or less.
+",,crosswalk,147456,146176,1280
+610,1287,1970,11_54,11_54,606,冒険妖精ポレゴン,Hearty Cap'n Polligon,CREATURE,Snow Faerie,"■ At the end of each of your turns, if this creature broke any shields that turn, return it to your hand.",,crosswalk,139264,137984,1280
+611,1288,1971,11_55,11_55,607,次元の霊峰,Rainbow Gate,SPELL,,"■ Search your deck. You may take a multicolored creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,126976,125184,1792
+612,1289,1972,11_S1,11_S1,608,聖皇エール・ソニアス,Warlord Ailzonius,EVOLUTION CREATURE,Gladiator,"■ Evolution-Put on one of your Gladiators.
+■ Double breaker (This creature breaks 2 shields.)
+■ Whenever your opponent would choose a creature in the battle zone, he can't choose this one. (It can still be attacked and blocked.)",,crosswalk,133120,132352,768
+613,1290,1973,11_S2,11_S2,609,アドラス,Klujadras,CREATURE,Sea Hacker,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, each player draws a card for each of his creatures in the battle zone that has ""wave striker.""
+",,crosswalk,133120,133120,0
+614,1291,1974,11_S3,11_S3,610,英知と追撃の宝剣,Miraculous Plague,SPELL,,"■ (This spell is put into your mana zone tapped.)
+■ Choose 2 of your opponent's creatures in the battle zone. Your opponent chooses one of them, puts it into his hand, and destroys the other one. Then choose 2 cards in your opponent's mana zone. Your opponent chooses one of them, puts it into his hand, and puts the other one into his graveyard.",,crosswalk,124928,123648,1280
+615,1292,1975,11_S4,11_S4,611,憎悪と怒りの獄門,Miraculous Meltdown,SPELL,,"■ (This spell is put into your mana zone tapped.)
+■ You can cast this spell only if your opponent has more shields than you do.
+■ Your opponent chooses one of his shields for each shield you have. He puts the rest of his shields into his hand. (He can use the ""shield trigger"" abilities of those shields.)",,crosswalk,139264,137472,1792
+616,1293,1976,11_S5,11_S5,612,破壊と誕生の神殿,Miraculous Rebirth,SPELL,,"■ (This spell is put into your mana zone tapped.)
+■ Destroy one of your opponent's creatures that has power 5000 or less. When your opponent puts that creature into his graveyard, search your deck. You may take a creature from your deck that has the same cost as that creature and put it into the battle zone. Then shuffle your deck.",,crosswalk,126976,126208,768
+617,1294,1977,12_1,12_1,613,星雲の精霊キルスティン,"Kilstine, Nebula Elemental",CREATURE,Angel Command,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  Each of your creatures in the battle zone gets +5000 power and has ""blocker"" and ""double breaker"".
+",,crosswalk,133120,133120,0
+618,1295,1978,12_2,12_2,614,エクストリーム・クロウラー,Extreme Crawler,CREATURE,Earth Eater,"■ When you put this creature into the battle zone, return all your other creatures from the battle zone to your hand.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,135168,134656,512
+619,1296,1979,12_3,12_3,615,黒神龍ジャグラヴィーン,Necrodragon Jagraveen,CREATURE,Zombie Dragon,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ When this creature blocks, destroy it after it battles.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,147456,146176,1280
+620,1297,1980,12_4,12_4,616,殴神兵ブロンクス,Punch Trooper Bronks,CREATURE,Armorloid,"■ When you put this creature into the battle zone, destroy the creature that has the lowest power in the battle zone. If there's a tie, you choose from among the tied creatures.",,crosswalk,135168,134144,1024
+621,1298,1981,12_5,12_5,617,太陽王ソウル・フェニックス,"Soul Phoenix, Avatar of Unity",CREATURE,Phoenix,"■ (This creature is put into your mana zone tapped.)
+■ Vortex evolution-Put on one of your Fire Birds and one of your Earth Dragons.
+■ Triple breaker (This creature breaks 3 shields.)
+■ When this creature would leave the battle zone, only the top card leaves the battle zone instead. (Separate the other cards into 2 creatures.)",,crosswalk,133120,131328,1792
+622,1299,1982,12_6,12_6,618,処罰の精霊ウラルス,"Ularus, Punishment Elemental",CREATURE,Angel Command,"■ When you put this creature into the battle zone, for each creature you have in the battle zone, you may choose a shield and turn it face up. (Those shields stay face up while they're in the shield zone.)",,crosswalk,131072,130048,1024
+623,1300,1983,12_7,12_7,619,ラッキー・ダーツ,Cosmic Darts,SPELL,,"■ Your opponent chooses one of your shields. Look at it. If it's a spell, you may cast it immediately for no cost. If it's not a spell or if you don't cast it, put it back where it was.",,crosswalk,110592,109824,768
+624,1301,1984,12_8,12_8,620,タイフーン・クロウラー,Typhoon Crawler,CREATURE,Earth Eater,■ This creature can't be attacked by fire or nature creatures.,,crosswalk,124928,123904,1024
+625,1302,1985,12_9,12_9,621,メロッペ,Meloppe,CREATURE,Cyber Lord,"■ Whenever your opponent would choose one of your shields, you choose instead.
+■ Whenever you would choose one of your opponent's shields, your opponent chooses instead.",,crosswalk,129024,127232,1792
+626,1303,1986,12_10,12_10,622,ギガブランド,Gigavrand,CREATURE,Chimera,"■ At the end of each turn, if your opponent drew 2 or more cards that turn, he discards his hand.",,crosswalk,141312,140032,1280
+627,1304,1987,12_11,12_11,623,爆輪男,Steamroller Mutant,CREATURE,Hedrian,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, destroy all creatures.
+",,crosswalk,139264,137728,1536
+628,1305,1988,12_12,12_12,624,独神兵ローンスピナー,Whirling Warrior Malian,CREATURE,Armorloid,"■ Whenever another creature is put into the battle zone, tap this creature.",,crosswalk,133120,131584,1536
+629,1306,1989,12_13,12_13,625,ドラゴン・シャウト,Mechadragon's Breath,SPELL,,■ Choose a number less than or equal to 6000. Destroy all creatures that have that power.,,crosswalk,120832,120832,0
+630,1307,1990,12_14,12_14,626,レベリオン・クワキリ,Pincer Scarab,CREATURE,Giant Insect,"■ This creature gets +2000 power for each card in your opponent's hand.
+■ While this creature has power 6000 or more, it has ""double breaker (This creature breaks 2 shields).""",,crosswalk,155648,154368,1280
+631,1308,1991,12_15,12_15,627,覚醒するブレイブ・ホーン,"Radioactive Horn, the Strange",CREATURE,Horned Beast,■ Double breaker (This creature breaks 2 shields.),,crosswalk,147456,146432,1024
+632,1309,1992,12_16,12_16,628,超戦攻賢者アギラ,"Agira, the Warlord Crawler",CREATURE,Gladiator/Earth Eater,"■ (This creature is put into your mana zone tapped.)
+■ Evolution-Put on one of your Gladiators or Earth Eaters.
+■ Each of your other Gladiators and Earth Eaters in the battle zone gets +2000 power.
+■ Whenever one of your Gladiators or Earth Eaters blocks, you may draw a card.",,crosswalk,129024,128768,256
+633,1310,1993,12_17,12_17,629,超電磁妖魔ロメール,"Hydrooze, the Mutant Emperor",CREATURE,Cyber Lord/Hedrian,"■ (This creature is put into your mana zone tapped.)
+■ Evolution-Put on one of your Cyber Lords or Hedrians.
+■ Each of your other Cyber Lords and Hedrians in the battle zone gets +2000 power.
+■ Your Cyber Lords and Hedrians can't be blocked.",,crosswalk,129024,128768,256
+634,1311,1994,12_18,12_18,630,超機動魔獣ギガランデス,"Phantomach, the Gigatrooper",CREATURE,Chimera/Armorloid,"■ (This creature is put into your mana zone tapped.)
+■ Evolution-Put on one of your Chimeras or Armorloids.
+■ Each of your other Chimeras and Armorloids in the battle zone gets +2000 power.
+■ Each of your Chimeras and Armorloids in the battle zone has ""double breaker."" (A creature that has ""double breaker"" breaks 2 shields.)",,crosswalk,135168,133632,1536
+635,1312,1995,12_19,12_19,631,超神機鎧冑ゼノメノン,"Nemonex, Bajula's Robomantis",CREATURE,Xenoparts/Giant Insect,"■ (This creature is put into your mana zone tapped.)
+■ Evolution-Put on one of your Xenoparts or Giant Insects.
+■ Each of your other XenoParts and Giant Insects in the battle zone gets +2000 power.
+■ Whenever any of your XenoParts or Giant Insects is attacking your opponent and isn't blocked, your opponent chooses a card in his mana zone and puts it into his graveyard.",,crosswalk,126976,126720,256
+636,1313,1996,12_20,12_20,632,超剛勇幻風ジャガスター,"Comet Eye, the Spectral Spud",CREATURE,Wild Veggies/Rainbow Phantom,"■ (This creature is put into your mana zone tapped.)
+■ Evolution-Put on one of your Wild Veggies or Rainbow Phantoms.
+■ Each of your other Wild Veggies and Rainbow Phantoms in the battle zone gets +2000 power.
+■ At the end of each of your turns, you may untap any number of your Wild Veggies and Rainbow Phantoms in the battle zone.",,crosswalk,120832,120576,256
+637,1314,1997,12_21,12_21,633,青嵐の精霊バルキア,"Valkyer, Starstorm Elemental",CREATURE,Angel Command,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ This creature can't attack players.",,crosswalk,126976,125696,1280
+638,1315,1998,12_22,12_22,634,クローン・ライトニング,Cloned Deflector,SPELL,,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ Choose one of your opponent's creatures in the battle zone. Then, for each Cloned Deflector in each graveyard, you may choose another of your opponent's creatures in the battle zone. Tap all those creatures.",,crosswalk,122880,122624,256
+639,1316,1999,12_23,12_23,635,クローン・スパイラル,Cloned Spiral,SPELL,,"■ Choose a creature in the battle zone. Then, for each Cloned Spiral in each graveyard, you may choose another creature in the battle zone. Return all those creatures to their owners' hands.",,crosswalk,135168,133376,1792
+640,1317,2000,12_24,12_24,636,エニグマ・カスケード,Enigmatic Cascade,SPELL,,■ Discard any number of cards from your hand. Then draw that many cards.,,crosswalk,126976,126976,0
+641,1318,2001,12_25,12_25,637,ギガバルザ,Gigabalza,CREATURE,Chimera,"■ Shield trigger (When this card is put into your hand from your shield zone, you may play it immediately for no cost.)
+■ When you put this creature into the battle zone, your opponent discards a card at random from his hand.",,crosswalk,143360,142592,768
+642,1319,2002,12_26,12_26,638,クローン・バイス,Cloned Nightmare,SPELL,,"■ Choose a card at random in your opponent's hand. Then, for each Cloned Nightmare in each graveyard, you may choose another card at random in your opponent's hand. Your opponent discards all those cards.",,crosswalk,149504,147968,1536
+643,1320,2003,12_27,12_27,639,ビクトリーのナイフ,Muramasa's Knife,CREATURE,Xenoparts,■ This creature can attack untapped creatures.,,crosswalk,133120,133120,0
+644,1321,2004,12_28,12_28,640,クローン・クラッシュ,Cloned Blade,SPELL,,"■ Choose one of your opponent's creatures in the battle zone that has power 3000 or less. Then, for each Cloned Blade in each graveyard, you may choose another of your opponent's creatures in the battle zone that has power 3000 or less. Destroy all those creatures.",,crosswalk,114688,113408,1280
+645,1322,2005,12_29,12_29,641,ウイングアイ・モス,Wingeye Moth,CREATURE,Giant Insect,"■ Whenever you draw the card at the start of your turn, if one of your creatures in the battle zone has higher power then each of your opponent's creatures in the battle zone, you may draw an extra card.",,crosswalk,137216,136704,512
+646,1323,2006,12_30,12_30,642,伝承するクローン・ホーン,Cloned Spike-Horn,CREATURE,Horned Beast,"■ This creature gets +3000 power for each Cloned Spike-Horn in each graveyard.
+■ While this creature has power 6000 or more, it has ""double breaker (This creature breaks 2 shields).""",,crosswalk,147456,146176,1280
+647,1324,2007,12_31,12_31,643,電磁賢者シリオン,Electro Explorer Syrion,CREATURE,Gladiator/Cyber Lord,■ (This creature is put into your mana zone tapped.),,crosswalk,106496,106496,0
+648,1325,2008,12_32,12_32,644,電影妖魔ドルメール,Sea Mutant Dormel,CREATURE,Merfolk/Hedrian,■ (This creature is put into your mana zone tapped.),,crosswalk,122880,122112,768
+649,1326,2009,12_33,12_33,645,翔天魔獣ギガッピ,Gigappi Ponto,CREATURE,Chimera/Fire Bird,■ (This creature is put into your mana zone tapped.),,crosswalk,110592,110336,256
+650,1327,2010,12_34,12_34,646,翔天鎧冑ビトッチ,Buzz Betocchi,CREATURE,Fire Bird/Giant Insect,■ (This creature is put into your mana zone tapped.),,crosswalk,104448,102912,1536
+651,1328,2011,12_35,12_35,647,勇猛幻風グリタリス,Spectral Horn Glitalis,CREATURE,Horned Beast/Rainbow Phantom,■ (This creature is put into your mana zone tapped.),,crosswalk,120832,119040,1792
+652,1329,2012,12_36,12_36,648,宣凶師ビンゴレ,"Bingole, the Explorer",CREATURE,Gladiator,"■ When this creature would be discarded from your hand during your opponent's turn, you may put it into the battle zone instead.",,crosswalk,133120,132608,512
+653,1330,2013,12_37,12_37,649,予言者ミズーイ,"Mizoy, the Oracle",CREATURE,Light Bringer,"■ When you put this creature into the battle zone, you may choose a darkness or fire creature in the battle zone and tap it.",,crosswalk,133120,131840,1280
+654,1331,2014,12_38,12_38,650,宣凶師ベルモーレ,"Belmol, the Explorer",CREATURE,Gladiator,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever an opponent's creature attacks, this creature blocks if able.
+■ This creature can't attack players.",,crosswalk,126976,125952,1024
+655,1332,2015,12_39,12_39,651,予言者ファルシ,"Pharzi, the Oracle",CREATURE,Light Bringer,"■ When this creature is destroyed, you may return a spell from your graveyard to your hand.",,crosswalk,124928,124416,512
+656,1333,2016,12_40,12_40,652,バミューダ・クロウラー,Tropic Crawler,CREATURE,Earth Eater,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Whenever this creature blocks, your opponent chooses one of his creatures in the battle zone and returns it to his hand.
+■ This creature can't attack.",,crosswalk,137216,135680,1536
+657,1334,2017,12_41,12_41,653,ファンキー・ウィザード,Funky Wizard,CREATURE,Merfolk,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ When you put this creature into the battle zone, each player may draw a card.",,crosswalk,120832,119296,1536
+658,1335,2018,12_42,12_42,654,フェイト・カーペンター,Wily Carpenter,CREATURE,Merfolk,"■ When you put this creature into the battle zone, draw up to 2 cards. Then discard 2 cards from your hand.",,crosswalk,122880,122112,768
+659,1336,2019,12_43,12_43,655,パッション・マリアッチ,Frantic Chieftain,CREATURE,Merfolk,"■ When you put this creature into the battle zone, return one of your creatures that costs 4 or less from the battle zone to your hand.",,crosswalk,133120,131328,1792
+660,1337,2020,12_44,12_44,656,黒神龍ザルバ,Necrodragon Zalva,CREATURE,Zombie Dragon,"■ When you put this creature into the battle zone, your opponent draws a card.",,crosswalk,133120,132096,1024
+661,1338,2021,12_45,12_45,657,ギガレイズ,Gigarayze,CREATURE,Chimera,"■ When you put this creature into the battle zone, your may return a water or fire creature from your graveyard to your hand.",,crosswalk,147456,145664,1792
+662,1339,2022,12_46,12_46,658,風車男,Windmill Mutant,CREATURE,Hedrian,"■ Whenever this creature attacks, your opponent discards a card at random from his hand.",,crosswalk,137216,136192,1024
+663,1340,2023,12_47,12_47,659,ギガスラッグ,Gigaslug,CREATURE,Chimera,"■ Blocker (Whenever an opponent's creature attacks, you may tap this creature to stop the attack. Then the 2 creatures battle.)
+■ Slayer (Whenever this creature battles, destroy the other creature after the battle.)
+■ This creature can't attack.",,crosswalk,133120,132608,512
+664,1341,2024,12_48,12_48,660,炎神兵ゴリアック,Flame Trooper Goliac,CREATURE,Armorloid,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature is put into battle zone, destroy one of your opponent's creatures that has power 5000 or less.
+",,crosswalk,141312,140288,1024
+665,1342,2025,12_49,12_49,661,閃神兵ラウゼス,Hypersprint Warrior Uzesol,CREATURE,Armorloid,"■ Speed attacker (This creature doesn't get summoning sickness.)
+■ Power attacker +4000 (While attacking, this creature gets +4000 power.)",,crosswalk,135168,133888,1280
+666,1343,2026,12_50,12_50,662,ペッペ・ペッパー,Peppi Pepper,CREATURE,Fire Bird,"■ Power attacker +3000 (While attacking, this creature gets +3000 power.)",,crosswalk,147456,147456,0
+667,1344,2027,12_51,12_51,663,ロンリーのホッチキス,Gandaval's Stapler,CREATURE,Xenoparts,"■ Whenever another creature is put into the battle zone, tap this creature.",,crosswalk,135168,134400,768
+668,1345,2028,12_52,12_52,664,シャムシャム・カブキリ,Copper Locust,CREATURE,Giant Insect,"■ When a player evolves another creature, destroy this creature.",,crosswalk,137216,135424,1792
+669,1346,2029,12_53,12_53,665,召集するタートル・ホーン,"Turtle Horn, the Imposing",CREATURE,Horned Beast,"■ Whenever your opponent uses the ""shield trigger"" ability of one of his shields, search your deck. You may take a creature from your deck, show that creature to your opponent, and put it into your hand. Then shuffle your deck.",,crosswalk,149504,147968,1536
+670,1347,2030,12_54,12_54,666,フィーバー・ナッツ,Fever Nuts,CREATURE,Wild Veggies,■ Your creatures and your opponent's creatures each cost up to 1 less to summon. They can't cost less than 1.,,crosswalk,145408,144384,1024
+671,1348,2031,12_55,12_55,667,アラーム・ラディッシュ,Uncanny Turnip,CREATURE,Wild Veggies,"■ Wave striker (While 2 or more other creatures in the battle zone have ""wave striker,"" this creature has its wave striker ability.)
+  When you put this creature into the battle zone, put the top card of your deck into your mana zone. Then put a creature from your mana zone into your hand.
+",,crosswalk,137216,137216,0
+672,1349,2032,12_S1,12_S1,668,緑神龍アーク・デラセルナ,Terradragon Arque Delacerna,CREATURE,Earth Dragon,"■ Double breaker (This creature breaks 2 shields.)
+■ When this creature would be discarded from your hand during your opponent's turn, you may put it into the battle zone instead.",,crosswalk,159744,157952,1792
+673,1350,2033,12_S2,12_S2,669,英霊王スターマン,"Wise Starnoid, Avatar of Hope",CREATURE,Starnoid,"■ (This creature is put into your mana zone tapped.)
+■ Vortex evolution-Put on one of your Light Bringers and one of your Cyber Lords.
+■ Whenever this creature attacks or leaves the battle zone, add the top card of your deck to your shields face down.
+■ Double breaker (This creature breaks 2 shields.)",,crosswalk,133120,131584,1536
+674,1351,2034,12_S3,12_S3,670,蛇魂王ナーガ,"Cruel Naga, Avatar of Fate",CREATURE,Naga,"■ (This creature is put into your mana zone tapped.)
+■ Vortex evolution-Put on one of your Merfolk and one of your Chimeras.
+■ This creature can't be blocked.
+■ Double breaker (This creature breaks 2 shields.)
+■ When this creature leaves the battle zone, destroy all creatures.",,crosswalk,131072,130816,256
+675,1352,2035,12_S4,12_S4,671,暗黒王デス・フェニックス,"Death Phoenix, Avatar of Doom",CREATURE,Phoenix,"■ (This creature is put into your mana zone tapped.)
+■ Vortex evolution-Put on one of your Zombie Dragons and one of your Fire Birds.
+■ Double breaker (This creature breaks 2 shields.)
+■ Whenever this creature would break a shield, your opponent puts that shield into his graveyard instead.
+■ When this creature leaves the battle zone, your opponent discards his hand.",,crosswalk,147456,146688,768
+676,1353,2036,12_S5,12_S5,672,聖獣王ペガサス,"Aura Pegasus, Avatar of Life",CREATURE,Pegasus,"■ (This creature is put into your mana zone tapped.)
+■ Vortex evolution-Put on one of your Horned Beasts and one of your Angel Commands.
+■ Whenever this creature attacks or leaves the battle zone, reveal the top card of your deck. If it's a non-evolution creature, put it into the battle zone. Otherwise, put it into your hand.
+■ Triple breaker (This creature breaks 3 shields.)",,crosswalk,139264,138496,768

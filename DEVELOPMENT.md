@@ -1,6 +1,6 @@
 # Development Notes
 
-These are the main notes for anyone who wants to continue work on the **Duel Masters: Birth of the Super Dragon** English patch. The older UIxx handoff files and QA notes were useful while the patch was being built, but most of that information has been condensed here.
+These are the main notes for anyone who wants to continue work on the **Duel Masters: Birth of the Super Dragon** English patch. The old UIxx handoff files and intermediate QA packages are not needed for normal continuation work.
 
 ## Current baseline
 
@@ -36,7 +36,7 @@ All three sets are included in the final build. The last set was handled separat
 
 v1.1 corrects several issues found after the original public release:
 
-- Booster shop pack prices and pack artwork were restored. The earlier shop-description patch had accidentally overwritten metadata in the executable record.
+- Booster shop pack prices and pack artwork were restored. The earlier shop-description edit had overwritten metadata in the executable record.
 - Records-screen unit spacing was corrected.
 - Options-screen labels were rerendered to remove the striped/broken text appearance.
 - Deck Builder and Deck Stats labels were cleaned up.
@@ -51,25 +51,21 @@ The corrected shop record layout is:
 - `+0x60`: pack index
 - `+0x64`: pack index
 
-The original faulty patch treated the description as 0x58 bytes and overwrote the price/image fields. `tools/bosd_shop_packdesc_fixed.py` preserves those metadata fields.
-
-`tools/bosd_ui_polish_v11.py` contains the v1.1 Records, Options, Deck Builder and Deck Stats cleanup work.
+`tools/bosd_shop_packdesc_fixed.py` preserves those metadata fields. `tools/bosd_ui_polish_v11.py` contains the v1.1 Records, Options, Deck Builder, and Deck Stats cleanup work.
 
 ## Other useful notes
 
 - All 60 `DECK/*.DAT` files have player-visible text fields that were translated without changing the actual deck/card data.
-- The executable contains a number of player-visible strings that were patched directly, including civilization combinations and booster descriptions.
-- The DATAPACK visual audit found Japanese-bearing graphics in 33 chunks: `0–6`, `13`, and `108–132`. These were already covered by the final patch.
+- The executable contains player-visible strings that were patched directly, including civilization combinations and booster descriptions.
+- The DATAPACK visual audit found Japanese-bearing graphics in 33 chunks: `0–6`, `13`, and `108–132`.
 - Fixed graphics such as title/startup text, `NO RANK`, `BLOCK C`, and the deck HOF marker were also localized.
 - If PCSX2 still shows the Japanese game title in its game list or window title, that is emulator metadata rather than text coming from the ISO.
 
-## Files in this repository
+## Repository files
 
-The repository only includes the development material that is useful to keep around.
+`tools/` contains only the scripts that are still useful for the current patch: build tools, archive helpers, card pipelines, final UI fixes, and verification utilities. Superseded one-off scripts have been removed from the public repository. See `tools/README.md` for a short description of each remaining tool.
 
-`tools/` contains the Python utilities used for card text, card graphics, archive work, UI fixes, verification, ISO patching, and PPF creation.
-
-`data/` contains the card-name crosswalk, translated card text/rules tables, and the card resource inventory.
+`data/` contains the card-name crosswalk, translated card text/rules tables, and card resource inventory.
 
 The original ISO, patched ISO, extracted retail archives, modified game binaries, compiled `UNPACK.IMG`, card caches, and intermediate UIxx binaries are not included.
 
@@ -77,17 +73,11 @@ Anyone continuing the project can apply the full v1.1 PPF to the verified clean 
 
 ## If you want to continue the project
 
-A few things are worth keeping in mind:
-
 1. Start from the verified v1.1 build rather than redoing the reverse engineering from scratch.
 2. The abandoned online/network features can be ignored unless someone specifically wants to investigate them.
-3. Avoid rebuilding all of the card graphics or fonts when a smaller targeted change will do.
-4. Check graphical changes against the actual game layout instead of guessing at positions or dimensions.
-5. Be careful with fixed-size executable records: text fields may be followed immediately by gameplay/UI metadata.
+3. Avoid rebuilding all card graphics or fonts when a smaller targeted change will do.
+4. Check graphical changes against the actual game layout instead of guessing positions or dimensions.
+5. Be careful with fixed-size executable records: text fields may be followed immediately by gameplay or UI metadata.
 6. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
 
-## Older project files
-
-There were a lot of handoff documents, QA logs, screenshots, and intermediate builds made while this patch was being developed. They are not needed in the public repository.
-
-For most future work, this file, the `tools/` and `data/` folders, and the current release PPF should be enough to get started.
+For most future work, this file, `tools/`, `data/`, and the current release PPF should be enough to get started.

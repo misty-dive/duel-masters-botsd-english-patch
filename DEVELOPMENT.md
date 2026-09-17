@@ -7,12 +7,13 @@ These are the main notes for anyone who wants to continue work on the **Duel Mas
 - Game: Duel Masters: Birth of the Super Dragon
 - Platform: PlayStation 2
 - Serial: `SLPM-65882`
-- Current public release: **v1.1**
+- Current public release: **v1.2**
 - Clean Japanese ISO SHA-256: `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
-- Full v1.1 PPF SHA-256: `fc3d532ebde1efee52e446e310de59407a5bd28c4a4e562f7e5cf9dead3ddebf`
-- v1.0 → v1.1 hotfix SHA-256: `7ec3adb614a251979b1dbbac7f9575f5b204ec1b8c2b9da16dcf7939653a4586`
+- Full v1.2 PPF SHA-256: `83429a57a8c6bba0bf3134600c9e08e9091ca0a7c366e583745db8209834c328`
+- v1.1 → v1.2 hotfix SHA-256: `da58431791d0fe8297c0871f6b1e26a244f163b8a3c662c7f839a807d792967b`
+- Corrected v1.2 `DUELPTS.DAT` SHA-256: `7162d840c58aca34391819c2df2787013454b0ad45449d1be2cab353f4ec7de3`
 
-The full v1.1 PPF applied to the verified clean Japanese ISO is the best starting point for future work.
+The full v1.2 PPF applied to the verified clean Japanese ISO is the best starting point for future work.
 
 ## What was worked on
 
@@ -32,9 +33,35 @@ The patch has had targeted testing, but the game has **not** been played through
 
 All three sets are included in the final build. The last set was handled separately because the Japanese card name is baked into the image.
 
+## v1.2 fix: duel numbers 6–9
+
+GitHub Issue #2 reported malformed lower portions of the duel-rendered digits `6`, `7`, `8`, and `9`. The same defect appeared in creature power, deck-count, and available-mana displays because those displays share the same texture atlas.
+
+The affected asset is `DUELPTS_SRC_G_P00_TGA` inside `IMG/DUELPTS.DAT`.
+
+The v1.1 English `LEFT` label used the rectangle `(145, 374, 221, 408)`. Rows `374–384` also contain the lower portion of the shared numeric strip, so clearing that rectangle damaged the latter number glyphs.
+
+Clean-vs-v1.1 pixel verification found:
+
+- digits `1–5`: 0 altered pixels
+- digit `6`: 71 altered pixels
+- digit `7`: 136 altered pixels
+- digit `8`: 205 altered pixels
+- digit `9`: 206 altered pixels
+
+Relevant file hashes:
+
+- clean retail `DUELPTS.DAT`: `b90825eb09f455e473cf47f3721a46a277fd3fbb78bd361df6d5b5dc1141e89e`
+- affected v1.1 `DUELPTS.DAT`: `d9296abff10b847157e54f8b59e6bcb084e0a727db77d99be3cb268005d5faa4`
+- corrected v1.2 `DUELPTS.DAT`: `7162d840c58aca34391819c2df2787013454b0ad45449d1be2cab353f4ec7de3`
+
+The canonical v1.2 correction is reproduced by `tools/bosd_duelpts_issue2_fix.py`. It restores digits `6–9` from the verified clean atlas and relocates the already-rendered `LEFT` raster below the numeric strip while preserving unrelated archive members.
+
+`tools/bosd_static_label_polish_ui81.py` is also corrected so future clean rebuilds do not begin the `LEFT` region above row `385`. Because that path rerenders the label from a font, it should still receive normal runtime visual QA after a fresh rebuild.
+
 ## v1.1 fixes
 
-v1.1 corrects several issues found after the original public release:
+v1.1 corrected several issues found after the original public release:
 
 - Booster shop pack prices and pack artwork were restored. The earlier shop-description edit had overwritten metadata in the executable record.
 - Records-screen unit spacing was corrected.
@@ -60,24 +87,26 @@ The corrected shop record layout is:
 - The DATAPACK visual audit found Japanese-bearing graphics in 33 chunks: `0–6`, `13`, and `108–132`.
 - Fixed graphics such as title/startup text, `NO RANK`, `BLOCK C`, and the deck HOF marker were also localized.
 - If PCSX2 still shows the Japanese game title in its game list or window title, that is emulator metadata rather than text coming from the ISO.
+- Normal PS2 memory-card save compatibility has not yet been proven across the full v1.2 playthrough. Treat any reproducible normal-save incompatibility as a real bug; PCSX2 save-state incompatibility after executable changes is a separate issue.
 
 ## Repository files
 
-`tools/` contains only the scripts that are still useful for the current patch: build tools, archive helpers, card pipelines, final UI fixes, and verification utilities. Superseded one-off scripts have been removed from the public repository. See `tools/README.md` for a short description of each remaining tool.
+`tools/` contains only the scripts that are still useful for the current patch: build tools, archive helpers, card pipelines, final UI fixes, release-patch generation, and verification utilities. Superseded one-off scripts should not be reintroduced. See `tools/README.md` for a short description of each remaining tool.
 
 `data/` contains the card-name crosswalk, translated card text/rules tables, and card resource inventory.
 
 The original ISO, patched ISO, extracted retail archives, modified game binaries, compiled `UNPACK.IMG`, card caches, and intermediate UIxx binaries are not included.
 
-Anyone continuing the project can apply the full v1.1 PPF to the verified clean Japanese ISO and extract the patched files from there.
+Anyone continuing the project can apply the full v1.2 PPF to the verified clean Japanese ISO and extract the patched files from there.
 
 ## If you want to continue the project
 
-1. Start from the verified v1.1 build rather than redoing the reverse engineering from scratch.
+1. Start from the verified v1.2 build rather than redoing the reverse engineering from scratch.
 2. The abandoned online/network features can be ignored unless someone specifically wants to investigate them.
 3. Avoid rebuilding all card graphics or fonts when a smaller targeted change will do.
 4. Check graphical changes against the actual game layout instead of guessing positions or dimensions.
 5. Be careful with fixed-size executable records: text fields may be followed immediately by gameplay or UI metadata.
-6. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
+6. Prefer the hash-guarded Issue #2 repair tool when reproducing the v1.2 `DUELPTS.DAT` correction.
+7. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
 
 For most future work, this file, `tools/`, `data/`, and the current release PPF should be enough to get started.

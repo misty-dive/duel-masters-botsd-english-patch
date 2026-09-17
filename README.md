@@ -9,18 +9,20 @@ English translation patch for the Japanese PlayStation 2 release of **Duel Maste
 1. Start with a clean, unmodified Japanese ISO of **SLPM-65882**.
 2. Verify the clean ISO SHA-256:
    `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
-3. Download `Duel_Masters_Birth_of_Super_Dragon_English_v1.1.ppf` from the **Releases** page.
+3. Download `Duel_Masters_Birth_of_Super_Dragon_English_v1.2.ppf` from the **Releases** page.
 4. Apply the PPF3 patch using **PPF-O-Matic 3** on Windows, **MultiPatch** on macOS, **ApplyPPF3** on the command line, or another PPF3-compatible patcher.
 
-Do not apply the full v1.1 patch to an already modified ISO.
+Do not apply the full v1.2 patch to an already modified ISO.
 
-### Updating from v1.0
+### Updating from v1.1
 
-If you already have an ISO patched with the original **v1.0** release, you can instead apply:
+If you already have an ISO patched with **v1.1**, apply:
 
-`BOTSD_v1.0_to_v1.1_hotfix.ppf`
+`BOTSD_v1.1_to_v1.2_hotfix.ppf`
 
-Do **not** apply both patches to the same ISO. Use either the full v1.1 patch on a clean Japanese ISO, or the v1.0 → v1.1 hotfix on an existing v1.0-patched ISO.
+Do **not** apply the full v1.2 patch to a v1.1 ISO.
+
+If you are still on v1.0, either start again from a clean Japanese ISO with the full v1.2 patch, or first apply the existing v1.0 → v1.1 hotfix and then the v1.1 → v1.2 hotfix.
 
 ## What is translated
 
@@ -33,6 +35,14 @@ Do **not** apply both patches to the same ISO. Use either the full v1.1 patch on
 
 Deprecated online/network features are intentionally out of scope.
 
+## v1.2 fixes
+
+- Fixed malformed lower portions of duel numbers `6`, `7`, `8`, and `9`.
+- The same defect appeared in creature power, cards remaining in the deck, and available mana because those displays share the same number texture.
+- Corrected the English `LEFT` label placement so it no longer overlaps the shared numeric strip.
+- Restored the affected number pixels from the clean retail asset.
+- The correction was confirmed in-game after being reported in GitHub Issue #2.
+
 ## v1.1 fixes
 
 - Fixed booster shop packs displaying incorrectly and costing `0 DP`.
@@ -43,7 +53,7 @@ Deprecated online/network features are intentionally out of scope.
 
 ## Status
 
-**v1.1 is not fully tested.** The major translated systems have been checked, but the entire game has not been played through from beginning to end.
+**v1.2 is not fully playthrough-tested.** The Issue #2 duel-number correction has been confirmed in-game and the major translated systems have been checked, but the entire game has not yet been played through from beginning to end.
 
 If you find untranslated text, graphical issues, crashes, save problems, or anything else that looks wrong, please open a GitHub Issue with a screenshot and a short description of where it occurred.
 
@@ -51,13 +61,17 @@ Future maintenance may be limited, but contributions and further development are
 
 ## Patch verification
 
-Full v1.1 patch SHA-256:
+Full v1.2 patch SHA-256:
 
-`fc3d532ebde1efee52e446e310de59407a5bd28c4a4e562f7e5cf9dead3ddebf`
+`83429a57a8c6bba0bf3134600c9e08e9091ca0a7c366e583745db8209834c328`
 
-v1.0 → v1.1 hotfix SHA-256:
+v1.1 → v1.2 hotfix SHA-256:
 
-`7ec3adb614a251979b1dbbac7f9575f5b204ec1b8c2b9da16dcf7939653a4586`
+`da58431791d0fe8297c0871f6b1e26a244f163b8a3c662c7f839a807d792967b`
+
+Clean Japanese ISO SHA-256:
+
+`f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
 
 Patch format: **PPF 3.0**
 

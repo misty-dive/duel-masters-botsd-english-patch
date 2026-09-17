@@ -217,7 +217,9 @@ def main():
     dp = []
     for text, y0, y1 in [('UNTAP', 101, 127), ('DRAW', 137, 163), ('CHARGE', 173, 199), ('SUMMON', 209, 235), ('ATTACK', 245, 271), ('END', 281, 307)]:
         dp += [(text, (38, y0, 150, y1), 'horizontal', 251, 10), (text, (243, y0, 341, y1), 'horizontal', 251, 10)]
-    dp += [('DECK', (6, 321, 62, 341), 'horizontal', 251, 10), ('GRAVE', (122, 321, 183, 341), 'horizontal', 251, 10), ('HAND', (242, 321, 307, 341), 'horizontal', 251, 10), ('LEFT', (145, 374, 221, 408), 'transparent', 251, 10, 0)]
+    # v1.2: rows 374-384 contain the lower pixels of duel-number glyphs 6-9.
+    # Keep the LEFT clear/paint region below the shared numeric strip.
+    dp += [('DECK', (6, 321, 62, 341), 'horizontal', 251, 10), ('GRAVE', (122, 321, 183, 341), 'horizontal', 251, 10), ('HAND', (242, 321, 307, 341), 'horizontal', 251, 10), ('LEFT', (145, 385, 221, 408), 'transparent', 251, 10, 0)]
     patch_archive(Path(a.advscn), out / 'ADVSCN_UI81_EN.DAT', fp, sc, ADVSCN_SHA, arc, strong, rep)
     patch_archive(Path(a.adv), out / 'ADV_UI81_EN.DAT', fp, adv, ADV_SHA, arc, strong, rep)
     patch_archive(Path(a.duelpts), out / 'DUELPTS_UI81_EN.DAT', fp, {'DUELPTS_SRC_G_P00_TGA': dp}, DUELPTS_SHA, arc, strong, rep)

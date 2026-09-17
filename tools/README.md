@@ -8,13 +8,15 @@ Python 3.10+ is recommended. Install the shared Python dependencies with:
 python3 -m pip install -r requirements.txt
 ```
 
-## v1.1 fixes
+## Release and maintenance tools
 
 | Tool | Purpose |
 | --- | --- |
 | `bosd_shop_packdesc_fixed.py` | Applies the corrected booster descriptions without touching shop price or pack-image metadata. |
 | `bosd_ui_polish_v11.py` | Builds the v1.1 Records, Options, Deck Builder, and Deck Stats fixes. |
+| `bosd_duelpts_issue2_fix.py` | Reproduces the verified v1.2 Issue #2 repair by restoring duel digits 6–9 from the clean atlas and relocating the existing `LEFT` raster below the number strip. Inputs are SHA-256 guarded and the output self-verifies. |
 | `bosd_iso_layout_patcher_v2.py` | Inserts replacement files into the PS2 ISO, including enlarged files that must be appended and retargeted. |
+| `bosd_make_ppf3.py` | Creates standard PPF 3.0 patches directly from source and target binary images using only the Python standard library. |
 
 ## Card text and card graphics
 
@@ -39,7 +41,7 @@ python3 -m pip install -r requirements.txt
 | `bosd_ui_lzss_strong.py` | LZSS encoder used when edited UI members must still fit fixed archive allocations. |
 | `bosd_font_ue_patch.py` | Adds the reserved font glyph used for `Ü` and validates the rebuilt FONTLINK archive. |
 | `bosd_font_minimal_polish_ui81.py` | Applies the small runtime-font cleanup used by the final patch. |
-| `bosd_static_label_polish_ui81.py` | Renders verified English static labels into indexed-TGA UI assets. |
+| `bosd_static_label_polish_ui81.py` | Renders verified English static labels into indexed-TGA UI assets; the v1.2 source geometry keeps the `LEFT` region below the shared duel-number strip. |
 | `bosd_keyboard_default_ui81.py` | Makes the existing English keyboard page the initial input mode. |
 | `bosd_graphic_residuals_ui82.py` | Patches the remaining `LOBBY`, `TOUR`, and `DECK` graphical labels. |
 | `bosd_wait_title_ui82.py` | Builds the localized WAIT and TITLE assets. |
@@ -60,5 +62,6 @@ python3 -m pip install -r requirements.txt
 - Fail on an unexpected source instead of guessing.
 - Keep containment checks around image and archive edits where possible.
 - When refactoring a working script, require identical output from the same input before accepting the change.
+- For the canonical v1.2 duel-number correction, prefer `bosd_duelpts_issue2_fix.py`; the static-label renderer is the clean-build source path and should still receive runtime visual QA after rerendering.
 
 Version numbers such as `ui76`, `ui81`, and `ui82` remain in some filenames because they identify the development stage where that component stabilized. They do not mean those tools have been superseded; every script listed here still contributes to, supports, or verifies the current patch workflow.

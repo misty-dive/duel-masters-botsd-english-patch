@@ -1,112 +1,295 @@
-# Development Notes
-
-These are the main notes for anyone who wants to continue work on the **Duel Masters: Birth of the Super Dragon** English patch. The old UIxx handoff files and intermediate QA packages are not needed for normal continuation work.
+# Duel Masters: Birth of the Super Dragon — Development Notes
 
 ## Current baseline
 
-- Game: Duel Masters: Birth of the Super Dragon
-- Platform: PlayStation 2
-- Serial: `SLPM-65882`
-- Current public release: **v1.2**
-- Clean Japanese ISO SHA-256: `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
-- Full v1.2 PPF SHA-256: `83429a57a8c6bba0bf3134600c9e08e9091ca0a7c366e583745db8209834c328`
-- v1.1 → v1.2 hotfix SHA-256: `da58431791d0fe8297c0871f6b1e26a244f163b8a3c662c7f839a807d792967b`
-- Corrected v1.2 `DUELPTS.DAT` SHA-256: `7162d840c58aca34391819c2df2787013454b0ad45449d1be2cab353f4ec7de3`
+Current public target: **v1.3**  
+Game: **Duel Masters: Birth of the Super Dragon**  
+Serial: **SLPM-65882**
 
-The full v1.2 PPF applied to the verified clean Japanese ISO is the best starting point for future work.
+Clean Japanese ISO:
 
-## What was worked on
+- Size: `3,080,880,128 bytes`
+- SHA-256: `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
 
-The patch focuses on the playable offline game: story text, menus, card information, card graphics, shop and deck text, character select, duel UI, startup/title assets, and other Japanese text or graphics found during the audit.
+v1.3 release patches:
 
-The old online/network features were left alone because those services are no longer available.
+- `Duel_Masters_Birth_of_Super_Dragon_English_v1.3.ppf`
+  - size: `141102291 bytes`
+  - SHA-256: `b0533fa91e98640a1264179b4bbd721127043b66c6bbbf6aab0d884fc6275814`
+- `BOTSD_v1.2_to_v1.3_hotfix.ppf`
+  - size: `55567 bytes`
+  - SHA-256: `ce88a079c73555b735643bcd602a12ebf87aa8ec7a08d47b749d4883f0474ec1`
 
-The patch has had targeted testing, but the game has **not** been played through from beginning to end.
+The patch remains an offline-game localization. Deprecated network functionality and old network terms/conditions are intentionally outside the normal scope. AI changes remain postponed and must stay separate from the translation-maintenance release.
 
-## Card assets
+---
 
-`UNPACK.IMG` contains several separate versions of the card graphics:
+## v1.3 maintenance component hashes
 
-- Chunks `677–1353`: 677 full-size printed cards.
-- Chunks `1360–2036`: 677 128×128 card thumbnails.
-- Chunks `2037–2713`: another set of 677 128×128 card sprites/displays.
+v1.3 is a same-size maintenance update over the exact public v1.2 assets:
 
-All three sets are included in the final build. The last set was handled separately because the Japanese card name is baked into the image.
+| File | v1.2 SHA-256 | v1.3 SHA-256 | Size |
+|---|---|---|---:|
+| `SLPM_658.82` | `74f71e9dc1f7adeba10a12d70d27494efd8b5d117a55cbb8e9f8610762de3981` | `165d962189cf78e5bad4c549ac2d43f4fd54492ba61ebc3a258903f907f953d7` | 5,459,220 |
+| `SCRPACK.SDA` | `1e3208976bb90749598e1d7359cfda51fe7c095cf3db10459265aeb5dd133051` | `4d7e561344917193f9e672515edd5d2ccf576dcb7ed88d2ddc2092773689df26` | 3,801,088 |
+| `TCHANGE.IMG` | `5441893433e1c0c1901aba018f7a917881bc4303106df865cf0c7d0443197427` | `b6f61cb44e79539c40f289b4c7956b2016a5e5fdb9bff3e20140638d22c71137` | 19,456 |
+| `DECK.DAT` | `1c8abe004fe848983b317568d998379d674bce4df65773b93ef40131f20b4981` | `17eecd96502974c7899279d88a348269d59aa3cdd4ab92ffc50686854d7ad653` | 786,176 |
 
-## v1.2 fix: duel numbers 6–9
+`tools/bosd_v13_maintenance.py` reproduces these four exact outputs from the public v1.2 inputs and refuses any source hash mismatch.
 
-GitHub Issue #2 reported malformed lower portions of the duel-rendered digits `6`, `7`, `8`, and `9`. The same defect appeared in creature power, deck-count, and available-mana displays because those displays share the same texture atlas.
+---
 
-The affected asset is `DUELPTS_SRC_G_P00_TGA` inside `IMG/DUELPTS.DAT`.
+## v1.3 fixes and root causes
 
-The v1.1 English `LEFT` label used the rectangle `(145, 374, 221, 408)`. Rows `374–384` also contain the lower portion of the shared numeric strip, so clearing that rectangle damaged the latter number glyphs.
+### Aura Pegasus / Card Info / shop-result instability
 
-Clean-vs-v1.1 pixel verification found:
+**Card:** Aura Pegasus, Avatar of Life  
+**Internal card ID:** `672`  
+**Master text IDs:** `2372–2375`
 
-- digits `1–5`: 0 altered pixels
-- digit `6`: 71 altered pixels
-- digit `7`: 136 altered pixels
-- digit `8`: 205 altered pixels
-- digit `9`: 206 altered pixels
+The v1.2 executable's master-name pointer for ID 2372 was `0x46A590`. The 28-byte ASCII name:
 
-Relevant file hashes:
+`Aura Pegasus, Avatar of Life`
 
-- clean retail `DUELPTS.DAT`: `b90825eb09f455e473cf47f3721a46a277fd3fbb78bd361df6d5b5dc1141e89e`
-- affected v1.1 `DUELPTS.DAT`: `d9296abff10b847157e54f8b59e6bcb084e0a727db77d99be3cb268005d5faa4`
-- corrected v1.2 `DUELPTS.DAT`: `7162d840c58aca34391819c2df2787013454b0ad45449d1be2cab353f4ec7de3`
+occupied `0x46A590..0x46A5AB` with **no terminating NUL**. Byte `0x46A5AC` was the beginning of master text ID 1161, an unrelated `Turbo rush` rule string. A normal C-string read therefore continued from Aura Pegasus's name directly into unrelated rules text.
 
-The canonical v1.2 correction is reproduced by `tools/bosd_duelpts_issue2_fix.py`. It restores digits `6–9` from the verified clean atlas and relocates the already-rendered `LEFT` raster below the numeric strip while preserving unrelated archive members.
+The v1.3 correction:
 
-`tools/bosd_static_label_polish_ui81.py` is also corrected so future clean rebuilds do not begin the `LEFT` region above row `385`. Because that path rerenders the label from a font, it should still receive normal runtime visual QA after a fresh rebuild.
+- moves the Aura name start two bytes earlier to `0x46A58E`
+- writes the same English name followed by NUL bytes
+- changes only master pointer 2372 to the new address
+- leaves master text ID 1161 and Aura's actual rules entry untouched
 
-## v1.1 fixes
+The original 2,376-entry overlap audit found this to be the only pointer-inside-string overlap.
 
-v1.1 corrected several issues found after the original public release:
+### Software-keyboard / deck-name spacing
 
-- Booster shop pack prices and pack artwork were restored. The earlier shop-description edit had overwritten metadata in the executable record.
-- Records-screen unit spacing was corrected.
-- Options-screen labels were rerendered to remove the striped/broken text appearance.
-- Deck Builder and Deck Stats labels were cleaned up.
-- Civilization abbreviations and card-count displays were adjusted for the English layout.
+Save-state inspection proved that v1.2 user-entered deck names were stored as **full-width CP932 Latin**, e.g.:
 
-The corrected shop record layout is:
+`Ｐｈｏｅｎｉｘ`
 
-- `+0x00`: 8-byte pack code
-- `+0x08`: 0x50-byte description field
+rather than ASCII/half-width `Phoenix`.
+
+The persistent keyboard mode byte is:
+
+- runtime VA: `0x62852B`
+- executable file offset: `0x52952B`
+
+The A/ABC handler toggles modes `6/9`. Runtime QA proved mode `6` is the full-width Latin path and mode `9` is the half-width Latin path. v1.3 changes the final public executable from `6` to `9`.
+
+The older `bosd_keyboard_default_ui81.py` remains in the repository only to reproduce the historical v1.2 build stage and its hashes. `bosd_v13_maintenance.py` is the canonical final v1.3 correction.
+
+### SCRPACK probability-branch relocation / Shop → Leave hang
+
+The intermittent Leave failure was not a generic renderer freeze or an unsignaled semaphore. PCSX2 save-state analysis initially sampled EE syscall `0x42`; that syscall is `SignalSema`, and the captured call was `SignalSema(10)`. The EE thread table showed no thread waiting on semaphore 10.
+
+The actual root cause was script control flow.
+
+The translated `SCRPACK.SDA` changed command positions but three `0C/07` probability-branch destinations still used stale pre-translation targets. The Shop → Leave sequence contains a **10% branch**. In v1.2 it targeted resource-relative `0x4994`, which resolves to file offset `0x58994` — eight bytes into the translated `cm_tips` command/string. The command actually begins at `0x5898C`, so the correct resource-relative target is `0x498C`.
+
+The known Leave byte correction is:
+
+- file offset `0x58882`
+- v1.2: `0x94`
+- v1.3: `0x8C`
+
+The full v1.3 maintenance pass corrects **all three** stale probability-branch destinations. Runtime QA of the combined build no longer reproduced the reported Shop Leave / pack-result failures.
+
+### Confirmed story-dialogue wrap
+
+The visible line:
+
+`If the World's Balance tips too far toward release...`
+
+was wrapping by character boundary and could split `release` as `relea` / `se...`.
+
+v1.3 uses the game's explicit `#cr0` control for the confirmed case:
+
+`If World's Balance tips too far#cr0toward release...`
+
+Only this confirmed line is changed. A prior audit found other long-line candidates, but those remain an audit list rather than proof of bugs and are not mass-rewrapped.
+
+### CHANGE TURN clipping
+
+`LO/TCHANGE.IMG` contains one indexed 256×256 TGA member:
+
+`STRIG_IMG_TCHANGE_TGA`
+
+Retail uses two separate vertical rows. v1.2 had the English `TURN` and `CHANGE` graphics packed into a touching/overlapping region, causing runtime clipping.
+
+The v1.3 geometry places:
+
+- `CHANGE` on the retail top-row footprint
+- `TURN` on the retail lower-row footprint
+
+The rebuilt archive remains exactly `19,456 bytes` and the geometry was accepted in runtime QA.
+
+### Deck Builder `切` → `ACE`
+
+The remaining Japanese badge was isolated to:
+
+`DECK_SRC_DC_P02_TGA` inside `DECK.DAT`.
+
+It appears only on the deck's designated key/trump card rather than as a general card action. The English localization uses the compact label:
+
+`ACE`
+
+Containment QA against v1.2:
+
+- exactly one decompressed `DECK.DAT` member changed
+- changed member: `DECK_SRC_DC_P02_TGA`
+- changed indexed pixels: `230`
+- pixel-difference bounds: `x=165..182`, `y=84..99`
+- TGA header, palette, and trailer: byte-identical
+- all other decompressed archive members: byte-identical
+- target member compressed size: `27,520`
+- target allocation: `29,696`
+- remaining compressed headroom: `2,176`
+
+v1.3 `DECK.DAT` remains the same `786,176-byte` archive.
+
+---
+
+## v1.2 history — duel digits 6–9
+
+GitHub Issue #2 reported malformed lower portions of digits 6, 7, 8, and 9 during duels.
+
+The cause was proven inside `IMG/DUELPTS.DAT`, member:
+
+`DUELPTS_SRC_G_P00_TGA`
+
+The English `LEFT` label had originally been cleared/painted beginning at `y=374`, while rows `374–384` were still occupied by the lower pixels of the shared numeric strip.
+
+Measured v1.1 corruption:
+
+- digit 6: 71 altered pixels
+- digit 7: 136 altered pixels
+- digit 8: 205 altered pixels
+- digit 9: 206 altered pixels
+- digits 1–5: 0 altered pixels
+
+v1.2 restored the clean digit pixels and moved `LEFT` below the strip. This fix remains unchanged in v1.3.
+
+---
+
+## Card-text architecture
+
+Two card-text systems remain relevant:
+
+1. `COMMON/LIST_1.BIN`
+2. a 2,376-pointer executable-resident master text table
+
+The localization's combined `LIST_1.BIN` contains:
+
+- 1,682 display pointers
+- 2,376 master pointers
+- total: 4,058 pointers
+
+Key master-table constants:
+
+- master table VA: `0x444268`
+- master count: `2376`
+- appended master-pointer table begins after the 1,682 display pointers
+
+Current v1.2/v1.3 `LIST_1.BIN` is unchanged by v1.3:
+
+`772775021faadd371a1fa3dbc8736586b290d9250bd11169e3478446c8c90f48`
+
+---
+
+## Card-image architecture
+
+`UNPACK.IMG` card layers remain:
+
+- chunks `677–1353`: 677 full-size printed cards
+- chunks `1360–2036`: 677 128×128 thumbnails
+- chunks `2037–2713`: 677 secondary 128×128 sprites/display assets with names baked into the image
+
+v1.3 does **not** rebuild or alter the 677-card `UNPACK.IMG` layers.
+
+---
+
+## Shop booster-record warning
+
+The executable booster record is:
+
+- base: `0x4FDFF8`
+- stride: `0x68`
+- `+0x00`: 8-byte code
+- `+0x08`: `0x50`-byte description
 - `+0x58`: price
-- `+0x5C`: pack image ID
+- `+0x5C`: image ID
 - `+0x60`: pack index
 - `+0x64`: pack index
 
-`tools/bosd_shop_packdesc_fixed.py` preserves those metadata fields. `tools/bosd_ui_polish_v11.py` contains the v1.1 Records, Options, Deck Builder, and Deck Stats cleanup work.
+The obsolete `bosd_shop_packdesc_ui80.py` treated the description as too large and overwrote metadata. It is intentionally not part of the retained toolset. Use `bosd_shop_packdesc_fixed.py`.
 
-## Other useful notes
+---
 
-- All 60 `DECK/*.DAT` files have player-visible text fields that were translated without changing the actual deck/card data.
-- The executable contains player-visible strings that were patched directly, including civilization combinations and booster descriptions.
-- The DATAPACK visual audit found Japanese-bearing graphics in 33 chunks: `0–6`, `13`, and `108–132`.
-- Fixed graphics such as title/startup text, `NO RANK`, `BLOCK C`, and the deck HOF marker were also localized.
-- If PCSX2 still shows the Japanese game title in its game list or window title, that is emulator metadata rather than text coming from the ISO.
-- Normal PS2 memory-card save compatibility has not yet been proven across the full v1.2 playthrough. Treat any reproducible normal-save incompatibility as a real bug; PCSX2 save-state incompatibility after executable changes is a separate issue.
+## Release construction
 
-## Repository files
+`tools/bosd_v13_release_builder.py` requires:
 
-`tools/` contains only the scripts that are still useful for the current patch: build tools, archive helpers, card pipelines, final UI fixes, release-patch generation, and verification utilities. Superseded one-off scripts should not be reintroduced. See `tools/README.md` for a short description of each remaining tool.
+1. a directory containing the exact public-v1.2 `SLPM_658.82`, `SCRPACK.SDA`, `TCHANGE.IMG`, and `DECK.DAT` files
+2. the official v1.2 full PPF whose SHA-256 is:
+   `83429a57a8c6bba0bf3134600c9e08e9091ca0a7c366e583745db8209834c328`
 
-`data/` contains the card-name crosswalk, translated card text/rules tables, and card resource inventory.
+A whole v1.2 ISO is not required. The verified public-v1.2 ISO locations are:
 
-The original ISO, patched ISO, extracted retail archives, modified game binaries, compiled `UNPACK.IMG`, card caches, and intermediate UIxx binaries are not included.
+- `SLPM_658.82`: offset `0xB60E7800`, LBA `1491407`
+- `SCRPACK.SDA`: offset `0x55C91800`, LBA `702755`
+- `TCHANGE.IMG`: offset `0x22A2A800`, LBA `283733`
+- `DECK.DAT`: offset `0xB7CD3000`, LBA `1505702`
 
-Anyone continuing the project can apply the full v1.2 PPF to the verified clean Japanese ISO and extract the patched files from there.
+The builder:
 
-## If you want to continue the project
+- verifies the exact public-v1.2 component hashes
+- verifies those absolute locations against the official v1.2 PPF and the exact component bytes
+- reconstructs `SCRPACK.SDA`, `TCHANGE.IMG`, and `DECK.DAT` byte-for-byte from the official v1.2 PPF as an independent location check
+- verifies all PPF-covered executable bytes and every v1.3 executable edit
+- generates the v1.2 → v1.3 hotfix PPF from only the verified changed bytes
+- composes the clean-ISO → v1.3 full PPF from the official v1.2 full PPF plus those same maintenance writes
+- verifies the resulting v1.3 target bytes and PPF3 structure
 
-1. Start from the verified v1.2 build rather than redoing the reverse engineering from scratch.
-2. The abandoned online/network features can be ignored unless someone specifically wants to investigate them.
-3. Avoid rebuilding all card graphics or fonts when a smaller targeted change will do.
-4. Check graphical changes against the actual game layout instead of guessing positions or dimensions.
-5. Be careful with fixed-size executable records: text fields may be followed immediately by gameplay or UI metadata.
-6. Prefer the hash-guarded Issue #2 repair tool when reproducing the v1.2 `DUELPTS.DAT` correction.
-7. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
+For this release, every v1.3 edit falls inside data already written by the official v1.2 full PPF, so the v1.3 full PPF has the same size, record count, payload byte count, and target EOF coverage as v1.2; only the affected target bytes and PPF description changed.
 
-For most future work, this file, `tools/`, `data/`, and the current release PPF should be enough to get started.
+Do not upload a game ISO or extracted game-data binaries to GitHub.
+
+---
+
+## Save compatibility
+
+Known memory-card identifiers remain:
+
+- `BISLPM-65882`
+- `PS2D`
+
+PCSX2 save-state incompatibility after executable changes is not equivalent to memory-card incompatibility.
+
+---
+
+## AI research — future / separate patch only
+
+No AI behavior modification is included in v1.3.
+
+Preserved research:
+
+- profile table VA: `0x567388`
+- profile size: `0x1D8` / 472 bytes
+- 66 valid profiles
+- six-template priority table VA: `0x566128`
+- priority-template stride: `0x1C8`
+
+Known routines:
+
+- `0x25F750` candidate/effect classifier
+- `0x25FEB0` priority/rank helper
+- `0x25E5A8` sorting
+- `0x26CFB0` scoring
+- `0x26E210` evaluator
+
+High-level flow:
+
+`enumerate -> classify -> evaluate -> priorities -> sort/rank -> act`
+
+AI work must remain optional/separate until the normal full playthrough is complete.

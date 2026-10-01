@@ -1,0 +1,2 @@
+resource_type,resource_id,language,review_status,source,reviewer,review_date,notes
+example,example-id,en,unreviewed,,,,Template only; do not treat this example as release data

@@ -1,0 +1,35 @@
+{
+  "input_sha256": "e78a5ed905b9ef8c6ec01b67b41ee771b47b0f9e91ecddc9cd8767f7416dac0b",
+  "changed_members": [
+    "half0000.lz",
+    "half0004.lz"
+  ],
+  "apostrophe": {
+    "target_char": "'",
+    "source_page": "full8102.lz",
+    "source_glyph": 6,
+    "resize": [
+      12,
+      24
+    ],
+    "shift": [
+      3,
+      0
+    ]
+  },
+  "lowercase_l": {
+    "target_char": "l",
+    "source_page": "full8202.lz",
+    "source_glyph": 15,
+    "expected_source_bbox": [
+      10,
+      1,
+      14,
+      22
+    ],
+    "paste": [
+      2,
+      1
+    ]
+  }
+}

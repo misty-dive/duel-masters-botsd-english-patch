@@ -1,35 +1,47 @@
 #!/usr/bin/env python3
-"""Verify a set of extracted ISO files against the expected SHA-256 manifest.
+"""Compatibility CLI for streaming ISO asset verification/extraction.
 
-This is a small safety check used before running patch/build steps."""
+Historical syntax is preserved:
 
+    bosd_verify_extract_iso_assets.py ISO HASHES.tsv --extract BASENAME=OUTPUT
+
+The implementation now delegates to :mod:`botsd.extract` and never reads a multi-gigabyte ISO into
+one Python bytes object.
+"""
+from __future__ import annotations
+
+import argparse
 from pathlib import Path
-import argparse,csv,hashlib,importlib.util,sys
-ap=argparse.ArgumentParser()
-ap.add_argument('iso',type=Path)
-ap.add_argument('hashes',type=Path)
-ap.add_argument('--extract',action='append',default=[],help='BASENAME=OUTPUT')
-a=ap.parse_args()
-spec=importlib.util.spec_from_file_location('iso_mod',Path(__file__).with_name('bosd_iso_layout_patcher_v2.py'))
-m=importlib.util.module_from_spec(spec)
-sys.modules['iso_mod']=m
-spec.loader.exec_module(m)
-raw=a.iso.read_bytes()
-iso=m.Iso9660(raw)
-with a.hashes.open(encoding='utf-8-sig') as f: rows=list(csv.DictReader(f,delimiter='\t'))
-expected={r['basename'].upper():r['sha256'].lower() for r in rows}
-for name,h in expected.items():
- e=iso.find_unique_basename(name)
- data=raw[e.extent*m.SECTOR:e.extent*m.SECTOR+e.size]
- got=hashlib.sha256(data).hexdigest()
- if got!=h:
-     raise SystemExit(f'ERROR: {e.path} SHA-256 {got} != expected retail {h}')
- print(f'OK {e.path} {e.size} bytes {got}')
-for item in a.extract:
- name,out=item.split('=',1)
- e=iso.find_unique_basename(name)
- data=raw[e.extent*m.SECTOR:e.extent*m.SECTOR+e.size]
- p=Path(out)
- p.parent.mkdir(parents=True,exist_ok=True)
- p.write_bytes(data)
- print('Extracted',e.path,'->',p)
+
+import sys
+
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
+from botsd.extract import verify_hash_manifest
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("iso", type=Path)
+    parser.add_argument("hashes", type=Path)
+    parser.add_argument("--extract", action="append", default=[], help="BASENAME=OUTPUT")
+    args = parser.parse_args()
+
+    extracts: dict[str, Path] = {}
+    for item in args.extract:
+        if "=" not in item:
+            parser.error(f"invalid --extract {item!r}; expected BASENAME=OUTPUT")
+        name, output = item.split("=", 1)
+        extracts[name] = Path(output)
+
+    rows = verify_hash_manifest(args.iso, args.hashes, extracts)
+    for row in rows:
+        print(f"OK {row.iso_path} {row.size} bytes {row.sha256}")
+        if row.output is not None:
+            print(f"Extracted {row.iso_path} -> {row.output}")
+
+
+if __name__ == "__main__":
+    main()

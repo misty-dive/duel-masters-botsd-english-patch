@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "strings": {
+    "civ_light_water": "Light & Water",
+    "civ_light_dark": "Light & Dark",
+    "civ_light_fire": "Light & Fire",
+    "civ_light_nature": "Light & Nature",
+    "civ_water_dark": "Water & Dark",
+    "civ_water_fire": "Water & Fire",
+    "civ_dark_fire": "Dark & Fire",
+    "civ_dark_nature": "Dark & Nature",
+    "civ_fire_nature": "Fire & Nature",
+    "pack_dm01": "DM-01\nBase Set",
+    "pack_dm02": "DM-02\nEvo-Crushinators of Doom",
+    "pack_dm03": "DM-03\nRampage of the\nSuper Warriors",
+    "pack_dm04": "DM-04\nShadowclash of\nBlinding Night",
+    "pack_dm05": "DM-05\nSurvivors of the\nMegapocalypse",
+    "pack_dm09": "DM-09\nFatal Brood of\nInfinite Ruin",
+    "pack_dm10": "DM-10\nShockwaves of the\nShattered Rainbow",
+    "pack_dm11": "DM-11\nBlastosplosion of\nGigantic Rage",
+    "pack_dm12": "DM-12\nThrash of the Hybrid\nMegacreatures",
+    "offline_trade_min_cards": "Not enough cards!\nYou need at least 10 cards to trade.",
+    "save_title": "Duel Masters: Birth of the Super Dragon"
+  }
+}

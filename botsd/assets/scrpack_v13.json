@@ -1,0 +1,37 @@
+{
+  "branch_relocations": [
+    {
+      "chunk": 32,
+      "branch_command_index": 326,
+      "target_command_index": 479,
+      "opcode": "0x070C",
+      "probability": 10,
+      "label": "probability branch relocation 1"
+    },
+    {
+      "chunk": 32,
+      "branch_command_index": 938,
+      "target_command_index": 956,
+      "opcode": "0x070C",
+      "probability": 10,
+      "label": "Shop Leave 10% branch relocation"
+    },
+    {
+      "chunk": 162,
+      "branch_command_index": 123,
+      "target_command_index": 141,
+      "opcode": "0x070C",
+      "probability": 10,
+      "label": "probability branch relocation 3"
+    }
+  ],
+  "dialogue_edits": [
+    {
+      "chunk": 123,
+      "command_index": 646,
+      "opcode": "0x1D03",
+      "string_key": "world_balance_wrap",
+      "label": "confirmed story word-wrap repair"
+    }
+  ]
+}

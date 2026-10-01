@@ -1,69 +1,44 @@
 #!/usr/bin/env python3
-"""Corrected shop booster-description patch.
+"""Compatibility CLI for verified booster-description localization.
 
-The booster-shop record is 0x68 bytes:
-  +0x00  8-byte code
-  +0x08  0x50-byte description area
-  +0x58  uint32 price (150 DP in retail)
-  +0x5C  uint32 image ID
-  +0x60  uint32 pack index
-  +0x64  uint32 pack index
-
-The earlier UI80 script incorrectly treated +0x08..+0x5F as text and zeroed
-the price/image fields. This version preserves all metadata.
+The binary record logic lives in :mod:`botsd.shop`; English text lives in
+`localization/en/shop_boosters.json` instead of being embedded in patch logic.
 """
 from __future__ import annotations
+
+import argparse
 from pathlib import Path
-import argparse, hashlib
 
-TABLE_OFF = 0x4FDFF8
-STRIDE = 0x68
-DESC_OFF = 0x08
-DESC_LEN = 0x50
+import sys
 
-RECORDS = [
-    ('01-05', 'Legend Pack'),
-    ('DM-06', 'Stomp-A-Trons of Invincible Wrath'),
-    ('DM-07', 'Thundercharge of Ultra Destruction'),
-    ('DM-08', 'Epic Dragons of Hyperchaos'),
-    ('DM-09', 'Fatal Brood of Infinite Ruin'),
-    ('DM-10', 'Shockwaves of the Shattered Rainbow'),
-    ('DM-11', 'Blastosplosion of Gigantic Rage'),
-    ('DM-12', 'Thrash of the Hybrid Megacreatures'),
-]
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
 
-def sha(b: bytes) -> str:
-    return hashlib.sha256(b).hexdigest()
+from botsd.hashing import sha256_bytes
+from botsd.shop import load_booster_descriptions, patch_booster_descriptions
 
-def cstr(b: bytes) -> str:
-    return b.split(b'\0', 1)[0].decode('cp932', errors='strict')
 
-def main():
-    """Run the command-line patch/verification workflow."""
-    ap = argparse.ArgumentParser()
-    ap.add_argument('input_elf')
-    ap.add_argument('output_elf')
-    a = ap.parse_args()
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("input_elf", type=Path)
+    parser.add_argument("output_elf", type=Path)
+    parser.add_argument(
+        "--translations",
+        type=Path,
+        default=Path(__file__).resolve().parents[1] / "localization/en/shop_boosters.json",
+    )
+    args = parser.parse_args()
 
-    src = Path(a.input_elf).read_bytes()
-    out = bytearray(src)
+    source = args.input_elf.read_bytes()
+    records = load_booster_descriptions(args.translations)
+    target = patch_booster_descriptions(source, records)
+    args.output_elf.parent.mkdir(parents=True, exist_ok=True)
+    args.output_elf.write_bytes(target)
+    print(f"input_sha256={sha256_bytes(source)}")
+    print(f"output_sha256={sha256_bytes(target)}")
+    print("PASS: descriptions changed; price/image/pack metadata preserved")
 
-    for i, (code, english) in enumerate(RECORDS):
-        ro = TABLE_OFF + i * STRIDE
-        if cstr(src[ro:ro+8]) != code:
-            raise RuntimeError(f'record {i}: unexpected code')
-        metadata = src[ro+0x58:ro+0x68]
-        enc = english.encode('cp932')
-        if len(enc) + 1 > DESC_LEN:
-            raise RuntimeError(f'{code}: description too long')
-        out[ro+DESC_OFF:ro+DESC_OFF+DESC_LEN] = enc + b'\0' * (DESC_LEN-len(enc))
-        if bytes(out[ro+0x58:ro+0x68]) != metadata:
-            raise RuntimeError(f'{code}: metadata changed')
 
-    Path(a.output_elf).write_bytes(out)
-    print(f'input_sha256={sha(src)}')
-    print(f'output_sha256={sha(bytes(out))}')
-    print('PASS: descriptions changed; price/image/pack metadata preserved')
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

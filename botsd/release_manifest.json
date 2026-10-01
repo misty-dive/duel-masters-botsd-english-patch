@@ -1,0 +1,169 @@
+{
+  "serial": "SLPM-65882",
+  "release": "v1.3",
+  "clean_iso": {
+    "size": 3080880128,
+    "sha256": "f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96"
+  },
+  "patched_iso": {
+    "size": 3085787136
+  },
+  "full_ppf": {
+    "size": 141102291,
+    "sha256": "b0533fa91e98640a1264179b4bbd721127043b66c6bbbf6aab0d884fc6275814"
+  },
+  "hotfix_from_v12": {
+    "size": 55567,
+    "sha256": "ce88a079c73555b735643bcd602a12ebf87aa8ec7a08d47b749d4883f0474ec1"
+  },
+  "counts": {
+    "internal_cards": 673,
+    "card_resources": 677,
+    "display_text": 1682,
+    "master_text": 2376
+  },
+  "components": [
+    {
+      "name": "SLPM_658.82",
+      "iso_offset": 3054401536,
+      "v12": {
+        "size": 5459220,
+        "sha256": "74f71e9dc1f7adeba10a12d70d27494efd8b5d117a55cbb8e9f8610762de3981"
+      },
+      "v13": {
+        "size": 5459220,
+        "sha256": "165d962189cf78e5bad4c549ac2d43f4fd54492ba61ebc3a258903f907f953d7"
+      }
+    },
+    {
+      "name": "SCRPACK.SDA",
+      "iso_offset": 1439242240,
+      "v12": {
+        "size": 3801088,
+        "sha256": "1e3208976bb90749598e1d7359cfda51fe7c095cf3db10459265aeb5dd133051"
+      },
+      "v13": {
+        "size": 3801088,
+        "sha256": "4d7e561344917193f9e672515edd5d2ccf576dcb7ed88d2ddc2092773689df26"
+      }
+    },
+    {
+      "name": "TCHANGE.IMG",
+      "iso_offset": 581085184,
+      "v12": {
+        "size": 19456,
+        "sha256": "5441893433e1c0c1901aba018f7a917881bc4303106df865cf0c7d0443197427"
+      },
+      "v13": {
+        "size": 19456,
+        "sha256": "b6f61cb44e79539c40f289b4c7956b2016a5e5fdb9bff3e20140638d22c71137"
+      }
+    },
+    {
+      "name": "DECK.DAT",
+      "iso_offset": 3083677696,
+      "v12": {
+        "size": 786176,
+        "sha256": "1c8abe004fe848983b317568d998379d674bce4df65773b93ef40131f20b4981"
+      },
+      "v13": {
+        "size": 786176,
+        "sha256": "17eecd96502974c7899279d88a348269d59aa3cdd4ab92ffc50686854d7ad653"
+      }
+    }
+  ],
+  "duelpts": {
+    "iso_offset": 3083552768,
+    "sha256": "7162d840c58aca34391819c2df2787013454b0ad45449d1be2cab353f4ec7de3"
+  },
+  "card_layer_ranges": [
+    [
+      677,
+      1353
+    ],
+    [
+      1360,
+      2036
+    ],
+    [
+      2037,
+      2713
+    ]
+  ],
+  "keyboard": {
+    "mode_file_offset": 5412139,
+    "mode_va": 6456619
+  },
+  "previous_releases": {
+    "v1.2": {
+      "full_ppf_sha256": "83429a57a8c6bba0bf3134600c9e08e9091ca0a7c366e583745db8209834c328",
+      "full_ppf_name": "Duel_Masters_Birth_of_Super_Dragon_English_v1.2.ppf",
+      "hotfix_from_v11_sha256": "da58431791d0fe8297c0871f6b1e26a244f163b8a3c662c7f839a807d792967b"
+    }
+  },
+  "retail_assets": {
+    "SLPM_658.82": "846ed10f8247dc5fe6d9f41ccf11179bbbe3a9c9fde5991c8ebcc271dc38b11d",
+    "SCRPACK.SDA": "707e53a0f714dea7f3a059d973085fafd4f9120d0ef59e92bac42eb561514b11",
+    "LIST_1.BIN": "8e07816855adf656a95bed7d86d2434ef2842204b44237848204fb450772ebcf",
+    "FONTLINK.PAC": "599ddb34c9756f7d60c0f00c24755dca64e0ae81b7ae8643367b169c9d746c7a",
+    "TITLE.DAT": "1cdf5d217ca28d159eb1579f9d2c05c76afc7b0490621deced1c3f525ed51f61",
+    "SKB.DAT": "5834969d8c16477f2d20b7e281fe596694a14708d1337743f18a1be43475edb3",
+    "DUEL.DAT": "a70281ab94196c3d460505a78351821ca55fe0a9053e27afe870036781225710",
+    "CARDINFO.DAT": "315468c8be20962829acfc020273d44ba608b8e8198f2911c8296c33b13f1a04",
+    "TCHANGE.IMG": "9fa48da8c2060a5c9c2600e1dd6300722bb4e5cf28c5ac777d62f1627fc7e034",
+    "DECK.DAT": "d84c1fe351e76b8a38300c972a56c4a71cbb28428734befffc9c18635b64d1e7"
+  },
+  "localized_assets": {
+    "LIST_1.BIN": {
+      "size": 182473,
+      "sha256": "772775021faadd371a1fa3dbc8736586b290d9250bd11169e3478446c8c90f48"
+    }
+  },
+  "card_text": {
+    "load_va_delta": 1044480,
+    "master_table_va": 4473448,
+    "loop_count_va": 3007688,
+    "loader_return_va": 3007708,
+    "code_cave_va": 4270172,
+    "text_resource_global_gp_offset": 8248,
+    "card_text_object_global_gp_offset": 10264,
+    "retail_list_pointer_count": 1683
+  },
+  "deck_text": {
+    "callout_offset": 6,
+    "callout_size": 40,
+    "title_offset": 46,
+    "title_size": 20,
+    "data_offset": 66,
+    "record_count": 60
+  },
+  "shop_booster_table": {
+    "table_offset": 5234680,
+    "record_stride": 104,
+    "code_offset": 0,
+    "code_size": 8,
+    "description_offset": 8,
+    "description_size": 80,
+    "metadata_offset": 88,
+    "metadata_size": 16
+  },
+  "unpack": {
+    "size": 151525376,
+    "retail_sha256": "179dbb49d4fe0dc7952b2d1d56b8ab90f17cd6a48eaf29b0c5c82ed076986ece",
+    "second_name_first": 2037,
+    "second_name_last": 2713,
+    "localized_sha256": "2d3fe1849b18e749fac2a9f496776c2d653c9450d566c9f90fdea216b370ff58",
+    "second_name_payload_sha256": "dea8fa559db96f9cc38bfeddac8996dc27a2c90c3f2fdd28e9ece659f76c0f92",
+    "second_name_title_band": [
+      0,
+      2,
+      128,
+      15
+    ],
+    "second_name_detect_rows": [
+      3,
+      14
+    ],
+    "chunk_count": 2809
+  }
+}

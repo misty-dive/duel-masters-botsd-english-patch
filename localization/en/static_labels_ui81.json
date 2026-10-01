@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "strings": {
+    "character_select": "CHARACTER SELECT",
+    "shobu": "SHOBU",
+    "hakuoh": "HAKUOH",
+    "kokujo": "KOKUJO",
+    "mimi": "MIMI",
+    "bucketman": "BUCKETMAN",
+    "buy_cards": "BUY CARDS",
+    "practice": "PRACTICE",
+    "select_duelist": "SELECT DUELIST",
+    "equip": "EQUIP.",
+    "select_deck": "SELECT DECK",
+    "untap": "UNTAP",
+    "draw": "DRAW",
+    "charge": "CHARGE",
+    "summon": "SUMMON",
+    "attack": "ATTACK",
+    "end": "END",
+    "deck": "DECK",
+    "grave": "GRAVE",
+    "hand": "HAND",
+    "left": "LEFT"
+  }
+}

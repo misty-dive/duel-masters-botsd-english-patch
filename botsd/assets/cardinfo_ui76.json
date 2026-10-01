@@ -1,0 +1,21 @@
+{
+  "expected_input_sha256": "834d50b75adce47c5dace19838a2e28e3c692611d173d88477514ac299cb6378",
+  "load_va_delta": "0xFF000",
+  "master_table_va": "0x444268",
+  "master_count": 2376,
+  "rule_count": 654,
+  "race_pointer_table_va": "0x4436D8",
+  "race_count": 65,
+  "race_overflow_start": "0x470080",
+  "race_overflow_limit": "0x470400",
+  "reserved_data": [["0x470000", "0x470400"]],
+  "safe_slack": ["0x46A5AC", "0x470000"],
+  "slack_pointer_guard": "0x100",
+  "protected_code": {
+    "getter_vas": ["0x15EB58", "0x15EB80", "0x15EBA8", "0x15EBD0"],
+    "getter_length": 40,
+    "loader_cave_va": "0x41285C",
+    "loader_cave_length": 36
+  },
+  "canary_rule_ids": [139, 251]
+}

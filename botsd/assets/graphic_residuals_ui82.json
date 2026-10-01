@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "lobby": {
+    "input_sha256": "c247dfa6e8f42d321f6f27b20910aaca45d54e4240a1a6ae7df91dbb17d136c6",
+    "member": "LOBBY_SRC_RK_P01_TGA",
+    "source_box": [7, 81, 57, 93],
+    "target_box": [0, 303, 73, 330],
+    "paste_xy": [5, 309],
+    "clear_index": 10,
+    "target_rgb": [247, 247, 247],
+    "label": "NO RANK"
+  },
+  "tour": {
+    "input_sha256": "da768a8e4fabba737dfe71122aa91cc99b035b26c6500db395145337303ab1f7",
+    "member": "TOUR_SRC_TN_P01_TGA",
+    "source_box": [64, 2, 96, 34],
+    "target_box": [100, 77, 132, 109],
+    "label": "BLOCK C"
+  },
+  "deck": {
+    "input_sha256": "fbd00d4c8944927dd10ec5a51660e1bbddba6a94cecda32e1d1bca618546218c",
+    "member": "DECK_SRC_AD_P07_TGA",
+    "source_member": "DECK_SRC_DC_P03_TGA",
+    "source_box": [228, 105, 252, 119],
+    "top_box": [4, 79, 29, 104],
+    "bottom_box": [4, 107, 29, 133],
+    "top_background_index": 81,
+    "bottom_background_index": 37,
+    "top_paste_xy": [4, 85],
+    "bottom_paste_xy": [4, 113],
+    "top_foreground_index": 204,
+    "bottom_foreground_index": 234,
+    "label": "HOF"
+  }
+}

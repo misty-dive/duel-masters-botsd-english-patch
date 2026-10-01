@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "wait": {
+    "input_sha256": "0a66aa328feb850fe29bb8eed96bad92e8cb27b0212f633f4d2563a49a42f552",
+    "target_box": [0, 0, 256, 28],
+    "text_box": [2, 1, 180, 27],
+    "text_id": "please_wait",
+    "max_height": 22,
+    "center": false,
+    "outline": 0
+  },
+  "title": {
+    "input_sha256": "03b0f6e3988902b9181213c7dfa168afda40364de46ea349ee0a67a96c442c81",
+    "member": "TITLE_SRC_TITLE_01_TGA",
+    "clear_boxes": [[281, 72, 409, 98], [0, 246, 137, 265]],
+    "semantics": [
+      "remove repeated Japanese brand overlay; main logo already English",
+      "remove duplicate Japanese rights line; primary line already English"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format": "BOTSD reserved English U-diaeresis FONTLINK glyph recipe",
+  "input_asset": "FONTLINK.PAC",
+  "source_page": "half0003.lz",
+  "target_page": "half0005.lz",
+  "source_glyph_index": 5,
+  "target_glyph_index": 14,
+  "source_geometry": [12, 24, 144, 16],
+  "target_geometry": [12, 24, 144, 15],
+  "vertical_shift": 1,
+  "diaeresis_columns": [2, 3, 7, 8],
+  "diaeresis_top_value": 5,
+  "diaeresis_second_value": 15
+}

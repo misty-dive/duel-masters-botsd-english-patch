@@ -1,0 +1,17 @@
+{
+  "clean_sha256": "b90825eb09f455e473cf47f3721a46a277fd3fbb78bd361df6d5b5dc1141e89e",
+  "v11_sha256": "d9296abff10b847157e54f8b59e6bcb084e0a727db77d99be3cb268005d5faa4",
+  "expected_output_sha256": "7162d840c58aca34391819c2df2787013454b0ad45449d1be2cab353f4ec7de3",
+  "target_member": "DUELPTS_SRC_G_P00_TGA",
+  "digit_restore": [128, 357, 221, 385],
+  "old_left_box": [145, 374, 221, 408],
+  "left_text_bbox": [149, 379, 219, 403],
+  "new_left_bbox": [149, 385, 219, 408],
+  "face_index": 251,
+  "outline_index": 10,
+  "digit_boxes": {
+    "1": [25, 36], "2": [44, 63], "3": [66, 86], "4": [88, 108],
+    "5": [110, 128], "6": [128, 152], "7": [155, 174], "8": [176, 196], "9": [199, 221]
+  },
+  "expected_v11_damage": {"1":0,"2":0,"3":0,"4":0,"5":0,"6":71,"7":136,"8":205,"9":206}
+}

@@ -1,0 +1,29 @@
+{
+  "member": "STRIG_IMG_TCHANGE_TGA",
+  "background_index": 215,
+  "clear_rect": [0, 29, 256, 130],
+  "layers": [
+    {
+      "name": "CHANGE",
+      "source_rows": [78, 130],
+      "shift": [0, -47],
+      "copy_non_background": true,
+      "boundary_runs": {
+        "76": [[26, 35]],
+        "77": [[22, 25], [36, 38], [74, 75], [214, 243]]
+      }
+    },
+    {
+      "name": "TURN",
+      "source_rows": [29, 76],
+      "shift": [-32, 47],
+      "copy_non_background": true,
+      "boundary_runs": {
+        "76": [[49, 49], [51, 68], [83, 83], [85, 109], [111, 111], [117, 117], [119, 134], [136, 136], [140, 140], [142, 172], [174, 174], [178, 178], [180, 198]],
+        "77": [[49, 66], [68, 68], [73, 73], [76, 84], [87, 107], [110, 115], [117, 174], [178, 201]]
+      }
+    }
+  ],
+  "compression": {"mode": "optimal", "max_candidates": 256},
+  "expected_stored_size": 12227
+}

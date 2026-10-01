@@ -1,0 +1,4 @@
+from_version,to_version,platform,status,normal_memory_card,emulator_save_state,notes
+v1.2,v1.3,PCSX2,not_tested,not_tested,unsupported_assumption,Executable changes may invalidate snapshots without implying memory-card incompatibility
+v1.3,v1.3,PCSX2,partial,partial,platform_dependent,Record explicit save/reload checkpoints and emulator version
+v1.3,v1.3,Real PS2,not_tested,not_tested,not_applicable,Real-hardware memory-card validation desirable

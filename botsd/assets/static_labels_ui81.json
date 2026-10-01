@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "archives": {
+    "advscn": {
+      "input_sha256": "526bcc6e7a4bc92c9f2a521a0e8113a75fba86daa49d3453aff156b8de95ced3",
+      "output_name": "ADVSCN_UI81_EN.DAT",
+      "members": {
+        "ADVSCN_SRC_AD_P14_TGA": [
+          {"text_id": "character_select", "box": [150, 47, 357, 74], "clear_mode": "transparent", "face_index": 254, "outline_index": 186, "background_index": 0}
+        ],
+        "ADVSCN_SRC_AD_P15_TGA": [
+          {"text_id": "shobu", "box": [55, 6, 125, 31], "clear_mode": "horizontal", "face_index": 255, "outline_index": 186},
+          {"text_id": "hakuoh", "box": [48, 46, 129, 71], "clear_mode": "horizontal", "face_index": 255, "outline_index": 186},
+          {"text_id": "kokujo", "box": [48, 86, 129, 111], "clear_mode": "horizontal", "face_index": 255, "outline_index": 186},
+          {"text_id": "mimi", "box": [66, 126, 111, 151], "clear_mode": "horizontal", "face_index": 255, "outline_index": 186},
+          {"text_id": "bucketman", "box": [30, 166, 148, 191], "clear_mode": "horizontal", "face_index": 255, "outline_index": 186}
+        ]
+      }
+    },
+    "adv": {
+      "input_sha256": "92c957f9b711a081ea8977629010d6dcf90852274c58149629fb5db2bfbba1b2",
+      "output_name": "ADV_UI81_EN.DAT",
+      "members": {
+        "ADV_SRC_AD_P13_TGA": [
+          {"text_id": "buy_cards", "box": [14, 4, 128, 31], "clear_mode": "transparent", "face_index": 254, "outline_index": 240, "background_index": 0},
+          {"text_id": "practice", "box": [140, 4, 230, 31], "clear_mode": "transparent", "face_index": 254, "outline_index": 240, "background_index": 0},
+          {"text_id": "select_duelist", "box": [262, 4, 431, 31], "clear_mode": "transparent", "face_index": 254, "outline_index": 240, "background_index": 0},
+          {"text_id": "equip", "box": [1, 44, 63, 71], "clear_mode": "transparent", "face_index": 254, "outline_index": 240, "background_index": 0},
+          {"text_id": "select_deck", "box": [76, 44, 212, 71], "clear_mode": "transparent", "face_index": 254, "outline_index": 240, "background_index": 0}
+        ]
+      }
+    },
+    "duelpts": {
+      "input_sha256": "bb17488771f42a97a558b1afa1268f54f300c6c88050e9b1da29c9d7819833e4",
+      "output_name": "DUELPTS_UI81_EN.DAT",
+      "members": {
+        "DUELPTS_SRC_G_P00_TGA": [
+          {"text_id": "untap", "box": [38, 101, 150, 127], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "untap", "box": [243, 101, 341, 127], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "draw", "box": [38, 137, 150, 163], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "draw", "box": [243, 137, 341, 163], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "charge", "box": [38, 173, 150, 199], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "charge", "box": [243, 173, 341, 199], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "summon", "box": [38, 209, 150, 235], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "summon", "box": [243, 209, 341, 235], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "attack", "box": [38, 245, 150, 271], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "attack", "box": [243, 245, 341, 271], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "end", "box": [38, 281, 150, 307], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "end", "box": [243, 281, 341, 307], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "deck", "box": [6, 321, 62, 341], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "grave", "box": [122, 321, 183, 341], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "hand", "box": [242, 321, 307, 341], "clear_mode": "horizontal", "face_index": 251, "outline_index": 10},
+          {"text_id": "left", "box": [145, 385, 221, 408], "clear_mode": "transparent", "face_index": 251, "outline_index": 10, "background_index": 0}
+        ]
+      }
+    }
+  }
+}

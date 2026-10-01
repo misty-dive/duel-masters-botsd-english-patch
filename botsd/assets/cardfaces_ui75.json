@@ -1,0 +1,29 @@
+{
+  "card_count": 677,
+  "large_chunk_first": 677,
+  "small_chunk_first": 1360,
+  "large_texture": {"width": 512, "height": 512},
+  "small_texture": {"width": 128, "height": 128},
+  "printed_face_crop": [0, 0, 384, 512],
+  "large_boxes": {
+    "title": [82, 16, 362, 65],
+    "type": [52, 315, 354, 343],
+    "panel": [44, 344, 356, 454]
+  },
+  "small_boxes": [
+    [25, 3, 123, 18],
+    [15, 77, 120, 88],
+    [13, 85, 120, 116]
+  ],
+  "render": {
+    "title_max_scale": 0.92,
+    "type_max_scale": 0.52,
+    "rules_max_scale": 0.50,
+    "rules_split_max_scale": 0.48,
+    "rules_min_scale": 0.18,
+    "flavor_max_scale": 0.40,
+    "flavor_min_scale": 0.16,
+    "rules_flavor_split_y": 421,
+    "flavor_start_y": 422
+  }
+}

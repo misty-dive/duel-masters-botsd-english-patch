@@ -1,0 +1,13 @@
+{
+  "master_overlap_repair": {
+    "source_master_id": 2372,
+    "intruder_master_id": 1161,
+    "shift_bytes": 2,
+    "reason": "v1.2 has exactly one pointer-inside-C-string overlap; move the intended name into the two proven zero bytes immediately before it so it can terminate before master 1161"
+  },
+  "keyboard": {
+    "old_mode": 6,
+    "new_mode": 9,
+    "reason": "runtime QA proved mode 6 stores full-width Latin while mode 9 stores half-width Latin"
+  }
+}

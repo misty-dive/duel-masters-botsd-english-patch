@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "records": [
+    {
+      "id": "deck_builder_key_card_badge",
+      "label": "ACE",
+      "rows": [
+        "dffeeeeeeddddddbbb",
+        "dggggfffeeeeeddddd",
+        "deeeeeeeeddddddddd",
+        "dddddddddbbbbbbbbb",
+        "eWWWaaaWWWWbWWWWWb",
+        "WdKKWdWdKKKKWKKKKK",
+        "WKggWKWKeeeeWKdddd",
+        "WWWWWKWKedddWWWWbb",
+        "WKKKWKWKedddWKKKKb",
+        "WKggWKWKeeeeWKdddd",
+        "WKggWKfWWWWeWWWWWd",
+        "eKfeeKeeKKKKdKKKKK",
+        "effeeeeeeddddddbbb",
+        "fggggffeeeeeeccccc",
+        "fggggffeeeeeeccccc",
+        "deeeeeeddddddddbbb"
+      ],
+      "note": "Exact published v1.3 indexed-pixel template; kept as language source to preserve byte-identical release output."
+    }
+  ]
+}

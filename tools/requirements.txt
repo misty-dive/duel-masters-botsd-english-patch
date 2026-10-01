@@ -1,2 +1,3 @@
+# Legacy compatibility file; prefer: pip install -e ".[graphics]"
 Pillow==11.3.0
 numpy==2.0.2

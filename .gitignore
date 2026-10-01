@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local build / QA output
+build/
+dist/
+*.egg-info/
+*.iso
+*.bin
+*.img
+*.p2s
+*.ppf
+*.partial
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

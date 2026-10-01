@@ -1,0 +1,8 @@
+id,area,first_fixed,automated_check,runtime_status,normal_save_relevant,notes
+aura-pegasus,Card Info,v1.3,guarded executable patch + exact v1.3 component hash,confirmed,no,Aura name terminates before unrelated Turbo rush master text
+shop-probability-branches,Shop/Script,v1.3,three guarded SCRPACK branch relocations + exact v1.3 component hash,confirmed,no,Includes intermittent Shop -> Leave failure
+keyboard-halfwidth,Deck Builder,v1.3,guarded keyboard mode byte 6 -> 9 + exact executable hash,confirmed,yes,New deck names use half-width Latin storage path
+duel-digits-6-9,Duel UI,v1.2,DUELPTS component hash + retained source geometry metadata,confirmed,no,LEFT no longer overlaps shared numeric strip
+change-turn,Duel UI,v1.3,semantic TCHANGE recipe + exact archive hash,confirmed,no,CHANGE and TURN restored to separate rows
+worlds-balance-wrap,Story Dialogue,v1.3,guarded SCRPACK line edit + exact component hash,confirmed,no,Explicit #cr0 prevents splitting release
+ace-badge,Deck Builder,v1.3,semantic ACE pixel recipe + exact DECK.DAT hash,static_only,no,Final packed containment verified; dedicated runtime screenshot remains desirable

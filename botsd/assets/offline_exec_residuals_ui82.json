@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "input_sha256": "a11e878177370c1c53a0a5e2777f90cc418ea5a3dea28f490f1e9bbab27af77a",
+  "network_unchanged_range": [
+    4491760,
+    4492048
+  ],
+  "guards": [
+    {
+      "offset": 4470208,
+      "expected": "Choose cards to trade."
+    },
+    {
+      "offset": 4470320,
+      "expected": "Trade these cards?"
+    },
+    {
+      "offset": 4470360,
+      "expected": "End trading?"
+    },
+    {
+      "offset": 4482280,
+      "expected": "Wtr/Nat"
+    },
+    {
+      "offset": 4482784,
+      "expected": "DM-06\nStomp-A-Trons of\nInvincible Wrath"
+    },
+    {
+      "offset": 4482832,
+      "expected": "DM-07\nThundercharge of\nUltra Destruction"
+    },
+    {
+      "offset": 4482896,
+      "expected": "DM-08\nEpic Dragons of\nHyperchaos"
+    },
+    {
+      "offset": 4483232,
+      "expected": "Promo Cards"
+    },
+    {
+      "offset": 4491760,
+      "expected": "\nPlease wait."
+    }
+  ],
+  "slots": [
+    {
+      "id": "civ_light_water",
+      "offset": 4482184,
+      "size": 16
+    },
+    {
+      "id": "civ_light_dark",
+      "offset": 4482200,
+      "size": 16
+    },
+    {
+      "id": "civ_light_fire",
+      "offset": 4482216,
+      "size": 16
+    },
+    {
+      "id": "civ_light_nature",
+      "offset": 4482232,
+      "size": 16
+    },
+    {
+      "id": "civ_water_dark",
+      "offset": 4482248,
+      "size": 16
+    },
+    {
+      "id": "civ_water_fire",
+      "offset": 4482264,
+      "size": 16
+    },
+    {
+      "id": "civ_dark_fire",
+      "offset": 4482296,
+      "size": 16
+    },
+    {
+      "id": "civ_dark_nature",
+      "offset": 4482312,
+      "size": 16
+    },
+    {
+      "id": "civ_fire_nature",
+      "offset": 4482328,
+      "size": 16
+    },
+    {
+      "id": "pack_dm01",
+      "offset": 4482464,
+      "size": 24
+    },
+    {
+      "id": "pack_dm02",
+      "offset": 4482488,
+      "size": 72
+    },
+    {
+      "id": "pack_dm03",
+      "offset": 4482560,
+      "size": 72
+    },
+    {
+      "id": "pack_dm04",
+      "offset": 4482632,
+      "size": 80
+    },
+    {
+      "id": "pack_dm05",
+      "offset": 4482712,
+      "size": 72
+    },
+    {
+      "id": "pack_dm09",
+      "offset": 4482960,
+      "size": 72
+    },
+    {
+      "id": "pack_dm10",
+      "offset": 4483032,
+      "size": 56
+    },
+    {
+      "id": "pack_dm11",
+      "offset": 4483088,
+      "size": 72
+    },
+    {
+      "id": "pack_dm12",
+      "offset": 4483160,
+      "size": 72
+    },
+    {
+      "id": "offline_trade_min_cards",
+      "offset": 4470248,
+      "size": 72
+    },
+    {
+      "id": "save_title",
+      "offset": 5253752,
+      "size": 68
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "botsd-tools"
+version = "0.22.2"
+description = "Maintenance and reverse-engineering utilities for the Duel Masters: Birth of the Super Dragon English patch"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "misty-dive"}]
+dependencies = []
+
+[project.optional-dependencies]
+graphics = [
+  "Pillow==11.3.0",
+  "numpy==2.0.2",
+]
+dev = [
+  "mypy==2.3.1",
+  "pytest==9.1.1",
+  "ruff==0.16.9",
+]
+
+[project.scripts]
+botsd = "botsd.cli:main"
+
+[tool.setuptools]
+packages = ["botsd", "localization", "localization.en"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+exclude = ["tools"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B"]
+
+[tool.mypy]
+python_version = "3.10"
+files = ["botsd"]
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+no_implicit_optional = true
+check_untyped_defs = true
+
+[tool.setuptools.package-data]
+botsd = ["*.json", "assets/*.json"]
+"localization.en" = ["*.json", "*.csv"]

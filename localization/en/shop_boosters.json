@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "language": "en",
+  "records": [
+    {"code": "01-05", "description": "Legend Pack"},
+    {"code": "DM-06", "description": "Stomp-A-Trons of Invincible Wrath"},
+    {"code": "DM-07", "description": "Thundercharge of Ultra Destruction"},
+    {"code": "DM-08", "description": "Epic Dragons of Hyperchaos"},
+    {"code": "DM-09", "description": "Fatal Brood of Infinite Ruin"},
+    {"code": "DM-10", "description": "Shockwaves of the Shattered Rainbow"},
+    {"code": "DM-11", "description": "Blastosplosion of Gigantic Rage"},
+    {"code": "DM-12", "description": "Thrash of the Hybrid Megacreatures"}
+  ]
+}

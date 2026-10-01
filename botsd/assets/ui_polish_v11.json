@@ -1,0 +1,70 @@
+{
+  "archives": {
+    "opt": {
+      "source_sha256": "6e5a8a2e07fa0acb1cc7e487f74531b36bd7407fee1bdce4845d6db39689c09b",
+      "members": {
+        "OPT_SRC_OP_P00_TGA": [
+          {"op":"paint","text":"opt_on_active","box":[2,5,48,29],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_off_active","box":[82,5,128,29],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_normal_active","box":[139,6,230,29],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_light_active","box":[235,6,281,29],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_type_active","box":[305,5,377,29],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_stereo_active","box":[390,5,481,29],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_on_inactive","box":[2,35,48,63],"mode":"transparent","face":74,"outline":1,"background":25},
+          {"op":"paint","text":"opt_off_inactive","box":[82,35,129,63],"mode":"transparent","face":74,"outline":1,"background":25},
+          {"op":"paint","text":"opt_normal_inactive","box":[139,35,231,63],"mode":"transparent","face":74,"outline":1,"background":25},
+          {"op":"paint","text":"opt_light_inactive","box":[235,35,281,63],"mode":"transparent","face":74,"outline":1,"background":25},
+          {"op":"paint","text":"opt_type_inactive","box":[283,35,377,63],"mode":"transparent","face":74,"outline":1,"background":25},
+          {"op":"paint","text":"opt_stereo_inactive","box":[386,35,481,63],"mode":"transparent","face":74,"outline":1,"background":25},
+          {"op":"paint","text":"opt_mono_active","box":[2,70,94,93],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_mono_inactive","box":[2,99,96,126],"mode":"transparent","face":74,"outline":1,"background":25},
+          {"op":"paint","text":"opt_movies","box":[3,141,96,165],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_duel_fx","box":[129,141,246,165],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_char_fx","box":[252,141,366,165],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_camera","box":[372,141,508,165],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_sound","box":[3,173,96,197],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_vibe","box":[100,173,160,197],"mode":"transparent","face":240,"outline":1,"background":25},
+          {"op":"paint","text":"opt_options","box":[306,184,470,217],"mode":"horizontal","face":240,"outline":1}
+        ]
+      }
+    },
+    "deck": {
+      "source_sha256": "11288d7940f0e72810729f4b0b4ced072c1ed5b91a06d4c59c1a674cdb5fe413",
+      "members": {
+        "DECK_SRC_DC_P02_TGA": [
+          {"op":"paint","text":"deck_tab","box":[13,18,58,42],"mode":"horizontal","face":196,"outline":15},
+          {"op":"paint","text":"deck_tab","box":[87,18,132,42],"mode":"horizontal","face":239,"outline":15},
+          {"op":"paint","text":"cards_tab","box":[13,68,59,103],"mode":"horizontal","face":196,"outline":15},
+          {"op":"paint","text":"cards_tab","box":[87,68,133,102],"mode":"horizontal","face":239,"outline":15},
+          {"op":"paint","text":"stats_tab","box":[13,126,59,159],"mode":"horizontal","face":196,"outline":15},
+          {"op":"paint","text":"stats_tab","box":[87,126,133,158],"mode":"horizontal","face":239,"outline":15},
+          {"op":"clear","box":[488,2,506,18],"index":0}
+        ],
+        "DECK_SRC_DC_P04_TGA": [
+          {"op":"paint","text":"card_ratio","box":[43,8,150,29],"mode":"horizontal","face":255,"outline":13},
+          {"op":"paint","text":"all","box":[187,8,235,29],"mode":"horizontal","face":255,"outline":13},
+          {"op":"paint","text":"light_abbr","box":[5,62,41,83],"mode":"horizontal","face":255,"outline":13},
+          {"op":"paint","text":"water_abbr","box":[69,62,105,83],"mode":"horizontal","face":255,"outline":13},
+          {"op":"paint","text":"dark_abbr","box":[133,62,169,83],"mode":"horizontal","face":255,"outline":13},
+          {"op":"paint","text":"fire_abbr","box":[198,62,233,83],"mode":"horizontal","face":255,"outline":13},
+          {"op":"paint","text":"nature_abbr","box":[1,121,43,142],"mode":"horizontal","face":255,"outline":13},
+          {"op":"paint","text":"mana_curve","box":[77,121,181,140],"mode":"horizontal","face":255,"outline":13}
+        ]
+      }
+    }
+  },
+  "executable": {
+    "source_sha256": "f98007944275946c2ec2e6281205d0a1e1b7bf34aab60adfb436af1819e3587b",
+    "record_units": {
+      "offset":"0x4FBD70",
+      "end":"0x4FBD88",
+      "source_ascii":"   G    W    %"
+    },
+    "copy_counts": [
+      {"offset":"0x446968","slot":8,"source":"１枚","text":"copy_1"},
+      {"offset":"0x446970","slot":8,"source":"２枚","text":"copy_2"},
+      {"offset":"0x446978","slot":8,"source":"３枚","text":"copy_3"},
+      {"offset":"0x446980","slot":8,"source":"４枚","text":"copy_4"}
+    ]
+  }
+}

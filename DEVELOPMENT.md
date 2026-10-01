@@ -2,6 +2,38 @@
 
 These are the main notes for anyone who wants to continue work on the **Duel Masters: Birth of the Super Dragon** English patch. The old UIxx handoff files and intermediate QA packages are not needed for normal continuation work.
 
+## Phase 22 final pre-upload consistency pass
+
+Phase 22 is a deliberately small final cleanup pass. It corrected stale documentation left by older
+phases and removed the last maintained-code copies of authoritative repository counts that were still
+written as numeric literals. Card/resource/text counts and the retail UNPACK chunk count now resolve
+from the central release manifest. No game or published PPF bytes changed.
+
+
+## Phase 21 SCRPACK source compiler
+
+The maintained story pipeline now rebuilds the exact public v1.2 `SCRPACK.SDA` from the verified
+retail archive plus repository English dialogue/choice data, including historical command-target
+relocation and the deliberately stale v1.2 `0x070C` probability branches. Feeding that output into
+the semantic v1.3 maintenance stage reproduces the exact public v1.3 SCRPACK.
+
+
+## Phase 20 ACE-raster language separation
+
+The exact accepted Deck Builder `ACE` indexed-pixel template now lives in the English localization
+package rather than binary-layout metadata. The v1.3 builder still uses the same 288 palette indices;
+only ownership of the source recipe changed. The historical-tool map was also repaired and now has a
+strict one-row-per-wrapper regression.
+
+
+## Phase 19 localization/provenance cleanup
+
+The English localization manifest now covers both historical CSV datasets and the semantic JSON
+resources used by deck/shop/UI maintenance. `localization-audit` also detects unregistered language
+`.csv`/`.json` files, and provenance export preserves explicit row-level review evidence where it is
+actually recorded. This is tooling/source organization only and does not alter v1.3 binaries.
+
+
 ## Current baseline
 
 - Game: Duel Masters: Birth of the Super Dragon
@@ -33,7 +65,10 @@ The patch has had targeted testing, but the game has **not** been played through
 
 All three sets are included in the final build. The last set was handled separately because the Japanese card name is baked into the image.
 
-v1.3 does not rebuild or alter these 677-card `UNPACK.IMG` layers.
+The historical semantic renderer for that final 677-sprite layer has now been recovered and migrated
+to `botsd.second_names`. Re-running it from the verified retail UNPACK, canonical English inventory
+and localized FONTLINK reproduces all 677 accepted v1.3 chunks byte-for-byte. v1.3 itself remains a
+frozen release; this recovery improves source reproducibility without changing release bytes.
 
 ## v1.3 maintenance fixes
 
@@ -242,3 +277,12 @@ Anyone continuing the project can apply the full v1.3 PPF to the verified clean 
 7. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
 
 For most future work, this file, `tools/`, `data/`, and the current release PPF should be enough to get started.
+
+## Repository-cleanup note: v1.3 semantic maintenance
+
+The cleanup branch supersedes the old source-code representation of the v1.3 executable/SCRPACK
+changes as literal offset/old/new byte tuples. `botsd.exe_maintenance` now discovers and repairs the
+Aura master-pointer overlap from the executable structure itself. `botsd.scrpack` parses command
+framing and resolves the three probability-branch destinations by command ordinal. The one
+language-specific maintenance dialogue replacement lives in `localization/en/v13_maintenance.json`.
+These are repository/tooling changes only: the resulting v1.3 component and PPF hashes are unchanged.

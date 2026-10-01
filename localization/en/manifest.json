@@ -1,0 +1,172 @@
+{
+  "schema_version": 2,
+  "language": "en",
+  "default_review_status": "unreviewed",
+  "datasets": [
+    {
+      "name": "card_names",
+      "path": "data/bosd_english_name_crosswalk_verified.csv",
+      "resource_type": "card_name",
+      "id_field": "internal_id",
+      "text_fields": [
+        "official_english_name"
+      ],
+      "source_field": "mapping_source",
+      "legacy_status_field": "status",
+      "expected_count": "internal_cards"
+    },
+    {
+      "name": "display_card_text",
+      "path": "data/bosd_list_display_card_rules_complete.csv",
+      "resource_type": "display_text",
+      "id_field": "list_index",
+      "text_fields": [
+        "translation"
+      ],
+      "expected_count": "display_text"
+    },
+    {
+      "name": "master_card_text",
+      "path": "data/bosd_master_text_card_rules_complete.csv",
+      "resource_type": "master_text",
+      "id_field": "master_text_id",
+      "text_fields": [
+        "translation"
+      ],
+      "expected_count": "master_text"
+    },
+    {
+      "name": "story_dialogue_v12",
+      "path": "localization/en/story_dialogue_v12.csv",
+      "resource_type": "story_dialogue",
+      "id_field": "resource_id",
+      "text_fields": [
+        "translation"
+      ],
+      "expected_count": 9499
+    },
+    {
+      "name": "story_choices_v12",
+      "path": "localization/en/story_choices_v12.csv",
+      "resource_type": "story_choice",
+      "id_field": "resource_id",
+      "text_fields": [
+        "option_0",
+        "option_1",
+        "option_2",
+        "option_3",
+        "option_4",
+        "option_5",
+        "option_6",
+        "option_7"
+      ],
+      "expected_count": 293
+    },
+    {
+      "name": "deck_text_ui82",
+      "path": "localization/en/deck_text.json",
+      "resource_type": "deck_text",
+      "format": "json_records",
+      "records_path": "records",
+      "id_field": "file",
+      "text_fields": {
+        "callout": "callout",
+        "title": "title"
+      },
+      "source_fields": {
+        "callout": "source_callout",
+        "title": "source_title"
+      },
+      "expected_count": 60
+    },
+    {
+      "name": "shop_boosters",
+      "path": "localization/en/shop_boosters.json",
+      "resource_type": "shop_booster_description",
+      "format": "json_records",
+      "records_path": "records",
+      "id_field": "code",
+      "text_fields": {
+        "description": "description"
+      },
+      "expected_count": 8
+    },
+    {
+      "name": "static_labels_ui81",
+      "path": "localization/en/static_labels_ui81.json",
+      "resource_type": "ui_static_label",
+      "format": "json_mapping",
+      "records_path": "strings",
+      "id_field": "$key",
+      "text_fields": {
+        "text": "$value"
+      },
+      "expected_count": 21
+    },
+    {
+      "name": "offline_exec_residuals_ui82",
+      "path": "localization/en/offline_exec_residuals_ui82.json",
+      "resource_type": "executable_ui_string",
+      "format": "json_mapping",
+      "records_path": "strings",
+      "id_field": "$key",
+      "text_fields": {
+        "text": "$value"
+      },
+      "expected_count": 20
+    },
+    {
+      "name": "ui_polish_v11",
+      "path": "localization/en/ui_polish_v11.json",
+      "resource_type": "ui_polish_string",
+      "format": "json_mapping",
+      "id_field": "$key",
+      "text_fields": {
+        "text": "$value"
+      },
+      "expected_count": 37
+    },
+    {
+      "name": "wait_title_ui82",
+      "path": "localization/en/wait_title_ui82.json",
+      "resource_type": "ui_wait_string",
+      "format": "json_mapping",
+      "records_path": "strings",
+      "id_field": "$key",
+      "text_fields": {
+        "text": "$value"
+      },
+      "expected_count": 1
+    },
+    {
+      "name": "v13_maintenance_dialogue",
+      "path": "localization/en/v13_maintenance.json",
+      "resource_type": "story_maintenance",
+      "format": "json_mapping",
+      "records_path": "dialogue",
+      "id_field": "$key",
+      "text_fields": {
+        "replacement": "replacement"
+      },
+      "source_fields": {
+        "replacement": "source"
+      },
+      "review_status_field": "review_status",
+      "notes_field": "note",
+      "expected_count": 1
+    },
+    {
+      "name": "ace_badge_v13",
+      "path": "localization/en/ace_badge_v13.json",
+      "resource_type": "deck_builder_badge",
+      "format": "json_records",
+      "records_path": "records",
+      "id_field": "id",
+      "text_fields": {
+        "label": "label"
+      },
+      "notes_field": "note",
+      "expected_count": 1
+    }
+  ]
+}

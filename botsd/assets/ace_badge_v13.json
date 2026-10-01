@@ -1,0 +1,25 @@
+{
+  "member": "DECK_SRC_DC_P02_TGA",
+  "box": [
+    165,
+    84,
+    183,
+    100
+  ],
+  "palette_symbols": {
+    "K": 13,
+    "a": 105,
+    "b": 120,
+    "c": 140,
+    "d": 144,
+    "e": 178,
+    "f": 195,
+    "g": 205,
+    "W": 255
+  },
+  "compression": {
+    "mode": "fast",
+    "max_candidates": 96
+  },
+  "expected_stored_size": 27520
+}

@@ -1,0 +1,25 @@
+id,area,scenario,status,patch_version,platform,platform_version,normal_save_checked,notes
+startup-boot,Startup,Boot to title,partial,v1.3,PCSX2,,no,Translated startup/title path exercised during development
+startup-memory,Startup,Memory-card selection and prompts,partial,v1.3,PCSX2,,no,Needs formal normal-save pass
+select-character,Character Select,Select each playable character,partial,v1.3,PCSX2,,no,Major UI checked; branch coverage not recorded
+select-civ,Character Select,Select every civilization,partial,v1.3,PCSX2,,no,Needs five-civilization checklist
+story-fire,Story,Complete Fire civilization route,partial,v1.3,PCSX2,,no,Record chapter checkpoints
+story-water,Story,Complete Water civilization route,not_tested,v1.3,,,no,
+story-nature,Story,Complete Nature civilization route,not_tested,v1.3,,,no,
+story-light,Story,Complete Light civilization route,partial,v1.3,PCSX2,,no,Record chapter checkpoints
+story-darkness,Story,Complete Darkness civilization route,partial,v1.3,PCSX2,,no,Record chapter checkpoints
+tournament-all,Tournaments,Complete every tournament,not_tested,v1.3,,,no,Split into individual rows once tournament list is finalized
+shop-info,Shop,Info action,partial,v1.3,PCSX2,,no,
+shop-buy,Shop,Buy and open packs across available sets,partial,v1.3,PCSX2,,no,v1.3 crash regression tested; exhaustive set coverage pending
+shop-research,Shop,Research action,partial,v1.3,PCSX2,,no,
+shop-leave,Shop,Repeated Leave action,complete,v1.3,PCSX2,,no,Reported intermittent hang no longer reproduced in combined QA build
+deck-builder,Deck Builder,Create/edit/save decks,partial,v1.3,PCSX2,,no,Includes keyboard and ACE badge checks; exhaustive action coverage pending
+deck-stats,Deck Stats,Open and inspect statistics,partial,v1.3,PCSX2,,no,Layout fixes checked
+card-info-aura,Card Info,Aura Pegasus regression,complete,v1.3,PCSX2,,no,No unrelated Turbo rush overrun in combined QA build
+card-info-all,Card Info,Open all 677 display resources,not_tested,v1.3,,,no,Automated asset checks exist but runtime sweep incomplete
+duel-ui,Duel UI,Shared numeric atlas and phase UI,partial,v1.3,PCSX2,,no,Digits 6-9 regression confirmed; broader phase coverage pending
+turn-change,Duel UI,CHANGE TURN transition,complete,v1.3,PCSX2,,no,Geometry candidate accepted in combined QA build
+save-new,Save/Load,Create normal PS2 memory-card save on v1.3,not_tested,v1.3,,,no,Must be tested separately from emulator save states
+save-reload,Save/Load,Reload v1.3 normal memory-card save,not_tested,v1.3,,,no,
+ending-main,Ending,Reach normal ending,not_tested,v1.3,,,no,
+postgame,Postgame,Exercise postgame content,not_tested,v1.3,,,no,

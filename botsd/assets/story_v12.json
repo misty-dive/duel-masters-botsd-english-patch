@@ -1,0 +1,54 @@
+{
+  "format": "BOTSD SCRPACK v1.2 story localization",
+  "retail_scrpack_sha256": "707e53a0f714dea7f3a059d973085fafd4f9120d0ef59e92bac42eb561514b11",
+  "v12_scrpack_sha256": "1e3208976bb90749598e1d7359cfda51fe7c095cf3db10459265aeb5dd133051",
+  "v12_scrpack_size": 3801088,
+  "chunk_count": 208,
+  "dialogue_opcode": "0x1D03",
+  "choice_opcode": "0x1F03",
+  "dialogue_command_count": 9581,
+  "changed_dialogue_count": 9499,
+  "unchanged_dialogue_count": 82,
+  "choice_command_count": 293,
+  "stable_resource_id": "scrpack.<chunk:03d>.<command:04d>",
+  "notes": [
+    "English language files contain target text only; extracted Japanese retail story text is not stored in the repository.",
+    "1D03 dialogue and 1F03 menu-choice command sizes are part of the frozen v1.2 binary recipe.",
+    "Outer SDA chunk offsets remain fixed; variable command sizes consume or release trailing opcode-0/payload-0 padding commands.",
+    "Five historical opcode families relocate command-relative targets after text resizing; the 0x070C probability branch family intentionally retains the stale v1.2 targets repaired by v1.3.",
+    "Exact retail-to-v1.2 reconstruction was proven against the verified retail SCRPACK and frozen public-v1.2 SHA-256 on 2026-10-01."
+  ],
+  "historical_relocation_rules": [
+    {
+      "opcode": "0x010C",
+      "layout": "single_u32_target",
+      "payload_offset": 0
+    },
+    {
+      "opcode": "0x020C",
+      "layout": "single_u32_target",
+      "payload_offset": 0
+    },
+    {
+      "opcode": "0x1212",
+      "layout": "single_u32_target",
+      "payload_size": 16,
+      "payload_offset": 12
+    },
+    {
+      "opcode": "0x1312",
+      "layout": "single_u32_target",
+      "payload_size": 16,
+      "payload_offset": 12
+    },
+    {
+      "opcode": "0x1412",
+      "layout": "counted_u32_targets",
+      "count_u16_offset": 6,
+      "targets_offset": 8
+    }
+  ],
+  "historical_unrelocated_probability_opcode": "0x070C",
+  "verified_relocation_field_updates": 2799,
+  "verified_meaningful_command_identity": "same opcode sequence in all 208 chunks"
+}

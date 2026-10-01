@@ -1,0 +1,4 @@
+platform,patch_version,status,version_tested,notes
+PCSX2,v1.3,partial,,Primary QA environment; record exact emulator version in future passes
+NetherSX2 / Android,v1.3,retest_desirable,,Issue #3 originated on Android/NetherSX2
+Real PS2,v1.3,not_tested,,Include normal memory-card save testing when available

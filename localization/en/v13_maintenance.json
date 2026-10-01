@@ -1,0 +1,10 @@
+{
+  "dialogue": {
+    "world_balance_wrap": {
+      "source": "If the World's Balance tips too far toward release...",
+      "replacement": "If World's Balance tips too far#cr0toward release...",
+      "review_status": "runtime_verified",
+      "note": "Explicit #cr0 line break prevents the retail character-boundary wrapper from splitting release across lines."
+    }
+  }
+}

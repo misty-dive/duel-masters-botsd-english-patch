@@ -165,5 +165,36 @@
       14
     ],
     "chunk_count": 2809
+  },
+  "current_public_release": "v1.4",
+  "v14_overlay": {
+    "full_ppf": {
+      "name": "Duel_Masters_Birth_of_Super_Dragon_English_v1.4.ppf",
+      "size": 141102291,
+      "sha256": "2a37012be8ea61ecb9c2cecf1d1f2295a75bb3f3ec50dd00cca022cff8596767"
+    },
+    "hotfix_from_v13": {
+      "name": "BOTSD_v1.3_to_v1.4_hotfix.ppf",
+      "size": 14352,
+      "sha256": "7acfd4fdf4a28eaa236f7e198e9056d86b75287d05eee8ab523514dbbb680237"
+    },
+    "components": {
+      "SLPM_658.82": {
+        "size": 5459220,
+        "sha256": "2c5114dd5aff14a27e1f38f6a47eeaf6e21b1fab9edd00b3d880eda6d90adca3"
+      },
+      "SCRPACK.SDA": {
+        "size": 3801088,
+        "sha256": "fe5e451f4587983fdb8dd4bca1b8d816aa3efd53eaf0268f9ed72a66cc741145"
+      },
+      "TCHANGE.IMG": {
+        "size": 19456,
+        "sha256": "b6f61cb44e79539c40f289b4c7956b2016a5e5fdb9bff3e20140638d22c71137"
+      },
+      "DECK.DAT": {
+        "size": 786176,
+        "sha256": "17eecd96502974c7899279d88a348269d59aa3cdd4ab92ffc50686854d7ad653"
+      }
+    }
   }
 }

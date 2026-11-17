@@ -21,6 +21,9 @@ Run before committing:
 ```bash
 ruff check botsd tests
 mypy botsd
+python -m botsd data-audit data
+python -m botsd qa-audit qa
+python -m botsd localization-audit localization/en/manifest.json --root .
 pytest
 ```
 
@@ -55,7 +58,17 @@ the exact published v1.3 output hash.
 
 ## One-command release-image build
 
-Given your clean Japanese retail ISO and the published full v1.3 PPF:
+For v1.4, follow the [README patching instructions](README.md#apply-the-patch) using the published
+v1.4 PPF. To rebuild both v1.4 maintenance components from your own exact public-v1.3 components and
+retail SCRPACK, run:
+
+```bash
+python tools/bosd_v14_maintenance.py \
+  /path/to/v13_components /path/to/retail/SCRPACK.SDA out/v14_components
+```
+
+The `botsd build` command verifies the historical v1.3 release. Given your clean Japanese retail ISO
+and the published full v1.3 PPF:
 
 ```bash
 python -m botsd build \

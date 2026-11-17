@@ -19,7 +19,7 @@ The repository now has permanent tests for:
 - consistency between shared regression metadata and the retained v1.3 maintenance script when the
   complete repository is present
 
-CI runs `ruff`, `mypy` and `pytest` on Python 3.10 and 3.12.
+CI runs Ruff, MyPy, the data, QA and localization audits, and pytest on Python 3.10 and 3.12.
 
 ## Permanent v1.3 regression cases
 
@@ -94,12 +94,17 @@ The optional full golden suite also accepts `BOTSD_V12_FULL_PPF`. With both loca
 `tests/test_release.py` rebuilds the full v1.3 PPF and the v1.2 -> v1.3 hotfix and verifies the exact
 published hashes. During Phase 3 cleanup this passed against the official v1.2 PPF.
 
+The v1.4 release check rebuilt the executable and SCRPACK from exact local inputs and verified the
+full PPF and hotfix by SHA-256 and by applying both to their supported ISOs. Set
+`BOTSD_V13_COMPONENT_DIR` and `BOTSD_RETAIL_COMPONENT_DIR` to enable the exact v1.4 component test.
+The three v1.4 cases in `qa/regressions.csv` are recorded as static verification.
+
 ## Repository-level QA
 
 The CI suite also validates the public repository itself when the cleanup overlay is installed over
 an actual checkout. It checks that the four release-critical CSV datasets retain their authoritative
 row counts and contiguous IDs, scans their English fields for Japanese/full-width Latin/reserved
-characters/encoding failures, verifies that `DEVELOPMENT.md` still identifies v1.3 as the baseline,
+characters/encoding failures, verifies that `DEVELOPMENT.md` identifies v1.4 as the baseline,
 and protects the complete `README.md` Credits & sources section from accidental removal.
 
 Run the dataset audit directly with:

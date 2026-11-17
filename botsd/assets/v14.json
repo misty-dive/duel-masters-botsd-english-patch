@@ -1,0 +1,30 @@
+{
+  "public_v13": {
+    "SLPM_658.82": "165d962189cf78e5bad4c549ac2d43f4fd54492ba61ebc3a258903f907f953d7",
+    "SCRPACK.SDA": "4d7e561344917193f9e672515edd5d2ccf576dcb7ed88d2ddc2092773689df26"
+  },
+  "retail": {
+    "SCRPACK.SDA": "707e53a0f714dea7f3a059d973085fafd4f9120d0ef59e92bac42eb561514b11"
+  },
+  "v14": {
+    "SLPM_658.82": "2c5114dd5aff14a27e1f38f6a47eeaf6e21b1fab9edd00b3d880eda6d90adca3",
+    "SCRPACK.SDA": "fe5e451f4587983fdb8dd4bca1b8d816aa3efd53eaf0268f9ed72a66cc741145",
+    "full_ppf_sha256": "2a37012be8ea61ecb9c2cecf1d1f2295a75bb3f3ec50dd00cca022cff8596767",
+    "hotfix_from_v13_sha256": "7acfd4fdf4a28eaa236f7e198e9056d86b75287d05eee8ab523514dbbb680237",
+    "full_ppf_size": 141102291,
+    "hotfix_from_v13_size": 14352,
+    "executable_differing_bytes": 839,
+    "scrpack_differing_bytes": 5038,
+    "overflow_dialogue_edits": 56,
+    "xenon_dialogue_edits": 11,
+    "race_allocations": 27
+  },
+  "executable": {
+    "load_va_delta": 1044480,
+    "master_table_va": 4473448,
+    "master_count": 2376
+  },
+  "xenon": {
+    "chunk": 72
+  }
+}

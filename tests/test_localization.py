@@ -239,6 +239,9 @@ def test_repository_manifest_uses_authoritative_count_keys_and_registers_languag
         "wait_title_ui82": 1,
         "v13_maintenance_dialogue": 1,
         "ace_badge_v13": 1,
+        "v14_maintenance_races": 27,
+        "v14_overflow_dialogue": 56,
+        "v14_xenon_dialogue": 11,
     }
     configured = {Path(dataset.path).name for dataset in manifest.datasets}
     language_files = {
@@ -261,7 +264,7 @@ def test_checked_in_language_resources_audit_and_export_without_public_data(tmp_
     assert audit_manifest(manifest, Path(".")) == []
 
     out = tmp_path / "provenance.csv"
-    assert export_provenance(manifest, out, Path(".")) == 10464
+    assert export_provenance(manifest, out, Path(".")) == 10558
     with out.open("r", encoding="utf-8", newline="") as stream:
         rows = list(csv.DictReader(stream))
     v13 = next(row for row in rows if row["dataset"] == "v13_maintenance_dialogue")

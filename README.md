@@ -9,20 +9,20 @@ English translation patch for the Japanese PlayStation 2 release of **Duel Maste
 1. Start with a clean, unmodified Japanese ISO of **SLPM-65882**.
 2. Verify the clean ISO SHA-256:
    `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
-3. Download `Duel_Masters_Birth_of_Super_Dragon_English_v1.3.ppf` from the **Releases** page.
+3. Download `Duel_Masters_Birth_of_Super_Dragon_English_v1.4.ppf` from the [v1.4 release](https://github.com/misty-dive/duel-masters-botsd-english-patch/releases/tag/v1.4).
 4. Apply the PPF3 patch using **PPF-O-Matic 3** on Windows, **MultiPatch** on macOS, **ApplyPPF3** on the command line, or another PPF3-compatible patcher.
 
-Do not apply the full v1.3 patch to an already modified ISO.
+Do not apply the full v1.4 patch to an already modified ISO.
 
-### Updating from v1.2
+### Updating from v1.3
 
-If you already have an ISO patched with **v1.2**, apply:
+If you already have an ISO patched with **v1.3**, download the hotfix from the [same v1.4 release](https://github.com/misty-dive/duel-masters-botsd-english-patch/releases/tag/v1.4) and apply:
 
-`BOTSD_v1.2_to_v1.3_hotfix.ppf`
+`BOTSD_v1.3_to_v1.4_hotfix.ppf`
 
-Do **not** apply the full v1.3 patch to a v1.2 ISO.
+Do **not** apply the full v1.4 patch to a v1.3 ISO.
 
-If you are still on v1.1 or older, the simplest option is to start again from a clean Japanese ISO with the full v1.3 patch.
+If you are still on v1.2 or older, the simplest option is to start again from a clean Japanese ISO with the full v1.4 patch.
 
 ## What is translated
 
@@ -34,6 +34,13 @@ If you are still on v1.1 or older, the simplest option is to start again from a 
 - Numerous residual Japanese labels and graphics found during the offline asset audit.
 
 Deprecated online/network features are intentionally out of scope.
+
+## v1.4 fixes
+
+- Fixed untranslated **multi-race/composite creature race text** in Card Info, including Galzark and affected Survivor/composite race strings.
+- Fixed the Issue #6 **dialogue overflow** audit with 56 reviewed English dialogue rewrap/compaction edits.
+- Added a conservative repair for the reported **late-story Xenon/Shobu progression freeze**. Eleven English lines were compacted so the event uses exact retail command geometry and retail-identical non-dialogue control data.
+- The Xenon/Shobu repair is statically/control-flow verified; a near-ending runtime save was not available for direct emulator confirmation.
 
 ## v1.3 fixes
 
@@ -62,7 +69,7 @@ Deprecated online/network features are intentionally out of scope.
 
 ## Status
 
-**v1.3 is not fully playthrough-tested.** The post-v1.2 functional fixes were tested together in-game and the major translated systems have been checked, but the entire game has not yet been played through from beginning to end.
+The full v1.4 patch and the hotfix produce byte-identical ISOs when applied to their respective supported inputs. A full v1.4 playthrough is still pending.
 
 If you find untranslated text, graphical issues, crashes, save problems, or anything else that looks wrong, please open a GitHub Issue with a screenshot and a short description of where it occurred.
 
@@ -70,13 +77,13 @@ Future maintenance may be limited, but contributions and further development are
 
 ## Patch verification
 
-Full v1.3 patch SHA-256:
+Full v1.4 patch SHA-256:
 
-`b0533fa91e98640a1264179b4bbd721127043b66c6bbbf6aab0d884fc6275814`
+`2a37012be8ea61ecb9c2cecf1d1f2295a75bb3f3ec50dd00cca022cff8596767`
 
-v1.2 → v1.3 hotfix SHA-256:
+v1.3 → v1.4 hotfix SHA-256:
 
-`ce88a079c73555b735643bcd602a12ebf87aa8ec7a08d47b749d4883f0474ec1`
+`7acfd4fdf4a28eaa236f7e198e9056d86b75287d05eee8ab523514dbbb680237`
 
 Clean Japanese ISO SHA-256:
 

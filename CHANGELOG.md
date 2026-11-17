@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.4
+
+- Localized 27 shared composite and Survivor race strings in Card Info.
+- Rewrapped or shortened 56 overflowing dialogue commands.
+- Restored retail command geometry and control data to the Xenon/Shobu ending event. Emulator confirmation is pending.
+- Verified that the full retail patch and the v1.3-to-v1.4 hotfix produce identical patched ISOs.
+
 ## Pre-upload full-tree verification — 0.22.2
 
 - Replaced the unsafe partial hotfix delivery with a full cumulative overlay so extracting it cannot

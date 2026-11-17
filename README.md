@@ -9,14 +9,14 @@ English translation patch for the Japanese PlayStation 2 release of **Duel Maste
 1. Start with a clean, unmodified Japanese ISO of **SLPM-65882**.
 2. Verify the clean ISO SHA-256:
    `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
-3. Download `Duel_Masters_Birth_of_Super_Dragon_English_v1.4.ppf` from the **Releases** page.
+3. Download `Duel_Masters_Birth_of_Super_Dragon_English_v1.4.ppf` from the [v1.4 release](https://github.com/misty-dive/duel-masters-botsd-english-patch/releases/tag/v1.4).
 4. Apply the PPF3 patch using **PPF-O-Matic 3** on Windows, **MultiPatch** on macOS, **ApplyPPF3** on the command line, or another PPF3-compatible patcher.
 
 Do not apply the full v1.4 patch to an already modified ISO.
 
 ### Updating from v1.3
 
-If you already have an ISO patched with **v1.3**, apply:
+If you already have an ISO patched with **v1.3**, download the hotfix from the [same v1.4 release](https://github.com/misty-dive/duel-masters-botsd-english-patch/releases/tag/v1.4) and apply:
 
 `BOTSD_v1.3_to_v1.4_hotfix.ppf`
 
@@ -69,7 +69,7 @@ Deprecated online/network features are intentionally out of scope.
 
 ## Status
 
-**v1.4 is not fully playthrough-tested.** The post-v1.2 functional fixes were tested together in-game and the major translated systems have been checked, but the entire game has not yet been played through from beginning to end.
+The full v1.4 patch and the hotfix produce byte-identical ISOs when applied to their respective supported inputs. A full v1.4 playthrough is still pending.
 
 If you find untranslated text, graphical issues, crashes, save problems, or anything else that looks wrong, please open a GitHub Issue with a screenshot and a short description of where it occurred.
 

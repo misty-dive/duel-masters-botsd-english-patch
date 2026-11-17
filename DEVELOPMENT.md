@@ -283,16 +283,16 @@ For v1.3 maintenance, the important additions are:
 
 The original ISO, patched ISO, extracted retail archives, modified game binaries, compiled `UNPACK.IMG`, card caches, and intermediate UIxx binaries are not included.
 
-Anyone continuing the project can apply the full v1.3 PPF to the verified clean Japanese ISO and extract the patched files from there.
+Anyone continuing the project can apply the full v1.4 PPF to the verified clean Japanese ISO and extract the patched files from there.
 
 ## If you want to continue the project
 
-1. Start from the verified v1.3 build rather than redoing the reverse engineering from scratch.
+1. Start from the verified v1.4 build.
 2. The abandoned online/network features can be ignored unless someone specifically wants to investigate them.
 3. Avoid rebuilding all card graphics or fonts when a smaller targeted change will do.
 4. Check graphical changes against the actual game layout instead of guessing positions or dimensions.
 5. Be careful with fixed-size executable records: text fields may be followed immediately by gameplay or UI metadata.
-6. Prefer the hash-guarded maintenance tools when reproducing v1.2/v1.3 fixes.
+6. Prefer the hash-guarded maintenance tools when reproducing release fixes.
 7. If you find a problem, screenshots and a note about where it appears in the game are especially useful.
 
 For most future work, this file, `tools/`, `data/`, and the current release PPF should be enough to get started.

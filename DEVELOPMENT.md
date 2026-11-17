@@ -39,13 +39,13 @@ actually recorded. This is tooling/source organization only and does not alter v
 - Game: Duel Masters: Birth of the Super Dragon
 - Platform: PlayStation 2
 - Serial: `SLPM-65882`
-- Current public release: **v1.3**
+- Current public release: **v1.4**
 - Clean Japanese ISO SHA-256: `f3108b9b5edaf4feda55ec393f37a8263fb833e25baa2bb5213459439e826a96`
-- Full v1.3 PPF SHA-256: `b0533fa91e98640a1264179b4bbd721127043b66c6bbbf6aab0d884fc6275814`
-- v1.2 → v1.3 hotfix SHA-256: `ce88a079c73555b735643bcd602a12ebf87aa8ec7a08d47b749d4883f0474ec1`
+- Full v1.4 PPF SHA-256: `2a37012be8ea61ecb9c2cecf1d1f2295a75bb3f3ec50dd00cca022cff8596767`
+- v1.3 → v1.4 hotfix SHA-256: `7acfd4fdf4a28eaa236f7e198e9056d86b75287d05eee8ab523514dbbb680237`
 - Corrected v1.2/v1.3 `DUELPTS.DAT` SHA-256: `7162d840c58aca34391819c2df2787013454b0ad45449d1be2cab353f4ec7de3`
 
-The full v1.3 PPF applied to the verified clean Japanese ISO is the best starting point for future work.
+The full v1.4 PPF applied to the verified clean Japanese ISO is the best starting point for future work.
 
 ## What was worked on
 
@@ -69,6 +69,25 @@ The historical semantic renderer for that final 677-sprite layer has now been re
 to `botsd.second_names`. Re-running it from the verified retail UNPACK, canonical English inventory
 and localized FONTLINK reproduces all 677 accepted v1.3 chunks byte-for-byte. v1.3 itself remains a
 frozen release; this recovery improves source reproducibility without changing release bytes.
+
+## v1.4 maintenance fixes
+
+v1.4 is a same-size maintenance overlay on public v1.3. It changes only `SLPM_658.82` and
+`SCRPACK.SDA`.
+
+- `SLPM_658.82`: 27 shared composite/Survivor race-string allocations are localized in place.
+  The master pointer table is unchanged; source strings, alias sets, allocation sizes, and the final
+  component hash are guarded.
+- `SCRPACK.SDA`: 56 reviewed dialogue-overflow edits remain within their existing command
+  allocations. The late-story Xenon/Shobu chunk is rebuilt to exact retail command geometry while
+  retaining English dialogue; its non-dialogue commands and ending tail are retail-identical.
+- The final component hashes are `2c5114dd...adca3` for the executable and
+  `fe5e451f...41145` for SCRPACK.
+- Xenon/Shobu is static/control-flow verified, not claimed as emulator-runtime confirmed because a
+  near-ending save was unavailable.
+
+`tools/bosd_v14_maintenance.py` and `botsd.v14` reproduce the two v1.4 component changes from exact
+public-v1.3 inputs plus the exact retail SCRPACK used for the geometry oracle.
 
 ## v1.3 maintenance fixes
 

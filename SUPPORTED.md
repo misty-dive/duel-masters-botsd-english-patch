@@ -17,9 +17,12 @@ be used as a second source of constants in code.
 
 ## Patch upgrade inputs
 
-The v1.3 maintenance/release builder also recognizes the exact public v1.2 maintenance components
-and official v1.2 full PPF. Their hashes are stored in the release manifest and are verified before
-any output is emitted.
+The v1.4 maintenance path recognizes the exact public v1.3 executable/SCRPACK components and the
+exact retail SCRPACK used as the command-geometry oracle. The v1.3 → v1.4 hotfix and clean-ISO
+v1.4 PPF hashes are recorded in the release manifest.
+
+The retained v1.3 maintenance/release builder still recognizes the exact public v1.2 maintenance
+components and official v1.2 full PPF so the historical v1.3 release remains reproducible.
 
 ## Emulator / hardware status
 

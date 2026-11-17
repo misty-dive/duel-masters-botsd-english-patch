@@ -6,3 +6,6 @@ duel-digits-6-9,Duel UI,v1.2,DUELPTS component hash + retained source geometry m
 change-turn,Duel UI,v1.3,semantic TCHANGE recipe + exact archive hash,confirmed,no,CHANGE and TURN restored to separate rows
 worlds-balance-wrap,Story Dialogue,v1.3,guarded SCRPACK line edit + exact component hash,confirmed,no,Explicit #cr0 prevents splitting release
 ace-badge,Deck Builder,v1.3,semantic ACE pixel recipe + exact DECK.DAT hash,static_only,no,Final packed containment verified; dedicated runtime screenshot remains desirable
+multi-race-cardinfo,Card Info,v1.4,27 hash-gated shared executable race-string replacements + exact v1.4 executable hash,static_only,no,Composite/multi-race and Survivor race text localized; master pointer aliases preserved
+dialogue-overflow-v14,Story Dialogue,v1.4,56 source-guarded in-place dialogue edits + exact v1.4 SCRPACK hash,static_only,no,Reviewed overflow corrections leave zero conservative >3-line findings in the corrected component
+xenon-ending-freeze,Story Dialogue,v1.4,chunk 72 exact-retail command geometry + exact v1.4 SCRPACK hash,static_only,no,Late-story Shobu return event restores retail framing/control data; no near-ending runtime save available

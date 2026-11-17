@@ -17,6 +17,7 @@ New code should prefer the descriptive shared modules below.
 | `bosd_verify_extract_iso_assets.py` | `botsd.extract` / `botsd iso-verify-assets` | compatibility CLI; now streaming |
 | `bosd_v13_maintenance.py` | `botsd.v13` + `botsd.semantic_assets` | compatibility CLI |
 | `bosd_v13_release_builder.py` | `botsd.release` | compatibility CLI |
+| `bosd_v14_maintenance.py` | `botsd.v14` | compatibility CLI |
 | `bosd_flavor_import_v2.py` | `botsd.flavor` / `botsd flavor-import` | compatibility CLI; printing-specific flavor logic shared |
 | `bosd_ui76_rules_wordwrap.py` | `botsd.ruleswrap` / `botsd rules-wrap` | compatibility CLI; byte-length-preserving rule wrapping shared |
 | `bosd_font_ue_patch.py` | `botsd.fontlink` / `botsd font-ue-patch` | compatibility CLI; glyph recipe in `botsd/assets/font_ue.json` |

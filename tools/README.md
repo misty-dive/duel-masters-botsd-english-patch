@@ -25,6 +25,12 @@ ISO copies into memory.
 For new code, prefer importing `botsd.*` directly. Keep historical filenames only where compatibility
 or reproducibility requires them.
 
+## v1.4 maintenance
+
+| Tool | Purpose |
+|---|---|
+| `bosd_v14_maintenance.py` | Compatibility entry point for `botsd.v14`. Hash-guards exact public-v1.3 inputs, localizes the 27 shared composite/Survivor race allocations, applies the 56 reviewed dialogue-overflow fixes, and restores the Xenon/Shobu ending chunk to exact retail command geometry. |
+
 ## v1.3 maintenance / release
 
 | Tool | Purpose |

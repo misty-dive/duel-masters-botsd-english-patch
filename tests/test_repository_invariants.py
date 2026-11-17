@@ -28,12 +28,12 @@ def test_readme_preserves_credits_when_full_repository_is_present() -> None:
         assert credit in text
 
 
-def test_development_tracks_v13_when_full_repository_is_present() -> None:
+def test_development_tracks_v14_when_full_repository_is_present() -> None:
     development = ROOT / "DEVELOPMENT.md"
     if not development.is_file():
         pytest.skip("standalone cleanup overlay does not contain DEVELOPMENT.md")
     text = development.read_text(encoding="utf-8")
-    assert "Current public release: **v1.3**" in text
+    assert "Current public release: **v1.4**" in text
 
 
 def test_public_data_structures_when_full_repository_is_present() -> None:

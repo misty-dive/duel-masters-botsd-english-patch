@@ -167,6 +167,57 @@
       },
       "notes_field": "note",
       "expected_count": 1
+    },
+    {
+      "name": "v14_maintenance_races",
+      "path": "localization/en/v14_maintenance.json",
+      "resource_type": "card_race_maintenance",
+      "format": "json_records",
+      "records_path": "races",
+      "id_field": "id",
+      "text_fields": {
+        "replacement": "replacement"
+      },
+      "source_fields": {
+        "replacement": "source"
+      },
+      "review_status_field": "review_status",
+      "notes_field": "note",
+      "expected_count": 27
+    },
+    {
+      "name": "v14_overflow_dialogue",
+      "path": "localization/en/v14_maintenance.json",
+      "resource_type": "story_maintenance",
+      "format": "json_records",
+      "records_path": "overflow_dialogue",
+      "id_field": "id",
+      "text_fields": {
+        "replacement": "replacement"
+      },
+      "source_fields": {
+        "replacement": "source"
+      },
+      "review_status_field": "review_status",
+      "notes_field": "note",
+      "expected_count": 56
+    },
+    {
+      "name": "v14_xenon_dialogue",
+      "path": "localization/en/v14_maintenance.json",
+      "resource_type": "story_maintenance",
+      "format": "json_records",
+      "records_path": "xenon_dialogue",
+      "id_field": "id",
+      "text_fields": {
+        "replacement": "replacement"
+      },
+      "source_fields": {
+        "replacement": "source"
+      },
+      "review_status_field": "review_status",
+      "notes_field": "note",
+      "expected_count": 11
     }
   ]
 }

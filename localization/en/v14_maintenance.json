@@ -1,0 +1,938 @@
+{
+  "races": [
+    {
+      "id": "race-4d8190",
+      "va": 5079440,
+      "source": "コロニー・ビートル［サバイバー］",
+      "replacement": "Survivor/Colony Beetle",
+      "master_ids": [
+        19,
+        591
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4d8b10",
+      "va": 5081872,
+      "source": "アーマード・ドラゴン/ドラゴン・ゾンビ",
+      "replacement": "Armored Dragon/Zombie Dragon",
+      "master_ids": [
+        48,
+        126
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4d8c10",
+      "va": 5082128,
+      "source": "エンジェル・コマンド/ゲル・フィッシュ",
+      "replacement": "Angel Command/Gel Fish",
+      "master_ids": [
+        52
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4d9f30",
+      "va": 5087024,
+      "source": "ダークロード/ヒューマノイド",
+      "replacement": "Dark Lord/Human",
+      "master_ids": [
+        130
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4da088",
+      "va": 5087368,
+      "source": "アーマード・ドラゴン/アース・ドラゴン",
+      "replacement": "Armored Dragon/Earth Dragon",
+      "master_ids": [
+        134,
+        1550
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4de5b0",
+      "va": 5105072,
+      "source": "アーマード・ワイバーン［サバイバー］",
+      "replacement": "Survivor/Armored Wyvern",
+      "master_ids": [
+        425
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4decb8",
+      "va": 5106872,
+      "source": "ロック・ビースト［サバイバー］",
+      "replacement": "Survivor/Rock Beast",
+      "master_ids": [
+        451,
+        666
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4dedb8",
+      "va": 5107128,
+      "source": "ホーン・ビースト［サバイバー］",
+      "replacement": "Survivor/Horned Beast",
+      "master_ids": [
+        455
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4dfcd8",
+      "va": 5111000,
+      "source": "ガーディアン［サバイバー］",
+      "replacement": "Survivor/Guardian",
+      "master_ids": [
+        504
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4e0700",
+      "va": 5113600,
+      "source": "サイバー・ウイルス［サバイバー］",
+      "replacement": "Survivor/Cyber Virus",
+      "master_ids": [
+        540
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4e0ae0",
+      "va": 5114592,
+      "source": "パラサイトワーム［サバイバー］",
+      "replacement": "Survivor/Parasite Worm",
+      "master_ids": [
+        554
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4e37e0",
+      "va": 5126112,
+      "source": "シー・ハッカー［サバイバー］",
+      "replacement": "Survivor/Sea Hacker",
+      "master_ids": [
+        743
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4f2310",
+      "va": 5186320,
+      "source": "ゴースト/ヒューマノイド",
+      "replacement": "Ghost/Human",
+      "master_ids": [
+        1657,
+        1755
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4f37d8",
+      "va": 5191640,
+      "source": "イニシエート/リキッド・ピープル",
+      "replacement": "Initiate/Liquid People",
+      "master_ids": [
+        1740,
+        1744
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4f3a08",
+      "va": 5192200,
+      "source": "リキッド・ピープル/ゴースト",
+      "replacement": "Liquid People/Ghost",
+      "master_ids": [
+        1748,
+        1752
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4f3db8",
+      "va": 5193144,
+      "source": "ヒューマノイド/ビーストフォーク",
+      "replacement": "Human/Beast Folk",
+      "master_ids": [
+        1762,
+        1766
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4f3fa0",
+      "va": 5193632,
+      "source": "ビーストフォーク/イニシエート",
+      "replacement": "Beast Folk/Initiate",
+      "master_ids": [
+        1770,
+        1774
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4faf40",
+      "va": 5222208,
+      "source": "グラディエーター/アースイーター",
+      "replacement": "Gladiator/Earth Eater",
+      "master_ids": [
+        2204
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fb078",
+      "va": 5222520,
+      "source": "サイバーロード/へドリアン",
+      "replacement": "Cyber Lord/Hedrian",
+      "master_ids": [
+        2208
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fb1c8",
+      "va": 5222856,
+      "source": "キマイラ/アーマロイド",
+      "replacement": "Chimera/Armorloid",
+      "master_ids": [
+        2212
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fb380",
+      "va": 5223296,
+      "source": "ゼノパーツ/ジャイアント・インセクト",
+      "replacement": "Xenoparts/Giant Insect",
+      "master_ids": [
+        2216
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fb528",
+      "va": 5223720,
+      "source": "ワイルド・ベジーズ/レインボー・ファントム",
+      "replacement": "Wild Veggies/Rainbow Phantom",
+      "master_ids": [
+        2220
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fbef8",
+      "va": 5226232,
+      "source": "グラディエーター/サイバーロード",
+      "replacement": "Gladiator/Cyber Lord",
+      "master_ids": [
+        2259
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fbf48",
+      "va": 5226312,
+      "source": "マーフォーク/へドリアン",
+      "replacement": "Merfolk/Hedrian",
+      "master_ids": [
+        2263
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fbfb8",
+      "va": 5226424,
+      "source": "キマイラ/ファイアー・バード",
+      "replacement": "Chimera/Fire Bird",
+      "master_ids": [
+        2267
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fc028",
+      "va": 5226536,
+      "source": "ファイアー・バード/ジャイアント・インセクト",
+      "replacement": "Fire Bird/Giant Insect",
+      "master_ids": [
+        2271
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "race-4fc0b0",
+      "va": 5226672,
+      "source": "ホーン・ビースト/レインボー・ファントム",
+      "replacement": "Horned Beast/Rainbow Phantom",
+      "master_ids": [
+        2275
+      ],
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    }
+  ],
+  "overflow_dialogue": [
+    {
+      "id": "dialogue-31-1394",
+      "chunk": 31,
+      "command_index": 1394,
+      "source": "Hey, Mimi!#cr0We still haven't gotten our reward from Dr. Root.#cr0Let's go get it!",
+      "replacement": "Hey, Mimi! We still haven't#cr0gotten our reward from#cr0Dr. Root. Let's go get it!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-42-100",
+      "chunk": 42,
+      "command_index": 100,
+      "source": "Tricking people is bad, meow.#cr0If you don't like someone, send 'em to the afterlife.#cr0Friend or foe, everybody goes, meow.",
+      "replacement": "Tricking people is bad, meow. If you don't#cr0like someone, send 'em to the afterlife.#cr0Friend or foe, everybody goes, meow.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-43-45",
+      "chunk": 43,
+      "command_index": 45,
+      "source": "Bite down and the rotten juices ooze through your mouth.#cr0And that little pop of wriggling maggots... exquisite!",
+      "replacement": "Bite down and the rotten juices ooze#cr0through your mouth. And the little#cr0pop of wriggling maggots... exquisite!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-44-242",
+      "chunk": 44,
+      "command_index": 242,
+      "source": "Alone, we might not win.#cr0But combine all three of us and we're unbeatable!#cr0Let's go!!",
+      "replacement": "Alone, we might not win. But#cr0combine all three of us and#cr0we're unbeatable! Let's go!!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-76-256",
+      "chunk": 76,
+      "command_index": 256,
+      "source": "Then another way to look at it is this:#cr0if someone controls the card, the mana stabilizes.#cr0Which means...",
+      "replacement": "Then another way to look at it is#cr0this: if someone controls the card,#cr0the mana stabilizes. Which means...",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-76-323",
+      "chunk": 76,
+      "command_index": 323,
+      "source": "Do what you believe is right.#cr0With a good heart,#cr0the power will naturally be guided the right way.",
+      "replacement": "Do what you believe is right.#cr0With a good heart, the power will#cr0naturally be guided the right way.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-76-749",
+      "chunk": 76,
+      "command_index": 749,
+      "source": "Yes. This dragon was a victim of the Primordial Card.#cr0A little wild and temperamental,#cr0but really a good kid.",
+      "replacement": "Yes. This dragon was a victim of the#cr0Primordial Card. A little wild and#cr0temperamental, but really a good kid.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-76-807",
+      "chunk": 76,
+      "command_index": 807,
+      "source": "Yes. This dragon was a victim of the Primordial Card.#cr0A little wild and temperamental,#cr0but really a good kid.",
+      "replacement": "Yes. This dragon was a victim of the#cr0Primordial Card. A little wild and#cr0temperamental, but really a good kid.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-76-959",
+      "chunk": 76,
+      "command_index": 959,
+      "source": "Yes. This dragon was a victim of the Primordial Card.#cr0A little wild and temperamental,#cr0but really a good kid.",
+      "replacement": "Yes. This dragon was a victim of the#cr0Primordial Card. A little wild and#cr0temperamental, but really a good kid.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-76-1017",
+      "chunk": 76,
+      "command_index": 1017,
+      "source": "Yes. This dragon was a victim of the Primordial Card.#cr0A little wild and temperamental,#cr0but really a good kid.",
+      "replacement": "Yes. This dragon was a victim of the#cr0Primordial Card. A little wild and#cr0temperamental, but really a good kid.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-76-1075",
+      "chunk": 76,
+      "command_index": 1075,
+      "source": "Yes. This dragon was a victim of the Primordial Card.#cr0A little wild and temperamental,#cr0but really a good kid.",
+      "replacement": "Yes. This dragon was a victim of the#cr0Primordial Card. A little wild and#cr0temperamental, but really a good kid.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-81-50",
+      "chunk": 81,
+      "command_index": 50,
+      "source": "This town lies on the edge of the Fire Civilization.#cr0The climate is mild, and it's a very comfortable place.",
+      "replacement": "This town lies on the edge of the Fire#cr0Civilization. The climate is mild,#cr0and it's a comfortable place.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-81-794",
+      "chunk": 81,
+      "command_index": 794,
+      "source": "Several years ago, the wall between dimensions broke.#cr0Thoughts from another world began taking physical form#cr0here. That's how people like us came to exist.",
+      "replacement": "Years ago, the wall between dimensions broke.#cr0Thoughts from another world took form here.#cr0That's how we came to be.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-86-1345",
+      "chunk": 86,
+      "command_index": 1345,
+      "source": "Yes.#cr0That was the greatest duel I've ever had, Kokujo.#cr0Thank you.",
+      "replacement": "Yes. That was the#cr0greatest duel I've ever#cr0had, Kokujo. Thank you.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-89-1020",
+      "chunk": 89,
+      "command_index": 1020,
+      "source": "Oh, really...?#cr0Then if you beat me,#cr0maybe I'll tell you something about Shori Kirifuda.",
+      "replacement": "Oh, really...? Then if you#cr0beat me, maybe I'll tell you#cr0something about Shori Kirifuda.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-89-1414",
+      "chunk": 89,
+      "command_index": 1414,
+      "source": "That duel did incredible damage...#cr0No doubt about it. D.M. Cards are more powerful here.#cr0But why?",
+      "replacement": "That duel did incredible damage...#cr0No doubt about it. D.M. Cards#cr0are more powerful here. But why?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-89-1608",
+      "chunk": 89,
+      "command_index": 1608,
+      "source": "That duel did incredible damage...#cr0No doubt about it. D.M. Cards are more powerful here.#cr0But why?",
+      "replacement": "That duel did incredible damage...#cr0No doubt about it. D.M. Cards#cr0are more powerful here. But why?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-92-254",
+      "chunk": 92,
+      "command_index": 254,
+      "source": "Teleportation through this device is too dangerous#cr0for an unprotected human body.#cr0You'll need something to shield yourself.",
+      "replacement": "Teleportation through this device is too#cr0dangerous for an unprotected human body.#cr0You'll need something to shield yourself.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-114-61",
+      "chunk": 114,
+      "command_index": 61,
+      "source": "By the pure heart of the Savior#cr0who appeared with the light,#cr0our civilization shines more beautifully than ever.",
+      "replacement": "By the pure heart of the Savior who#cr0appeared with the light, our civilization#cr0shines more beautifully than ever.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-114-300",
+      "chunk": 114,
+      "command_index": 300,
+      "source": "We are the True Four Guardians,#cr0protectors of Lord Hakuoh.#cr0If you wish to see him, pass over our defeated bodies.",
+      "replacement": "We are the True Four Guardians,#cr0protectors of Lord Hakuoh. If you wish to#cr0see him, pass over our defeated bodies.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-116-945",
+      "chunk": 116,
+      "command_index": 945,
+      "source": "So I was right.#cr0Please.#cr0There is no longer any reason to keep him confined.",
+      "replacement": "So I was right. Please.#cr0There is no longer any#cr0reason to keep him confined.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-119-17",
+      "chunk": 119,
+      "command_index": 17,
+      "source": "Her Majesty has changed.#cr0She pays little attention to the realm of Light now,#cr0devoting all her time to the Savior.",
+      "replacement": "Her Majesty has changed. She pays little#cr0attention to the realm of Light now,#cr0devoting all her time to the Savior.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-122-281",
+      "chunk": 122,
+      "command_index": 281,
+      "source": "Several years ago, the wall between dimensions broke.#cr0Thoughts from another world began taking physical form#cr0here. That's how people like us came to exist.",
+      "replacement": "Years ago, the wall between dimensions broke.#cr0Thoughts from another world took form here.#cr0That's how we came to be.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-123-91",
+      "chunk": 123,
+      "command_index": 91,
+      "source": "It is true that Her Majesty gave me the medicine.#cr0But she had her reasons.#cr0Mikuni, please take care of her.",
+      "replacement": "It is true that Her Majesty gave me#cr0the medicine. But she had her reasons.#cr0Mikuni, please take care of her.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-124-362",
+      "chunk": 124,
+      "command_index": 362,
+      "source": "Ha... kuoh...#cr0And he appeared suddenly in the Chamber of Light...#cr0Could it be...?",
+      "replacement": "Ha... kuoh... And he appeared#cr0suddenly in the Chamber of#cr0Light... Could it be...?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-126-309",
+      "chunk": 126,
+      "command_index": 309,
+      "source": "Teleportation through this device is too dangerous#cr0for an unprotected human body.#cr0You need something to shield yourself.",
+      "replacement": "Teleportation through this device is too#cr0dangerous for an unprotected human body.#cr0You need something to shield yourself.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-127-57",
+      "chunk": 127,
+      "command_index": 57,
+      "source": "By the pure heart of the Savior#cr0who appeared with the light,#cr0our civilization shines more beautifully than ever.",
+      "replacement": "By the pure heart of the Savior who#cr0appeared with the light, our civilization#cr0shines more beautifully than ever.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-127-233",
+      "chunk": 127,
+      "command_index": 233,
+      "source": "We are the True Four Guardians,#cr0protectors of Lord Hakuoh.#cr0If you wish to see him, pass over our defeated bodies.",
+      "replacement": "We are the True Four Guardians,#cr0protectors of Lord Hakuoh. If you wish to#cr0see him, pass over our defeated bodies.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-129-929",
+      "chunk": 129,
+      "command_index": 929,
+      "source": "So I was right.#cr0Please.#cr0There is no longer any reason to keep him confined.",
+      "replacement": "So I was right. Please.#cr0There is no longer any#cr0reason to keep him confined.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-130-39",
+      "chunk": 130,
+      "command_index": 39,
+      "source": "By the pure heart of the Savior#cr0who appeared with the light,#cr0our civilization shines more beautifully than ever.",
+      "replacement": "By the pure heart of the Savior who#cr0appeared with the light, our civilization#cr0shines more beautifully than ever.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-130-229",
+      "chunk": 130,
+      "command_index": 229,
+      "source": "We are the True Four Guardians,#cr0protectors of Lord Hakuoh.#cr0If you wish to see him, pass over our defeated bodies.",
+      "replacement": "We are the True Four Guardians,#cr0protectors of Lord Hakuoh. If you wish to#cr0see him, pass over our defeated bodies.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-132-910",
+      "chunk": 132,
+      "command_index": 910,
+      "source": "So I was right.#cr0Please.#cr0There is no longer any reason to keep him confined.",
+      "replacement": "So I was right. Please.#cr0There is no longer any#cr0reason to keep him confined.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-133-39",
+      "chunk": 133,
+      "command_index": 39,
+      "source": "By the pure heart of the Savior#cr0who appeared with the light,#cr0our civilization shines more beautifully than ever.",
+      "replacement": "By the pure heart of the Savior who#cr0appeared with the light, our civilization#cr0shines more beautifully than ever.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-133-197",
+      "chunk": 133,
+      "command_index": 197,
+      "source": "We are the True Four Guardians,#cr0protectors of Lord Hakuoh.#cr0If you wish to see him, pass over our defeated bodies.",
+      "replacement": "We are the True Four Guardians,#cr0protectors of Lord Hakuoh. If you wish to#cr0see him, pass over our defeated bodies.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-134-569",
+      "chunk": 134,
+      "command_index": 569,
+      "source": "Hey, Shobu!#cr0Thanks to you, I made it into the Four Guardians.#cr0I'll give it my best!",
+      "replacement": "Hey, Shobu! Thanks to you,#cr0I made it into the Four#cr0Guardians. I'll give it my best!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-135-910",
+      "chunk": 135,
+      "command_index": 910,
+      "source": "So I was right.#cr0Please.#cr0There is no longer any reason to keep him confined.",
+      "replacement": "So I was right. Please.#cr0There is no longer any#cr0reason to keep him confined.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-151-232",
+      "chunk": 151,
+      "command_index": 232,
+      "source": "Teleportation through this device is too dangerous#cr0for an unprotected human body.#cr0You'll need something to shield yourself.",
+      "replacement": "Teleportation through this device is too#cr0dangerous for an unprotected human body.#cr0You'll need something to shield yourself.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-156-683",
+      "chunk": 156,
+      "command_index": 683,
+      "source": "Several years ago, the wall between dimensions broke.#cr0Thoughts from another world began taking physical form#cr0here. That's how people like us came to exist.",
+      "replacement": "Years ago, the wall between dimensions broke.#cr0Thoughts from another world took form here.#cr0That's how we came to be.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-163-1318",
+      "chunk": 163,
+      "command_index": 1318,
+      "source": "Of course!#cr0He lures duelists into the forest,#cr0then steals their decks after they lose their minds.",
+      "replacement": "Of course! He lures duelists into#cr0the forest, then steals their#cr0decks after they lose their minds.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-164-1331",
+      "chunk": 164,
+      "command_index": 1331,
+      "source": "Of course!#cr0He lures duelists inside, waits for them to go crazy,#cr0then steals their decks!",
+      "replacement": "Of course! He lures duelists#cr0inside, waits for them to go#cr0crazy, then steals their decks!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-165-1355",
+      "chunk": 165,
+      "command_index": 1355,
+      "source": "Of course!#cr0He lures duelists in, waits for them to go crazy,#cr0then steals their decks!",
+      "replacement": "Of course! He lures duelists#cr0in, waits for them to go#cr0crazy, then steals their decks!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-166-1440",
+      "chunk": 166,
+      "command_index": 1440,
+      "source": "Of course!#cr0He lures duelists in, waits for them to go crazy,#cr0then steals their decks!",
+      "replacement": "Of course! He lures duelists#cr0in, waits for them to go#cr0crazy, then steals their decks!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-179-315",
+      "chunk": 179,
+      "command_index": 315,
+      "source": "Right? You battle with these incredibly cool cards#cr0in the most exciting card game around.#cr0That's Duel Masters!",
+      "replacement": "Right? You battle with these incredibly#cr0cool cards in the most exciting card#cr0game around. That's Duel Masters!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-179-351",
+      "chunk": 179,
+      "command_index": 351,
+      "source": "Take the top five cards and place them as shields.#cr0Then draw five more for your hand,#cr0and the duel begins!",
+      "replacement": "Take the top five cards and place#cr0them as shields. Then draw five more#cr0for your hand, and the duel begins!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-180-711",
+      "chunk": 180,
+      "command_index": 711,
+      "source": "Duel Masters has five civilizations,#cr0but some cards belong to two civilizations at once.#cr0These are called Rainbow cards.",
+      "replacement": "Duel Masters has five civilizations, but#cr0some cards belong to two civilizations#cr0at once. These are called Rainbow cards.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-181-347",
+      "chunk": 181,
+      "command_index": 347,
+      "source": "Mana-cost balance is important too.#cr0If your deck is all expensive cards,#cr0you can't do much early on when your mana is low.",
+      "replacement": "Mana-cost balance is important too. If#cr0your deck is all expensive cards, you can't#cr0do much early on when your mana is low.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-183-235",
+      "chunk": 183,
+      "command_index": 235,
+      "source": "Or we would, except on the first turn#cr0you won't have any cards to untap.#cr0When that happens, just move on to the next step!",
+      "replacement": "Or we would, except on the first turn you#cr0won't have any cards to untap. When that#cr0happens, just move on to the next step!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-183-423",
+      "chunk": 183,
+      "command_index": 423,
+      "source": "Come on, Rekuta.#cr0If you learn the rules, they'll help when you play#cr0with real cards too!",
+      "replacement": "Come on, Rekuta. If you learn#cr0the rules, they'll help when#cr0you play with real cards too!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-194-1231",
+      "chunk": 194,
+      "command_index": 1231,
+      "source": "What's wrong?#cr0Are you such a small-time duelist#cr0that you can't even celebrate somebody else's glory?",
+      "replacement": "What's wrong? Are you such a#cr0small-time duelist that you can't#cr0even celebrate somebody else's glory?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-198-55",
+      "chunk": 198,
+      "command_index": 55,
+      "source": "This is one of the Water Civilization's highly managed cities,#cr0City-C109.#cr0The entire city was built underwater.",
+      "replacement": "This is one of the Water Civilization's#cr0highly managed cities, City-C109.#cr0The entire city was built underwater.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-198-671",
+      "chunk": 198,
+      "command_index": 671,
+      "source": "Several years ago, the wall between dimensions broke.#cr0Thoughts from another world began taking physical form#cr0here. That's how people like us came to exist.",
+      "replacement": "Years ago, the wall between dimensions broke.#cr0Thoughts from another world took form here.#cr0That's how we came to be.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-198-799",
+      "chunk": 198,
+      "command_index": 799,
+      "source": "I don't know what they researched there,#cr0but it's off-limits now.#cr0Whatever they were doing was apparently dangerous.",
+      "replacement": "I don't know what they researched there,#cr0but it's off-limits now. Whatever they#cr0were doing was apparently dangerous.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-200-1212",
+      "chunk": 200,
+      "command_index": 1212,
+      "source": "GARDE came to this world seeking a powerful card,#cr0and sent one man here to find it.#cr0That man is the Dark Emperor Xenon.",
+      "replacement": "GARDE came to this world seeking a powerful#cr0card, and sent one man here to find#cr0it. That man is the Dark Emperor Xenon.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-203-1477",
+      "chunk": 203,
+      "command_index": 1477,
+      "source": "All right, Rei.#cr0I am the lovely duelist of justice, Twilight Mimi!#cr0I'll fight for peace in this world!",
+      "replacement": "All right, Rei. I am the lovely#cr0duelist of justice, Twilight Mimi!#cr0I'll fight for peace in this world!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-204-543",
+      "chunk": 204,
+      "command_index": 543,
+      "source": "I was thinking maybe the power of Duel Masters cards#cr0could do something about these bars.#cr0What do you think?",
+      "replacement": "I was thinking maybe the power of#cr0Duel Masters cards could do something#cr0about these bars. What do you think?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-206-306",
+      "chunk": 206,
+      "command_index": 306,
+      "source": "Teleportation through this device is too dangerous#cr0for an unprotected human body.#cr0You'll need something to shield yourself.",
+      "replacement": "Teleportation through this device is too#cr0dangerous for an unprotected human body.#cr0You'll need something to shield yourself.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    }
+  ],
+  "xenon_dialogue": [
+    {
+      "id": "dialogue-72-31",
+      "chunk": 72,
+      "command_index": 31,
+      "source": "But Shobu still hasn't...",
+      "replacement": "Shobu's not back yet!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-53",
+      "chunk": 72,
+      "command_index": 53,
+      "source": "You called?",
+      "replacement": "Called?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-73",
+      "chunk": 72,
+      "command_index": 73,
+      "source": "When did you get here?!",
+      "replacement": "When'd you get here?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-82",
+      "chunk": 72,
+      "command_index": 82,
+      "source": "We thought you got left behind#cr0in the other world!",
+      "replacement": "We thought you were stuck#cr0in the other world!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-100",
+      "chunk": 72,
+      "command_index": 100,
+      "source": "That's it!#cr0We arrived in the reverse order#cr0from the way we entered.",
+      "replacement": "That's it!#cr0We came back in reverse order.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-140",
+      "chunk": 72,
+      "command_index": 140,
+      "source": "Shobu, what's with that card?",
+      "replacement": "Shobu, what's that card?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-159",
+      "chunk": 72,
+      "command_index": 159,
+      "source": "Whoa! There's a picture#cr0on the Primordial Card!",
+      "replacement": "Whoa! There's a picture!",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-172",
+      "chunk": 72,
+      "command_index": 172,
+      "source": "...Shobu.",
+      "replacement": "...Shobu",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-180",
+      "chunk": 72,
+      "command_index": 180,
+      "source": "I thought I just heard#cr0/sw25/'s voice...",
+      "replacement": "I heard /sw25/'s voice...",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-184",
+      "chunk": 72,
+      "command_index": 184,
+      "source": "Those were Shori's words.",
+      "replacement": "Shori's words.",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    },
+    {
+      "id": "dialogue-72-192",
+      "chunk": 72,
+      "command_index": 192,
+      "source": "Dad said that...?",
+      "replacement": "Dad said that?",
+      "review_status": "human_reviewed",
+      "note": "Static/binary verified against exact public-v1.3 and retail structures."
+    }
+  ],
+  "xenon_payload_sizes": {
+    "31": 32,
+    "53": 16,
+    "73": 28,
+    "82": 60,
+    "91": 104,
+    "100": 60,
+    "109": 68,
+    "118": 36,
+    "127": 60,
+    "140": 32,
+    "150": 16,
+    "159": 36,
+    "168": 68,
+    "172": 16,
+    "180": 40,
+    "184": 32,
+    "192": 24,
+    "209": 24,
+    "220": 88
+  }
+}
